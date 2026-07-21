@@ -75,6 +75,6 @@ The bundled public-model Env package is mixed/outdated relative to the intended 
 
 Primary selected session:
 
-`019f6e61-234c-7d30-84d8-aa2b497c3896`
+`019f7d83-d6de-7fa2-bee2-c41d25e9e6fc`
 
 Codex and GPT-5.6 Sol at Ultra reasoning were used in that task for package, handoff, embedded-backend, desktop, and approval-receipt implementation/debugging. Selection was based on demonstrable overlap, not token volume.

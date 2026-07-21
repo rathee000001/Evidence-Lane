@@ -120,7 +120,7 @@ local project
 
 Evidence Lane existed before Build Week. During the official event window, Codex and GPT-5.6 Sol at Ultra reasoning were used to trace and edit the package, handoff, embedded-backend, desktop, and approval-receipt paths. The primary feedback session selected for the submission is:
 
-`019f6e61-234c-7d30-84d8-aa2b497c3896`
+`019f7d83-d6de-7fa2-bee2-c41d25e9e6fc`
 
 This session was selected for concentration of demonstrable implementation work, not for transcript length, token count, or patch volume. Human review remained the acceptance authority throughout.
 

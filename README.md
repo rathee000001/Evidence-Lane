@@ -50,7 +50,7 @@ The evidence-backed claim is deliberately narrow. This repository does not claim
 3. Verify the relevant SHA-256 before launch:
 
    - Installer: `A7741AC3425B6F7A679C64147F015C96592D96565FBAAC5297FB245D5EC95C8E`
-   - Standalone candidate: `4A2E8F3F6F608BA7652E1B9774C6D7088B1CC541661C5A759AC8A2F27D4E585C`
+   - Standalone candidate: `545F8E13A834550042F46804F2B76760D41827D4CBFA74D4736E54844EACA86E`
 
 4. Follow [JUDGE_GUIDE.md](JUDGE_GUIDE.md) for the bounded package and handoff walkthrough.
 

@@ -1,0 +1,23 @@
+﻿Exact build command recorded for the immediately preceding EXE build:
+
+$env:CARGO_TARGET_DIR='C:\eos_tauri_target_t020'; npm run tauri -- build --no-bundle
+
+Working directory for that command:
+evidence-os-clean-desktop
+
+Tauri/Rust configuration:
+evidence-os-clean-desktop\src-tauri\tauri.conf.json
+evidence-os-clean-desktop\src-tauri\Cargo.toml
+evidence-os-clean-desktop\src-tauri\Cargo.lock
+
+Frontend package configuration:
+evidence-os-clean-desktop\package.json
+evidence-os-clean-desktop\package-lock.json
+evidence-os-clean-desktop\vite.config.ts
+evidence-os-clean-desktop\tsconfig.json
+
+Python backend package configuration:
+pyproject.toml
+src\sqlite_brain_builder
+
+No PyInstaller .spec file was used for this exact Tauri EXE build.

@@ -1,0 +1,32 @@
+{
+  "lanes": [
+    "github_code",
+    "local_code"
+  ],
+  "code_snapshot_layer": [
+    "code_source_registry",
+    "code_file_snapshot",
+    "code_chunk",
+    "code_symbol",
+    "code_import",
+    "code_route_api_boundary",
+    "code_config_build_test_chunk"
+  ],
+  "reverse_git_lineage_layer": [
+    "git_ref_registry",
+    "git_push_event",
+    "git_commit_registry",
+    "git_commit_parent",
+    "git_file_change",
+    "git_patch_hunk",
+    "git_route_impact",
+    "git_symbol_impact",
+    "git_dependency_impact",
+    "git_test_impact",
+    "git_artifact_impact",
+    "snapshot_git_bridge",
+    "code_index_checkpoint"
+  ],
+  "reverse_order": "newest_commit_to_oldest",
+  "push_claim_rule": "provider API or reflog proof required; otherwise REF_SNAPSHOT_ONLY"
+}

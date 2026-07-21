@@ -1,0 +1,1 @@
+/* Common sector tables are declared in router and specific sector schemas. */

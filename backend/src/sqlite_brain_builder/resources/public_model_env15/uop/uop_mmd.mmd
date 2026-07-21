@@ -1,0 +1,55 @@
+flowchart TD
+  %% UEPC ENV15 UOP GOVERNANCE TOPOLOGY
+  START([Prompt enters]) --> PROFILE[.uepc_profile]
+  PROFILE --> UOPSQL[uop/uop_sqlite.sqlite]
+  PROFILE --> UOPLAW[uop/uop_law.md]
+  PROFILE --> UOPLOCK[UOP write lock]
+  UOPLOCK --> FU{mode == flash_uop?}
+  FU -- yes --> UOPMUTATE[scoped UOP mutation allowed]
+  FU -- no --> UOPRO[read-only UOP governance]
+  UOPSQL --> SPATIAL[spatial route operators]
+  SPATIAL --> ROUTE[source -> gate -> actor -> constraint -> action -> output -> validation -> delta -> next]
+  UOPSQL --> COMPRESS[knowledge compression operators]
+  COMPRESS --> DBFORM[operators stored as relational rows / no private story]
+  UOPSQL --> SRCSTATE[source-state operators]
+  SRCSTATE --> PRECEDENCE[direct / lineage-derived / telemetry / temp topology]
+  UOPSQL --> DISC[disclosure boundary operators]
+  DISC --> BLOCK[block private personal/family/health/recruiter payload]
+  UOPSQL --> MODE[mode-cluster operators]
+  MODE --> LANE[guide lane/formula selection]
+  UOPSQL --> DELTA[delta preservation operators]
+  UOPSQL --> HUMAN[human gate operators]
+  UOPSQL --> NOENV[CAN_OVERRIDE_ENV=false]
+  UOPSQL --> NOPROJ[CAN_OVERRIDE_PROJECT=false]
+  LANE --> RECEIPT[operator receipt written to exit slip]
+
+subgraph UOP15_PUBLIC_GOVERNANCE[UOP15 PUBLIC GOVERNANCE / NORMAL-TURN READ ONLY]
+    UG_PROMPT[User prompt] --> UG_PROFILE[.uepc_profile]
+    UG_PROFILE --> UG_READ[read public governance operators]
+    UG_READ --> UG_SCOPE[classify source + lane + disclosure + human gate]
+    UG_SCOPE --> UG_CHAT[chat_lineage append allowed]
+    UG_SCOPE --> UG_OTHER[other sector needs explicit one-turn grant]
+    UG_OTHER --> UG_RELOCK[validate and relock]
+    UG_SCOPE --> UG_NOENV[CAN_OVERRIDE_ENV=false]
+    UG_SCOPE --> UG_NOPROJ[CAN_OVERRIDE_PROJECT=false]
+  end
+
+  subgraph UOP15_STATE_GUIDANCE[UOP15 STATE-TRAVEL GUIDANCE]
+    US_PREP[PREPARE exact visible prompt] --> US_EVIDENCE[query governed package state]
+    US_EVIDENCE --> US_RESPONSE[exact visible response]
+    US_RESPONSE --> US_SUMMARY[visible reasoning summary only]
+    US_SUMMARY --> US_RECEIPT[exit receipt + hash-chain proof]
+    US_SUMMARY --> US_NOHIDDEN[no hidden chain-of-thought storage]
+  end
+
+  subgraph UOP15_RESEARCH_BOUNDARY[UOP15 RESEARCH + PRIVACY BOUNDARY]
+    UR_EST[token/iteration estimate with assumptions] --> UR_Q[five constant research answers]
+    UR_Q --> UR_TWO[two-line concise answers]
+    UR_TWO --> UR_PUBLIC[professor-safe research ledger]
+    UR_PUBLIC --> UR_PRIVATE[private personal payload blocked]
+  end
+
+  PROFILE --> UOP15_PUBLIC_GOVERNANCE
+  PROFILE --> UOP15_STATE_GUIDANCE
+  PROFILE --> UOP15_RESEARCH_BOUNDARY
+  US_RECEIPT --> RECEIPT

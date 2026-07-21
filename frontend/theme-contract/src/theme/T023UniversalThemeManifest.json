@@ -1,0 +1,141 @@
+{
+  "schema_version": "T023_UNIVERSAL_THEME_MANIFEST_SCHEMA_V001",
+  "theme_id": "evidence-sqlite-glass-v1",
+  "theme_version": "1.0.0",
+  "geometry_profile_id": "T023_GEOMETRY_MANIFEST_V001",
+  "module": "sqlite-builder",
+  "class_name": "evidence-theme--sqlite-glass",
+  "surfaces": [
+    "default",
+    "transparent",
+    "frosted-popup"
+  ],
+  "color_tokens": {
+    "--evidence-ink": "#17314a",
+    "--evidence-muted": "#5c7185",
+    "--evidence-cyan": "#4bd3f2",
+    "--evidence-gold": "#e7bc64",
+    "--evidence-green": "#45d297",
+    "--evidence-red": "#f05258"
+  },
+  "semantic_state_tokens": {
+    "idle": "var(--evidence-cyan)",
+    "active": "var(--evidence-cyan)",
+    "success": "var(--evidence-green)",
+    "warning": "var(--evidence-gold)",
+    "error": "var(--evidence-red)",
+    "disabled": "var(--evidence-muted)"
+  },
+  "typography_tokens": {
+    "family": "Inter, Segoe UI, system-ui, sans-serif",
+    "label_weight": "700",
+    "label_tracking": "0"
+  },
+  "shell_tokens": {
+    "radius": "25px",
+    "overflow_policy": "CONTAIN_WITHOUT_HORIZONTAL_SCROLL"
+  },
+  "orb_tokens": {
+    "component": "GlassIconOrb",
+    "payload_origin": "0,0",
+    "geometry_owner": "GlassIconOrb",
+    "replacement_preserves_geometry": true
+  },
+  "pill_tokens": {
+    "component": "UniversalGlassPill",
+    "cluster_component": "UniversalPillCluster",
+    "min_height": "44px",
+    "inter_pill_gap": "10px",
+    "orb_label_gap": "7px",
+    "cluster_width_policy": "LARGEST_MEMBER_PER_INDEPENDENT_CLUSTER",
+    "content_clip_allowed": false
+  },
+  "popup_tokens": {
+    "component_resolution": "GlassShell.variant=frosted-popup",
+    "source_intake_desktop_width": "720px",
+    "header_close_containment": "REQUIRED",
+    "horizontal_scroll_allowed": false
+  },
+  "metric_card_tokens": {
+    "semantic_state_owner": "UniversalMetricState",
+    "rear_glass_owner_count": 1,
+    "per_card_polling_owner_allowed": false
+  },
+  "motion_profile_tokens": {
+    "default": "evidence-motion-v1",
+    "completion_owner": "REAL_BACKEND_EVENTS",
+    "timer_only_completion_allowed": false
+  },
+  "runtime_css_tokens": {
+    "--evidence-ink": "#17314a",
+    "--evidence-muted": "#5c7185",
+    "--evidence-cyan": "#4bd3f2",
+    "--evidence-gold": "#e7bc64",
+    "--evidence-green": "#45d297",
+    "--evidence-red": "#f05258",
+    "--evidence-shell-radius": "25px",
+    "--evidence-pill-min-height": "44px"
+  },
+  "icon_asset_slots": {
+    "source-intake": {
+      "built_in_asset": "component:Plus",
+      "fallback_asset": "component:Plus",
+      "geometry_owner": "GlassIconOrb"
+    },
+    "settings": {
+      "built_in_asset": "component:SettingsIcon",
+      "fallback_asset": "component:SettingsIcon",
+      "geometry_owner": "GlassIconOrb"
+    },
+    "refresh": {
+      "built_in_asset": "component:RefreshMotionIcon",
+      "fallback_asset": "component:RefreshMotionIcon",
+      "geometry_owner": "GlassIconOrb"
+    },
+    "fuse": {
+      "built_in_asset": "component:FuseMotionIcon",
+      "fallback_asset": "component:FuseMotionIcon",
+      "geometry_owner": "GlassIconOrb"
+    },
+    "brain-output": {
+      "built_in_asset": "component:BrainOrb",
+      "fallback_asset": "component:BrainOrb",
+      "geometry_owner": "GlassIconOrb"
+    }
+  },
+  "asset_policy": {
+    "managed_directory": "theme-assets/icons",
+    "accepted_extension": ".svg",
+    "maximum_svg_bytes": 262144,
+    "sanitization_required_before_copy": true,
+    "remote_asset_execution_allowed": false,
+    "automatic_upload_allowed": false,
+    "replacement_may_change_geometry": false
+  },
+  "stylesheet_policy": {
+    "canonical_stylesheets": [
+      "src/theme/sqlite-glass-theme.css",
+      "src/glass-shell.css",
+      "evidence-os-clean-desktop/src/styles.css"
+    ],
+    "duplicate_global_stylesheet_forbidden": true,
+    "generated_stylesheet_allowed": false
+  },
+  "required_universal_components": [
+    "GlassShell",
+    "GlassIconOrb",
+    "UniversalGlassPill",
+    "UniversalPillCluster",
+    "UniversalFrostedPopup",
+    "UniversalMetricState"
+  ],
+  "component_resolution": {
+    "UniversalFrostedPopup": "GlassShell.variant=frosted-popup",
+    "UniversalMetricState": "shared metric-card semantic-state contract"
+  },
+  "character_profile_reference": "T023_CHARACTER_PROFILE_V007",
+  "fallback_theme": "evidence-sqlite-glass-v1",
+  "future_theme_page_route": "DEFERRED_TO_PUBLIC_V2",
+  "manifest_hash_algorithm": "SHA256_CANONICAL_JSON_EXCLUDING_MANIFEST_HASH",
+  "manifest_hash": "798AAFD8AB701C462990B5F999EFF589FD7A2B3F04F871BA3A6D963FFD631820"
+}

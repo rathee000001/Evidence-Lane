@@ -1,0 +1,9 @@
+[project]
+name = "sqlite-brain-builder-v3"
+version = "3.0.0-candidate"
+description = "SQLite Brain Builder V3 Installer Workspace Edition"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

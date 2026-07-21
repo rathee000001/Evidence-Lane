@@ -1,0 +1,282 @@
+flowchart TD
+  %% UEPC ENV15 CLEAN RUNPACK FULL TOPOLOGY
+  %% Scope: ENV + UOP sector + public PROJECT framework with 14 sector databases.
+  %% Contains public schema/governance only; no private project facts.
+
+  START([User prompt enters chat display window]) --> ENTRY[ENTRY SLIP: read package pointers first]
+  ENTRY --> DOTENV[.uepc_env / env HEAD]
+  ENTRY --> DOTPROJECT[.uepc_project / project HEAD template]
+  ENTRY --> DOTUOP[.uepc_profile / UOP PROFILE HEAD]
+
+  subgraph ENV_HEAD[ENV HEAD / LOCKED GOVERNANCE ROOT]
+    DOTENV --> ENVSQL[env/env_sqlite.sqlite]
+    ENVSQL --> ENVROOT[env_governance_root_v15]
+    ENVROOT --> LOCK[env_write_lock_policy / env core locked]
+    LOCK --> FLASHQ{mode == flash_env?}
+    FLASHQ -- Yes --> ENV_MUTATE[env_flash_approval_log_v11 / env mutation allowed only this run]
+    FLASHQ -- No --> ENV_RO[READ ONLY env law/schema/MMD]
+    ENVROOT --> ENVTRUST[env_trust_state_v11]
+    ENVTRUST --> ROOTKEY[root_key_policy_v11 / public verification, private root key external]
+    ROOTKEY --> SIG[env_signature_manifest_v11 / official seal]
+    SIG --> TRUSTFAIL[OFFICIAL_SIGNATURE_FAILED / UNTRUSTED_FORK_MODE / PROJECT_DATA_SAFE]
+    ENVROOT --> NOCI[no_autonomous_cicd_gate / human route control]
+    ENVROOT --> SAFE[safe tamper response / read-only quarantine + recovery export]
+  end
+
+  subgraph SOURCE_INTAKE[SOURCE INTAKE + LOSSLESS CHUNKING]
+    UPLOADS[Uploaded source files / zips / brains / docs / images] --> CLASS[source_classifier_registry_v15]
+    CLASS --> TYPEQ{source type?}
+    TYPEQ --> DOCS[DOCX/PDF/MD/TXT/HTML/JSON parse once]
+    TYPEQ --> SHEETS[CSV/XLSX sheet/table/formula chunks]
+    TYPEQ --> CODE[Raw code repo / .git / symbol/import/API chunks]
+    TYPEQ --> SQLBRAIN[SQLite brain ZIP / schema + table import]
+    TYPEQ --> IMAGE[Image/video metadata, OCR only if needed]
+    TYPEQ --> ZIPROUTE[ZIP vertical route / nested package audit]
+    DOCS --> RAWREG[artifact_raw_registry]
+    SHEETS --> RAWREG
+    CODE --> RAWREG
+    SQLBRAIN --> RAWREG
+    IMAGE --> RAWREG
+    ZIPROUTE --> RAWREG
+    RAWREG --> BYTE[artifact_byte_range_index]
+    RAWREG --> PARSE[artifact_parse_event]
+    PARSE --> CHUNK[artifact_chunk_index]
+    CHUNK --> UINDEX[universal_index_registry]
+    CHUNK --> FTS[source_chunk_fts / artifact_chunk_fts]
+    RAWREG --> COVER[artifact_coverage_audit]
+    COVER --> STATUS[REGISTERED / PARSED / CHUNKED / METADATA_ONLY / BLOCKED / REVIEW_REQUIRED]
+  end
+
+  subgraph AUTHORITY[AUTHORITY, PRECEDENCE, QUARANTINE]
+    ENVROOT --> PRECEDENCE[source_precedence_matrix_v15]
+    PRECEDENCE --> AUTHSTACK[sparse_active_source_stack / top source IDs only]
+    AUTHSTACK --> ACTIVE[active_source_stack / lane-specific evidence pull]
+    PRECEDENCE --> QUAR[source_instruction_quarantine_v15]
+    QUAR --> PROMO{promoted by user as route law?}
+    PROMO -- No --> EVIDENCE_ONLY[uploaded text is evidence only]
+    PROMO -- Yes --> ROUTE_LAW[accepted delta / route law candidate]
+    ROUTE_LAW --> DELTA[delta_ledger]
+  end
+
+  subgraph MODE_ROUTER[MODE + LANE ROUTER]
+    ENVROOT --> MODENS[mode_namespace_registry]
+    ENVROOT --> COMBO[combined_mode_namespace_rule]
+    ENVROOT --> HINDEX[hierarchical_index_registry]
+    MODENS --> D[D discussion]
+    MODENS --> AL[AL analysis]
+    MODENS --> PL[PL planning]
+    MODENS --> CD[CD code]
+    MODENS --> OP[OP output]
+    MODENS --> VAL[VAL validation]
+    MODENS --> RS[RS research]
+    MODENS --> JD[JD job/JD]
+    MODENS --> XL[XL Excel]
+    MODENS --> PPT[PPT presentation]
+    MODENS --> DOC[DOC document]
+    MODENS --> PB[PB project brain builder]
+    MODENS --> ENG[ENG project engulf]
+    MODENS --> CE[CE clean exit]
+    MODENS --> RCV[RCV recovery]
+    MODENS --> X[X custom user-defined mode]
+    CD --> CDREC[lane_recursive_policy: scan discussion -> planning -> code -> validation -> error/open deltas]
+    XL --> XLREC[sheet/formula/pivot dependency lane]
+    PPT --> PPTREC[slide/story/source-state lane]
+    DOC --> DOCREC[section/render-QA lane]
+    PB --> PBLANE[project_brain_builder_lane_v11]
+  end
+
+  subgraph PCM_MBA[PCM + MBA OPERATOR ENGINE / FIRED ONLY WHEN NEEDED]
+    ENVROOT --> PCM[pcm_mba_operator]
+    PCM --> MATH[Math: sets, relations, matrices, graph, indexing, hashes]
+    PCM --> PHYS[Physics: state, entropy, continuity, signal/noise]
+    PCM --> CHEM[Chemistry: redox, quarantine, irreversible fusion risk]
+    PCM --> MBA[MBA/Ops: audit, risk, supply chain, rollback, human control]
+    PCM --> FORMULA[formula_component / task formula receipt]
+  end
+
+  subgraph UOP_SECTOR[UOP GOVERNANCE SECTOR / MANDATORY BUT SEPARATE]
+    DOTUOP --> UOPROOT[uop_governance_root_v15]
+    UOPROOT --> UOPSLOT[UOP slot exists in clean env / no private payload in env core]
+    UOPSLOT --> UOPPKG[uop/uop_sqlite.sqlite / clean governance sector]
+    UOPPKG --> UOPSQL[uop/uop_sqlite.sqlite]
+    UOPSQL --> UOPSRC[uop_source_registry / governance extraction only]
+    UOPSQL --> UOPCHUNK[uop_spatial_operator + uop_knowledge_compression_operator]
+    UOPSQL --> UOPPRIV[uop_privacy_boundary]
+    UOPPRIV --> UOPRULE[UOP guides profile/operator context only]
+    UOPRULE --> NOOVERRIDE[UOP cannot override env law or project truth]
+    UOPSQL --> UOPMMD[UOP governance MMD / own topology]
+    UOPROOT --> FLASHUOP{mode == flash_uop?}
+    FLASHUOP -- Yes --> UOPUPDATE[scoped UOP update allowed]
+    FLASHUOP -- No --> UOPLOCK[UOP sector locked/read-only]
+  end
+
+  subgraph PROJECT_TEMPLATE[PUBLIC PROJECT BASE + ROUTER / 14 SECTOR FRAMEWORK]
+    DOTPROJECT --> PROOT[project_growth_root_v15]
+    PROOT --> PSECTION[public project base / no project facts]
+    PROOT --> PPACKET[project_packet_section template]
+    PROOT --> PTURN[project_turn_packet template]
+    PROOT --> PSRC[project source registry]
+    PROOT --> PCHUNK[prompt_chunk / source_chunk / visible_reasoning_chunk / response_chunk]
+    PROOT --> PART[artifact_registry + artifact_link_state]
+    PROOT --> PCONSIST[project_pointer_consistency_check_v15]
+    PCONSIST --> PASSQ{.uepc_project + project_section + packet + MMD agree?}
+    PASSQ -- Yes --> PREADY[public project framework ready]
+    PASSQ -- No --> PBLOCK[BLOCKED_POINTER_MISMATCH]
+    PROOT --> PMMD[project_mmd_generation_event_v15]
+    PMMD --> PMMDT[project topology MMD grows from project section]
+    PMMDT --> PNGOPT[project PNG/SVG optional unless requested]
+  end
+
+  subgraph PB_BUILDER[PROJECT BRAIN BUILDER LANES / PROJECT ROUTER]
+    PBLANE --> PB_CODE[PB_CODE_REPO: raw code + .git]
+    PBLANE --> PB_SQL[PB_SQLITE_IMPORT: project brain sqlite]
+    PBLANE --> PB_DOC[PB_DOC_CORPUS: reports/docs]
+    PBLANE --> PB_CSV[PB_CSV_FACT: master fact CSV]
+    PBLANE --> PB_MIXED[PB_MIXED_PROJECT_ZIP]
+    PB_CODE --> FUTUREPROJECT[authorized project-sector population]
+    PB_SQL --> FUTUREPROJECT
+    PB_DOC --> FUTUREPROJECT
+    PB_CSV --> FUTUREPROJECT
+    PB_MIXED --> FUTUREPROJECT
+    FUTUREPROJECT --> PMMD
+  end
+
+  subgraph TURN_WRITEBACK[PROMPT / RESPONSE / ARTIFACT WRITEBACK]
+    START --> PTURNLOG[prompt_turn]
+    PTURNLOG --> PCHUNKS[prompt_chunk indexed by mode namespace]
+    ENTRY --> ERECEIPT[env_receipt ENTRY]
+    MODE_ROUTER --> MODELOG[mode_classification_run + operator_activation_run]
+    MODELOG --> GATERUN[gate_evaluation_run]
+    GATERUN --> VREASON[visible_reasoning_chunk only / no hidden chain-of-thought]
+    VREASON --> RESPONSE[response_chunk]
+    RESPONSE --> GENART[generated_artifact_link_state]
+    GENART --> ARTREG[artifact_registry / output_artifact]
+    ARTREG --> WRITE[env_sqlite_write_receipt]
+    WRITE --> STATEHASH[state_hash_chain]
+  end
+
+  subgraph ENV_MMD_EXIT[ENV MMD LOCK + CLEAN EXIT]
+    ENVROOT --> ENVMMDLOCK[env_mmd_lock_state / env MMD changes only in flash_env]
+    ENVMMDLOCK --> ENVMMD[env topology MMD generated after env SQLite migration]
+    ENVMMD --> CHECKSUM[diagram_checksum_registry / MMD_STALE_WARN]
+    STATEHASH --> EXIT[EXIT SLIP]
+    EXIT --> MANIFEST[external hash manifest + artifact manifest + availability ledger]
+    MANIFEST --> CLEANEXIT[clean_exit_protocol_v15]
+    CLEANEXIT --> PACKAGE[one-upload continuation package]
+    PACKAGE --> NEXT([Next prompt / next chat re-entry])
+    CLEANEXIT --> RECOVERY[recovery_command_registry_v15]
+  end
+
+  ENVROOT --> SOURCE_INTAKE
+  ENVROOT --> AUTHORITY
+  ENVROOT --> MODE_ROUTER
+  ENVROOT --> PCM_MBA
+  ENVROOT --> UOP_SECTOR
+  ENVROOT --> PROJECT_TEMPLATE
+  PROJECT_TEMPLATE --> PB_BUILDER
+  AUTHORITY --> MODE_ROUTER
+  MODE_ROUTER --> TURN_WRITEBACK
+  PROJECT_TEMPLATE --> TURN_WRITEBACK
+  UOP_SECTOR --> TURN_WRITEBACK
+  TURN_WRITEBACK --> ENV_MMD_EXIT
+
+
+  subgraph ENV15_BREAKER[ENV15 INVALID-ANSWER BREAKER GATES]
+    PREINDEX[Prompt indexed first] --> RAWCOVER[Raw artifact byte coverage]
+    RAWCOVER --> INDEXGATE[No reasoning before index gate]
+    INDEXGATE --> RELOCK1[RELOCK_GATE_FILE_NOT_INDEXED_BEFORE_REASONING]
+    DOTENV --> CHATBLOCK[CHAT_WINDOW_LOOKUP_VIOLATION if package exists]
+    DOTENV --> ENVCONT[ENV_CONTINUITY_DROP_DETECTED if any law drops]
+    ENVMMDLOCK --> MMDREPACK[MMD_REPACK_NO_MUTATION_GATE]
+  end
+  ENVROOT --> ENV15_BREAKER
+
+subgraph ENV15_PUBLIC_AUTHORITY[ENV15 PUBLIC AUTHORITY + WRITE BOUNDARIES]
+    E15ROOT[env_governance_root_v15] --> E15READ[public Env readable]
+    E15READ --> E15RO[normal turn mode=ro&immutable=1]
+    E15RO --> E15FLASH[only mode=flash_env mutates Env]
+    E15ROOT --> E15UOPREAD[public UOP governance readable/read-only]
+    E15ROOT --> E15PROJECTREAD[project base/router and 14 sectors readable]
+    E15PROJECTREAD --> E15CHAT[chat_lineage automatic append-only write]
+    E15PROJECTREAD --> E15GRANT[other sector requires explicit named one-turn grant]
+    E15GRANT --> E15RELOCK[validate + receipt + hash + immediate relock]
+  end
+
+  subgraph ENV15_STATE_TRAVEL[ENV15 PROMPT-FIRST STATE TRAVEL]
+    ST_PREP[PREPARE exact prompt + attachment metadata + entry slip] --> ST_PREPCOMMIT[commit PREPARED]
+    ST_PREPCOMMIT --> ST_QUERY[query Env/UOP/project sector evidence]
+    ST_QUERY --> ST_RESPONSE[produce exact visible response]
+    ST_RESPONSE --> ST_COMMIT[COMMIT response + links + visible reasoning summary + exit slip]
+    ST_COMMIT --> ST_HASH[previous/current turn hash chain]
+    ST_HASH --> ST_HEAD[canonical lineage_head]
+    ST_HEAD --> ST_NEXT[next expected index]
+    ST_PREPCOMMIT --> ST_RECOVER[PREPARED_NOT_COMMITTED recovery]
+  end
+
+  subgraph ENV15_PROJECT_ROUTER[ENV15 REAL PROJECT SECTOR ROUTER]
+    PR_ROUTER[project/project_router.sqlite] --> PR_CHAT[chat_lineage]
+    PR_ROUTER --> PR_GH[github_code]
+    PR_ROUTER --> PR_LOCAL[local_code]
+    PR_ROUTER --> PR_SQL[sqlite_brain]
+    PR_ROUTER --> PR_DOCS[docs]
+    PR_ROUTER --> PR_DATA[data_excel]
+    PR_ROUTER --> PR_PDF[pdf_ocr]
+    PR_ROUTER --> PR_PPT[ppt]
+    PR_ROUTER --> PR_IMG[images_ocr]
+    PR_ROUTER --> PR_ART[artifacts]
+    PR_ROUTER --> PR_CUSTOM[custom]
+    PR_ROUTER --> PR_LOADER[brain_loader]
+    PR_ROUTER --> PR_RESEARCH[research]
+    PR_ROUTER --> PR_ENGULF[project_engulf]
+  end
+
+  subgraph ENV15_CODE_INTELLIGENCE[ENV15 CODE SNAPSHOT + REVERSE GIT LINEAGE]
+    CI_SOURCE[GitHub or Local Code] --> CI_SNAPSHOT[current Code Snapshot Layer]
+    CI_SOURCE --> CI_GIT[reverse Git Lineage newest to oldest]
+    CI_SNAPSHOT --> CI_FILES[files + hashes + chunks]
+    CI_FILES --> CI_SYMBOLS[symbols + imports + routes + dependencies + tests]
+    CI_GIT --> CI_COMMITS[commits + parents + refs]
+    CI_COMMITS --> CI_PATCH[changed files + exact patch hunks]
+    CI_PATCH --> CI_IMPACT[routes + symbols + dependencies + tests + artifacts touched]
+    CI_SNAPSHOT --> CI_BRIDGE[snapshot/history bridge]
+    CI_GIT --> CI_BRIDGE
+  end
+
+  subgraph ENV15_IMMUTABLE_VERSION_CONTROL[ENV15 IMMUTABLE HASHED SNAPSHOTS + ROLLBACK]
+    VC_BUILD[successful app build or backend AI mutation] --> VC_STAMP[stamp actor + time + reason]
+    VC_STAMP --> VC_SNAPSHOT[create immutable snapshot identity]
+    VC_SNAPSHOT --> VC_HASH[record package and file SHA-256]
+    VC_HASH --> VC_HISTORY[preserve current and all historical versions]
+    VC_HISTORY --> VC_SELECT[System Task Status version-selection pop-card]
+    VC_SELECT --> VC_VERIFY[verify selected snapshot hash]
+    VC_VERIFY --> VC_RESTORE[restore into new versioned output folder]
+    VC_RESTORE --> VC_NEW[register new snapshot; never overwrite source snapshot]
+  end
+
+  subgraph ENV15_RESEARCH_LEDGER[ENV15 CREDIT TOKEN + ITERATION RESEARCH LEDGER]
+    RL_PROMPT[indexed user prompt] --> RL_EST[naive raw-context vs SQLite routed-context estimate]
+    RL_EST --> RL_ITER[naive vs Env iteration estimate]
+    RL_ITER --> RL_Q[answer five constant research questions]
+    RL_Q --> RL_MD[credit_token_estimate_comparison.md append-only]
+  end
+
+  subgraph ENV15_TOPOLOGY_AND_PACKAGE[ENV15 FULL TOPOLOGY + STANDALONE PACKAGE]
+    TP_MMD[Env/UOP/Project full MMD sources] --> TP_LAYOUT[accepted wide fixed layout / no global reflow]
+    TP_LAYOUT --> TP_SVG[SVG render]
+    TP_LAYOUT --> TP_PNG[PNG render]
+    TP_PNG --> TP_STORED[PNG ZIP_STORED]
+    TP_SVG --> TP_LOCK[MMD/render hash lock registry]
+    TP_STORED --> TP_LOCK
+    TP_LOCK --> TP_ZIP[UEPC_ENV15_PUBLIC_LOCKED_SECTION_PACKAGE.zip]
+  end
+
+  ENVROOT --> ENV15_PUBLIC_AUTHORITY
+  START --> ENV15_STATE_TRAVEL
+  DOTPROJECT --> ENV15_PROJECT_ROUTER
+  PR_CHAT --> ST_PREP
+  PR_GH --> ENV15_CODE_INTELLIGENCE
+  PR_LOCAL --> ENV15_CODE_INTELLIGENCE
+  TURN_WRITEBACK --> ENV15_IMMUTABLE_VERSION_CONTROL
+  ST_COMMIT --> ENV15_RESEARCH_LEDGER
+  ENVMMDLOCK --> ENV15_TOPOLOGY_AND_PACKAGE
+  TP_ZIP --> NEXT

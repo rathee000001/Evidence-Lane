@@ -1,0 +1,10 @@
+{
+  "sector_id": "chat_lineage",
+  "display_name": "Chat Lineage",
+  "sqlite_path": "project/sectors/chat_lineage/chat_lineage_sector_v001.sqlite",
+  "access": "APPEND_ONLY_READ_WRITE",
+  "public_read": true,
+  "automatic_write": true,
+  "relock_after_commit": true,
+  "schema_version": "ENV15"
+}

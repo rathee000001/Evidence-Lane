@@ -1,0 +1,124 @@
+flowchart TD
+  %% UEPC ENV15 PROJECT TEMPLATE TOPOLOGY
+  START([User prompt / project source]) --> PROJECT[.uepc_project]
+  PROJECT --> PTSQL[project/project_template.sqlite]
+  PROJECT --> PSECTION[project_growth_root:PROJECT_TEMPLATE]
+  PROJECT --> PLANE[ACTIVE_LANE=template]
+  PTSQL --> PSRC[project_source_registry]
+  PTSQL --> PCHUNK[project_chunk_index]
+  PTSQL --> PART[project_artifact_registry]
+  PTSQL --> PMMD[project_mmd_registry]
+  PMMD --> PMMDT[project/project_topology_template.mmd]
+  PSRC --> ENG[project_engulf / project_brain_builder lane]
+  ENG --> RAW[raw register + hash + byte cover]
+  RAW --> PARSE[parse/chunk/index]
+  PARSE --> GROW[authorized project sector grows]
+  GROW --> PMMDUPDATE[project MMD grows from project section]
+  GROW --> EXIT[project exit slip + updated package]
+  PROJECT --> NOENV[ENV_MUTATION_ALLOWED=false]
+
+subgraph PROJECT15_REAL_SECTORS[PROJECT15 REAL PROJECT SECTOR DATABASES / 14 LANES]
+    SEC_ROUTER[project/project_router.sqlite]
+    SEC_ROUTER --> SEC_ARTIFACTS[Artifacts: artifacts_sector_v001.sqlite]
+    SEC_ARTIFACTS --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_BRAIN_LOADER[Brain Loader: brain_loader_sector_v001.sqlite]
+    SEC_BRAIN_LOADER --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_CHAT_LINEAGE[Chat Lineage: chat_lineage_sector_v001.sqlite]
+    SEC_ROUTER --> SEC_CUSTOM[Custom: custom_sector_v001.sqlite]
+    SEC_CUSTOM --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_DATA_EXCEL[Data / Excel / CSV: data_excel_sector_v001.sqlite]
+    SEC_DATA_EXCEL --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_DOCS[Docs: docs_sector_v001.sqlite]
+    SEC_DOCS --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_GITHUB_CODE[GitHub Code: github_code_sector_v001.sqlite]
+    SEC_GITHUB_CODE --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_IMAGES_OCR[Images / OCR: images_ocr_sector_v001.sqlite]
+    SEC_IMAGES_OCR --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_LOCAL_CODE[Local Code: local_code_sector_v001.sqlite]
+    SEC_LOCAL_CODE --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_PDF_OCR[PDF / OCR: pdf_ocr_sector_v001.sqlite]
+    SEC_PDF_OCR --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_PPT[PPT / Presentation: ppt_sector_v001.sqlite]
+    SEC_PPT --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_PROJECT_ENGULF[Project Engulf: project_engulf_sector_v001.sqlite]
+    SEC_PROJECT_ENGULF --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_RESEARCH[Research: research_sector_v001.sqlite]
+    SEC_RESEARCH --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_ROUTER --> SEC_SQLITE_BRAIN[SQLite Brain: sqlite_brain_sector_v001.sqlite]
+    SEC_SQLITE_BRAIN --> SEC_GRANT[explicit named one-turn mutation grant]
+    SEC_CHAT_LINEAGE --> SEC_AUTO[automatic append-only read/write]
+    SEC_AUTO --> SEC_PREP[PREPARE exact prompt + attachments + entry slip]
+    SEC_GRANT --> SEC_WRITE[write named sector for current turn only]
+    SEC_WRITE --> SEC_RECEIPT[mutation receipt + immutable snapshot]
+    SEC_RECEIPT --> SEC_RELOCK[immediate relock]
+  end
+
+  subgraph PROJECT15_CHAT_STATE_TRAVEL[PROJECT15 CHAT-LINEAGE STATE TRAVEL]
+    CL_PREP[PREPARE] --> CL_PREPCOMMIT[commit PREPARED]
+    CL_PREPCOMMIT --> CL_MODE[mode/gate/operator evaluation]
+    CL_MODE --> CL_RESP[exact visible response]
+    CL_RESP --> CL_COMMIT[COMMIT links + summary + exit slip]
+    CL_COMMIT --> CL_HASH[previous/current hash]
+    CL_HASH --> CL_HEAD[canonical lineage_head]
+    CL_HEAD --> CL_NEXT[next expected index]
+    CL_PREPCOMMIT --> CL_RECOVER[PREPARED_NOT_COMMITTED]
+  end
+
+  subgraph PROJECT15_CODE_SNAPSHOT[CODE SNAPSHOT LAYER / CURRENT PROJECT]
+    CS_SOURCE[GitHub or Local Code source] --> CS_FILES[current file snapshot + hashes]
+    CS_FILES --> CS_CHUNKS[file/function/class/symbol chunks]
+    CS_CHUNKS --> CS_IMPORTS[imports + dependencies]
+    CS_CHUNKS --> CS_ROUTES[routes + API boundaries]
+    CS_CHUNKS --> CS_TESTS[config + build + test chunks]
+    CS_FILES --> CS_STRUCT[structured artifact chunks]
+    CS_FILES --> CS_BINARY[binary assets metadata-only]
+  end
+
+  subgraph PROJECT15_REVERSE_GIT[REVERSE GIT LINEAGE / NEWEST COMMIT TO OLDEST]
+    GH_REFS[refs + proven provider/reflog events] --> GH_COMMITS[commit registry + parents]
+    GH_COMMITS --> GH_CHANGE[changed files + additions/deletions]
+    GH_CHANGE --> GH_HUNKS[exact patch hunks]
+    GH_HUNKS --> GH_ROUTE[routes/APIs touched]
+    GH_HUNKS --> GH_SYMBOL[symbols touched]
+    GH_HUNKS --> GH_DEP[dependencies changed]
+    GH_HUNKS --> GH_TEST[tests changed]
+    GH_HUNKS --> GH_ART[artifacts changed]
+    GH_COMMITS --> GH_BRIDGE[snapshot-to-history bridge]
+  end
+
+  subgraph PROJECT15_IMMUTABLE_SNAPSHOTS[IMMUTABLE BUILD/MUTATION SNAPSHOT + VERSIONED ROLLBACK]
+    VS_EVENT[successful build or backend AI mutation] --> VS_STAMP[actor + time + reason]
+    VS_STAMP --> VS_ID[immutable snapshot identity]
+    VS_ID --> VS_HASH[package/file SHA-256]
+    VS_HASH --> VS_KEEP[preserve current and historical versions]
+    VS_KEEP --> VS_UI[System Task Status rollback control]
+    VS_UI --> VS_POP[version-selection pop-card]
+    VS_POP --> VS_VERIFY[verify selected snapshot hash]
+    VS_VERIFY --> VS_RESTORE[restore into new versioned output folder]
+    VS_RESTORE --> VS_REGISTER[register restored output as new snapshot]
+  end
+
+  subgraph PROJECT15_TOPOLOGY_EXIT[PROJECT15 FULL PROJECT TOPOLOGY + EXIT]
+    PX_PROMPT[User prompt] --> PX_ROUTER[project router]
+    PX_ROUTER --> PROJECT15_REAL_SECTORS
+    PROJECT15_REAL_SECTORS --> PX_MMD[full project MMD]
+    PX_MMD --> PX_SVG[full SVG render]
+    PX_MMD --> PX_PNG[full PNG render]
+    PX_PNG --> PX_STORE[ZIP_STORED]
+    PX_SVG --> PX_LOCK[hash lock registry]
+    PX_STORE --> PX_LOCK
+    PX_LOCK --> PX_EXIT[project exit receipt + updated package]
+  end
+
+  PROJECT --> PROJECT15_REAL_SECTORS
+  SEC_CHAT_LINEAGE --> PROJECT15_CHAT_STATE_TRAVEL
+  SEC_GITHUB_CODE --> PROJECT15_CODE_SNAPSHOT
+  SEC_LOCAL_CODE --> PROJECT15_CODE_SNAPSHOT
+  SEC_GITHUB_CODE --> PROJECT15_REVERSE_GIT
+  SEC_LOCAL_CODE --> PROJECT15_REVERSE_GIT
+  CS_FILES --> GH_BRIDGE
+  SEC_RECEIPT --> PROJECT15_IMMUTABLE_SNAPSHOTS
+  CL_COMMIT --> PROJECT15_IMMUTABLE_SNAPSHOTS
+  PROJECT15_IMMUTABLE_SNAPSHOTS --> PX_EXIT
+  CL_HEAD --> EXIT
+  SEC_RELOCK --> EXIT

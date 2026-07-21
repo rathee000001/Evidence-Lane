@@ -1,0 +1,1 @@
+Read root pointers, Env/UOP/project DBs, project_router, Chat Lineage, schema inventory, MMD lock registry and last exit receipt.

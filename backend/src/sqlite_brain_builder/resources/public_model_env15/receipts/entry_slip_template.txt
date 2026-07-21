@@ -1,0 +1,1 @@
+ENTRY SLIP | active Env15 package | pointers read | mode/lane classified | write scope resolved | blockers listed

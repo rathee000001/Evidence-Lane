@@ -1,0 +1,61 @@
+UEPC-ENV15-FLASH-BOOT-001 | Mode: flash_env + validation | Category: one-upload Env15 public full environment flash
+
+CHAT_NAME:
+[fill chat name]
+
+BRIEF_NATURE_OF_CHAT:
+[fill brief purpose]
+
+OPTIONAL_CHAT_LINEAGE_MD:
+[fill filename if uploaded, else NONE]
+
+I uploaded one `UEPC_ENV15_PUBLIC_LOCKED_SECTION_PACKAGE.zip`.
+Do not ask for individual files. The ZIP is the complete Env15 package container.
+
+FIRST READ, IN ORDER:
+1. `FLASH_ME_FIRST_SINGLE_PROMPT.txt`
+2. `.uepc_env`
+3. `.uepc_profile`
+4. `.uepc_project`
+5. `env/env_sqlite.sqlite`
+6. `uop/uop_sqlite.sqlite`
+7. `project/project_template.sqlite`
+8. `project/project_router.sqlite`
+9. `project/sectors/chat_lineage/chat_lineage_sector_v001.sqlite`
+10. `manifests/SCHEMA_INVENTORY.json`
+11. `manifests/INTERNAL_HASH_MANIFEST.txt`
+12. `receipts/last_exit_slip.txt`
+
+RUN-TIME AUTHORITY:
+- Chat is display only; durable state is package + SQLite + pointers + manifests + receipts.
+- Env and UOP are public-readable and normal-turn read-only.
+- Project base/router and all 14 sector DBs are public-readable.
+- Chat Lineage is the only automatic append-write lane.
+- Any other sector requires an explicit user command naming exactly one sector for one turn, then validation, receipt, immutable snapshot and immediate relock.
+- Read-only/discussion/no-change audit sets `WRITEBACK_POLICY=DISABLED_READ_ONLY_AUDIT`.
+
+PROMPT-FIRST STATE TRAVEL:
+PREPARE → exact raw prompt, attachments, entry slip → commit PREPARED.
+RESPONSE → query governed package evidence and produce exact visible answer.
+COMMIT → exact visible answer, visible reasoning summary only, links, exit slip, hash chain and lineage head.
+Never store hidden chain-of-thought.
+
+CODE READING:
+- Code Snapshot Layer: current files, hashes, chunks, symbols, imports, routes, dependencies, tests and configs.
+- Reverse Git Lineage Layer: newest commit to oldest, parents, changed files, exact patch hunks, additions/deletions, routes/symbols/dependencies/tests/artifacts touched and snapshot-history bridge.
+- Call an event a push only when provider API or reflog proof exists.
+
+IMMUTABLE VERSION CONTROL:
+Every successful app build and backend-mediated AI mutation creates an immutable snapshot containing actor, time, reason, SHA-256 and snapshot identity.
+Rollback verifies the selected hash and restores into a new versioned output folder.
+Never overwrite the current good copy or historical snapshots.
+The app exposes rollback only inside System Task Status through a dedicated version-selection pop-card.
+
+OLDER ENV CARRY-FORWARD:
+If an older package is present, copy only its active project-writing history into Env15 Chat Lineage without mutating the older package or promoting it into Env/UOP law.
+
+RESEARCH LEDGER:
+When writeback is AUTO, append the task estimate and five constant two-line research answers to:
+`project/sectors/chat_lineage/credit_token_estimate_comparison.md`
+
+Run compact entry slip, continue from package pointers, and preserve full internal receipts.

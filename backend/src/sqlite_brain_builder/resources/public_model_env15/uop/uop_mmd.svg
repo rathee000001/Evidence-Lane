@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1759.8pt" height="1891.8pt" viewBox="0 0 1759.8 1891.8" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+  </marker>
+</defs>
+
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 1257.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-1257.4 1745.4,-1257.4 1745.4,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="865.5" y="-1223" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="20.00">UEPC Env15 UOP Full End&#45;to&#45;End Topology</text>
+<g id="clust1" class="cluster">
+<title>cluster_UOP15_PROMPT_OVERRIDE</title>
+<path fill="#fffde7" stroke="#d6c34b" d="M34,-723C34,-723 1363,-723 1363,-723 1369,-723 1375,-729 1375,-735 1375,-735 1375,-846 1375,-846 1375,-852 1369,-858 1363,-858 1363,-858 34,-858 34,-858 28,-858 22,-852 22,-846 22,-846 22,-735 22,-735 22,-729 28,-723 34,-723"/>
+<text text-anchor="middle" x="698.5" y="-843.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">UOP15 PROMPT OVERRIDE INTERPRETATION</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_UOP15_DEEPRESEARCH</title>
+<path fill="#eef7ff" stroke="#d6c34b" d="M20,-866C20,-866 805,-866 805,-866 811,-866 817,-872 817,-878 817,-878 817,-989 817,-989 817,-995 811,-1001 805,-1001 805,-1001 20,-1001 20,-1001 14,-1001 8,-995 8,-989 8,-989 8,-878 8,-878 8,-872 14,-866 20,-866"/>
+<text text-anchor="middle" x="412.5" y="-986.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">UOP15 READ AUDIT ACCESS</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_UOP15_FUTURE_LAYER</title>
+<path fill="#f0fff4" stroke="#d6c34b" d="M43,-1009C43,-1009 768.5,-1009 768.5,-1009 774.5,-1009 780.5,-1015 780.5,-1021 780.5,-1021 780.5,-1193 780.5,-1193 780.5,-1199 774.5,-1205 768.5,-1205 768.5,-1205 43,-1205 43,-1205 37,-1205 31,-1199 31,-1193 31,-1193 31,-1021 31,-1021 31,-1015 37,-1009 43,-1009"/>
+<text text-anchor="middle" x="405.75" y="-1190.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">UOP15 FUTURE GOVERNANCE ADDITION LEDGER</text>
+</g>
+<!-- UOP15PO -->
+<g id="node1" class="node">
+<title>UOP15PO</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M201,-797C201,-797 42,-797 42,-797 36,-797 30,-791 30,-785 30,-785 30,-773 30,-773 30,-767 36,-761 42,-761 42,-761 201,-761 201,-761 207,-761 213,-767 213,-773 213,-773 213,-785 213,-785 213,-791 207,-797 201,-797"/>
+<text text-anchor="middle" x="121.5" y="-776.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop_prompt_override_operator_v15</text>
+</g>
+<!-- UOP15DETECT -->
+<g id="node2" class="node">
+<title>UOP15DETECT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M471,-797C471,-797 282,-797 282,-797 276,-797 270,-791 270,-785 270,-785 270,-773 270,-773 270,-767 276,-761 282,-761 282,-761 471,-761 471,-761 477,-761 483,-767 483,-773 483,-773 483,-785 483,-785 483,-791 477,-797 471,-797"/>
+<text text-anchor="middle" x="376.5" y="-776.5" font-family="Helvetica,sans-Serif" font-size="10.00">PROMPT_OVERRIDE_ATTEMPT_DETECTED</text>
+</g>
+<!-- UOP15PO&#45;&gt;UOP15DETECT -->
+<g id="edge23" class="edge">
+<title>UOP15PO&#45;&gt;UOP15DETECT</title>
+<path fill="none" stroke="#555555" d="M213.12,-779C229.68,-779 247.14,-779 264.22,-779"/>
+<polygon fill="#555555" stroke="#555555" points="264.49,-780.93 269.99,-779 264.49,-777.08 264.49,-780.93"/>
+</g>
+<!-- UOP15LOCAL -->
+<g id="node3" class="node">
+<title>UOP15LOCAL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M730.5,-767C730.5,-767 604.5,-767 604.5,-767 598.5,-767 592.5,-761 592.5,-755 592.5,-755 592.5,-743 592.5,-743 592.5,-737 598.5,-731 604.5,-731 604.5,-731 730.5,-731 730.5,-731 736.5,-731 742.5,-737 742.5,-743 742.5,-743 742.5,-755 742.5,-755 742.5,-761 736.5,-767 730.5,-767"/>
+<text text-anchor="middle" x="667.5" y="-746.5" font-family="Helvetica,sans-Serif" font-size="10.00">local display preference only</text>
+</g>
+<!-- UOP15DETECT&#45;&gt;UOP15LOCAL -->
+<g id="edge24" class="edge">
+<title>UOP15DETECT&#45;&gt;UOP15LOCAL</title>
+<path fill="none" stroke="#555555" d="M483.06,-768.04C517.36,-764.48 554.82,-760.59 586.89,-757.26"/>
+<polygon fill="#555555" stroke="#555555" points="587.13,-759.17 592.4,-756.69 586.73,-755.35 587.13,-759.17"/>
+</g>
+<!-- UOP15NOEXCUSE -->
+<g id="node6" class="node">
+<title>UOP15NOEXCUSE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M770,-828C770,-828 565,-828 565,-828 559,-828 553,-822 553,-816 553,-816 553,-804 553,-804 553,-798 559,-792 565,-792 565,-792 770,-792 770,-792 776,-792 782,-798 782,-804 782,-804 782,-816 782,-816 782,-822 776,-828 770,-828"/>
+<text text-anchor="middle" x="667.5" y="-807.5" font-family="Helvetica,sans-Serif" font-size="10.00">NO_NARRATIVE_EXCUSE_FOR_GATE_FAILURE</text>
+</g>
+<!-- UOP15DETECT&#45;&gt;UOP15NOEXCUSE -->
+<g id="edge27" class="edge">
+<title>UOP15DETECT&#45;&gt;UOP15NOEXCUSE</title>
+<path fill="none" stroke="#555555" d="M483.06,-790.32C503.93,-792.56 525.97,-794.93 547.26,-797.21"/>
+<polygon fill="#555555" stroke="#555555" points="547.27,-799.15 552.95,-797.82 547.68,-795.32 547.27,-799.15"/>
+</g>
+<!-- UOP15PROCESS -->
+<g id="node4" class="node">
+<title>UOP15PROCESS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1011,-767C1011,-767 870,-767 870,-767 864,-767 858,-761 858,-755 858,-755 858,-743 858,-743 858,-737 864,-731 870,-731 870,-731 1011,-731 1011,-731 1017,-731 1023,-737 1023,-743 1023,-743 1023,-755 1023,-755 1023,-761 1017,-767 1011,-767"/>
+<text text-anchor="middle" x="940.5" y="-746.5" font-family="Helvetica,sans-Serif" font-size="10.00">process law remains mandatory</text>
+</g>
+<!-- UOP15LOCAL&#45;&gt;UOP15PROCESS -->
+<g id="edge25" class="edge">
+<title>UOP15LOCAL&#45;&gt;UOP15PROCESS</title>
+<path fill="none" stroke="#555555" d="M742.55,-749C776.47,-749 816.9,-749 852.28,-749"/>
+<polygon fill="#555555" stroke="#555555" points="852.42,-750.93 857.92,-749 852.42,-747.08 852.42,-750.93"/>
+</g>
+<!-- UOP15RECEIPT -->
+<g id="node5" class="node">
+<title>UOP15RECEIPT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1355,-767C1355,-767 1226,-767 1226,-767 1220,-767 1214,-761 1214,-755 1214,-755 1214,-743 1214,-743 1214,-737 1220,-731 1226,-731 1226,-731 1355,-731 1355,-731 1361,-731 1367,-737 1367,-743 1367,-743 1367,-755 1367,-755 1367,-761 1361,-767 1355,-767"/>
+<text text-anchor="middle" x="1290.5" y="-746.5" font-family="Helvetica,sans-Serif" font-size="10.00">full internal receipt preserved</text>
+</g>
+<!-- UOP15PROCESS&#45;&gt;UOP15RECEIPT -->
+<g id="edge26" class="edge">
+<title>UOP15PROCESS&#45;&gt;UOP15RECEIPT</title>
+<path fill="none" stroke="#555555" d="M1023.09,-749C1078.83,-749 1152.4,-749 1208.1,-749"/>
+<polygon fill="#555555" stroke="#555555" points="1208.28,-750.93 1213.78,-749 1208.28,-747.08 1208.28,-750.93"/>
+</g>
+<!-- RECEIPT -->
+<g id="node39" class="node">
+<title>RECEIPT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1719,-614C1719,-614 1564,-614 1564,-614 1558,-614 1552,-608 1552,-602 1552,-602 1552,-590 1552,-590 1552,-584 1558,-578 1564,-578 1564,-578 1719,-578 1719,-578 1725,-578 1731,-584 1731,-590 1731,-590 1731,-602 1731,-602 1731,-608 1725,-614 1719,-614"/>
+<text text-anchor="middle" x="1641.5" y="-593.5" font-family="Helvetica,sans-Serif" font-size="10.00">operator receipt written to exit slip</text>
+</g>
+<!-- UOP15RECEIPT&#45;&gt;RECEIPT -->
+<g id="edge39" class="edge">
+<title>UOP15RECEIPT&#45;&gt;RECEIPT</title>
+<path fill="none" stroke="#555555" d="M1367.21,-749.74C1410.58,-747.48 1464.95,-739.98 1509,-719 1558.02,-695.65 1601.06,-647.36 1623.67,-618.72"/>
+<polygon fill="#555555" stroke="#555555" points="1625.25,-619.82 1627.12,-614.3 1622.22,-617.45 1625.25,-619.82"/>
+</g>
+<!-- UOP15DR -->
+<g id="node7" class="node">
+<title>UOP15DR</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M215,-940C215,-940 28,-940 28,-940 22,-940 16,-934 16,-928 16,-928 16,-916 16,-916 16,-910 22,-904 28,-904 28,-904 215,-904 215,-904 221,-904 227,-910 227,-916 227,-916 227,-928 227,-928 227,-934 221,-940 215,-940"/>
+<text text-anchor="middle" x="121.5" y="-919.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop_deep_research_access_operator_v15</text>
+</g>
+<!-- UOP15READ -->
+<g id="node8" class="node">
+<title>UOP15READ</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M465,-910C465,-910 288,-910 288,-910 282,-910 276,-904 276,-898 276,-898 276,-886 276,-886 276,-880 282,-874 288,-874 288,-874 465,-874 465,-874 471,-874 477,-880 477,-886 477,-886 477,-898 477,-898 477,-904 471,-910 465,-910"/>
+<text text-anchor="middle" x="376.5" y="-889.5" font-family="Helvetica,sans-Serif" font-size="10.00">READ_LOCK_MUST_NOT_BLOCK_AUDIT</text>
+</g>
+<!-- UOP15DR&#45;&gt;UOP15READ -->
+<g id="edge28" class="edge">
+<title>UOP15DR&#45;&gt;UOP15READ</title>
+<path fill="none" stroke="#555555" d="M227.23,-909.58C241.39,-907.9 255.93,-906.18 270.1,-904.5"/>
+<polygon fill="#555555" stroke="#555555" points="270.49,-906.39 275.72,-903.83 270.04,-902.57 270.49,-906.39"/>
+</g>
+<!-- UOP15SIDE -->
+<g id="node10" class="node">
+<title>UOP15SIDE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M448.5,-971C448.5,-971 304.5,-971 304.5,-971 298.5,-971 292.5,-965 292.5,-959 292.5,-959 292.5,-947 292.5,-947 292.5,-941 298.5,-935 304.5,-935 304.5,-935 448.5,-935 448.5,-935 454.5,-935 460.5,-941 460.5,-947 460.5,-947 460.5,-959 460.5,-959 460.5,-965 454.5,-971 448.5,-971"/>
+<text text-anchor="middle" x="376.5" y="-950.5" font-family="Helvetica,sans-Serif" font-size="10.00">read&#45;only sidecar mirror allowed</text>
+</g>
+<!-- UOP15DR&#45;&gt;UOP15SIDE -->
+<g id="edge30" class="edge">
+<title>UOP15DR&#45;&gt;UOP15SIDE</title>
+<path fill="none" stroke="#555555" d="M227.23,-934.83C246.94,-937.25 267.38,-939.75 286.55,-942.1"/>
+<polygon fill="#555555" stroke="#555555" points="286.77,-944.07 292.46,-942.83 287.24,-940.25 286.77,-944.07"/>
+</g>
+<!-- UOP15NOPASS -->
+<g id="node9" class="node">
+<title>UOP15NOPASS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M797,-910C797,-910 538,-910 538,-910 532,-910 526,-904 526,-898 526,-898 526,-886 526,-886 526,-880 532,-874 538,-874 538,-874 797,-874 797,-874 803,-874 809,-880 809,-886 809,-886 809,-898 809,-898 809,-904 803,-910 797,-910"/>
+<text text-anchor="middle" x="667.5" y="-889.5" font-family="Helvetica,sans-Serif" font-size="10.00">PASSWORD_NEVER_REQUIRED_FOR_READ_ONLY_AUDIT</text>
+</g>
+<!-- UOP15READ&#45;&gt;UOP15NOPASS -->
+<g id="edge29" class="edge">
+<title>UOP15READ&#45;&gt;UOP15NOPASS</title>
+<path fill="none" stroke="#555555" d="M477.36,-892C491.19,-892 505.62,-892 520.08,-892"/>
+<polygon fill="#555555" stroke="#555555" points="520.34,-893.93 525.84,-892 520.34,-890.08 520.34,-893.93"/>
+</g>
+<!-- UOP15NOAUTH -->
+<g id="node11" class="node">
+<title>UOP15NOAUTH</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M713,-971C713,-971 622,-971 622,-971 616,-971 610,-965 610,-959 610,-959 610,-947 610,-947 610,-941 616,-935 622,-935 622,-935 713,-935 713,-935 719,-935 725,-941 725,-947 725,-947 725,-959 725,-959 725,-965 719,-971 713,-971"/>
+<text text-anchor="middle" x="667.5" y="-950.5" font-family="Helvetica,sans-Serif" font-size="10.00">sidecar is not env law</text>
+</g>
+<!-- UOP15SIDE&#45;&gt;UOP15NOAUTH -->
+<g id="edge31" class="edge">
+<title>UOP15SIDE&#45;&gt;UOP15NOAUTH</title>
+<path fill="none" stroke="#555555" d="M460.7,-953C506.5,-953 562.39,-953 604.36,-953"/>
+<polygon fill="#555555" stroke="#555555" points="604.43,-954.93 609.93,-953 604.43,-951.08 604.43,-954.93"/>
+</g>
+<!-- UOP15ADD -->
+<g id="node12" class="node">
+<title>UOP15ADD</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M192,-1114C192,-1114 51,-1114 51,-1114 45,-1114 39,-1108 39,-1102 39,-1102 39,-1090 39,-1090 39,-1084 45,-1078 51,-1078 51,-1078 192,-1078 192,-1078 198,-1078 204,-1084 204,-1090 204,-1090 204,-1102 204,-1102 204,-1108 198,-1114 192,-1114"/>
+<text text-anchor="middle" x="121.5" y="-1093.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop_future_addition_ledger_v15</text>
+</g>
+<!-- UOP15FLASH -->
+<g id="node13" class="node">
+<title>UOP15FLASH</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M432,-1114C432,-1114 321,-1114 321,-1114 315,-1114 309,-1108 309,-1102 309,-1102 309,-1090 309,-1090 309,-1084 315,-1078 321,-1078 321,-1078 432,-1078 432,-1078 438,-1078 444,-1084 444,-1090 444,-1090 444,-1102 444,-1102 444,-1108 438,-1114 432,-1114"/>
+<text text-anchor="middle" x="376.5" y="-1093.5" font-family="Helvetica,sans-Serif" font-size="10.00">mode=flash_uop required</text>
+</g>
+<!-- UOP15ADD&#45;&gt;UOP15FLASH -->
+<g id="edge32" class="edge">
+<title>UOP15ADD&#45;&gt;UOP15FLASH</title>
+<path fill="none" stroke="#555555" d="M204.29,-1096C236.1,-1096 272.23,-1096 303.07,-1096"/>
+<polygon fill="#555555" stroke="#555555" points="303.27,-1097.93 308.77,-1096 303.27,-1094.08 303.27,-1097.93"/>
+</g>
+<!-- UOP15NOENV -->
+<g id="node14" class="node">
+<title>UOP15NOENV</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M719,-1053C719,-1053 616,-1053 616,-1053 610,-1053 604,-1047 604,-1041 604,-1041 604,-1029 604,-1029 604,-1023 610,-1017 616,-1017 616,-1017 719,-1017 719,-1017 725,-1017 731,-1023 731,-1029 731,-1029 731,-1041 731,-1041 731,-1047 725,-1053 719,-1053"/>
+<text text-anchor="middle" x="667.5" y="-1032.5" font-family="Helvetica,sans-Serif" font-size="10.00">can_override_env=false</text>
+</g>
+<!-- UOP15FLASH&#45;&gt;UOP15NOENV -->
+<g id="edge33" class="edge">
+<title>UOP15FLASH&#45;&gt;UOP15NOENV</title>
+<path fill="none" stroke="#555555" d="M444.17,-1081.93C490.3,-1072.19 551.52,-1059.27 598.04,-1049.45"/>
+<polygon fill="#555555" stroke="#555555" points="598.65,-1051.29 603.64,-1048.27 597.86,-1047.52 598.65,-1051.29"/>
+</g>
+<!-- UOP15NOPROJ -->
+<g id="node15" class="node">
+<title>UOP15NOPROJ</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M727,-1114C727,-1114 608,-1114 608,-1114 602,-1114 596,-1108 596,-1102 596,-1102 596,-1090 596,-1090 596,-1084 602,-1078 608,-1078 608,-1078 727,-1078 727,-1078 733,-1078 739,-1084 739,-1090 739,-1090 739,-1102 739,-1102 739,-1108 733,-1114 727,-1114"/>
+<text text-anchor="middle" x="667.5" y="-1093.5" font-family="Helvetica,sans-Serif" font-size="10.00">can_override_project=false</text>
+</g>
+<!-- UOP15FLASH&#45;&gt;UOP15NOPROJ -->
+<g id="edge34" class="edge">
+<title>UOP15FLASH&#45;&gt;UOP15NOPROJ</title>
+<path fill="none" stroke="#555555" d="M444.17,-1096C487.73,-1096 544.74,-1096 590.13,-1096"/>
+<polygon fill="#555555" stroke="#555555" points="590.38,-1097.93 595.88,-1096 590.38,-1094.08 590.38,-1097.93"/>
+</g>
+<!-- UOP15EMPTY -->
+<g id="node16" class="node">
+<title>UOP15EMPTY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M760.5,-1175C760.5,-1175 574.5,-1175 574.5,-1175 568.5,-1175 562.5,-1169 562.5,-1163 562.5,-1163 562.5,-1151 562.5,-1151 562.5,-1145 568.5,-1139 574.5,-1139 574.5,-1139 760.5,-1139 760.5,-1139 766.5,-1139 772.5,-1145 772.5,-1151 772.5,-1151 772.5,-1163 772.5,-1163 772.5,-1169 766.5,-1175 760.5,-1175"/>
+<text text-anchor="middle" x="667.5" y="-1154.5" font-family="Helvetica,sans-Serif" font-size="10.00">private payload blocked in clean package</text>
+</g>
+<!-- UOP15FLASH&#45;&gt;UOP15EMPTY -->
+<g id="edge35" class="edge">
+<title>UOP15FLASH&#45;&gt;UOP15EMPTY</title>
+<path fill="none" stroke="#555555" d="M444.17,-1110.07C483.17,-1118.3 532.96,-1128.81 575.53,-1137.8"/>
+<polygon fill="#555555" stroke="#555555" points="575.18,-1139.69 580.95,-1138.94 575.97,-1135.92 575.18,-1139.69"/>
+</g>
+<!-- START -->
+<g id="node17" class="node">
+<title>START</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M152,-188C152,-188 91,-188 91,-188 85,-188 79,-182 79,-176 79,-176 79,-164 79,-164 79,-158 85,-152 91,-152 91,-152 152,-152 152,-152 158,-152 164,-158 164,-164 164,-164 164,-176 164,-176 164,-182 158,-188 152,-188"/>
+<text text-anchor="middle" x="121.5" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">[Prompt enters]</text>
+</g>
+<!-- PROFILE -->
+<g id="node18" class="node">
+<title>PROFILE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M400,-188C400,-188 353,-188 353,-188 347,-188 341,-182 341,-176 341,-176 341,-164 341,-164 341,-158 347,-152 353,-152 353,-152 400,-152 400,-152 406,-152 412,-158 412,-164 412,-164 412,-176 412,-176 412,-182 406,-188 400,-188"/>
+<text text-anchor="middle" x="376.5" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">.uepc_profile</text>
+</g>
+<!-- START&#45;&gt;PROFILE -->
+<g id="edge1" class="edge">
+<title>START&#45;&gt;PROFILE</title>
+<path fill="none" stroke="#555555" d="M164.28,-170C211.75,-170 288.69,-170 335.44,-170"/>
+<polygon fill="#555555" stroke="#555555" points="335.48,-171.93 340.98,-170 335.48,-168.08 335.48,-171.93"/>
+</g>
+<!-- UOPSQL -->
+<g id="node19" class="node">
+<title>UOPSQL</title>
+<path fill="#eaffea" stroke="#7b68ee" d="M710.5,-432C710.5,-432 624.5,-432 624.5,-432 618.5,-432 612.5,-426 612.5,-420 612.5,-420 612.5,-408 612.5,-408 612.5,-402 618.5,-396 624.5,-396 624.5,-396 710.5,-396 710.5,-396 716.5,-396 722.5,-402 722.5,-408 722.5,-408 722.5,-420 722.5,-420 722.5,-426 716.5,-432 710.5,-432"/>
+<text text-anchor="middle" x="667.5" y="-411.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop/uop_sqlite.sqlite</text>
+</g>
+<!-- PROFILE&#45;&gt;UOPSQL -->
+<g id="edge2" class="edge">
+<title>PROFILE&#45;&gt;UOPSQL</title>
+<path fill="none" stroke="#555555" d="M399.22,-188.34C451.55,-232.52 584.4,-344.69 640.68,-392.2"/>
+<polygon fill="#555555" stroke="#555555" points="639.48,-393.7 644.92,-395.78 641.96,-390.76 639.48,-393.7"/>
+</g>
+<!-- UOPLAW -->
+<g id="node20" class="node">
+<title>UOPLAW</title>
+<path fill="#eaffea" stroke="#7b68ee" d="M699.5,-280C699.5,-280 635.5,-280 635.5,-280 629.5,-280 623.5,-274 623.5,-268 623.5,-268 623.5,-256 623.5,-256 623.5,-250 629.5,-244 635.5,-244 635.5,-244 699.5,-244 699.5,-244 705.5,-244 711.5,-250 711.5,-256 711.5,-256 711.5,-268 711.5,-268 711.5,-274 705.5,-280 699.5,-280"/>
+<text text-anchor="middle" x="667.5" y="-259.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop/uop_law.md</text>
+</g>
+<!-- PROFILE&#45;&gt;UOPLAW -->
+<g id="edge3" class="edge">
+<title>PROFILE&#45;&gt;UOPLAW</title>
+<path fill="none" stroke="#555555" d="M412.28,-186.29C441.98,-199.71 486.1,-218.51 526,-231 555.93,-240.37 590.3,-248.01 617.56,-253.36"/>
+<polygon fill="#555555" stroke="#555555" points="617.5,-255.31 623.26,-254.46 618.23,-251.53 617.5,-255.31"/>
+</g>
+<!-- UOPLOCK -->
+<g id="node21" class="node">
+<title>UOPLOCK</title>
+<path fill="#eaffea" stroke="#7b68ee" d="M696,-219C696,-219 639,-219 639,-219 633,-219 627,-213 627,-207 627,-207 627,-195 627,-195 627,-189 633,-183 639,-183 639,-183 696,-183 696,-183 702,-183 708,-189 708,-195 708,-195 708,-207 708,-207 708,-213 702,-219 696,-219"/>
+<text text-anchor="middle" x="667.5" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP write lock</text>
+</g>
+<!-- PROFILE&#45;&gt;UOPLOCK -->
+<g id="edge4" class="edge">
+<title>PROFILE&#45;&gt;UOPLOCK</title>
+<path fill="none" stroke="#555555" d="M412.07,-173.71C464.32,-179.31 563.44,-189.95 621.33,-196.16"/>
+<polygon fill="#555555" stroke="#555555" points="621.13,-198.07 626.8,-196.74 621.54,-194.24 621.13,-198.07"/>
+</g>
+<!-- UOP15_PROMPT_OVERRIDE -->
+<g id="node40" class="node">
+<title>UOP15_PROMPT_OVERRIDE</title>
+<path fill="#eaffea" stroke="#7b68ee" d="M727.5,-158C727.5,-158 607.5,-158 607.5,-158 601.5,-158 595.5,-152 595.5,-146 595.5,-146 595.5,-134 595.5,-134 595.5,-128 601.5,-122 607.5,-122 607.5,-122 727.5,-122 727.5,-122 733.5,-122 739.5,-128 739.5,-134 739.5,-134 739.5,-146 739.5,-146 739.5,-152 733.5,-158 727.5,-158"/>
+<text text-anchor="middle" x="667.5" y="-137.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP15_PROMPT_OVERRIDE</text>
+</g>
+<!-- PROFILE&#45;&gt;UOP15_PROMPT_OVERRIDE -->
+<g id="edge36" class="edge">
+<title>PROFILE&#45;&gt;UOP15_PROMPT_OVERRIDE</title>
+<path fill="none" stroke="#555555" d="M412.07,-166.41C455.76,-161.88 532.21,-153.94 589.93,-147.95"/>
+<polygon fill="#555555" stroke="#555555" points="590.19,-149.86 595.46,-147.37 589.79,-146.03 590.19,-149.86"/>
+</g>
+<!-- UOP15_DEEPRESEARCH -->
+<g id="node41" class="node">
+<title>UOP15_DEEPRESEARCH</title>
+<path fill="#eaffea" stroke="#7b68ee" d="M718,-97C718,-97 617,-97 617,-97 611,-97 605,-91 605,-85 605,-85 605,-73 605,-73 605,-67 611,-61 617,-61 617,-61 718,-61 718,-61 724,-61 730,-67 730,-73 730,-73 730,-85 730,-85 730,-91 724,-97 718,-97"/>
+<text text-anchor="middle" x="667.5" y="-76.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP15_DEEPRESEARCH</text>
+</g>
+<!-- PROFILE&#45;&gt;UOP15_DEEPRESEARCH -->
+<g id="edge37" class="edge">
+<title>PROFILE&#45;&gt;UOP15_DEEPRESEARCH</title>
+<path fill="none" stroke="#555555" d="M412.25,-153.64C441.94,-140.18 486.06,-121.36 526,-109 549.49,-101.73 575.73,-95.61 599.11,-90.83"/>
+<polygon fill="#555555" stroke="#555555" points="599.67,-92.69 604.68,-89.71 598.91,-88.91 599.67,-92.69"/>
+</g>
+<!-- UOP15_FUTURE_LAYER -->
+<g id="node42" class="node">
+<title>UOP15_FUTURE_LAYER</title>
+<path fill="#eaffea" stroke="#7b68ee" d="M717,-36C717,-36 618,-36 618,-36 612,-36 606,-30 606,-24 606,-24 606,-12 606,-12 606,-6 612,0 618,0 618,0 717,0 717,0 723,0 729,-6 729,-12 729,-12 729,-24 729,-24 729,-30 723,-36 717,-36"/>
+<text text-anchor="middle" x="667.5" y="-15.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP15_FUTURE_LAYER</text>
+</g>
+<!-- PROFILE&#45;&gt;UOP15_FUTURE_LAYER -->
+<g id="edge38" class="edge">
+<title>PROFILE&#45;&gt;UOP15_FUTURE_LAYER</title>
+<path fill="none" stroke="#555555" d="M393.84,-151.92C419.32,-124.9 471.29,-74.36 526,-48 549.08,-36.88 576.27,-29.85 600.54,-25.42"/>
+<polygon fill="#555555" stroke="#555555" points="600.91,-27.31 605.99,-24.46 600.24,-23.52 600.91,-27.31"/>
+</g>
+<!-- SPATIAL -->
+<g id="node25" class="node">
+<title>SPATIAL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M988.5,-706C988.5,-706 892.5,-706 892.5,-706 886.5,-706 880.5,-700 880.5,-694 880.5,-694 880.5,-682 880.5,-682 880.5,-676 886.5,-670 892.5,-670 892.5,-670 988.5,-670 988.5,-670 994.5,-670 1000.5,-676 1000.5,-682 1000.5,-682 1000.5,-694 1000.5,-694 1000.5,-700 994.5,-706 988.5,-706"/>
+<text text-anchor="middle" x="940.5" y="-685.5" font-family="Helvetica,sans-Serif" font-size="10.00">spatial route operators</text>
+</g>
+<!-- UOPSQL&#45;&gt;SPATIAL -->
+<g id="edge8" class="edge">
+<title>UOPSQL&#45;&gt;SPATIAL</title>
+<path fill="none" stroke="#555555" d="M677.37,-432.12C700.13,-476.8 765,-593.27 852,-657 859,-662.13 866.92,-666.47 875.07,-670.13"/>
+<polygon fill="#555555" stroke="#555555" points="874.36,-671.92 880.17,-672.32 875.88,-668.38 874.36,-671.92"/>
+</g>
+<!-- COMPRESS -->
+<g id="node27" class="node">
+<title>COMPRESS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1017,-645C1017,-645 864,-645 864,-645 858,-645 852,-639 852,-633 852,-633 852,-621 852,-621 852,-615 858,-609 864,-609 864,-609 1017,-609 1017,-609 1023,-609 1029,-615 1029,-621 1029,-621 1029,-633 1029,-633 1029,-639 1023,-645 1017,-645"/>
+<text text-anchor="middle" x="940.5" y="-624.5" font-family="Helvetica,sans-Serif" font-size="10.00">knowledge compression operators</text>
+</g>
+<!-- UOPSQL&#45;&gt;COMPRESS -->
+<g id="edge10" class="edge">
+<title>UOPSQL&#45;&gt;COMPRESS</title>
+<path fill="none" stroke="#555555" d="M682.17,-432.15C710.22,-468.22 777.91,-549.46 852,-596 858.31,-599.96 865.19,-603.5 872.23,-606.65"/>
+<polygon fill="#555555" stroke="#555555" points="871.83,-608.57 877.64,-608.98 873.35,-605.03 871.83,-608.57"/>
+</g>
+<!-- SRCSTATE -->
+<g id="node29" class="node">
+<title>SRCSTATE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M988,-584C988,-584 893,-584 893,-584 887,-584 881,-578 881,-572 881,-572 881,-560 881,-560 881,-554 887,-548 893,-548 893,-548 988,-548 988,-548 994,-548 1000,-554 1000,-560 1000,-560 1000,-572 1000,-572 1000,-578 994,-584 988,-584"/>
+<text text-anchor="middle" x="940.5" y="-563.5" font-family="Helvetica,sans-Serif" font-size="10.00">source&#45;state operators</text>
+</g>
+<!-- UOPSQL&#45;&gt;SRCSTATE -->
+<g id="edge12" class="edge">
+<title>UOPSQL&#45;&gt;SRCSTATE</title>
+<path fill="none" stroke="#555555" d="M692,-432.21C725.86,-457.8 791.02,-504.66 852,-535 859.89,-538.92 868.39,-542.59 876.9,-545.92"/>
+<polygon fill="#555555" stroke="#555555" points="876.36,-547.77 882.19,-547.95 877.74,-544.18 876.36,-547.77"/>
+</g>
+<!-- DISC -->
+<g id="node31" class="node">
+<title>DISC</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1006.5,-523C1006.5,-523 874.5,-523 874.5,-523 868.5,-523 862.5,-517 862.5,-511 862.5,-511 862.5,-499 862.5,-499 862.5,-493 868.5,-487 874.5,-487 874.5,-487 1006.5,-487 1006.5,-487 1012.5,-487 1018.5,-493 1018.5,-499 1018.5,-499 1018.5,-511 1018.5,-511 1018.5,-517 1012.5,-523 1006.5,-523"/>
+<text text-anchor="middle" x="940.5" y="-502.5" font-family="Helvetica,sans-Serif" font-size="10.00">disclosure boundary operators</text>
+</g>
+<!-- UOPSQL&#45;&gt;DISC -->
+<g id="edge14" class="edge">
+<title>UOPSQL&#45;&gt;DISC</title>
+<path fill="none" stroke="#555555" d="M722.36,-432.09C767.99,-447.41 833.32,-469.34 880.38,-485.15"/>
+<polygon fill="#555555" stroke="#555555" points="879.91,-487.02 885.74,-486.95 881.14,-483.37 879.91,-487.02"/>
+</g>
+<!-- MODE -->
+<g id="node33" class="node">
+<title>MODE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M990,-462C990,-462 891,-462 891,-462 885,-462 879,-456 879,-450 879,-450 879,-438 879,-438 879,-432 885,-426 891,-426 891,-426 990,-426 990,-426 996,-426 1002,-432 1002,-438 1002,-438 1002,-450 1002,-450 1002,-456 996,-462 990,-462"/>
+<text text-anchor="middle" x="940.5" y="-441.5" font-family="Helvetica,sans-Serif" font-size="10.00">mode&#45;cluster operators</text>
+</g>
+<!-- UOPSQL&#45;&gt;MODE -->
+<g id="edge16" class="edge">
+<title>UOPSQL&#45;&gt;MODE</title>
+<path fill="none" stroke="#555555" d="M722.69,-420C766.03,-424.8 826.98,-431.54 873.23,-436.66"/>
+<polygon fill="#555555" stroke="#555555" points="873.11,-438.59 878.79,-437.28 873.54,-434.76 873.11,-438.59"/>
+</g>
+<!-- DELTA -->
+<g id="node35" class="node">
+<title>DELTA</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1002,-401C1002,-401 879,-401 879,-401 873,-401 867,-395 867,-389 867,-389 867,-377 867,-377 867,-371 873,-365 879,-365 879,-365 1002,-365 1002,-365 1008,-365 1014,-371 1014,-377 1014,-377 1014,-389 1014,-389 1014,-395 1008,-401 1002,-401"/>
+<text text-anchor="middle" x="940.5" y="-380.5" font-family="Helvetica,sans-Serif" font-size="10.00">delta preservation operators</text>
+</g>
+<!-- UOPSQL&#45;&gt;DELTA -->
+<g id="edge18" class="edge">
+<title>UOPSQL&#45;&gt;DELTA</title>
+<path fill="none" stroke="#555555" d="M722.69,-407.8C762.39,-403.26 816.86,-397.03 861.27,-391.95"/>
+<polygon fill="#555555" stroke="#555555" points="861.67,-393.84 866.92,-391.3 861.23,-390.02 861.67,-393.84"/>
+</g>
+<!-- HUMAN -->
+<g id="node36" class="node">
+<title>HUMAN</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M987,-340C987,-340 894,-340 894,-340 888,-340 882,-334 882,-328 882,-328 882,-316 882,-316 882,-310 888,-304 894,-304 894,-304 987,-304 987,-304 993,-304 999,-310 999,-316 999,-316 999,-328 999,-328 999,-334 993,-340 987,-340"/>
+<text text-anchor="middle" x="940.5" y="-319.5" font-family="Helvetica,sans-Serif" font-size="10.00">human gate operators</text>
+</g>
+<!-- UOPSQL&#45;&gt;HUMAN -->
+<g id="edge19" class="edge">
+<title>UOPSQL&#45;&gt;HUMAN</title>
+<path fill="none" stroke="#555555" d="M721.72,-395.93C767.58,-380.36 833.69,-357.92 881.02,-341.85"/>
+<polygon fill="#555555" stroke="#555555" points="881.81,-343.62 886.4,-340.03 880.58,-339.97 881.81,-343.62"/>
+</g>
+<!-- NOENV -->
+<g id="node37" class="node">
+<title>NOENV</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1000,-279C1000,-279 881,-279 881,-279 875,-279 869,-273 869,-267 869,-267 869,-255 869,-255 869,-249 875,-243 881,-243 881,-243 1000,-243 1000,-243 1006,-243 1012,-249 1012,-255 1012,-255 1012,-267 1012,-267 1012,-273 1006,-279 1000,-279"/>
+<text text-anchor="middle" x="940.5" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00">CAN_OVERRIDE_ENV=false</text>
+</g>
+<!-- UOPSQL&#45;&gt;NOENV -->
+<g id="edge20" class="edge">
+<title>UOPSQL&#45;&gt;NOENV</title>
+<path fill="none" stroke="#555555" d="M691.34,-395.81C724.92,-369.75 790.33,-321.59 852,-291 859.13,-287.46 866.78,-284.17 874.48,-281.16"/>
+<polygon fill="#555555" stroke="#555555" points="875.36,-282.89 879.81,-279.13 873.99,-279.29 875.36,-282.89"/>
+</g>
+<!-- NOPROJ -->
+<g id="node38" class="node">
+<title>NOPROJ</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M1011,-218C1011,-218 870,-218 870,-218 864,-218 858,-212 858,-206 858,-206 858,-194 858,-194 858,-188 864,-182 870,-182 870,-182 1011,-182 1011,-182 1017,-182 1023,-188 1023,-194 1023,-194 1023,-206 1023,-206 1023,-212 1017,-218 1011,-218"/>
+<text text-anchor="middle" x="940.5" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">CAN_OVERRIDE_PROJECT=false</text>
+</g>
+<!-- UOPSQL&#45;&gt;NOPROJ -->
+<g id="edge21" class="edge">
+<title>UOPSQL&#45;&gt;NOPROJ</title>
+<path fill="none" stroke="#555555" d="M696.3,-395.88C728.26,-374.05 780.95,-334.93 817,-292 837.35,-267.77 827.67,-250.23 852,-230 856.17,-226.54 860.76,-223.46 865.59,-220.74"/>
+<polygon fill="#555555" stroke="#555555" points="866.54,-222.41 870.49,-218.13 864.73,-219.02 866.54,-222.41"/>
+</g>
+<!-- FU -->
+<g id="node22" class="node">
+<title>FU</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M984,-157C984,-157 897,-157 897,-157 891,-157 885,-151 885,-145 885,-145 885,-133 885,-133 885,-127 891,-121 897,-121 897,-121 984,-121 984,-121 990,-121 996,-127 996,-133 996,-133 996,-145 996,-145 996,-151 990,-157 984,-157"/>
+<text text-anchor="middle" x="940.5" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00">mode == flash_uop?</text>
+</g>
+<!-- UOPLOCK&#45;&gt;FU -->
+<g id="edge5" class="edge">
+<title>UOPLOCK&#45;&gt;FU</title>
+<path fill="none" stroke="#555555" d="M708.31,-193.16C738.27,-187.15 780.3,-178.47 817,-170 837.32,-165.31 859.44,-159.83 879.22,-154.79"/>
+<polygon fill="#555555" stroke="#555555" points="879.88,-156.61 884.74,-153.38 878.93,-152.88 879.88,-156.61"/>
+</g>
+<!-- UOPMUTATE -->
+<g id="node23" class="node">
+<title>UOPMUTATE</title>
+<path fill="#eaffea" stroke="#7b68ee" d="M1356.5,-188C1356.5,-188 1224.5,-188 1224.5,-188 1218.5,-188 1212.5,-182 1212.5,-176 1212.5,-176 1212.5,-164 1212.5,-164 1212.5,-158 1218.5,-152 1224.5,-152 1224.5,-152 1356.5,-152 1356.5,-152 1362.5,-152 1368.5,-158 1368.5,-164 1368.5,-164 1368.5,-176 1368.5,-176 1368.5,-182 1362.5,-188 1356.5,-188"/>
+<text text-anchor="middle" x="1290.5" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">scoped UOP mutation allowed</text>
+</g>
+<!-- FU&#45;&gt;UOPMUTATE -->
+<g id="edge6" class="edge">
+<title>FU&#45;&gt;UOPMUTATE</title>
+<path fill="none" stroke="#555555" d="M996.26,-143.88C1052.74,-148.91 1141.53,-156.82 1206.62,-162.62"/>
+<polygon fill="#555555" stroke="#555555" points="1206.79,-164.57 1212.44,-163.14 1207.14,-160.73 1206.79,-164.57"/>
+</g>
+<!-- UOPRO -->
+<g id="node24" class="node">
+<title>UOPRO</title>
+<path fill="#eaffea" stroke="#7b68ee" d="M1348,-127C1348,-127 1233,-127 1233,-127 1227,-127 1221,-121 1221,-115 1221,-115 1221,-103 1221,-103 1221,-97 1227,-91 1233,-91 1233,-91 1348,-91 1348,-91 1354,-91 1360,-97 1360,-103 1360,-103 1360,-115 1360,-115 1360,-121 1354,-127 1348,-127"/>
+<text text-anchor="middle" x="1290.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00">read&#45;only UOP governance</text>
+</g>
+<!-- FU&#45;&gt;UOPRO -->
+<g id="edge7" class="edge">
+<title>FU&#45;&gt;UOPRO</title>
+<path fill="none" stroke="#555555" d="M996.26,-134.28C1055.16,-129.2 1149.18,-121.1 1214.83,-115.44"/>
+<polygon fill="#555555" stroke="#555555" points="1215.38,-117.32 1220.7,-114.93 1215.05,-113.49 1215.38,-117.32"/>
+</g>
+<!-- ROUTE -->
+<g id="node26" class="node">
+<title>ROUTE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1497,-706C1497,-706 1084,-706 1084,-706 1078,-706 1072,-700 1072,-694 1072,-694 1072,-682 1072,-682 1072,-676 1078,-670 1084,-670 1084,-670 1497,-670 1497,-670 1503,-670 1509,-676 1509,-682 1509,-682 1509,-694 1509,-694 1509,-700 1503,-706 1497,-706"/>
+<text text-anchor="middle" x="1290.5" y="-685.5" font-family="Helvetica,sans-Serif" font-size="10.00">source &#45;&gt; gate &#45;&gt; actor &#45;&gt; constraint &#45;&gt; action &#45;&gt; output &#45;&gt; validation &#45;&gt; delta &#45;&gt; next</text>
+</g>
+<!-- SPATIAL&#45;&gt;ROUTE -->
+<g id="edge9" class="edge">
+<title>SPATIAL&#45;&gt;ROUTE</title>
+<path fill="none" stroke="#555555" d="M1000.53,-688C1019.65,-688 1042.12,-688 1065.95,-688"/>
+<polygon fill="#555555" stroke="#555555" points="1066.2,-689.93 1071.7,-688 1066.2,-686.08 1066.2,-689.93"/>
+</g>
+<!-- DBFORM -->
+<g id="node28" class="node">
+<title>DBFORM</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1411,-645C1411,-645 1170,-645 1170,-645 1164,-645 1158,-639 1158,-633 1158,-633 1158,-621 1158,-621 1158,-615 1164,-609 1170,-609 1170,-609 1411,-609 1411,-609 1417,-609 1423,-615 1423,-621 1423,-621 1423,-633 1423,-633 1423,-639 1417,-645 1411,-645"/>
+<text text-anchor="middle" x="1290.5" y="-624.5" font-family="Helvetica,sans-Serif" font-size="10.00">operators stored as relational rows / no private story</text>
+</g>
+<!-- COMPRESS&#45;&gt;DBFORM -->
+<g id="edge11" class="edge">
+<title>COMPRESS&#45;&gt;DBFORM</title>
+<path fill="none" stroke="#555555" d="M1029.32,-627C1066.6,-627 1110.95,-627 1152.38,-627"/>
+<polygon fill="#555555" stroke="#555555" points="1152.44,-628.93 1157.94,-627 1152.44,-625.08 1152.44,-628.93"/>
+</g>
+<!-- PRECEDENCE -->
+<g id="node30" class="node">
+<title>PRECEDENCE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1408,-584C1408,-584 1173,-584 1173,-584 1167,-584 1161,-578 1161,-572 1161,-572 1161,-560 1161,-560 1161,-554 1167,-548 1173,-548 1173,-548 1408,-548 1408,-548 1414,-548 1420,-554 1420,-560 1420,-560 1420,-572 1420,-572 1420,-578 1414,-584 1408,-584"/>
+<text text-anchor="middle" x="1290.5" y="-563.5" font-family="Helvetica,sans-Serif" font-size="10.00">direct / lineage&#45;derived / telemetry / temp topology</text>
+</g>
+<!-- SRCSTATE&#45;&gt;PRECEDENCE -->
+<g id="edge13" class="edge">
+<title>SRCSTATE&#45;&gt;PRECEDENCE</title>
+<path fill="none" stroke="#555555" d="M1000.14,-566C1042.56,-566 1101.62,-566 1155.33,-566"/>
+<polygon fill="#555555" stroke="#555555" points="1155.35,-567.93 1160.85,-566 1155.35,-564.08 1155.35,-567.93"/>
+</g>
+<!-- BLOCK -->
+<g id="node32" class="node">
+<title>BLOCK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1414.5,-523C1414.5,-523 1166.5,-523 1166.5,-523 1160.5,-523 1154.5,-517 1154.5,-511 1154.5,-511 1154.5,-499 1154.5,-499 1154.5,-493 1160.5,-487 1166.5,-487 1166.5,-487 1414.5,-487 1414.5,-487 1420.5,-487 1426.5,-493 1426.5,-499 1426.5,-499 1426.5,-511 1426.5,-511 1426.5,-517 1420.5,-523 1414.5,-523"/>
+<text text-anchor="middle" x="1290.5" y="-502.5" font-family="Helvetica,sans-Serif" font-size="10.00">block private personal/family/health/recruiter payload</text>
+</g>
+<!-- DISC&#45;&gt;BLOCK -->
+<g id="edge15" class="edge">
+<title>DISC&#45;&gt;BLOCK</title>
+<path fill="none" stroke="#555555" d="M1018.73,-505C1056.95,-505 1104.29,-505 1148.65,-505"/>
+<polygon fill="#555555" stroke="#555555" points="1148.82,-506.93 1154.32,-505 1148.82,-503.08 1148.82,-506.93"/>
+</g>
+<!-- LANE -->
+<g id="node34" class="node">
+<title>LANE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1352.5,-462C1352.5,-462 1228.5,-462 1228.5,-462 1222.5,-462 1216.5,-456 1216.5,-450 1216.5,-450 1216.5,-438 1216.5,-438 1216.5,-432 1222.5,-426 1228.5,-426 1228.5,-426 1352.5,-426 1352.5,-426 1358.5,-426 1364.5,-432 1364.5,-438 1364.5,-438 1364.5,-450 1364.5,-450 1364.5,-456 1358.5,-462 1352.5,-462"/>
+<text text-anchor="middle" x="1290.5" y="-441.5" font-family="Helvetica,sans-Serif" font-size="10.00">guide lane/formula selection</text>
+</g>
+<!-- MODE&#45;&gt;LANE -->
+<g id="edge17" class="edge">
+<title>MODE&#45;&gt;LANE</title>
+<path fill="none" stroke="#555555" d="M1002.12,-444C1059.96,-444 1147.41,-444 1210.65,-444"/>
+<polygon fill="#555555" stroke="#555555" points="1210.81,-445.93 1216.31,-444 1210.81,-442.08 1210.81,-445.93"/>
+</g>
+<!-- LANE&#45;&gt;RECEIPT -->
+<g id="edge22" class="edge">
+<title>LANE&#45;&gt;RECEIPT</title>
+<path fill="none" stroke="#555555" d="M1364.65,-443.2C1408.41,-445.32 1464.05,-452.7 1509,-474 1557.89,-497.16 1600.97,-545.06 1623.63,-573.47"/>
+<polygon fill="#555555" stroke="#555555" points="1622.17,-574.72 1627.08,-577.85 1625.19,-572.34 1622.17,-574.72"/>
+</g>
+</g>
+
+<g transform="translate(0,1271.8)">
+<rect x="10" y="0" width="1739.8" height="610" rx="18" fill="#fffef0" stroke="#d2c46b" stroke-width="2"/>
+<text x="879.9" y="30" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">UOP15 PUBLIC GOVERNANCE — CONTINUATION FROM USER-PROMPT ROOT</text>
+<rect x="30.0" y="48" width="551.9333333333333" height="542" rx="15" fill="#fffde7" stroke="#d6c34b" stroke-width="1.3"/>
+<text x="305.96666666666664" y="73" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15">Public Governance</text>
+<rect x="45.0" y="88" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="305.96666666666664" y="119.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="305.96666666666664" dy="0">User prompt</tspan>
+</text>
+<rect x="45.0" y="158" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="305.96666666666664" y="189.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="305.96666666666664" dy="0">Read public UOP operators</tspan>
+</text>
+<rect x="45.0" y="228" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="305.96666666666664" y="259.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="305.96666666666664" dy="0">Source/lane/disclosure classification</tspan>
+</text>
+<rect x="45.0" y="298" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="305.96666666666664" y="329.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="305.96666666666664" dy="0">Human gate</tspan>
+</text>
+<rect x="45.0" y="368" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="305.96666666666664" y="399.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="305.96666666666664" dy="0">No Env override</tspan>
+</text>
+<rect x="45.0" y="438" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="305.96666666666664" y="469.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="305.96666666666664" dy="0">No project override</tspan>
+</text>
+<line x1="305.96666666666664" y1="148.0" x2="305.96666666666664" y2="160.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="305.96666666666664" y1="218.0" x2="305.96666666666664" y2="230.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="305.96666666666664" y1="288.0" x2="305.96666666666664" y2="300.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="305.96666666666664" y1="358.0" x2="305.96666666666664" y2="370.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="305.96666666666664" y1="428.0" x2="305.96666666666664" y2="440.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<rect x="603.9333333333333" y="48" width="551.9333333333333" height="542" rx="15" fill="#fffde7" stroke="#d6c34b" stroke-width="1.3"/>
+<text x="879.8999999999999" y="73" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15">Write Scope</text>
+<rect x="618.9333333333333" y="88" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="879.8999999999999" y="119.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="879.8999999999999" dy="0">Chat Lineage append allowed</tspan>
+</text>
+<rect x="618.9333333333333" y="158" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="879.8999999999999" y="189.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="879.8999999999999" dy="0">Other sector named grant</tspan>
+</text>
+<rect x="618.9333333333333" y="228" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="879.8999999999999" y="259.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="879.8999999999999" dy="0">Mutation receipt</tspan>
+</text>
+<rect x="618.9333333333333" y="298" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="879.8999999999999" y="329.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="879.8999999999999" dy="0">Immediate relock</tspan>
+</text>
+<line x1="879.8999999999999" y1="148.0" x2="879.8999999999999" y2="160.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="879.8999999999999" y1="218.0" x2="879.8999999999999" y2="230.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="879.8999999999999" y1="288.0" x2="879.8999999999999" y2="300.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<rect x="1177.8666666666666" y="48" width="551.9333333333333" height="542" rx="15" fill="#fffde7" stroke="#d6c34b" stroke-width="1.3"/>
+<text x="1453.8333333333333" y="73" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15">Research Boundary</text>
+<rect x="1192.8666666666666" y="88" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1453.8333333333333" y="119.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1453.8333333333333" dy="0">Token/iteration estimate</tspan>
+</text>
+<rect x="1192.8666666666666" y="158" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1453.8333333333333" y="189.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1453.8333333333333" dy="0">Five constant questions</tspan>
+</text>
+<rect x="1192.8666666666666" y="228" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1453.8333333333333" y="259.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1453.8333333333333" dy="0">Two-line visible answers</tspan>
+</text>
+<rect x="1192.8666666666666" y="298" width="521.9333333333333" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1453.8333333333333" y="329.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1453.8333333333333" dy="0">Private payload blocked</tspan>
+</text>
+<line x1="1453.8333333333333" y1="148.0" x2="1453.8333333333333" y2="160.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="1453.8333333333333" y1="218.0" x2="1453.8333333333333" y2="230.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="1453.8333333333333" y1="288.0" x2="1453.8333333333333" y2="300.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+</g>
+</svg>

@@ -1,0 +1,31 @@
+!macro NSIS_HOOK_PREINSTALL
+  DetailPrint "Evidence OS prerequisite scan: starting"
+  InitPluginsDir
+  File "/oname=$PLUGINSDIR\EvidenceOS-Prerequisites.ps1" "@@PREREQUISITE_SCRIPT@@"
+  nsExec::ExecToStack 'powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -File "$PLUGINSDIR\EvidenceOS-Prerequisites.ps1" -Mode InstallMissing -ReceiptPath "$TEMP\EvidenceOS\installer\prerequisite-receipt.json" -NonInteractive'
+  Pop $0
+  Pop $1
+  ${If} $0 != 0
+    DetailPrint "$1"
+    MessageBox MB_ICONSTOP|MB_OK "Evidence OS could not prepare all required dependencies. No app files were installed.$\r$\n$\r$\nReceipt: $TEMP\EvidenceOS\installer\prerequisite-receipt.json"
+    Abort
+  ${EndIf}
+  DetailPrint "Evidence OS prerequisite scan: PASS"
+!macroend
+
+!macro NSIS_HOOK_POSTINSTALL
+  DetailPrint "Evidence OS installed-app self-test: starting"
+  CreateDirectory "$INSTDIR\receipts"
+  CopyFiles /SILENT "$TEMP\EvidenceOS\installer\prerequisite-receipt.json" "$INSTDIR\receipts\installer-prerequisite-receipt.json"
+  nsExec::ExecToStack 'powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -File "$PLUGINSDIR\EvidenceOS-Prerequisites.ps1" -Mode PostInstallSelfTest -AppPath "$INSTDIR\${MAINBINARYNAME}.exe" -ReceiptPath "$TEMP\EvidenceOS\installer\postinstall-self-test-receipt.json" -NonInteractive'
+  Pop $0
+  Pop $1
+  ${If} $0 != 0
+    DetailPrint "$1"
+    MessageBox MB_ICONSTOP|MB_OK "Evidence OS was copied, but its installed-app self-test failed. The installer will stop.$\r$\n$\r$\nReceipt: $TEMP\EvidenceOS\installer\postinstall-self-test-receipt.json"
+    Abort
+  ${EndIf}
+  CopyFiles /SILENT "$TEMP\EvidenceOS\installer\postinstall-self-test-receipt.json" "$INSTDIR\receipts\postinstall-self-test-receipt.json"
+  CopyFiles /SILENT "$TEMP\EvidenceOS\installer\installed-app-runtime-self-test.json" "$INSTDIR\receipts\installed-app-runtime-self-test.json"
+  DetailPrint "Evidence OS installed-app self-test: PASS"
+!macroend

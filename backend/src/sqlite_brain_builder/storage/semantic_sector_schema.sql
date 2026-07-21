@@ -1,0 +1,11 @@
+PRAGMA foreign_keys=ON;
+CREATE TABLE IF NOT EXISTS semantic_source(source_id TEXT PRIMARY KEY, purpose_lane TEXT, parser_lane TEXT, display_name TEXT, source_hash TEXT, created_at TEXT);
+CREATE TABLE IF NOT EXISTS lane_schema_contract(contract_id TEXT PRIMARY KEY, lane TEXT, schema_name TEXT, schema_text TEXT, schema_hash TEXT, created_at TEXT);
+CREATE TABLE IF NOT EXISTS lane_schema_field(field_id TEXT PRIMARY KEY, contract_id TEXT, field_name TEXT, field_type TEXT, required_bool INTEGER);
+CREATE TABLE IF NOT EXISTS semantic_chunk(chunk_id TEXT PRIMARY KEY, source_id TEXT, contract_id TEXT, chunk_order INTEGER, chunk_type TEXT, chunk_text TEXT, chunk_sha256 TEXT, status TEXT);
+CREATE TABLE IF NOT EXISTS discussion_turn(turn_id TEXT PRIMARY KEY, source_id TEXT, turn_order INTEGER, speaker TEXT, text TEXT, text_sha256 TEXT);
+CREATE TABLE IF NOT EXISTS discussion_delta(delta_id TEXT PRIMARY KEY, source_id TEXT, turn_id TEXT, delta_text TEXT, delta_sha256 TEXT);
+CREATE TABLE IF NOT EXISTS discussion_hard_gate(gate_id TEXT PRIMARY KEY, source_id TEXT, turn_id TEXT, gate_text TEXT, gate_sha256 TEXT);
+CREATE TABLE IF NOT EXISTS plan_item(item_id TEXT PRIMARY KEY, source_id TEXT, item_text TEXT, status TEXT, item_sha256 TEXT);
+CREATE TABLE IF NOT EXISTS mode_rule(rule_id TEXT PRIMARY KEY, source_id TEXT, rule_text TEXT, priority INTEGER, rule_sha256 TEXT);
+CREATE VIRTUAL TABLE IF NOT EXISTS lineage_fts USING fts5(entity_type, entity_id, source_id, sha256, text);

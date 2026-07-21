@@ -1,0 +1,26 @@
+{
+  "env": {
+    "public_read": true,
+    "normal_write": false,
+    "mutation_mode": "flash_env"
+  },
+  "uop": {
+    "public_read": true,
+    "normal_write": false,
+    "mutation_mode": "flash_uop"
+  },
+  "project_base_router": {
+    "public_read": true,
+    "normal_write": false
+  },
+  "chat_lineage": {
+    "public_read": true,
+    "automatic_append_write": true
+  },
+  "other_sectors": {
+    "public_read": true,
+    "automatic_write": false,
+    "explicit_named_one_turn_grant": true,
+    "relock_after_commit": true
+  }
+}

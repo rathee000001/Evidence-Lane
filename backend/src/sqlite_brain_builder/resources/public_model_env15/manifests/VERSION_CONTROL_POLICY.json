@@ -1,0 +1,17 @@
+{
+  "snapshot_on_successful_build": true,
+  "snapshot_on_backend_ai_mutation": true,
+  "required_metadata": [
+    "actor",
+    "time",
+    "reason",
+    "sha256",
+    "snapshot_identity"
+  ],
+  "immutable": true,
+  "rollback_hash_verification": true,
+  "rollback_restores_to_new_versioned_output_folder": true,
+  "overwrite_current_or_history": false,
+  "ui_location": "System Task Status",
+  "ui_control": "version-selection pop-card"
+}

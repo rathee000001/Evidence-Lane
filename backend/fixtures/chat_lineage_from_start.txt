@@ -1,0 +1,7 @@
+User: Start the Evidence OS project from the supplied source package.
+
+Assistant: I registered the source and created the first project snapshot.
+
+User: New requirement: preserve exact source hashes and add a correction delta for deterministic indexing.
+
+Assistant: The correction delta is recorded as a mandatory hard gate, and the next action is to validate the package.

@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2205.8pt" height="2469.8pt" viewBox="0 0 2205.8 2469.8" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+  </marker>
+</defs>
+
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 1275.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-1275.4 2191.4,-1275.4 2191.4,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="1088.5" y="-1241" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="20.00">UEPC Env15 Project Full End&#45;to&#45;End Topology</text>
+<g id="clust1" class="cluster">
+<title>cluster_PROJECT15_FRAMEWORK_EXPANSION</title>
+<path fill="#fffde7" stroke="#d6c34b" d="M20,-8C20,-8 1160.5,-8 1160.5,-8 1166.5,-8 1172.5,-14 1172.5,-20 1172.5,-20 1172.5,-131 1172.5,-131 1172.5,-137 1166.5,-143 1160.5,-143 1160.5,-143 20,-143 20,-143 14,-143 8,-137 8,-131 8,-131 8,-20 8,-20 8,-14 14,-8 20,-8"/>
+<text text-anchor="middle" x="590.25" y="-128.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">PROJECT15 TEMPLATE FRAMEWORK EXPANSION</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_PROJECT15_PLACEHOLDER_LANES</title>
+<path fill="#eef7ff" stroke="#d6c34b" d="M1451.5,-600C1451.5,-600 1926,-600 1926,-600 1932,-600 1938,-606 1938,-612 1938,-612 1938,-1211 1938,-1211 1938,-1217 1932,-1223 1926,-1223 1926,-1223 1451.5,-1223 1451.5,-1223 1445.5,-1223 1439.5,-1217 1439.5,-1211 1439.5,-1211 1439.5,-612 1439.5,-612 1439.5,-606 1445.5,-600 1451.5,-600"/>
+<text text-anchor="middle" x="1688.75" y="-1208.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">PROJECT15 FUTURE PROJECT LANES / EMPTY</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_PROJECT15_BOUNDARIES</title>
+<path fill="#f0fff4" stroke="#d6c34b" d="M1451,-282C1451,-282 1908.5,-282 1908.5,-282 1914.5,-282 1920.5,-288 1920.5,-294 1920.5,-294 1920.5,-527 1920.5,-527 1920.5,-533 1914.5,-539 1908.5,-539 1908.5,-539 1451,-539 1451,-539 1445,-539 1439,-533 1439,-527 1439,-527 1439,-294 1439,-294 1439,-288 1445,-282 1451,-282"/>
+<text text-anchor="middle" x="1679.75" y="-524.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">PROJECT15 BOUNDARIES</text>
+</g>
+<!-- P15EXP -->
+<g id="node1" class="node">
+<title>P15EXP</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M205,-82C205,-82 28,-82 28,-82 22,-82 16,-76 16,-70 16,-70 16,-58 16,-58 16,-52 22,-46 28,-46 28,-46 205,-46 205,-46 211,-46 217,-52 217,-58 217,-58 217,-70 217,-70 217,-76 211,-82 205,-82"/>
+<text text-anchor="middle" x="116.5" y="-61.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_template_expansion_audit_v15</text>
+</g>
+<!-- P15LEGACY -->
+<g id="node2" class="node">
+<title>P15LEGACY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M390.5,-52C390.5,-52 282.5,-52 282.5,-52 276.5,-52 270.5,-46 270.5,-40 270.5,-40 270.5,-28 270.5,-28 270.5,-22 276.5,-16 282.5,-16 282.5,-16 390.5,-16 390.5,-16 396.5,-16 402.5,-22 402.5,-28 402.5,-28 402.5,-40 402.5,-40 402.5,-46 396.5,-52 390.5,-52"/>
+<text text-anchor="middle" x="336.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">legacy audit expected 14</text>
+</g>
+<!-- P15EXP&#45;&gt;P15LEGACY -->
+<g id="edge17" class="edge">
+<title>P15EXP&#45;&gt;P15LEGACY</title>
+<path fill="none" stroke="#555555" d="M217.25,-50.27C233.33,-48.06 249.67,-45.81 264.88,-43.72"/>
+<polygon fill="#555555" stroke="#555555" points="265.24,-45.61 270.42,-42.96 264.71,-41.8 265.24,-45.61"/>
+</g>
+<!-- P15COUNT -->
+<g id="node3" class="node">
+<title>P15COUNT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M401,-113C401,-113 272,-113 272,-113 266,-113 260,-107 260,-101 260,-101 260,-89 260,-89 260,-83 266,-77 272,-77 272,-77 401,-77 401,-77 407,-77 413,-83 413,-89 413,-89 413,-101 413,-101 413,-107 407,-113 401,-113"/>
+<text text-anchor="middle" x="336.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">current framework objects 41</text>
+</g>
+<!-- P15EXP&#45;&gt;P15COUNT -->
+<g id="edge18" class="edge">
+<title>P15EXP&#45;&gt;P15COUNT</title>
+<path fill="none" stroke="#555555" d="M217.25,-78.18C229.69,-79.95 242.3,-81.75 254.41,-83.47"/>
+<polygon fill="#555555" stroke="#555555" points="254.23,-85.39 259.94,-84.26 254.77,-81.58 254.23,-85.39"/>
+</g>
+<!-- P15ZERO -->
+<g id="node4" class="node">
+<title>P15ZERO</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M613,-113C613,-113 506,-113 506,-113 500,-113 494,-107 494,-101 494,-101 494,-89 494,-89 494,-83 500,-77 506,-77 506,-77 613,-77 613,-77 619,-77 625,-83 625,-89 625,-89 625,-101 625,-101 625,-107 619,-113 613,-113"/>
+<text text-anchor="middle" x="559.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">project payload rows = 0</text>
+</g>
+<!-- P15COUNT&#45;&gt;P15ZERO -->
+<g id="edge19" class="edge">
+<title>P15COUNT&#45;&gt;P15ZERO</title>
+<path fill="none" stroke="#555555" d="M413.25,-95C437.54,-95 464.33,-95 488.21,-95"/>
+<polygon fill="#555555" stroke="#555555" points="488.4,-96.93 493.9,-95 488.4,-93.08 488.4,-96.93"/>
+</g>
+<!-- P15PASS -->
+<g id="node5" class="node">
+<title>P15PASS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M843,-113C843,-113 764,-113 764,-113 758,-113 752,-107 752,-101 752,-101 752,-89 752,-89 752,-83 758,-77 764,-77 764,-77 843,-77 843,-77 849,-77 855,-83 855,-89 855,-89 855,-101 855,-101 855,-107 849,-113 843,-113"/>
+<text text-anchor="middle" x="803.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">SUPERSEDED_PASS</text>
+</g>
+<!-- P15ZERO&#45;&gt;P15PASS -->
+<g id="edge20" class="edge">
+<title>P15ZERO&#45;&gt;P15PASS</title>
+<path fill="none" stroke="#555555" d="M625.03,-95C662.78,-95 709.98,-95 746.21,-95"/>
+<polygon fill="#555555" stroke="#555555" points="746.42,-96.93 751.92,-95 746.42,-93.08 746.42,-96.93"/>
+</g>
+<!-- P15FOOT -->
+<g id="node6" class="node">
+<title>P15FOOT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1152.5,-113C1152.5,-113 981.5,-113 981.5,-113 975.5,-113 969.5,-107 969.5,-101 969.5,-101 969.5,-89 969.5,-89 969.5,-83 975.5,-77 981.5,-77 981.5,-77 1152.5,-77 1152.5,-77 1158.5,-77 1164.5,-83 1164.5,-89 1164.5,-89 1164.5,-101 1164.5,-101 1164.5,-107 1158.5,-113 1152.5,-113"/>
+<text text-anchor="middle" x="1067" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">project/project_template_footprint.md</text>
+</g>
+<!-- P15PASS&#45;&gt;P15FOOT -->
+<g id="edge21" class="edge">
+<title>P15PASS&#45;&gt;P15FOOT</title>
+<path fill="none" stroke="#555555" d="M855.23,-95C885.96,-95 926.28,-95 963.42,-95"/>
+<polygon fill="#555555" stroke="#555555" points="963.85,-96.93 969.35,-95 963.85,-93.08 963.85,-96.93"/>
+</g>
+<!-- P15RAW -->
+<g id="node7" class="node">
+<title>P15RAW</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1667.5,-1193C1667.5,-1193 1459.5,-1193 1459.5,-1193 1453.5,-1193 1447.5,-1187 1447.5,-1181 1447.5,-1181 1447.5,-1169 1447.5,-1169 1447.5,-1163 1453.5,-1157 1459.5,-1157 1459.5,-1157 1667.5,-1157 1667.5,-1157 1673.5,-1157 1679.5,-1163 1679.5,-1169 1679.5,-1169 1679.5,-1181 1679.5,-1181 1679.5,-1187 1673.5,-1193 1667.5,-1193"/>
+<text text-anchor="middle" x="1563.5" y="-1172.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_raw_artifact_registry_v15 placeholder</text>
+</g>
+<!-- P15BYTE -->
+<g id="node8" class="node">
+<title>P15BYTE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1918,-1193C1918,-1193 1735,-1193 1735,-1193 1729,-1193 1723,-1187 1723,-1181 1723,-1181 1723,-1169 1723,-1169 1723,-1163 1729,-1157 1735,-1157 1735,-1157 1918,-1157 1918,-1157 1924,-1157 1930,-1163 1930,-1169 1930,-1169 1930,-1181 1930,-1181 1930,-1187 1924,-1193 1918,-1193"/>
+<text text-anchor="middle" x="1826.5" y="-1172.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_raw_artifact_byte_coverage_v15</text>
+</g>
+<!-- P15RAW&#45;&gt;P15BYTE -->
+<g id="edge22" class="edge">
+<title>P15RAW&#45;&gt;P15BYTE</title>
+<path fill="none" stroke="#555555" d="M1679.74,-1175C1692.17,-1175 1704.79,-1175 1717.14,-1175"/>
+<polygon fill="#555555" stroke="#555555" points="1717.3,-1176.93 1722.8,-1175 1717.3,-1173.08 1717.3,-1176.93"/>
+</g>
+<!-- P15SRC -->
+<g id="node9" class="node">
+<title>P15SRC</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1660,-1132C1660,-1132 1467,-1132 1467,-1132 1461,-1132 1455,-1126 1455,-1120 1455,-1120 1455,-1108 1455,-1108 1455,-1102 1461,-1096 1467,-1096 1467,-1096 1660,-1096 1660,-1096 1666,-1096 1672,-1102 1672,-1108 1672,-1108 1672,-1120 1672,-1120 1672,-1126 1666,-1132 1660,-1132"/>
+<text text-anchor="middle" x="1563.5" y="-1111.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_source_document_v15 placeholder</text>
+</g>
+<!-- P15SCHUNK -->
+<g id="node10" class="node">
+<title>P15SCHUNK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1883.5,-1132C1883.5,-1132 1769.5,-1132 1769.5,-1132 1763.5,-1132 1757.5,-1126 1757.5,-1120 1757.5,-1120 1757.5,-1108 1757.5,-1108 1757.5,-1102 1763.5,-1096 1769.5,-1096 1769.5,-1096 1883.5,-1096 1883.5,-1096 1889.5,-1096 1895.5,-1102 1895.5,-1108 1895.5,-1108 1895.5,-1120 1895.5,-1120 1895.5,-1126 1889.5,-1132 1883.5,-1132"/>
+<text text-anchor="middle" x="1826.5" y="-1111.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_source_chunk_v15</text>
+</g>
+<!-- P15SRC&#45;&gt;P15SCHUNK -->
+<g id="edge23" class="edge">
+<title>P15SRC&#45;&gt;P15SCHUNK</title>
+<path fill="none" stroke="#555555" d="M1672.17,-1114C1698.93,-1114 1727.01,-1114 1751.73,-1114"/>
+<polygon fill="#555555" stroke="#555555" points="1751.77,-1115.93 1757.27,-1114 1751.77,-1112.08 1751.77,-1115.93"/>
+</g>
+<!-- P15ACHUNK -->
+<g id="node11" class="node">
+<title>P15ACHUNK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1652,-1071C1652,-1071 1475,-1071 1475,-1071 1469,-1071 1463,-1065 1463,-1059 1463,-1059 1463,-1047 1463,-1047 1463,-1041 1469,-1035 1475,-1035 1475,-1035 1652,-1035 1652,-1035 1658,-1035 1664,-1041 1664,-1047 1664,-1047 1664,-1059 1664,-1059 1664,-1065 1658,-1071 1652,-1071"/>
+<text text-anchor="middle" x="1563.5" y="-1050.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_artifact_chunk_v15 placeholder</text>
+</g>
+<!-- P15INDEX -->
+<g id="node12" class="node">
+<title>P15INDEX</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1897,-1071C1897,-1071 1756,-1071 1756,-1071 1750,-1071 1744,-1065 1744,-1059 1744,-1059 1744,-1047 1744,-1047 1744,-1041 1750,-1035 1756,-1035 1756,-1035 1897,-1035 1897,-1035 1903,-1035 1909,-1041 1909,-1047 1909,-1047 1909,-1059 1909,-1059 1909,-1065 1903,-1071 1897,-1071"/>
+<text text-anchor="middle" x="1826.5" y="-1050.5" font-family="Helvetica,sans-Serif" font-size="10.00">project chunk/index placeholder</text>
+</g>
+<!-- P15ACHUNK&#45;&gt;P15INDEX -->
+<g id="edge24" class="edge">
+<title>P15ACHUNK&#45;&gt;P15INDEX</title>
+<path fill="none" stroke="#555555" d="M1664.29,-1053C1688.67,-1053 1714.57,-1053 1738.31,-1053"/>
+<polygon fill="#555555" stroke="#555555" points="1738.47,-1054.93 1743.97,-1053 1738.47,-1051.08 1738.47,-1054.93"/>
+</g>
+<!-- P15CODE -->
+<g id="node13" class="node">
+<title>P15CODE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1625,-1010C1625,-1010 1502,-1010 1502,-1010 1496,-1010 1490,-1004 1490,-998 1490,-998 1490,-986 1490,-986 1490,-980 1496,-974 1502,-974 1502,-974 1625,-974 1625,-974 1631,-974 1637,-980 1637,-986 1637,-986 1637,-998 1637,-998 1637,-1004 1631,-1010 1625,-1010"/>
+<text text-anchor="middle" x="1563.5" y="-989.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_code_repo_lane_v15</text>
+</g>
+<!-- P15GIT -->
+<g id="node14" class="node">
+<title>P15GIT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1907,-1010C1907,-1010 1746,-1010 1746,-1010 1740,-1010 1734,-1004 1734,-998 1734,-998 1734,-986 1734,-986 1734,-980 1740,-974 1746,-974 1746,-974 1907,-974 1907,-974 1913,-974 1919,-980 1919,-986 1919,-986 1919,-998 1919,-998 1919,-1004 1913,-1010 1907,-1010"/>
+<text text-anchor="middle" x="1826.5" y="-989.5" font-family="Helvetica,sans-Serif" font-size="10.00">future .git/commit/dependency scan</text>
+</g>
+<!-- P15CODE&#45;&gt;P15GIT -->
+<g id="edge25" class="edge">
+<title>P15CODE&#45;&gt;P15GIT</title>
+<path fill="none" stroke="#555555" d="M1637.2,-992C1665.32,-992 1697.92,-992 1728.01,-992"/>
+<polygon fill="#555555" stroke="#555555" points="1728.1,-993.93 1733.6,-992 1728.1,-990.08 1728.1,-993.93"/>
+</g>
+<!-- P15SQL -->
+<g id="node15" class="node">
+<title>P15SQL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1628.5,-949C1628.5,-949 1498.5,-949 1498.5,-949 1492.5,-949 1486.5,-943 1486.5,-937 1486.5,-937 1486.5,-925 1486.5,-925 1486.5,-919 1492.5,-913 1498.5,-913 1498.5,-913 1628.5,-913 1628.5,-913 1634.5,-913 1640.5,-919 1640.5,-925 1640.5,-925 1640.5,-937 1640.5,-937 1640.5,-943 1634.5,-949 1628.5,-949"/>
+<text text-anchor="middle" x="1563.5" y="-928.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_sqlite_brain_lane_v15</text>
+</g>
+<!-- P15BRAIN -->
+<g id="node16" class="node">
+<title>P15BRAIN</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1882,-949C1882,-949 1771,-949 1771,-949 1765,-949 1759,-943 1759,-937 1759,-937 1759,-925 1759,-925 1759,-919 1765,-913 1771,-913 1771,-913 1882,-913 1882,-913 1888,-913 1894,-919 1894,-925 1894,-925 1894,-937 1894,-937 1894,-943 1888,-949 1882,-949"/>
+<text text-anchor="middle" x="1826.5" y="-928.5" font-family="Helvetica,sans-Serif" font-size="10.00">future SQLite brain import</text>
+</g>
+<!-- P15SQL&#45;&gt;P15BRAIN -->
+<g id="edge26" class="edge">
+<title>P15SQL&#45;&gt;P15BRAIN</title>
+<path fill="none" stroke="#555555" d="M1640.69,-931C1676.26,-931 1718.37,-931 1753.4,-931"/>
+<polygon fill="#555555" stroke="#555555" points="1753.46,-932.93 1758.96,-931 1753.46,-929.08 1753.46,-932.93"/>
+</g>
+<!-- P15DOC -->
+<g id="node17" class="node">
+<title>P15DOC</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1608.5,-888C1608.5,-888 1518.5,-888 1518.5,-888 1512.5,-888 1506.5,-882 1506.5,-876 1506.5,-876 1506.5,-864 1506.5,-864 1506.5,-858 1512.5,-852 1518.5,-852 1518.5,-852 1608.5,-852 1608.5,-852 1614.5,-852 1620.5,-858 1620.5,-864 1620.5,-864 1620.5,-876 1620.5,-876 1620.5,-882 1614.5,-888 1608.5,-888"/>
+<text text-anchor="middle" x="1563.5" y="-867.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_doc_lane_v15</text>
+</g>
+<!-- P15DOCX -->
+<g id="node18" class="node">
+<title>P15DOCX</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1876.5,-888C1876.5,-888 1776.5,-888 1776.5,-888 1770.5,-888 1764.5,-882 1764.5,-876 1764.5,-876 1764.5,-864 1764.5,-864 1764.5,-858 1770.5,-852 1776.5,-852 1776.5,-852 1876.5,-852 1876.5,-852 1882.5,-852 1888.5,-858 1888.5,-864 1888.5,-864 1888.5,-876 1888.5,-876 1888.5,-882 1882.5,-888 1876.5,-888"/>
+<text text-anchor="middle" x="1826.5" y="-867.5" font-family="Helvetica,sans-Serif" font-size="10.00">future DOC/DOCX parse</text>
+</g>
+<!-- P15DOC&#45;&gt;P15DOCX -->
+<g id="edge27" class="edge">
+<title>P15DOC&#45;&gt;P15DOCX</title>
+<path fill="none" stroke="#555555" d="M1620.81,-870C1661.26,-870 1715.94,-870 1758.61,-870"/>
+<polygon fill="#555555" stroke="#555555" points="1758.78,-871.93 1764.28,-870 1758.78,-868.08 1758.78,-871.93"/>
+</g>
+<!-- P15XLSX -->
+<g id="node19" class="node">
+<title>P15XLSX</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1610,-827C1610,-827 1517,-827 1517,-827 1511,-827 1505,-821 1505,-815 1505,-815 1505,-803 1505,-803 1505,-797 1511,-791 1517,-791 1517,-791 1610,-791 1610,-791 1616,-791 1622,-797 1622,-803 1622,-803 1622,-815 1622,-815 1622,-821 1616,-827 1610,-827"/>
+<text text-anchor="middle" x="1563.5" y="-806.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_xlsx_lane_v15</text>
+</g>
+<!-- P15XL -->
+<g id="node20" class="node">
+<title>P15XL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1880.5,-827C1880.5,-827 1772.5,-827 1772.5,-827 1766.5,-827 1760.5,-821 1760.5,-815 1760.5,-815 1760.5,-803 1760.5,-803 1760.5,-797 1766.5,-791 1772.5,-791 1772.5,-791 1880.5,-791 1880.5,-791 1886.5,-791 1892.5,-797 1892.5,-803 1892.5,-803 1892.5,-815 1892.5,-815 1892.5,-821 1886.5,-827 1880.5,-827"/>
+<text text-anchor="middle" x="1826.5" y="-806.5" font-family="Helvetica,sans-Serif" font-size="10.00">future Excel/formula lane</text>
+</g>
+<!-- P15XLSX&#45;&gt;P15XL -->
+<g id="edge28" class="edge">
+<title>P15XLSX&#45;&gt;P15XL</title>
+<path fill="none" stroke="#555555" d="M1622.1,-809C1661.18,-809 1713.1,-809 1754.7,-809"/>
+<polygon fill="#555555" stroke="#555555" points="1754.74,-810.93 1760.24,-809 1754.74,-807.08 1754.74,-810.93"/>
+</g>
+<!-- P15PPT -->
+<g id="node21" class="node">
+<title>P15PPT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1608,-766C1608,-766 1519,-766 1519,-766 1513,-766 1507,-760 1507,-754 1507,-754 1507,-742 1507,-742 1507,-736 1513,-730 1519,-730 1519,-730 1608,-730 1608,-730 1614,-730 1620,-736 1620,-742 1620,-742 1620,-754 1620,-754 1620,-760 1614,-766 1608,-766"/>
+<text text-anchor="middle" x="1563.5" y="-745.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_ppt_lane_v15</text>
+</g>
+<!-- P15SLIDE -->
+<g id="node22" class="node">
+<title>P15SLIDE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1856,-766C1856,-766 1797,-766 1797,-766 1791,-766 1785,-760 1785,-754 1785,-754 1785,-742 1785,-742 1785,-736 1791,-730 1797,-730 1797,-730 1856,-730 1856,-730 1862,-730 1868,-736 1868,-742 1868,-742 1868,-754 1868,-754 1868,-760 1862,-766 1856,-766"/>
+<text text-anchor="middle" x="1826.5" y="-745.5" font-family="Helvetica,sans-Serif" font-size="10.00">future PPT lane</text>
+</g>
+<!-- P15PPT&#45;&gt;P15SLIDE -->
+<g id="edge29" class="edge">
+<title>P15PPT&#45;&gt;P15SLIDE</title>
+<path fill="none" stroke="#555555" d="M1620.17,-748C1667.55,-748 1734.8,-748 1779.26,-748"/>
+<polygon fill="#555555" stroke="#555555" points="1779.34,-749.93 1784.84,-748 1779.34,-746.08 1779.34,-749.93"/>
+</g>
+<!-- P15CSV -->
+<g id="node23" class="node">
+<title>P15CSV</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1608.5,-705C1608.5,-705 1518.5,-705 1518.5,-705 1512.5,-705 1506.5,-699 1506.5,-693 1506.5,-693 1506.5,-681 1506.5,-681 1506.5,-675 1512.5,-669 1518.5,-669 1518.5,-669 1608.5,-669 1608.5,-669 1614.5,-669 1620.5,-675 1620.5,-681 1620.5,-681 1620.5,-693 1620.5,-693 1620.5,-699 1614.5,-705 1608.5,-705"/>
+<text text-anchor="middle" x="1563.5" y="-684.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_csv_lane_v15</text>
+</g>
+<!-- P15FACT -->
+<g id="node24" class="node">
+<title>P15FACT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1901.5,-705C1901.5,-705 1751.5,-705 1751.5,-705 1745.5,-705 1739.5,-699 1739.5,-693 1739.5,-693 1739.5,-681 1739.5,-681 1739.5,-675 1745.5,-669 1751.5,-669 1751.5,-669 1901.5,-669 1901.5,-669 1907.5,-669 1913.5,-675 1913.5,-681 1913.5,-681 1913.5,-693 1913.5,-693 1913.5,-699 1907.5,-705 1901.5,-705"/>
+<text text-anchor="middle" x="1826.5" y="-684.5" font-family="Helvetica,sans-Serif" font-size="10.00">future master_fact temp topology</text>
+</g>
+<!-- P15CSV&#45;&gt;P15FACT -->
+<g id="edge30" class="edge">
+<title>P15CSV&#45;&gt;P15FACT</title>
+<path fill="none" stroke="#555555" d="M1620.81,-687C1653.81,-687 1696.27,-687 1733.97,-687"/>
+<polygon fill="#555555" stroke="#555555" points="1733.99,-688.93 1739.49,-687 1733.99,-685.08 1733.99,-688.93"/>
+</g>
+<!-- P15ENG -->
+<g id="node25" class="node">
+<title>P15ENG</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1615.5,-644C1615.5,-644 1511.5,-644 1511.5,-644 1505.5,-644 1499.5,-638 1499.5,-632 1499.5,-632 1499.5,-620 1499.5,-620 1499.5,-614 1505.5,-608 1511.5,-608 1511.5,-608 1615.5,-608 1615.5,-608 1621.5,-608 1627.5,-614 1627.5,-620 1627.5,-620 1627.5,-632 1627.5,-632 1627.5,-638 1621.5,-644 1615.5,-644"/>
+<text text-anchor="middle" x="1563.5" y="-623.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_engulf_lane_v15</text>
+</g>
+<!-- P15MMDGROW -->
+<g id="node26" class="node">
+<title>P15MMDGROW</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1879,-644C1879,-644 1774,-644 1774,-644 1768,-644 1762,-638 1762,-632 1762,-632 1762,-620 1762,-620 1762,-614 1768,-608 1774,-608 1774,-608 1879,-608 1879,-608 1885,-608 1891,-614 1891,-620 1891,-620 1891,-632 1891,-632 1891,-638 1885,-644 1879,-644"/>
+<text text-anchor="middle" x="1826.5" y="-623.5" font-family="Helvetica,sans-Serif" font-size="10.00">project MMD grows later</text>
+</g>
+<!-- P15ENG&#45;&gt;P15MMDGROW -->
+<g id="edge31" class="edge">
+<title>P15ENG&#45;&gt;P15MMDGROW</title>
+<path fill="none" stroke="#555555" d="M1627.68,-626C1666.51,-626 1716.28,-626 1756.18,-626"/>
+<polygon fill="#555555" stroke="#555555" points="1756.5,-627.93 1762,-626 1756.5,-624.08 1756.5,-627.93"/>
+</g>
+<!-- PMMDUPDATE -->
+<g id="node49" class="node">
+<title>PMMDUPDATE</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M2165,-613C2165,-613 1985,-613 1985,-613 1979,-613 1973,-607 1973,-601 1973,-601 1973,-589 1973,-589 1973,-583 1979,-577 1985,-577 1985,-577 2165,-577 2165,-577 2171,-577 2177,-583 2177,-589 2177,-589 2177,-601 2177,-601 2177,-607 2171,-613 2165,-613"/>
+<text text-anchor="middle" x="2075" y="-592.5" font-family="Helvetica,sans-Serif" font-size="10.00">project MMD grows from project section</text>
+</g>
+<!-- P15MMDGROW&#45;&gt;PMMDUPDATE -->
+<g id="edge39" class="edge">
+<title>P15MMDGROW&#45;&gt;PMMDUPDATE</title>
+<path fill="none" stroke="#555555" d="M1891.3,-617.98C1914.47,-615.06 1941.33,-611.68 1967.21,-608.43"/>
+<polygon fill="#555555" stroke="#555555" points="1967.5,-610.33 1972.71,-607.74 1967.01,-606.51 1967.5,-610.33"/>
+</g>
+<!-- P15NOENV -->
+<g id="node27" class="node">
+<title>P15NOENV</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1637,-509C1637,-509 1490,-509 1490,-509 1484,-509 1478,-503 1478,-497 1478,-497 1478,-485 1478,-485 1478,-479 1484,-473 1490,-473 1490,-473 1637,-473 1637,-473 1643,-473 1649,-479 1649,-485 1649,-485 1649,-497 1649,-497 1649,-503 1643,-509 1637,-509"/>
+<text text-anchor="middle" x="1563.5" y="-488.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENV_MUTATION_ALLOWED=false</text>
+</g>
+<!-- P15NOENVLAW -->
+<g id="node28" class="node">
+<title>P15NOENVLAW</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1893.5,-509C1893.5,-509 1759.5,-509 1759.5,-509 1753.5,-509 1747.5,-503 1747.5,-497 1747.5,-497 1747.5,-485 1747.5,-485 1747.5,-479 1753.5,-473 1759.5,-473 1759.5,-473 1893.5,-473 1893.5,-473 1899.5,-473 1905.5,-479 1905.5,-485 1905.5,-485 1905.5,-497 1905.5,-497 1905.5,-503 1899.5,-509 1893.5,-509"/>
+<text text-anchor="middle" x="1826.5" y="-488.5" font-family="Helvetica,sans-Serif" font-size="10.00">project cannot mutate env law</text>
+</g>
+<!-- P15NOENV&#45;&gt;P15NOENVLAW -->
+<g id="edge32" class="edge">
+<title>P15NOENV&#45;&gt;P15NOENVLAW</title>
+<path fill="none" stroke="#555555" d="M1649.24,-491C1678.82,-491 1712,-491 1741.52,-491"/>
+<polygon fill="#555555" stroke="#555555" points="1741.87,-492.93 1747.37,-491 1741.87,-489.08 1741.87,-492.93"/>
+</g>
+<!-- P15NOUOP -->
+<g id="node29" class="node">
+<title>P15NOUOP</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1637,-448C1637,-448 1490,-448 1490,-448 1484,-448 1478,-442 1478,-436 1478,-436 1478,-424 1478,-424 1478,-418 1484,-412 1490,-412 1490,-412 1637,-412 1637,-412 1643,-412 1649,-418 1649,-424 1649,-424 1649,-436 1649,-436 1649,-442 1643,-448 1637,-448"/>
+<text text-anchor="middle" x="1563.5" y="-427.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP_OVERRIDE_ALLOWED=false</text>
+</g>
+<!-- P15NOUPROOF -->
+<g id="node30" class="node">
+<title>P15NOUPROOF</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1900.5,-448C1900.5,-448 1752.5,-448 1752.5,-448 1746.5,-448 1740.5,-442 1740.5,-436 1740.5,-436 1740.5,-424 1740.5,-424 1740.5,-418 1746.5,-412 1752.5,-412 1752.5,-412 1900.5,-412 1900.5,-412 1906.5,-412 1912.5,-418 1912.5,-424 1912.5,-424 1912.5,-436 1912.5,-436 1912.5,-442 1906.5,-448 1900.5,-448"/>
+<text text-anchor="middle" x="1826.5" y="-427.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP cannot override project truth</text>
+</g>
+<!-- P15NOUOP&#45;&gt;P15NOUPROOF -->
+<g id="edge33" class="edge">
+<title>P15NOUOP&#45;&gt;P15NOUPROOF</title>
+<path fill="none" stroke="#555555" d="M1649.24,-430C1676.59,-430 1707.01,-430 1734.78,-430"/>
+<polygon fill="#555555" stroke="#555555" points="1734.79,-431.93 1740.29,-430 1734.79,-428.08 1734.79,-431.93"/>
+</g>
+<!-- P15EMPTY -->
+<g id="node31" class="node">
+<title>P15EMPTY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1668,-387C1668,-387 1459,-387 1459,-387 1453,-387 1447,-381 1447,-375 1447,-375 1447,-363 1447,-363 1447,-357 1453,-351 1459,-351 1459,-351 1668,-351 1668,-351 1674,-351 1680,-357 1680,-363 1680,-363 1680,-375 1680,-375 1680,-381 1674,-387 1668,-387"/>
+<text text-anchor="middle" x="1563.5" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">UNPOPULATED_TEMPLATE_EXPECTED_EMPTY</text>
+</g>
+<!-- P15RECOVERY -->
+<g id="node32" class="node">
+<title>P15RECOVERY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1854.5,-387C1854.5,-387 1798.5,-387 1798.5,-387 1792.5,-387 1786.5,-381 1786.5,-375 1786.5,-375 1786.5,-363 1786.5,-363 1786.5,-357 1792.5,-351 1798.5,-351 1798.5,-351 1854.5,-351 1854.5,-351 1860.5,-351 1866.5,-357 1866.5,-363 1866.5,-363 1866.5,-375 1866.5,-375 1866.5,-381 1860.5,-387 1854.5,-387"/>
+<text text-anchor="middle" x="1826.5" y="-366.5" font-family="Helvetica,sans-Serif" font-size="10.00">recovery route</text>
+</g>
+<!-- P15EMPTY&#45;&gt;P15RECOVERY -->
+<g id="edge34" class="edge">
+<title>P15EMPTY&#45;&gt;P15RECOVERY</title>
+<path fill="none" stroke="#555555" d="M1680.12,-369C1715.63,-369 1752.64,-369 1780.43,-369"/>
+<polygon fill="#555555" stroke="#555555" points="1780.71,-370.93 1786.21,-369 1780.71,-367.08 1780.71,-370.93"/>
+</g>
+<!-- P15EXIT -->
+<g id="node33" class="node">
+<title>P15EXIT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1594,-326C1594,-326 1533,-326 1533,-326 1527,-326 1521,-320 1521,-314 1521,-314 1521,-302 1521,-302 1521,-296 1527,-290 1533,-290 1533,-290 1594,-290 1594,-290 1600,-290 1606,-296 1606,-302 1606,-302 1606,-314 1606,-314 1606,-320 1600,-326 1594,-326"/>
+<text text-anchor="middle" x="1563.5" y="-305.5" font-family="Helvetica,sans-Serif" font-size="10.00">clean exit route</text>
+</g>
+<!-- P15PACKAGE -->
+<g id="node34" class="node">
+<title>P15PACKAGE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1892,-326C1892,-326 1761,-326 1761,-326 1755,-326 1749,-320 1749,-314 1749,-314 1749,-302 1749,-302 1749,-296 1755,-290 1761,-290 1761,-290 1892,-290 1892,-290 1898,-290 1904,-296 1904,-302 1904,-302 1904,-314 1904,-314 1904,-320 1898,-326 1892,-326"/>
+<text text-anchor="middle" x="1826.5" y="-305.5" font-family="Helvetica,sans-Serif" font-size="10.00">future project package update</text>
+</g>
+<!-- P15EXIT&#45;&gt;P15PACKAGE -->
+<g id="edge35" class="edge">
+<title>P15EXIT&#45;&gt;P15PACKAGE</title>
+<path fill="none" stroke="#555555" d="M1606.14,-308C1642.93,-308 1697.66,-308 1743.25,-308"/>
+<polygon fill="#555555" stroke="#555555" points="1743.26,-309.93 1748.76,-308 1743.26,-306.08 1743.26,-309.93"/>
+</g>
+<!-- EXIT -->
+<g id="node50" class="node">
+<title>EXIT</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M2154,-454C2154,-454 1996,-454 1996,-454 1990,-454 1984,-448 1984,-442 1984,-442 1984,-430 1984,-430 1984,-424 1990,-418 1996,-418 1996,-418 2154,-418 2154,-418 2160,-418 2166,-424 2166,-430 2166,-430 2166,-442 2166,-442 2166,-448 2160,-454 2154,-454"/>
+<text text-anchor="middle" x="2075" y="-433.5" font-family="Helvetica,sans-Serif" font-size="10.00">project exit slip + updated package</text>
+</g>
+<!-- P15PACKAGE&#45;&gt;EXIT -->
+<g id="edge40" class="edge">
+<title>P15PACKAGE&#45;&gt;EXIT</title>
+<path fill="none" stroke="#555555" d="M1904.29,-324.99C1915.84,-328.64 1927.41,-332.95 1938,-338 1980.47,-358.24 2023.53,-391.99 2049.5,-414.12"/>
+<polygon fill="#555555" stroke="#555555" points="2048.41,-415.72 2053.83,-417.84 2050.92,-412.8 2048.41,-415.72"/>
+</g>
+<!-- START -->
+<g id="node35" class="node">
+<title>START</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M203.5,-309C203.5,-309 29.5,-309 29.5,-309 23.5,-309 17.5,-303 17.5,-297 17.5,-297 17.5,-285 17.5,-285 17.5,-279 23.5,-273 29.5,-273 29.5,-273 203.5,-273 203.5,-273 209.5,-273 215.5,-279 215.5,-285 215.5,-285 215.5,-297 215.5,-297 215.5,-303 209.5,-309 203.5,-309"/>
+<text text-anchor="middle" x="116.5" y="-288.5" font-family="Helvetica,sans-Serif" font-size="10.00">[Project prompt / future project source]</text>
+</g>
+<!-- PROJECT -->
+<g id="node36" class="node">
+<title>PROJECT</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M361.5,-309C361.5,-309 311.5,-309 311.5,-309 305.5,-309 299.5,-303 299.5,-297 299.5,-297 299.5,-285 299.5,-285 299.5,-279 305.5,-273 311.5,-273 311.5,-273 361.5,-273 361.5,-273 367.5,-273 373.5,-279 373.5,-285 373.5,-285 373.5,-297 373.5,-297 373.5,-303 367.5,-309 361.5,-309"/>
+<text text-anchor="middle" x="336.5" y="-288.5" font-family="Helvetica,sans-Serif" font-size="10.00">.uepc_project</text>
+</g>
+<!-- START&#45;&gt;PROJECT -->
+<g id="edge1" class="edge">
+<title>START&#45;&gt;PROJECT</title>
+<path fill="none" stroke="#555555" d="M215.66,-291C243.16,-291 271.6,-291 293.86,-291"/>
+<polygon fill="#555555" stroke="#555555" points="293.89,-292.93 299.39,-291 293.89,-289.08 293.89,-292.93"/>
+</g>
+<!-- PTSQL -->
+<g id="node37" class="node">
+<title>PTSQL</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M627,-431C627,-431 492,-431 492,-431 486,-431 480,-425 480,-419 480,-419 480,-407 480,-407 480,-401 486,-395 492,-395 492,-395 627,-395 627,-395 633,-395 639,-401 639,-407 639,-407 639,-419 639,-419 639,-425 633,-431 627,-431"/>
+<text text-anchor="middle" x="559.5" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00">project/project_template.sqlite</text>
+</g>
+<!-- PROJECT&#45;&gt;PTSQL -->
+<g id="edge2" class="edge">
+<title>PROJECT&#45;&gt;PTSQL</title>
+<path fill="none" stroke="#555555" d="M356.54,-309.18C378.78,-329.52 417.46,-362.22 456,-382 464.01,-386.11 472.66,-389.78 481.42,-393.02"/>
+<polygon fill="#555555" stroke="#555555" points="481.06,-394.94 486.89,-394.99 482.36,-391.31 481.06,-394.94"/>
+</g>
+<!-- PSECTION -->
+<g id="node38" class="node">
+<title>PSECTION</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M651,-370C651,-370 468,-370 468,-370 462,-370 456,-364 456,-358 456,-358 456,-346 456,-346 456,-340 462,-334 468,-334 468,-334 651,-334 651,-334 657,-334 663,-340 663,-346 663,-346 663,-358 663,-358 663,-364 657,-370 651,-370"/>
+<text text-anchor="middle" x="559.5" y="-349.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_growth_root:PROJECT_TEMPLATE</text>
+</g>
+<!-- PROJECT&#45;&gt;PSECTION -->
+<g id="edge3" class="edge">
+<title>PROJECT&#45;&gt;PSECTION</title>
+<path fill="none" stroke="#555555" d="M373.99,-301.07C404.73,-309.56 449.59,-321.94 487.39,-332.37"/>
+<polygon fill="#555555" stroke="#555555" points="487.09,-334.29 492.91,-333.9 488.12,-330.58 487.09,-334.29"/>
+</g>
+<!-- PLANE -->
+<g id="node39" class="node">
+<title>PLANE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M611.5,-309C611.5,-309 507.5,-309 507.5,-309 501.5,-309 495.5,-303 495.5,-297 495.5,-297 495.5,-285 495.5,-285 495.5,-279 501.5,-273 507.5,-273 507.5,-273 611.5,-273 611.5,-273 617.5,-273 623.5,-279 623.5,-285 623.5,-285 623.5,-297 623.5,-297 623.5,-303 617.5,-309 611.5,-309"/>
+<text text-anchor="middle" x="559.5" y="-288.5" font-family="Helvetica,sans-Serif" font-size="10.00">ACTIVE_LANE=template</text>
+</g>
+<!-- PROJECT&#45;&gt;PLANE -->
+<g id="edge4" class="edge">
+<title>PROJECT&#45;&gt;PLANE</title>
+<path fill="none" stroke="#555555" d="M373.99,-291C405.31,-291 451.3,-291 489.53,-291"/>
+<polygon fill="#555555" stroke="#555555" points="489.61,-292.93 495.11,-291 489.61,-289.08 489.61,-292.93"/>
+</g>
+<!-- NOENV -->
+<g id="node51" class="node">
+<title>NOENV</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M633,-248C633,-248 486,-248 486,-248 480,-248 474,-242 474,-236 474,-236 474,-224 474,-224 474,-218 480,-212 486,-212 486,-212 633,-212 633,-212 639,-212 645,-218 645,-224 645,-224 645,-236 645,-236 645,-242 639,-248 633,-248"/>
+<text text-anchor="middle" x="559.5" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENV_MUTATION_ALLOWED=false</text>
+</g>
+<!-- PROJECT&#45;&gt;NOENV -->
+<g id="edge16" class="edge">
+<title>PROJECT&#45;&gt;NOENV</title>
+<path fill="none" stroke="#555555" d="M373.99,-280.93C404.73,-272.44 449.59,-260.06 487.39,-249.63"/>
+<polygon fill="#555555" stroke="#555555" points="488.12,-251.42 492.91,-248.1 487.09,-247.71 488.12,-251.42"/>
+</g>
+<!-- PROJECT15_BOUNDARIES -->
+<g id="node54" class="node">
+<title>PROJECT15_BOUNDARIES</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M614,-187C614,-187 505,-187 505,-187 499,-187 493,-181 493,-175 493,-175 493,-163 493,-163 493,-157 499,-151 505,-151 505,-151 614,-151 614,-151 620,-151 626,-157 626,-163 626,-163 626,-175 626,-175 626,-181 620,-187 614,-187"/>
+<text text-anchor="middle" x="559.5" y="-166.5" font-family="Helvetica,sans-Serif" font-size="10.00">PROJECT15_BOUNDARIES</text>
+</g>
+<!-- PROJECT&#45;&gt;PROJECT15_BOUNDARIES -->
+<g id="edge38" class="edge">
+<title>PROJECT&#45;&gt;PROJECT15_BOUNDARIES</title>
+<path fill="none" stroke="#555555" d="M356.07,-272.92C378.18,-252.31 417.04,-218.91 456,-199 465.86,-193.96 476.7,-189.64 487.52,-185.98"/>
+<polygon fill="#555555" stroke="#555555" points="488.21,-187.78 492.83,-184.23 487.01,-184.12 488.21,-187.78"/>
+</g>
+<!-- PSRC -->
+<g id="node40" class="node">
+<title>PSRC</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M883,-583C883,-583 724,-583 724,-583 718,-583 712,-577 712,-571 712,-571 712,-559 712,-559 712,-553 718,-547 724,-547 724,-547 883,-547 883,-547 889,-547 895,-553 895,-559 895,-559 895,-571 895,-571 895,-577 889,-583 883,-583"/>
+<text text-anchor="middle" x="803.5" y="-562.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_source_registry placeholder</text>
+</g>
+<!-- PTSQL&#45;&gt;PSRC -->
+<g id="edge5" class="edge">
+<title>PTSQL&#45;&gt;PSRC</title>
+<path fill="none" stroke="#555555" d="M577.59,-431.36C603.14,-457.81 653.91,-506.57 706,-535 712.76,-538.69 720.03,-541.99 727.45,-544.94"/>
+<polygon fill="#555555" stroke="#555555" points="726.78,-546.74 732.6,-546.92 728.16,-543.15 726.78,-546.74"/>
+</g>
+<!-- PCHUNK -->
+<g id="node41" class="node">
+<title>PCHUNK</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M876,-522C876,-522 731,-522 731,-522 725,-522 719,-516 719,-510 719,-510 719,-498 719,-498 719,-492 725,-486 731,-486 731,-486 876,-486 876,-486 882,-486 888,-492 888,-498 888,-498 888,-510 888,-510 888,-516 882,-522 876,-522"/>
+<text text-anchor="middle" x="803.5" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_chunk_index placeholder</text>
+</g>
+<!-- PTSQL&#45;&gt;PCHUNK -->
+<g id="edge6" class="edge">
+<title>PTSQL&#45;&gt;PCHUNK</title>
+<path fill="none" stroke="#555555" d="M600.54,-431.01C629.54,-443.74 669.84,-460.83 706,-474 715.69,-477.53 726.01,-481.02 736.17,-484.3"/>
+<polygon fill="#555555" stroke="#555555" points="735.64,-486.15 741.46,-485.99 736.81,-482.48 735.64,-486.15"/>
+</g>
+<!-- PART -->
+<g id="node42" class="node">
+<title>PART</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M884.5,-461C884.5,-461 722.5,-461 722.5,-461 716.5,-461 710.5,-455 710.5,-449 710.5,-449 710.5,-437 710.5,-437 710.5,-431 716.5,-425 722.5,-425 722.5,-425 884.5,-425 884.5,-425 890.5,-425 896.5,-431 896.5,-437 896.5,-437 896.5,-449 896.5,-449 896.5,-455 890.5,-461 884.5,-461"/>
+<text text-anchor="middle" x="803.5" y="-440.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_artifact_registry placeholder</text>
+</g>
+<!-- PTSQL&#45;&gt;PART -->
+<g id="edge7" class="edge">
+<title>PTSQL&#45;&gt;PART</title>
+<path fill="none" stroke="#555555" d="M639.07,-422.74C660.06,-425.34 683.01,-428.19 704.89,-430.9"/>
+<polygon fill="#555555" stroke="#555555" points="704.73,-432.82 710.43,-431.59 705.21,-429 704.73,-432.82"/>
+</g>
+<!-- PMMD -->
+<g id="node43" class="node">
+<title>PMMD</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M849.5,-400C849.5,-400 757.5,-400 757.5,-400 751.5,-400 745.5,-394 745.5,-388 745.5,-388 745.5,-376 745.5,-376 745.5,-370 751.5,-364 757.5,-364 757.5,-364 849.5,-364 849.5,-364 855.5,-364 861.5,-370 861.5,-376 861.5,-376 861.5,-388 861.5,-388 861.5,-394 855.5,-400 849.5,-400"/>
+<text text-anchor="middle" x="803.5" y="-379.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_mmd_registry</text>
+</g>
+<!-- PTSQL&#45;&gt;PMMD -->
+<g id="edge8" class="edge">
+<title>PTSQL&#45;&gt;PMMD</title>
+<path fill="none" stroke="#555555" d="M639.07,-402.94C671.68,-398.76 709,-393.98 739.74,-390.04"/>
+<polygon fill="#555555" stroke="#555555" points="740.19,-391.92 745.4,-389.31 739.7,-388.1 740.19,-391.92"/>
+</g>
+<!-- PROJECT15_FRAMEWORK_EXPANSION -->
+<g id="node52" class="node">
+<title>PROJECT15_FRAMEWORK_EXPANSION</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M889,-339C889,-339 718,-339 718,-339 712,-339 706,-333 706,-327 706,-327 706,-315 706,-315 706,-309 712,-303 718,-303 718,-303 889,-303 889,-303 895,-303 901,-309 901,-315 901,-315 901,-327 901,-327 901,-333 895,-339 889,-339"/>
+<text text-anchor="middle" x="803.5" y="-318.5" font-family="Helvetica,sans-Serif" font-size="10.00">PROJECT15_FRAMEWORK_EXPANSION</text>
+</g>
+<!-- PTSQL&#45;&gt;PROJECT15_FRAMEWORK_EXPANSION -->
+<g id="edge36" class="edge">
+<title>PTSQL&#45;&gt;PROJECT15_FRAMEWORK_EXPANSION</title>
+<path fill="none" stroke="#555555" d="M631.44,-394.91C642.24,-391.2 653.08,-386.9 663,-382 684.12,-371.56 684.92,-361.52 706,-351 713.33,-347.34 721.2,-344.02 729.17,-341.03"/>
+<polygon fill="#555555" stroke="#555555" points="730.19,-342.7 734.7,-339.01 728.87,-339.09 730.19,-342.7"/>
+</g>
+<!-- PROJECT15_PLACEHOLDER_LANES -->
+<g id="node53" class="node">
+<title>PROJECT15_PLACEHOLDER_LANES</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M880,-278C880,-278 727,-278 727,-278 721,-278 715,-272 715,-266 715,-266 715,-254 715,-254 715,-248 721,-242 727,-242 727,-242 880,-242 880,-242 886,-242 892,-248 892,-254 892,-254 892,-266 892,-266 892,-272 886,-278 880,-278"/>
+<text text-anchor="middle" x="803.5" y="-257.5" font-family="Helvetica,sans-Serif" font-size="10.00">PROJECT15_PLACEHOLDER_LANES</text>
+</g>
+<!-- PTSQL&#45;&gt;PROJECT15_PLACEHOLDER_LANES -->
+<g id="edge37" class="edge">
+<title>PTSQL&#45;&gt;PROJECT15_PLACEHOLDER_LANES</title>
+<path fill="none" stroke="#555555" d="M639.15,-396.91C647.78,-392.98 655.97,-388.08 663,-382 697.12,-352.46 671.99,-319.68 706,-290 709.88,-286.61 714.15,-283.61 718.65,-280.94"/>
+<polygon fill="#555555" stroke="#555555" points="719.75,-282.53 723.62,-278.18 717.88,-279.16 719.75,-282.53"/>
+</g>
+<!-- ENG -->
+<g id="node45" class="node">
+<title>ENG</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M1178,-583C1178,-583 956,-583 956,-583 950,-583 944,-577 944,-571 944,-571 944,-559 944,-559 944,-553 950,-547 956,-547 956,-547 1178,-547 1178,-547 1184,-547 1190,-553 1190,-559 1190,-559 1190,-571 1190,-571 1190,-577 1184,-583 1178,-583"/>
+<text text-anchor="middle" x="1067" y="-562.5" font-family="Helvetica,sans-Serif" font-size="10.00">future project_engulf / project_brain_builder lane</text>
+</g>
+<!-- PSRC&#45;&gt;ENG -->
+<g id="edge10" class="edge">
+<title>PSRC&#45;&gt;ENG</title>
+<path fill="none" stroke="#555555" d="M895.23,-565C909.03,-565 923.49,-565 937.91,-565"/>
+<polygon fill="#555555" stroke="#555555" points="938.15,-566.93 943.65,-565 938.15,-563.08 938.15,-566.93"/>
+</g>
+<!-- PMMDT -->
+<g id="node44" class="node">
+<title>PMMDT</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M1157.5,-400C1157.5,-400 976.5,-400 976.5,-400 970.5,-400 964.5,-394 964.5,-388 964.5,-388 964.5,-376 964.5,-376 964.5,-370 970.5,-364 976.5,-364 976.5,-364 1157.5,-364 1157.5,-364 1163.5,-364 1169.5,-370 1169.5,-376 1169.5,-376 1169.5,-388 1169.5,-388 1169.5,-394 1163.5,-400 1157.5,-400"/>
+<text text-anchor="middle" x="1067" y="-379.5" font-family="Helvetica,sans-Serif" font-size="10.00">project/project_topology_template.mmd</text>
+</g>
+<!-- PMMD&#45;&gt;PMMDT -->
+<g id="edge9" class="edge">
+<title>PMMD&#45;&gt;PMMDT</title>
+<path fill="none" stroke="#555555" d="M861.56,-382C889.98,-382 925.28,-382 958.51,-382"/>
+<polygon fill="#555555" stroke="#555555" points="958.76,-383.93 964.26,-382 958.76,-380.08 958.76,-383.93"/>
+</g>
+<!-- RAW -->
+<g id="node46" class="node">
+<title>RAW</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1392,-583C1392,-583 1245,-583 1245,-583 1239,-583 1233,-577 1233,-571 1233,-571 1233,-559 1233,-559 1233,-553 1239,-547 1245,-547 1245,-547 1392,-547 1392,-547 1398,-547 1404,-553 1404,-559 1404,-559 1404,-571 1404,-571 1404,-577 1398,-583 1392,-583"/>
+<text text-anchor="middle" x="1318.5" y="-562.5" font-family="Helvetica,sans-Serif" font-size="10.00">raw register + hash + byte cover</text>
+</g>
+<!-- ENG&#45;&gt;RAW -->
+<g id="edge11" class="edge">
+<title>ENG&#45;&gt;RAW</title>
+<path fill="none" stroke="#555555" d="M1190.19,-565C1202.72,-565 1215.28,-565 1227.37,-565"/>
+<polygon fill="#555555" stroke="#555555" points="1227.39,-566.93 1232.89,-565 1227.39,-563.08 1227.39,-566.93"/>
+</g>
+<!-- PARSE -->
+<g id="node47" class="node">
+<title>PARSE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1600.5,-583C1600.5,-583 1526.5,-583 1526.5,-583 1520.5,-583 1514.5,-577 1514.5,-571 1514.5,-571 1514.5,-559 1514.5,-559 1514.5,-553 1520.5,-547 1526.5,-547 1526.5,-547 1600.5,-547 1600.5,-547 1606.5,-547 1612.5,-553 1612.5,-559 1612.5,-559 1612.5,-571 1612.5,-571 1612.5,-577 1606.5,-583 1600.5,-583"/>
+<text text-anchor="middle" x="1563.5" y="-562.5" font-family="Helvetica,sans-Serif" font-size="10.00">parse/chunk/index</text>
+</g>
+<!-- RAW&#45;&gt;PARSE -->
+<g id="edge12" class="edge">
+<title>RAW&#45;&gt;PARSE</title>
+<path fill="none" stroke="#555555" d="M1404.15,-565C1438.83,-565 1477.95,-565 1508.62,-565"/>
+<polygon fill="#555555" stroke="#555555" points="1508.75,-566.93 1514.25,-565 1508.75,-563.08 1508.75,-566.93"/>
+</g>
+<!-- GROW -->
+<g id="node48" class="node">
+<title>GROW</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M1852,-583C1852,-583 1801,-583 1801,-583 1795,-583 1789,-577 1789,-571 1789,-571 1789,-559 1789,-559 1789,-553 1795,-547 1801,-547 1801,-547 1852,-547 1852,-547 1858,-547 1864,-553 1864,-559 1864,-559 1864,-571 1864,-571 1864,-577 1858,-583 1852,-583"/>
+<text text-anchor="middle" x="1826.5" y="-562.5" font-family="Helvetica,sans-Serif" font-size="10.00">project grows</text>
+</g>
+<!-- PARSE&#45;&gt;GROW -->
+<g id="edge13" class="edge">
+<title>PARSE&#45;&gt;GROW</title>
+<path fill="none" stroke="#555555" d="M1612.68,-565C1661.65,-565 1736.76,-565 1783.42,-565"/>
+<polygon fill="#555555" stroke="#555555" points="1783.46,-566.93 1788.96,-565 1783.46,-563.08 1783.46,-566.93"/>
+</g>
+<!-- GROW&#45;&gt;PMMDUPDATE -->
+<g id="edge14" class="edge">
+<title>GROW&#45;&gt;PMMDUPDATE</title>
+<path fill="none" stroke="#555555" d="M1864.14,-569.46C1891.44,-572.78 1930.22,-577.5 1967.03,-581.98"/>
+<polygon fill="#555555" stroke="#555555" points="1967.22,-583.94 1972.91,-582.7 1967.69,-580.12 1967.22,-583.94"/>
+</g>
+<!-- GROW&#45;&gt;EXIT -->
+<g id="edge15" class="edge">
+<title>GROW&#45;&gt;EXIT</title>
+<path fill="none" stroke="#555555" d="M1864.16,-562.05C1886.34,-559.23 1914.73,-553.72 1938,-543 1983.4,-522.09 2027.23,-483.17 2052.36,-458.47"/>
+<polygon fill="#555555" stroke="#555555" points="2053.98,-459.58 2056.53,-454.34 2051.27,-456.84 2053.98,-459.58"/>
+</g>
+</g>
+
+<g transform="translate(0,1289.8)">
+<rect x="10" y="0" width="2185.8" height="1170" rx="18" fill="#fffef0" stroke="#d2c46b" stroke-width="2"/>
+<text x="1102.9" y="30" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">PROJECT15 REAL SECTORS + STATE TRAVEL + CODE HISTORY + IMMUTABLE VERSION CONTROL</text>
+<rect x="30.0" y="48" width="519.95" height="1102" rx="15" fill="#fffde7" stroke="#d6c34b" stroke-width="1.3"/>
+<text x="289.975" y="73" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15">14 Real Sector Databases</text>
+<rect x="45.0" y="88" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="119.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">Artifacts</tspan>
+</text>
+<rect x="45.0" y="158" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="189.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">Brain Loader</tspan>
+</text>
+<rect x="45.0" y="228" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="259.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">Chat Lineage</tspan>
+</text>
+<rect x="45.0" y="298" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="329.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">Custom</tspan>
+</text>
+<rect x="45.0" y="368" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="399.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">Data / Excel / CSV</tspan>
+</text>
+<rect x="45.0" y="438" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="469.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">Docs</tspan>
+</text>
+<rect x="45.0" y="508" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="539.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">GitHub Code</tspan>
+</text>
+<rect x="45.0" y="578" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="609.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">Images / OCR</tspan>
+</text>
+<rect x="45.0" y="648" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="679.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">Local Code</tspan>
+</text>
+<rect x="45.0" y="718" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="749.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">PDF / OCR</tspan>
+</text>
+<rect x="45.0" y="788" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="819.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">PPT / Presentation</tspan>
+</text>
+<rect x="45.0" y="858" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="889.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">Project Engulf</tspan>
+</text>
+<rect x="45.0" y="928" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="959.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">Research</tspan>
+</text>
+<rect x="45.0" y="998" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="289.975" y="1029.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="289.975" dy="0">SQLite Brain</tspan>
+</text>
+<line x1="289.975" y1="148.0" x2="289.975" y2="160.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="218.0" x2="289.975" y2="230.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="288.0" x2="289.975" y2="300.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="358.0" x2="289.975" y2="370.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="428.0" x2="289.975" y2="440.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="498.0" x2="289.975" y2="510.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="568.0" x2="289.975" y2="580.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="638.0" x2="289.975" y2="650.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="708.0" x2="289.975" y2="720.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="778.0" x2="289.975" y2="790.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="848.0" x2="289.975" y2="860.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="918.0" x2="289.975" y2="930.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="289.975" y1="988.0" x2="289.975" y2="1000.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<rect x="571.95" y="48" width="519.95" height="1102" rx="15" fill="#fffde7" stroke="#d6c34b" stroke-width="1.3"/>
+<text x="831.9250000000001" y="73" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15">Chat Lineage</text>
+<rect x="586.95" y="88" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="831.9250000000001" y="119.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="831.9250000000001" dy="0">Exact prompt PREPARE</tspan>
+</text>
+<rect x="586.95" y="158" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="831.9250000000001" y="189.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="831.9250000000001" dy="0">Exact response COMMIT</tspan>
+</text>
+<rect x="586.95" y="228" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="831.9250000000001" y="259.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="831.9250000000001" dy="0">Links + receipts</tspan>
+</text>
+<rect x="586.95" y="298" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="831.9250000000001" y="329.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="831.9250000000001" dy="0">Hash chain</tspan>
+</text>
+<rect x="586.95" y="368" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="831.9250000000001" y="399.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="831.9250000000001" dy="0">Canonical lineage head</tspan>
+</text>
+<line x1="831.9250000000001" y1="148.0" x2="831.9250000000001" y2="160.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="831.9250000000001" y1="218.0" x2="831.9250000000001" y2="230.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="831.9250000000001" y1="288.0" x2="831.9250000000001" y2="300.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="831.9250000000001" y1="358.0" x2="831.9250000000001" y2="370.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<rect x="1113.9" y="48" width="519.95" height="1102" rx="15" fill="#fffde7" stroke="#d6c34b" stroke-width="1.3"/>
+<text x="1373.875" y="73" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15">Code Snapshot + Reverse Git</text>
+<rect x="1128.9" y="88" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1373.875" y="119.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1373.875" dy="0">Current files/hashes/chunks</tspan>
+</text>
+<rect x="1128.9" y="158" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1373.875" y="189.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1373.875" dy="0">Symbols/imports/routes/tests</tspan>
+</text>
+<rect x="1128.9" y="228" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1373.875" y="259.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1373.875" dy="0">Commits + parents + refs</tspan>
+</text>
+<rect x="1128.9" y="298" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1373.875" y="329.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1373.875" dy="0">Changed files + exact patch hunks</tspan>
+</text>
+<rect x="1128.9" y="368" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1373.875" y="399.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1373.875" dy="0">Route/symbol/dependency/test/artifact impact</tspan>
+</text>
+<line x1="1373.875" y1="148.0" x2="1373.875" y2="160.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="1373.875" y1="218.0" x2="1373.875" y2="230.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="1373.875" y1="288.0" x2="1373.875" y2="300.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="1373.875" y1="358.0" x2="1373.875" y2="370.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<rect x="1655.8500000000001" y="48" width="519.95" height="1102" rx="15" fill="#fffde7" stroke="#d6c34b" stroke-width="1.3"/>
+<text x="1915.8250000000003" y="73" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15">Immutable Snapshots + Rollback</text>
+<rect x="1670.8500000000001" y="88" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1915.8250000000003" y="119.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1915.8250000000003" dy="0">Build or AI mutation</tspan>
+</text>
+<rect x="1670.8500000000001" y="158" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1915.8250000000003" y="189.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1915.8250000000003" dy="0">Actor/time/reason/SHA-256</tspan>
+</text>
+<rect x="1670.8500000000001" y="228" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1915.8250000000003" y="259.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1915.8250000000003" dy="0">Immutable snapshot identity</tspan>
+</text>
+<rect x="1670.8500000000001" y="298" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1915.8250000000003" y="329.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1915.8250000000003" dy="0">System Task Status version pop-card</tspan>
+</text>
+<rect x="1670.8500000000001" y="368" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1915.8250000000003" y="399.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1915.8250000000003" dy="0">Hash verify</tspan>
+</text>
+<rect x="1670.8500000000001" y="438" width="489.95000000000005" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="1915.8250000000003" y="469.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="1915.8250000000003" dy="0">Restore to new versioned folder</tspan>
+</text>
+<line x1="1915.8250000000003" y1="148.0" x2="1915.8250000000003" y2="160.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="1915.8250000000003" y1="218.0" x2="1915.8250000000003" y2="230.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="1915.8250000000003" y1="288.0" x2="1915.8250000000003" y2="300.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="1915.8250000000003" y1="358.0" x2="1915.8250000000003" y2="370.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="1915.8250000000003" y1="428.0" x2="1915.8250000000003" y2="440.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+</g>
+</svg>

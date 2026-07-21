@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Rust / Tauri
+target/
+
+# Generated application output
+build-output/
+*.exe
+*.msi
+*.msix
+*.appx
+*.log
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local evidence seals and machine receipts
+FULL_APP_SOURCE_MANIFEST.sha256
+FULL_APP_SOURCE_VERIFICATION.json
+CLEAN_SOURCE_MANIFEST.sha256
+CLEAN_SOURCE_VERIFICATION.json

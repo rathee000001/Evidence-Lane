@@ -1,0 +1,10 @@
+{
+  "sector_id": "pdf_ocr",
+  "display_name": "PDF / OCR",
+  "sqlite_path": "project/sectors/pdf_ocr/pdf_ocr_sector_v001.sqlite",
+  "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT",
+  "public_read": true,
+  "automatic_write": false,
+  "relock_after_commit": true,
+  "schema_version": "ENV15"
+}

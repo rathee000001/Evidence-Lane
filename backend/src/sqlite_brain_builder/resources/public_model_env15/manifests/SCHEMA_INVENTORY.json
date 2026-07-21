@@ -1,0 +1,2318 @@
+{
+  "created_at_utc": "2026-07-10T18:08:35Z",
+  "database_count": 18,
+  "databases": [
+    {
+      "path": "env/env_sqlite.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 229,
+      "objects": [
+        {
+          "type": "table",
+          "name": "active_law_version_v15"
+        },
+        {
+          "type": "table",
+          "name": "active_root_packet"
+        },
+        {
+          "type": "table",
+          "name": "active_source_stack"
+        },
+        {
+          "type": "table",
+          "name": "app_viewer_contract_v11"
+        },
+        {
+          "type": "table",
+          "name": "artifact_access_state"
+        },
+        {
+          "type": "table",
+          "name": "artifact_availability_state"
+        },
+        {
+          "type": "table",
+          "name": "artifact_byte_range_index"
+        },
+        {
+          "type": "table",
+          "name": "artifact_chunk"
+        },
+        {
+          "type": "table",
+          "name": "artifact_chunk_fts"
+        },
+        {
+          "type": "table",
+          "name": "artifact_chunk_fts_config"
+        },
+        {
+          "type": "table",
+          "name": "artifact_chunk_fts_content"
+        },
+        {
+          "type": "table",
+          "name": "artifact_chunk_fts_data"
+        },
+        {
+          "type": "table",
+          "name": "artifact_chunk_fts_docsize"
+        },
+        {
+          "type": "table",
+          "name": "artifact_chunk_fts_idx"
+        },
+        {
+          "type": "table",
+          "name": "artifact_chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "artifact_chunk_index_v12"
+        },
+        {
+          "type": "table",
+          "name": "artifact_chunk_index_v14"
+        },
+        {
+          "type": "table",
+          "name": "artifact_chunk_policy"
+        },
+        {
+          "type": "table",
+          "name": "artifact_coverage_audit"
+        },
+        {
+          "type": "table",
+          "name": "artifact_link_state"
+        },
+        {
+          "type": "table",
+          "name": "artifact_parse_event"
+        },
+        {
+          "type": "table",
+          "name": "artifact_parse_event_v12"
+        },
+        {
+          "type": "table",
+          "name": "artifact_parse_event_v14"
+        },
+        {
+          "type": "table",
+          "name": "artifact_raw_registry"
+        },
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "artifact_reparse_policy"
+        },
+        {
+          "type": "table",
+          "name": "brain_telemetry_view_contract_v11"
+        },
+        {
+          "type": "table",
+          "name": "chat_env_ready_state"
+        },
+        {
+          "type": "table",
+          "name": "chat_window_display_only_gate"
+        },
+        {
+          "type": "table",
+          "name": "chat_window_lookup_violation_gate_v12"
+        },
+        {
+          "type": "table",
+          "name": "chat_window_lookup_violation_gate_v14"
+        },
+        {
+          "type": "table",
+          "name": "clean_exit_package"
+        },
+        {
+          "type": "table",
+          "name": "clean_exit_protocol_v11"
+        },
+        {
+          "type": "table",
+          "name": "cluster_delta_scan"
+        },
+        {
+          "type": "table",
+          "name": "code_mode_chemistry_rule"
+        },
+        {
+          "type": "table",
+          "name": "codex_public_section_handoff_v15"
+        },
+        {
+          "type": "table",
+          "name": "combined_mode_namespace_rule"
+        },
+        {
+          "type": "table",
+          "name": "context_drop_warning"
+        },
+        {
+          "type": "table",
+          "name": "context_pressure_event"
+        },
+        {
+          "type": "table",
+          "name": "context_pressure_log"
+        },
+        {
+          "type": "table",
+          "name": "continuation_bootstrap"
+        },
+        {
+          "type": "table",
+          "name": "contradiction_event"
+        },
+        {
+          "type": "table",
+          "name": "credit_token_estimate_policy_v15"
+        },
+        {
+          "type": "table",
+          "name": "deep_research_access_triage_v14"
+        },
+        {
+          "type": "table",
+          "name": "delta_ledger"
+        },
+        {
+          "type": "table",
+          "name": "delta_overlay_view_contract_v11"
+        },
+        {
+          "type": "table",
+          "name": "diagram_checksum_registry"
+        },
+        {
+          "type": "table",
+          "name": "entry_slip_compact_template_v12"
+        },
+        {
+          "type": "table",
+          "name": "entry_slip_template"
+        },
+        {
+          "type": "table",
+          "name": "env_builder_write_scope"
+        },
+        {
+          "type": "table",
+          "name": "env_continuity_drop_gate_v12"
+        },
+        {
+          "type": "table",
+          "name": "env_continuity_drop_gate_v14"
+        },
+        {
+          "type": "table",
+          "name": "env_flash_approval_log_v11"
+        },
+        {
+          "type": "table",
+          "name": "env_governance_root_v11"
+        },
+        {
+          "type": "table",
+          "name": "env_governance_root_v12"
+        },
+        {
+          "type": "table",
+          "name": "env_governance_root_v14"
+        },
+        {
+          "type": "table",
+          "name": "env_governance_root_v15"
+        },
+        {
+          "type": "table",
+          "name": "env_mmd_lock_state"
+        },
+        {
+          "type": "table",
+          "name": "env_mmd_mutation_rule"
+        },
+        {
+          "type": "table",
+          "name": "env_mutation_request_v11"
+        },
+        {
+          "type": "table",
+          "name": "env_patch_registry"
+        },
+        {
+          "type": "table",
+          "name": "env_receipt"
+        },
+        {
+          "type": "table",
+          "name": "env_signature_manifest_v11"
+        },
+        {
+          "type": "table",
+          "name": "env_sqlite_query_law"
+        },
+        {
+          "type": "table",
+          "name": "env_sqlite_write_receipt"
+        },
+        {
+          "type": "table",
+          "name": "env_trust_state_v11"
+        },
+        {
+          "type": "table",
+          "name": "env_write_lock_policy"
+        },
+        {
+          "type": "table",
+          "name": "eos_lane_source"
+        },
+        {
+          "type": "table",
+          "name": "evidenceos_feature_registry_v11"
+        },
+        {
+          "type": "table",
+          "name": "exit_package_manifest"
+        },
+        {
+          "type": "table",
+          "name": "exit_slip_full_receipt_template_v12"
+        },
+        {
+          "type": "table",
+          "name": "exit_slip_template"
+        },
+        {
+          "type": "table",
+          "name": "field_trial_plan"
+        },
+        {
+          "type": "table",
+          "name": "field_trial_result"
+        },
+        {
+          "type": "table",
+          "name": "field_trial_result_v11"
+        },
+        {
+          "type": "table",
+          "name": "file_type_chunking_policy"
+        },
+        {
+          "type": "table",
+          "name": "flash_env_event"
+        },
+        {
+          "type": "table",
+          "name": "formula_component"
+        },
+        {
+          "type": "table",
+          "name": "gate_evaluation_run"
+        },
+        {
+          "type": "table",
+          "name": "gate_registry"
+        },
+        {
+          "type": "table",
+          "name": "generated_artifact_link_state"
+        },
+        {
+          "type": "table",
+          "name": "hierarchical_index_registry"
+        },
+        {
+          "type": "table",
+          "name": "imported_sqlite_registry"
+        },
+        {
+          "type": "table",
+          "name": "indexed_content_chunk"
+        },
+        {
+          "type": "table",
+          "name": "lane_activation_rule"
+        },
+        {
+          "type": "table",
+          "name": "lane_formula_execution_registry_v12"
+        },
+        {
+          "type": "table",
+          "name": "lane_formula_execution_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "lane_recursive_policy_v7"
+        },
+        {
+          "type": "table",
+          "name": "lane_registry"
+        },
+        {
+          "type": "table",
+          "name": "legacy_env_project_carry_forward_policy_v15"
+        },
+        {
+          "type": "table",
+          "name": "live_packet_config"
+        },
+        {
+          "type": "table",
+          "name": "live_sqlite_packet_law"
+        },
+        {
+          "type": "table",
+          "name": "locked_mmd_hash_registry_v12"
+        },
+        {
+          "type": "table",
+          "name": "locked_mmd_hash_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "matrix_axis"
+        },
+        {
+          "type": "table",
+          "name": "matrix_cell"
+        },
+        {
+          "type": "table",
+          "name": "mermaid_layer"
+        },
+        {
+          "type": "table",
+          "name": "meta"
+        },
+        {
+          "type": "table",
+          "name": "mmd_env_lock_state"
+        },
+        {
+          "type": "table",
+          "name": "mmd_node_registry"
+        },
+        {
+          "type": "table",
+          "name": "mmd_repack_no_mutation_gate_v12"
+        },
+        {
+          "type": "table",
+          "name": "mmd_repack_no_mutation_gate_v14"
+        },
+        {
+          "type": "table",
+          "name": "mode_classification_run"
+        },
+        {
+          "type": "table",
+          "name": "mode_cluster"
+        },
+        {
+          "type": "table",
+          "name": "mode_cluster_dependency"
+        },
+        {
+          "type": "table",
+          "name": "mode_combination_rule"
+        },
+        {
+          "type": "table",
+          "name": "mode_event_log"
+        },
+        {
+          "type": "table",
+          "name": "mode_namespace_registry"
+        },
+        {
+          "type": "table",
+          "name": "no_autonomous_cicd_gate"
+        },
+        {
+          "type": "table",
+          "name": "no_reasoning_before_index_gate_v12"
+        },
+        {
+          "type": "table",
+          "name": "no_reasoning_before_index_gate_v14"
+        },
+        {
+          "type": "table",
+          "name": "one_turn_mutation_grant_policy_v15"
+        },
+        {
+          "type": "table",
+          "name": "operator_activation_rule"
+        },
+        {
+          "type": "table",
+          "name": "operator_activation_run"
+        },
+        {
+          "type": "table",
+          "name": "operator_receipt_registry_v12"
+        },
+        {
+          "type": "table",
+          "name": "operator_receipt_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "output_artifact"
+        },
+        {
+          "type": "table",
+          "name": "package_version_chain_v11"
+        },
+        {
+          "type": "table",
+          "name": "package_version_chain_v12"
+        },
+        {
+          "type": "table",
+          "name": "package_version_chain_v14"
+        },
+        {
+          "type": "table",
+          "name": "package_version_chain_v15"
+        },
+        {
+          "type": "table",
+          "name": "pcm_mba_operator"
+        },
+        {
+          "type": "table",
+          "name": "profile_pointer_registry_v12"
+        },
+        {
+          "type": "table",
+          "name": "profile_pointer_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_brain_absorption_rule"
+        },
+        {
+          "type": "table",
+          "name": "project_brain_builder_lane_v11"
+        },
+        {
+          "type": "table",
+          "name": "project_brain_fusion_rule"
+        },
+        {
+          "type": "table",
+          "name": "project_brain_import_event"
+        },
+        {
+          "type": "table",
+          "name": "project_engulf_queue"
+        },
+        {
+          "type": "table",
+          "name": "project_growth_root_v11"
+        },
+        {
+          "type": "table",
+          "name": "project_growth_root_v12"
+        },
+        {
+          "type": "table",
+          "name": "project_growth_root_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_mmd_generation_event_v11"
+        },
+        {
+          "type": "table",
+          "name": "project_mmd_generation_policy"
+        },
+        {
+          "type": "table",
+          "name": "project_mmd_registry"
+        },
+        {
+          "type": "table",
+          "name": "project_mmd_update_event"
+        },
+        {
+          "type": "table",
+          "name": "project_package_registry"
+        },
+        {
+          "type": "table",
+          "name": "project_packet_section"
+        },
+        {
+          "type": "table",
+          "name": "project_pointer_consistency_check_v11"
+        },
+        {
+          "type": "table",
+          "name": "project_section"
+        },
+        {
+          "type": "table",
+          "name": "project_supersede_ledger_v12"
+        },
+        {
+          "type": "table",
+          "name": "project_supersede_ledger_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_template_expansion_audit_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_template_registry_v11"
+        },
+        {
+          "type": "table",
+          "name": "project_topology_mmd_registry"
+        },
+        {
+          "type": "table",
+          "name": "project_turn_packet"
+        },
+        {
+          "type": "table",
+          "name": "project_type_lane_policy"
+        },
+        {
+          "type": "table",
+          "name": "prompt_chunk"
+        },
+        {
+          "type": "table",
+          "name": "prompt_override_gate_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "prompt_override_gate_registry_v15"
+        },
+        {
+          "type": "table",
+          "name": "prompt_pre_reasoning_ingest_gate_v12"
+        },
+        {
+          "type": "table",
+          "name": "prompt_pre_reasoning_ingest_gate_v14"
+        },
+        {
+          "type": "table",
+          "name": "prompt_response_relation"
+        },
+        {
+          "type": "table",
+          "name": "prompt_turn"
+        },
+        {
+          "type": "table",
+          "name": "public_section_lock_registry_v15"
+        },
+        {
+          "type": "table",
+          "name": "raw_artifact_byte_coverage_v12"
+        },
+        {
+          "type": "table",
+          "name": "raw_artifact_byte_coverage_v14"
+        },
+        {
+          "type": "table",
+          "name": "raw_code_project_brain_builder_rule"
+        },
+        {
+          "type": "table",
+          "name": "raw_code_repo_ingest_policy_v11"
+        },
+        {
+          "type": "table",
+          "name": "read_only_audit_policy_v15"
+        },
+        {
+          "type": "table",
+          "name": "reanchor_event"
+        },
+        {
+          "type": "table",
+          "name": "recovery_command_registry"
+        },
+        {
+          "type": "table",
+          "name": "recovery_command_registry_v11"
+        },
+        {
+          "type": "table",
+          "name": "recovery_command_registry_v12"
+        },
+        {
+          "type": "table",
+          "name": "recovery_command_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "recursive_loop_policy"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "relation_node"
+        },
+        {
+          "type": "table",
+          "name": "response_chunk"
+        },
+        {
+          "type": "table",
+          "name": "root_key_policy_v11"
+        },
+        {
+          "type": "table",
+          "name": "root_packet_snapshot"
+        },
+        {
+          "type": "table",
+          "name": "safe_fts_query_policy_v15"
+        },
+        {
+          "type": "table",
+          "name": "schema_debt_gate"
+        },
+        {
+          "type": "table",
+          "name": "secret_required_policy_v12"
+        },
+        {
+          "type": "table",
+          "name": "secret_required_policy_v14"
+        },
+        {
+          "type": "table",
+          "name": "sidecar_audit_registry_v12"
+        },
+        {
+          "type": "table",
+          "name": "sidecar_audit_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "source_authority_split_run"
+        },
+        {
+          "type": "table",
+          "name": "source_chunk"
+        },
+        {
+          "type": "table",
+          "name": "source_chunk_fts"
+        },
+        {
+          "type": "table",
+          "name": "source_chunk_fts_config"
+        },
+        {
+          "type": "table",
+          "name": "source_chunk_fts_content"
+        },
+        {
+          "type": "table",
+          "name": "source_chunk_fts_data"
+        },
+        {
+          "type": "table",
+          "name": "source_chunk_fts_docsize"
+        },
+        {
+          "type": "table",
+          "name": "source_chunk_fts_idx"
+        },
+        {
+          "type": "table",
+          "name": "source_classifier_registry_v11"
+        },
+        {
+          "type": "table",
+          "name": "source_classifier_registry_v12"
+        },
+        {
+          "type": "table",
+          "name": "source_classifier_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "source_document"
+        },
+        {
+          "type": "table",
+          "name": "source_instruction_quarantine"
+        },
+        {
+          "type": "table",
+          "name": "source_instruction_quarantine_v11"
+        },
+        {
+          "type": "table",
+          "name": "source_instruction_quarantine_v12"
+        },
+        {
+          "type": "table",
+          "name": "source_instruction_quarantine_v14"
+        },
+        {
+          "type": "table",
+          "name": "source_precedence_matrix"
+        },
+        {
+          "type": "table",
+          "name": "source_precedence_matrix_v11"
+        },
+        {
+          "type": "table",
+          "name": "source_precedence_matrix_v12"
+        },
+        {
+          "type": "table",
+          "name": "source_precedence_matrix_v14"
+        },
+        {
+          "type": "table",
+          "name": "sparse_active_source_stack"
+        },
+        {
+          "type": "table",
+          "name": "state_authority_matrix"
+        },
+        {
+          "type": "table",
+          "name": "state_hash_chain"
+        },
+        {
+          "type": "table",
+          "name": "task_authority_matrix"
+        },
+        {
+          "type": "table",
+          "name": "task_override_event"
+        },
+        {
+          "type": "table",
+          "name": "uepc_env_pointer"
+        },
+        {
+          "type": "table",
+          "name": "uepc_partition_registry"
+        },
+        {
+          "type": "table",
+          "name": "uepc_project_pointer"
+        },
+        {
+          "type": "table",
+          "name": "uepc_sqlite_brain_import_policy_v11"
+        },
+        {
+          "type": "table",
+          "name": "universal_index_registry"
+        },
+        {
+          "type": "table",
+          "name": "universal_index_registry_v12"
+        },
+        {
+          "type": "table",
+          "name": "universal_index_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "universal_mode_index_namespace"
+        },
+        {
+          "type": "table",
+          "name": "uop_governance_root_v11"
+        },
+        {
+          "type": "table",
+          "name": "uop_governance_root_v12"
+        },
+        {
+          "type": "table",
+          "name": "uop_governance_root_v14"
+        },
+        {
+          "type": "table",
+          "name": "user_env_addition_ledger_v12"
+        },
+        {
+          "type": "table",
+          "name": "user_env_addition_ledger_v14"
+        },
+        {
+          "type": "table",
+          "name": "v10_build_phase_log"
+        },
+        {
+          "type": "table",
+          "name": "v10_schema_debt_note"
+        },
+        {
+          "type": "table",
+          "name": "v11_source_inventory"
+        },
+        {
+          "type": "table",
+          "name": "validation_check"
+        },
+        {
+          "type": "table",
+          "name": "visible_output_policy_v12"
+        },
+        {
+          "type": "table",
+          "name": "visible_output_policy_v14"
+        },
+        {
+          "type": "table",
+          "name": "visible_reasoning_chunk"
+        },
+        {
+          "type": "table",
+          "name": "visible_reasoning_lane"
+        },
+        {
+          "type": "table",
+          "name": "visible_telemetry_contract_v14"
+        },
+        {
+          "type": "table",
+          "name": "write_denied_read_only_mode_v12"
+        },
+        {
+          "type": "table",
+          "name": "write_denied_read_only_mode_v14"
+        },
+        {
+          "type": "table",
+          "name": "write_permission_event"
+        },
+        {
+          "type": "table",
+          "name": "writeback_hash_semantics"
+        },
+        {
+          "type": "table",
+          "name": "writeback_policy_registry_v15"
+        }
+      ]
+    },
+    {
+      "path": "project/project_router.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 13,
+      "objects": [
+        {
+          "type": "index",
+          "name": "idx_mutation_target_time"
+        },
+        {
+          "type": "index",
+          "name": "idx_rollback_requested_desc"
+        },
+        {
+          "type": "index",
+          "name": "idx_snapshot_created_desc"
+        },
+        {
+          "type": "table",
+          "name": "active_project_head"
+        },
+        {
+          "type": "table",
+          "name": "backend_ai_mutation_event"
+        },
+        {
+          "type": "table",
+          "name": "brain_build_event"
+        },
+        {
+          "type": "table",
+          "name": "brain_rollback_event"
+        },
+        {
+          "type": "table",
+          "name": "brain_snapshot_file_registry"
+        },
+        {
+          "type": "table",
+          "name": "brain_snapshot_registry"
+        },
+        {
+          "type": "table",
+          "name": "mmd_layout_anchor_registry"
+        },
+        {
+          "type": "table",
+          "name": "sector_mutation_grant"
+        },
+        {
+          "type": "table",
+          "name": "sector_mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "sector_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/project_template.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 69,
+      "objects": [
+        {
+          "type": "table",
+          "name": "binary_artifact_metadata"
+        },
+        {
+          "type": "table",
+          "name": "brain_rollback_schema_v15"
+        },
+        {
+          "type": "table",
+          "name": "brain_snapshot_schema_v15"
+        },
+        {
+          "type": "table",
+          "name": "chat_lineage_write_lane_policy_v15"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk"
+        },
+        {
+          "type": "table",
+          "name": "code_config_build_test_chunk"
+        },
+        {
+          "type": "table",
+          "name": "code_file_snapshot"
+        },
+        {
+          "type": "table",
+          "name": "code_import"
+        },
+        {
+          "type": "table",
+          "name": "code_route_api_boundary"
+        },
+        {
+          "type": "table",
+          "name": "code_source_registry"
+        },
+        {
+          "type": "table",
+          "name": "code_symbol"
+        },
+        {
+          "type": "table",
+          "name": "git_commit_registry"
+        },
+        {
+          "type": "table",
+          "name": "git_diff_chunk"
+        },
+        {
+          "type": "table",
+          "name": "git_file_change"
+        },
+        {
+          "type": "table",
+          "name": "immutable_snapshot_policy_v15"
+        },
+        {
+          "type": "table",
+          "name": "legacy_project_carry_forward_contract_v15"
+        },
+        {
+          "type": "table",
+          "name": "mmd_generation_policy_v15"
+        },
+        {
+          "type": "table",
+          "name": "project_allowed_rw_policy_v15"
+        },
+        {
+          "type": "table",
+          "name": "project_artifact_chunk_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "project_base_state_v15"
+        },
+        {
+          "type": "table",
+          "name": "project_chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "project_claim_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_clean_exit_event_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_code_repo_lane_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_csv_lane_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_deep_research_sidecar_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_doc_lane_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_engulf_lane_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_entry_slip_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_evidence_row_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_exit_slip_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_expected_empty_contract_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_growth_root"
+        },
+        {
+          "type": "table",
+          "name": "project_hash_state_chain_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_mmd_growth_event_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_mmd_lock_state_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_mmd_registry"
+        },
+        {
+          "type": "table",
+          "name": "project_mutation_grant_v15"
+        },
+        {
+          "type": "table",
+          "name": "project_payload_absence_check_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_payload_absence_check_v15"
+        },
+        {
+          "type": "table",
+          "name": "project_phase_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_ppt_lane_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_public_private_boundary_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_raw_artifact_byte_coverage_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_raw_artifact_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_recovery_event_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_role_fit_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_sector_mutation_policy_v15"
+        },
+        {
+          "type": "table",
+          "name": "project_sector_path_registry_v15"
+        },
+        {
+          "type": "table",
+          "name": "project_sector_registry_v15"
+        },
+        {
+          "type": "table",
+          "name": "project_skill_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_source_chunk_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_source_document_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_source_registry"
+        },
+        {
+          "type": "table",
+          "name": "project_sqlite_brain_lane_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_supersede_ledger"
+        },
+        {
+          "type": "table",
+          "name": "project_tool_dependency_registry_v14"
+        },
+        {
+          "type": "table",
+          "name": "project_universal_mutation_router_v15"
+        },
+        {
+          "type": "table",
+          "name": "project_xlsx_lane_v14"
+        },
+        {
+          "type": "table",
+          "name": "structured_artifact_chunk"
+        },
+        {
+          "type": "table",
+          "name": "topology_edge"
+        },
+        {
+          "type": "view",
+          "name": "v_project_template_expected_empty_contract_v14"
+        },
+        {
+          "type": "view",
+          "name": "v_project_template_framework_count_v14"
+        },
+        {
+          "type": "view",
+          "name": "v_project_template_mmd_ready_v14"
+        },
+        {
+          "type": "view",
+          "name": "v_project_template_no_env_mutation_v14"
+        },
+        {
+          "type": "view",
+          "name": "v_project_template_payload_rows_v14"
+        },
+        {
+          "type": "view",
+          "name": "v_project_template_uop_override_blocked_v14"
+        },
+        {
+          "type": "view",
+          "name": "v_project_v15_expected_empty"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/artifacts/artifacts_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 7,
+      "objects": [
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/brain_loader/brain_loader_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 7,
+      "objects": [
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/chat_lineage/chat_lineage_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 62,
+      "objects": [
+        {
+          "type": "table",
+          "name": "entry_exit_receipt"
+        },
+        {
+          "type": "table",
+          "name": "file_link_registry"
+        },
+        {
+          "type": "table",
+          "name": "gate_evaluation_run"
+        },
+        {
+          "type": "table",
+          "name": "legacy_project_carry_forward"
+        },
+        {
+          "type": "table",
+          "name": "lineage_head"
+        },
+        {
+          "type": "table",
+          "name": "mode_classification_run"
+        },
+        {
+          "type": "table",
+          "name": "operator_activation_run"
+        },
+        {
+          "type": "table",
+          "name": "prompt_normalized_summary"
+        },
+        {
+          "type": "table",
+          "name": "prompt_raw_exact"
+        },
+        {
+          "type": "table",
+          "name": "response_raw_visible_exact"
+        },
+        {
+          "type": "table",
+          "name": "response_summary"
+        },
+        {
+          "type": "table",
+          "name": "state_hash_chain"
+        },
+        {
+          "type": "table",
+          "name": "turn_commit"
+        },
+        {
+          "type": "table",
+          "name": "turn_fts"
+        },
+        {
+          "type": "table",
+          "name": "turn_fts_config"
+        },
+        {
+          "type": "table",
+          "name": "turn_fts_content"
+        },
+        {
+          "type": "table",
+          "name": "turn_fts_data"
+        },
+        {
+          "type": "table",
+          "name": "turn_fts_docsize"
+        },
+        {
+          "type": "table",
+          "name": "turn_fts_idx"
+        },
+        {
+          "type": "table",
+          "name": "turn_prepare"
+        },
+        {
+          "type": "table",
+          "name": "visible_reasoning_summary"
+        },
+        {
+          "type": "table",
+          "name": "writeback_policy"
+        },
+        {
+          "type": "trigger",
+          "name": "block_lineage_head_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "entry_exit_receipt_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "entry_exit_receipt_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "file_link_registry_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "file_link_registry_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "fts_file_link"
+        },
+        {
+          "type": "trigger",
+          "name": "fts_prompt"
+        },
+        {
+          "type": "trigger",
+          "name": "fts_prompt_summary"
+        },
+        {
+          "type": "trigger",
+          "name": "fts_response"
+        },
+        {
+          "type": "trigger",
+          "name": "fts_response_summary"
+        },
+        {
+          "type": "trigger",
+          "name": "fts_visible_summary"
+        },
+        {
+          "type": "trigger",
+          "name": "gate_evaluation_run_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "gate_evaluation_run_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "legacy_project_carry_forward_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "legacy_project_carry_forward_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "lineage_head_monotonic"
+        },
+        {
+          "type": "trigger",
+          "name": "lineage_head_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "lineage_head_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "mode_classification_run_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "mode_classification_run_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "operator_activation_run_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "operator_activation_run_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "prompt_normalized_summary_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "prompt_normalized_summary_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "prompt_raw_exact_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "prompt_raw_exact_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "response_raw_visible_exact_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "response_raw_visible_exact_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "response_summary_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "response_summary_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "state_hash_chain_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "state_hash_chain_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "turn_commit_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "turn_commit_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "turn_commit_requires_prepare"
+        },
+        {
+          "type": "trigger",
+          "name": "turn_prepare_monotonic"
+        },
+        {
+          "type": "trigger",
+          "name": "turn_prepare_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "turn_prepare_no_update"
+        },
+        {
+          "type": "trigger",
+          "name": "visible_reasoning_summary_no_delete"
+        },
+        {
+          "type": "trigger",
+          "name": "visible_reasoning_summary_no_update"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/custom/custom_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 7,
+      "objects": [
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/data_excel/data_excel_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 7,
+      "objects": [
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/docs/docs_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 7,
+      "objects": [
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/github_code/github_code_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 38,
+      "objects": [
+        {
+          "type": "index",
+          "name": "idx_commit_reverse"
+        },
+        {
+          "type": "index",
+          "name": "idx_file_change_commit"
+        },
+        {
+          "type": "index",
+          "name": "idx_patch_change"
+        },
+        {
+          "type": "index",
+          "name": "idx_route_impact_commit"
+        },
+        {
+          "type": "index",
+          "name": "idx_symbol_impact_commit"
+        },
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts_config"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts_content"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts_data"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts_docsize"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts_idx"
+        },
+        {
+          "type": "table",
+          "name": "code_config_build_test_chunk"
+        },
+        {
+          "type": "table",
+          "name": "code_file_snapshot"
+        },
+        {
+          "type": "table",
+          "name": "code_import"
+        },
+        {
+          "type": "table",
+          "name": "code_index_checkpoint"
+        },
+        {
+          "type": "table",
+          "name": "code_route_api_boundary"
+        },
+        {
+          "type": "table",
+          "name": "code_source_registry"
+        },
+        {
+          "type": "table",
+          "name": "code_symbol"
+        },
+        {
+          "type": "table",
+          "name": "git_artifact_impact"
+        },
+        {
+          "type": "table",
+          "name": "git_commit_parent"
+        },
+        {
+          "type": "table",
+          "name": "git_commit_registry"
+        },
+        {
+          "type": "table",
+          "name": "git_dependency_impact"
+        },
+        {
+          "type": "table",
+          "name": "git_file_change"
+        },
+        {
+          "type": "table",
+          "name": "git_patch_hunk"
+        },
+        {
+          "type": "table",
+          "name": "git_push_event"
+        },
+        {
+          "type": "table",
+          "name": "git_ref_registry"
+        },
+        {
+          "type": "table",
+          "name": "git_route_impact"
+        },
+        {
+          "type": "table",
+          "name": "git_symbol_impact"
+        },
+        {
+          "type": "table",
+          "name": "git_test_impact"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "snapshot_git_bridge"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/images_ocr/images_ocr_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 7,
+      "objects": [
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/local_code/local_code_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 38,
+      "objects": [
+        {
+          "type": "index",
+          "name": "idx_commit_reverse"
+        },
+        {
+          "type": "index",
+          "name": "idx_file_change_commit"
+        },
+        {
+          "type": "index",
+          "name": "idx_patch_change"
+        },
+        {
+          "type": "index",
+          "name": "idx_route_impact_commit"
+        },
+        {
+          "type": "index",
+          "name": "idx_symbol_impact_commit"
+        },
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts_config"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts_content"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts_data"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts_docsize"
+        },
+        {
+          "type": "table",
+          "name": "code_chunk_fts_idx"
+        },
+        {
+          "type": "table",
+          "name": "code_config_build_test_chunk"
+        },
+        {
+          "type": "table",
+          "name": "code_file_snapshot"
+        },
+        {
+          "type": "table",
+          "name": "code_import"
+        },
+        {
+          "type": "table",
+          "name": "code_index_checkpoint"
+        },
+        {
+          "type": "table",
+          "name": "code_route_api_boundary"
+        },
+        {
+          "type": "table",
+          "name": "code_source_registry"
+        },
+        {
+          "type": "table",
+          "name": "code_symbol"
+        },
+        {
+          "type": "table",
+          "name": "git_artifact_impact"
+        },
+        {
+          "type": "table",
+          "name": "git_commit_parent"
+        },
+        {
+          "type": "table",
+          "name": "git_commit_registry"
+        },
+        {
+          "type": "table",
+          "name": "git_dependency_impact"
+        },
+        {
+          "type": "table",
+          "name": "git_file_change"
+        },
+        {
+          "type": "table",
+          "name": "git_patch_hunk"
+        },
+        {
+          "type": "table",
+          "name": "git_push_event"
+        },
+        {
+          "type": "table",
+          "name": "git_ref_registry"
+        },
+        {
+          "type": "table",
+          "name": "git_route_impact"
+        },
+        {
+          "type": "table",
+          "name": "git_symbol_impact"
+        },
+        {
+          "type": "table",
+          "name": "git_test_impact"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "snapshot_git_bridge"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/pdf_ocr/pdf_ocr_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 7,
+      "objects": [
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/ppt/ppt_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 7,
+      "objects": [
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/project_engulf/project_engulf_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 7,
+      "objects": [
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/research/research_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 7,
+      "objects": [
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "project/sectors/sqlite_brain/sqlite_brain_sector_v001.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 7,
+      "objects": [
+        {
+          "type": "table",
+          "name": "artifact_registry"
+        },
+        {
+          "type": "table",
+          "name": "chunk_index"
+        },
+        {
+          "type": "table",
+          "name": "mutation_receipt"
+        },
+        {
+          "type": "table",
+          "name": "relation_edge"
+        },
+        {
+          "type": "table",
+          "name": "sector_head"
+        },
+        {
+          "type": "table",
+          "name": "sector_meta"
+        },
+        {
+          "type": "table",
+          "name": "source_registry"
+        }
+      ]
+    },
+    {
+      "path": "uop/uop_sqlite.sqlite",
+      "integrity": "ok",
+      "foreign_key_issues": 0,
+      "object_count": 16,
+      "objects": [
+        {
+          "type": "table",
+          "name": "uop_deep_research_access_operator_v14"
+        },
+        {
+          "type": "table",
+          "name": "uop_delta_operator"
+        },
+        {
+          "type": "table",
+          "name": "uop_disclosure_boundary_operator"
+        },
+        {
+          "type": "table",
+          "name": "uop_future_addition_ledger_v14"
+        },
+        {
+          "type": "table",
+          "name": "uop_future_addition_ledger_v15"
+        },
+        {
+          "type": "table",
+          "name": "uop_governance_root"
+        },
+        {
+          "type": "table",
+          "name": "uop_governance_root_v15"
+        },
+        {
+          "type": "table",
+          "name": "uop_human_gate_operator"
+        },
+        {
+          "type": "table",
+          "name": "uop_knowledge_compression_operator"
+        },
+        {
+          "type": "table",
+          "name": "uop_mode_cluster_operator"
+        },
+        {
+          "type": "table",
+          "name": "uop_prompt_override_operator_v14"
+        },
+        {
+          "type": "table",
+          "name": "uop_public_boundary_v15"
+        },
+        {
+          "type": "table",
+          "name": "uop_public_operator_registry_v15"
+        },
+        {
+          "type": "table",
+          "name": "uop_source_registry"
+        },
+        {
+          "type": "table",
+          "name": "uop_source_state_operator"
+        },
+        {
+          "type": "table",
+          "name": "uop_spatial_operator"
+        }
+      ]
+    }
+  ]
+}

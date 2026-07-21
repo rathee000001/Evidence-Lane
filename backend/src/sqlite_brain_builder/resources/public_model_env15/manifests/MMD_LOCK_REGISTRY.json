@@ -1,0 +1,42 @@
+{
+  "created_at_utc": "2026-07-10T18:08:35Z",
+  "render_law": "Prompt-rooted complete topology using accepted wide fixed layout; no prior-version runtime labels and no global reflow.",
+  "entries": [
+    {
+      "id": "ENV",
+      "mmd_path": "env/env_mmd.mmd",
+      "mmd_sha256": "ead7454869036c7d17ab03dfe0eab781edfcb7c41dd4755206c64da26b1a5d7f",
+      "svg_path": "env/env_mmd.svg",
+      "svg_sha256": "a957f7100fc67af1bccf772cd00672381dcfa8f32b8274c6f88442fbb3c05e5a",
+      "png_path": "env/env_mmd.png",
+      "png_sha256": "508720397385efc74a50b14af68494f003218ec9f69006ffcd70166ef5d345a9",
+      "layout": "ACCEPTED_WIDE_END_TO_END_FIXED",
+      "global_reflow_allowed": false,
+      "status": "LOCKED"
+    },
+    {
+      "id": "UOP",
+      "mmd_path": "uop/uop_mmd.mmd",
+      "mmd_sha256": "49d308ebcf3e33cd43c8446f38aaaa17aa43521275f3770360698eee0b2a1879",
+      "svg_path": "uop/uop_mmd.svg",
+      "svg_sha256": "679b1d2279e2e760af7562170b0c797585091540affc5b028da416207ccba6e4",
+      "png_path": "uop/uop_mmd.png",
+      "png_sha256": "15230727892788d452bdbca61507de47cfba399a79e18e12483bb885d23d7f04",
+      "layout": "ACCEPTED_WIDE_END_TO_END_FIXED",
+      "global_reflow_allowed": false,
+      "status": "LOCKED"
+    },
+    {
+      "id": "PROJECT",
+      "mmd_path": "project/project_topology_template.mmd",
+      "mmd_sha256": "34f05a7c28a13af43e0b42e568a8d61716e8754cbb7747ea9869d3b36a3e9f27",
+      "svg_path": "project/project_topology_template.svg",
+      "svg_sha256": "38e36bfc79c912f355ec697f19e933f7b8022cc1dfb2eb9af63873f5a112a7b2",
+      "png_path": "project/project_topology_template.png",
+      "png_sha256": "ba83bfc22ae79e465e09c3c9572b39d6eefe29c4e774717e7e879e6e49477e6e",
+      "layout": "ACCEPTED_WIDE_END_TO_END_FIXED",
+      "global_reflow_allowed": false,
+      "status": "LOCKED"
+    }
+  ]
+}

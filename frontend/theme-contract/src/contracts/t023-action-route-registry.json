@@ -1,0 +1,139 @@
+{
+  "version": "T023_ACTION_ROUTE_REGISTRY_V002_NATIVE_ONLY",
+  "backend_commands": [
+    "identity.get",
+    "profile.update",
+    "settings.get",
+    "settings.update",
+    "session.update",
+    "workspace.search",
+    "workspace.init",
+    "workspace.outputRoot.view",
+    "workspace.outputRoot.choose",
+    "workspace.rootHistory.list",
+    "workspace.rootHistory.add",
+    "workspace.rootHistory.drop",
+    "profile.image.choose",
+    "character.glb.choose",
+    "ollama.executable.choose",
+    "brains.list",
+    "brains.catalog",
+    "brain.create",
+    "brain.select",
+    "brain.selection.timing.record",
+    "brain.rename",
+    "brain.pin",
+    "brain.unpin",
+    "brain.remove",
+    "brain.deleteToRecycleBin",
+    "brain.versions.list",
+    "brain.version.rollback",
+    "brain.version.drop",
+    "brain.telemetry.contract",
+    "brain.telemetry.snapshot",
+    "brain.telemetry.deltas",
+    "brain.telemetry.graph",
+    "brain.telemetry.openTarget",
+    "brain.buildAll",
+    "brain.refresh.start",
+    "brain.refresh.status",
+    "brain.delta.list",
+    "brain.delta.get",
+    "brain.planDelta.state",
+    "brain.planDelta.append",
+    "brain.planDelta.disposition",
+    "brain.planGoalPrompt.read",
+    "brain.planStateSlip.append",
+    "brain.refresh.fuse",
+    "brain.codexHandoff.status",
+    "brain.codexHandoff.create",
+    "brain.codexHandoff.openFolder",
+    "brain.portablePackage.status",
+    "sources.list",
+    "sources.add",
+    "sources.cloneGithub",
+    "sources.remove",
+    "sources.removeLane",
+    "source.path.choose",
+    "source.schema.get",
+    "source.schema.update",
+    "source.schema.reset",
+    "runtime.snapshot",
+    "metrics.snapshot",
+    "process.metrics.snapshot",
+    "pipeline.snapshot",
+    "topology.render",
+    "package.exportChatGPT",
+    "package.exportGemini",
+    "flash.read",
+    "folder.open",
+    "ollama.settings.get",
+    "ollama.settings.update",
+    "ollama.status",
+    "ollama.launch",
+    "codex.settings.get",
+    "codex.status",
+    "codex.launch",
+    "shell.external.launch"
+  ],
+  "actions": {
+    "chatgpt": {
+      "mode": "browser",
+      "command": "web.chatgpt.open",
+      "url": "https://chatgpt.com/"
+    },
+    "gemini": {
+      "mode": "browser",
+      "command": "web.gemini.open",
+      "url": "https://gemini.google.com/app"
+    },
+    "ollama": {
+      "mode": "backend",
+      "command": "ollama.launch",
+      "status_command": "ollama.status",
+      "fallback_popup": "ollama"
+    },
+    "codex": {
+      "mode": "backend",
+      "command": "codex.launch",
+      "status_command": "codex.status",
+      "fallback_popup": "codex-handoff"
+    },
+    "build_command": {
+      "mode": "backend",
+      "command": "brain.buildAll",
+      "package_outputs": ["chatgpt", "gemini", "codex-env15"]
+    },
+    "refresh": {
+      "mode": "backend",
+      "command": "brain.refresh.start",
+      "status_command": "brain.refresh.status",
+      "automatic_fuse": false
+    },
+    "fuse": {
+      "mode": "backend",
+      "command": "brain.refresh.fuse",
+      "requires": ["refresh_success", "tests_passed", "explicit_hil_pass"]
+    },
+    "admin_cockpit": {
+      "mode": "planned",
+      "route": "/admin-cockpit",
+      "status": "PLANNED_ROUTE_RESERVED_ONLY"
+    },
+    "brain_telemetry_3d": {
+      "mode": "internal",
+      "route": "/brain-telemetry-3d",
+      "status": "ACTIVE_PUBLIC_V1_REAL_BACKEND"
+    },
+    "formula_engine": {
+      "mode": "deferred",
+      "route": "/formula-engine",
+      "status": "DEFERRED_PUBLIC_V2"
+    },
+    "theme_page": {
+      "mode": "deferred",
+      "route": "/theme",
+      "status": "DEFERRED_PUBLIC_V2"
+    }
+  }
+}

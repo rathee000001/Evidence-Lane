@@ -1,0 +1,66 @@
+{
+  "schema_version": "T023_UNIVERSAL_UI_SYSTEM_SCHEMA_V001",
+  "change_policy": "ADDITIVE_REUSE_EXISTING_SCHEMA_OR_REGISTER_DISTINCT_SCHEMA",
+  "geometry_mutation_authorized": false,
+  "primitives": {
+    "pill": {
+      "schema_id": "T023_UNIVERSAL_GLASS_PILL_V001",
+      "component_owner": "GlassPill/UniversalGlassPill",
+      "geometry_modes": ["universal", "side-rail"],
+      "placement_owner": "UniversalPillCluster or explicit governed container",
+      "no_content_overlap": true
+    },
+    "glass_container": {
+      "schema_id": "T023_UNIVERSAL_GLASS_SHELL_V001",
+      "component_owner": "GlassShell",
+      "surface_modes": ["default", "transparent", "frosted-popup"],
+      "layering_schema": "T023_GLASS_LAYERING_NO_BLEED_V001"
+    },
+    "popup_container": {
+      "schema_id": "T023_UNIVERSAL_FROSTED_POPUP_V001",
+      "component_owner": "GlassShell surface=frosted-popup",
+      "motion_schema": "T023_UNIVERSAL_POPUP_FADE_V001",
+      "horizontal_scroll_allowed": false
+    },
+    "popup_motion": {
+      "schema_id": "T023_UNIVERSAL_POPUP_FADE_V001",
+      "component_owner": "UniversalPopupFade",
+      "duration_ms": 140,
+      "reduced_motion_duration_ms": 1
+    },
+    "icon_orb": {
+      "schema_id": "T023_UNIVERSAL_GLASS_ORB_V001",
+      "component_owner": "GlassIconOrb",
+      "payload_origin": "0,0",
+      "replacement_preserves_geometry": true
+    },
+    "brain_orb": {
+      "schema_id": "T023_UNIVERSAL_BRAIN_ORB_V001",
+      "component_owner": "BrainGlassSphere",
+      "pulse_owner": "COMMITTED_SELECTED_BRAIN_ONLY",
+      "viewed_uncommitted_pulse_allowed": false
+    },
+    "selected_brain": {
+      "schema_id": "T023_CANONICAL_SELECTED_BRAIN_AUTHORITY_V1",
+      "ui_modes": ["UNBOUND", "PENDING", "COMMITTED", "BROWSE_ONLY_BACKEND_UNAVAILABLE"],
+      "activation_requires_backend_commit": true,
+      "failed_activation_preserves_prior_committed_brain": true,
+      "browser_browse_may_not_claim_native_activation": true
+    },
+    "layering": {
+      "schema_id": "T023_GLASS_LAYERING_NO_BLEED_V001",
+      "delta_pills_above_glass": true,
+      "popup_above_workspace": true,
+      "exterior_shadow_bleed_allowed": false,
+      "geometry_replacement_allowed": false
+    },
+    "backend_event_binding": {
+      "schema_id": "T023_UNIVERSAL_PROCESS_TASK_EVENT_V001",
+      "implementation_state": "PHASE_D_D025_D026_REQUIRED",
+      "independent_ui_truth_allowed": false,
+      "selected_brain_schema": "T023_CANONICAL_SELECTED_BRAIN_AUTHORITY_V1"
+    }
+  },
+  "canonical_hash_algorithm": "SHA256_CANONICAL_JSON_EXCLUDING_CANONICAL_SHA256",
+  "canonical_sha256": "27ED0E4044F45AC994E7ED7CBB7F407756DC14496BFB06629B37B06D3D609AED"
+}

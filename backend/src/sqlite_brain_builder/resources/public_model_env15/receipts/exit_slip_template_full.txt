@@ -1,0 +1,1 @@
+EXIT SLIP | exact visible output committed when allowed | links/receipts/hashes recorded | sector relocked | next index resolved

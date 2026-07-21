@@ -1,0 +1,2541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6181.8pt" height="4886.8pt" viewBox="0 0 6181.8 4886.8" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+    <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+  </marker>
+</defs>
+
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(14.4 3972.4)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-14.4,14.4 -14.4,-3972.4 6167.4,-3972.4 6167.4,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="3076.5" y="-3938" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="20.00">UEPC Env15 ENV Full End&#45;to&#45;End Topology</text>
+<g id="clust1" class="cluster">
+<title>cluster_ENV_HEAD</title>
+<path fill="#fffde7" stroke="#d6c34b" d="M91,-3276C91,-3276 2413.5,-3276 2413.5,-3276 2419.5,-3276 2425.5,-3282 2425.5,-3288 2425.5,-3288 2425.5,-3521 2425.5,-3521 2425.5,-3527 2419.5,-3533 2413.5,-3533 2413.5,-3533 91,-3533 91,-3533 85,-3533 79,-3527 79,-3521 79,-3521 79,-3288 79,-3288 79,-3282 85,-3276 91,-3276"/>
+<text text-anchor="middle" x="1252.25" y="-3518.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">ENV HEAD / LOCKED GOVERNANCE ROOT</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_SOURCE_INTAKE</title>
+<path fill="#eef7ff" stroke="#d6c34b" d="M20,-3541C20,-3541 2715,-3541 2715,-3541 2721,-3541 2727,-3547 2727,-3553 2727,-3553 2727,-3908 2727,-3908 2727,-3914 2721,-3920 2715,-3920 2715,-3920 20,-3920 20,-3920 14,-3920 8,-3914 8,-3908 8,-3908 8,-3553 8,-3553 8,-3547 14,-3541 20,-3541"/>
+<text text-anchor="middle" x="1367.5" y="-3905.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">SOURCE INTAKE + LOSSLESS CHUNKING</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_AUTHORITY</title>
+<path fill="#f0fff4" stroke="#d6c34b" d="M841.5,-2775C841.5,-2775 2655,-2775 2655,-2775 2661,-2775 2667,-2781 2667,-2787 2667,-2787 2667,-2898 2667,-2898 2667,-2904 2661,-2910 2655,-2910 2655,-2910 841.5,-2910 841.5,-2910 835.5,-2910 829.5,-2904 829.5,-2898 829.5,-2898 829.5,-2787 829.5,-2787 829.5,-2781 835.5,-2775 841.5,-2775"/>
+<text text-anchor="middle" x="1748.25" y="-2895.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">AUTHORITY, PRECEDENCE, QUARANTINE</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_MODE_ROUTER</title>
+<path fill="#fff5f5" stroke="#d6c34b" d="M835.5,-1778C835.5,-1778 1956,-1778 1956,-1778 1962,-1778 1968,-1784 1968,-1790 1968,-1790 1968,-2755 1968,-2755 1968,-2761 1962,-2767 1956,-2767 1956,-2767 835.5,-2767 835.5,-2767 829.5,-2767 823.5,-2761 823.5,-2755 823.5,-2755 823.5,-1790 823.5,-1790 823.5,-1784 829.5,-1778 835.5,-1778"/>
+<text text-anchor="middle" x="1395.75" y="-2752.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">MODE + LANE ROUTER</text>
+</g>
+<g id="clust13" class="cluster">
+<title>cluster_ENV15_DEEPRESEARCH</title>
+<path fill="#fff5f5" stroke="#d6c34b" d="M3940,-1770C3940,-1770 5444.5,-1770 5444.5,-1770 5450.5,-1770 5456.5,-1776 5456.5,-1782 5456.5,-1782 5456.5,-1954 5456.5,-1954 5456.5,-1960 5450.5,-1966 5444.5,-1966 5444.5,-1966 3940,-1966 3940,-1966 3934,-1966 3928,-1960 3928,-1954 3928,-1954 3928,-1782 3928,-1782 3928,-1776 3934,-1770 3940,-1770"/>
+<text text-anchor="middle" x="4692.25" y="-1951.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">ENV15 DEEP RESEARCH ACCESS + AUDIT SIDECAR</text>
+</g>
+<g id="clust15" class="cluster">
+<title>cluster_ENV15_PROJECT_EXPANSION</title>
+<path fill="#f5fff0" stroke="#d6c34b" d="M520,-212C520,-212 2352,-212 2352,-212 2358,-212 2364,-218 2364,-224 2364,-224 2364,-335 2364,-335 2364,-341 2358,-347 2352,-347 2352,-347 520,-347 520,-347 514,-347 508,-341 508,-335 508,-335 508,-224 508,-224 508,-218 514,-212 520,-212"/>
+<text text-anchor="middle" x="1436" y="-332.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">ENV15 PROJECT TEMPLATE EXPANSION CONTROL</text>
+</g>
+<g id="clust16" class="cluster">
+<title>cluster_ENV15_CLEAN_PACKAGE</title>
+<path fill="#fffaf0" stroke="#d6c34b" d="M4558.5,-1974C4558.5,-1974 6133,-1974 6133,-1974 6139,-1974 6145,-1980 6145,-1986 6145,-1986 6145,-2097 6145,-2097 6145,-2103 6139,-2109 6133,-2109 6133,-2109 4558.5,-2109 4558.5,-2109 4552.5,-2109 4546.5,-2103 4546.5,-2097 4546.5,-2097 4546.5,-1986 4546.5,-1986 4546.5,-1980 4552.5,-1974 4558.5,-1974"/>
+<text text-anchor="middle" x="5345.75" y="-2094.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">ENV15 CLEAN PACKAGE / NO BASELINE ZIP COPY</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_PCM_MBA</title>
+<path fill="#f8f0ff" stroke="#d6c34b" d="M871.5,-1452C871.5,-1452 1431,-1452 1431,-1452 1437,-1452 1443,-1458 1443,-1464 1443,-1464 1443,-1758 1443,-1758 1443,-1764 1437,-1770 1431,-1770 1431,-1770 871.5,-1770 871.5,-1770 865.5,-1770 859.5,-1764 859.5,-1758 859.5,-1758 859.5,-1464 859.5,-1464 859.5,-1458 865.5,-1452 871.5,-1452"/>
+<text text-anchor="middle" x="1151.25" y="-1755.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">PCM + MBA OPERATOR ENGINE / FIRED ONLY WHEN NEEDED</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_UOP_SECTOR</title>
+<path fill="#f5fff0" stroke="#d6c34b" d="M1644,-715C1644,-715 4427.5,-715 4427.5,-715 4433.5,-715 4439.5,-721 4439.5,-727 4439.5,-727 4439.5,-960 4439.5,-960 4439.5,-966 4433.5,-972 4427.5,-972 4427.5,-972 1644,-972 1644,-972 1638,-972 1632,-966 1632,-960 1632,-960 1632,-727 1632,-727 1632,-721 1638,-715 1644,-715"/>
+<text text-anchor="middle" x="3035.75" y="-957.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">UOP GOVERNANCE SECTOR / MANDATORY BUT SEPARATE</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_PROJECT_TEMPLATE</title>
+<path fill="#fffaf0" stroke="#d6c34b" d="M2123,-1227C2123,-1227 3824.5,-1227 3824.5,-1227 3830.5,-1227 3836.5,-1233 3836.5,-1239 3836.5,-1239 3836.5,-1716 3836.5,-1716 3836.5,-1722 3830.5,-1728 3824.5,-1728 3824.5,-1728 2123,-1728 2123,-1728 2117,-1728 2111,-1722 2111,-1716 2111,-1716 2111,-1239 2111,-1239 2111,-1233 2117,-1227 2123,-1227"/>
+<text text-anchor="middle" x="2973.75" y="-1713.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">UNPOPULATED PROJECT SECTOR / TEMPLATE ONLY</text>
+</g>
+<g id="clust8" class="cluster">
+<title>cluster_PB_BUILDER</title>
+<path fill="#eefefc" stroke="#d6c34b" d="M2120.5,-1869C2120.5,-1869 2704.5,-1869 2704.5,-1869 2710.5,-1869 2716.5,-1875 2716.5,-1881 2716.5,-1881 2716.5,-2175 2716.5,-2175 2716.5,-2181 2710.5,-2187 2704.5,-2187 2704.5,-2187 2120.5,-2187 2120.5,-2187 2114.5,-2187 2108.5,-2181 2108.5,-2175 2108.5,-2175 2108.5,-1881 2108.5,-1881 2108.5,-1875 2114.5,-1869 2120.5,-1869"/>
+<text text-anchor="middle" x="2412.5" y="-2172.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">PROJECT BRAIN BUILDER LANES / EMPTY UNTIL PROJECT ENGULF</text>
+</g>
+<g id="clust9" class="cluster">
+<title>cluster_TURN_WRITEBACK</title>
+<path fill="#f7f7ff" stroke="#d6c34b" d="M816.5,-980C816.5,-980 4066,-980 4066,-980 4072,-980 4078,-986 4078,-992 4078,-992 4078,-1164 4078,-1164 4078,-1170 4072,-1176 4066,-1176 4066,-1176 816.5,-1176 816.5,-1176 810.5,-1176 804.5,-1170 804.5,-1164 804.5,-1164 804.5,-992 804.5,-992 804.5,-986 810.5,-980 816.5,-980"/>
+<text text-anchor="middle" x="2441.25" y="-1161.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">PROMPT / RESPONSE / ARTIFACT WRITEBACK</text>
+</g>
+<g id="clust10" class="cluster">
+<title>cluster_ENV_MMD_EXIT</title>
+<path fill="#fffde7" stroke="#d6c34b" d="M4174,-1627C4174,-1627 5749,-1627 5749,-1627 5755,-1627 5761,-1633 5761,-1639 5761,-1639 5761,-1750 5761,-1750 5761,-1756 5755,-1762 5749,-1762 5749,-1762 4174,-1762 4174,-1762 4168,-1762 4162,-1756 4162,-1750 4162,-1750 4162,-1639 4162,-1639 4162,-1633 4168,-1627 4174,-1627"/>
+<text text-anchor="middle" x="4961.5" y="-1747.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">ENV MMD LOCK + CLEAN EXIT</text>
+</g>
+<g id="clust11" class="cluster">
+<title>cluster_ENV15_BREAKER</title>
+<path fill="#eef7ff" stroke="#d6c34b" d="M4537.5,-1110C4537.5,-1110 5806,-1110 5806,-1110 5812,-1110 5818,-1116 5818,-1122 5818,-1122 5818,-1355 5818,-1355 5818,-1361 5812,-1367 5806,-1367 5806,-1367 4537.5,-1367 4537.5,-1367 4531.5,-1367 4525.5,-1361 4525.5,-1355 4525.5,-1355 4525.5,-1122 4525.5,-1122 4525.5,-1116 4531.5,-1110 4537.5,-1110"/>
+<text text-anchor="middle" x="5171.75" y="-1352.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">ENV15 INVALID&#45;ANSWER BREAKER GATES</text>
+</g>
+<g id="clust12" class="cluster">
+<title>cluster_ENV15_AUTHORITY</title>
+<path fill="#f0fff4" stroke="#d6c34b" d="M330.5,-8C330.5,-8 2320,-8 2320,-8 2326,-8 2332,-14 2332,-20 2332,-20 2332,-192 2332,-192 2332,-198 2326,-204 2320,-204 2320,-204 330.5,-204 330.5,-204 324.5,-204 318.5,-198 318.5,-192 318.5,-192 318.5,-20 318.5,-20 318.5,-14 324.5,-8 330.5,-8"/>
+<text text-anchor="middle" x="1325.25" y="-189.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">ENV15 ROOT AUTHORITY + PROMPT OVERRIDE CONTROL</text>
+</g>
+<g id="clust14" class="cluster">
+<title>cluster_ENV15_MMD_SVG</title>
+<path fill="#f8f0ff" stroke="#d6c34b" d="M1208,-355C1208,-355 2343,-355 2343,-355 2349,-355 2355,-361 2355,-367 2355,-367 2355,-600 2355,-600 2355,-606 2349,-612 2343,-612 2343,-612 1208,-612 1208,-612 1202,-612 1196,-606 1196,-600 1196,-600 1196,-367 1196,-367 1196,-361 1202,-355 1208,-355"/>
+<text text-anchor="middle" x="1775.5" y="-597.6" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="13.00">ENV15 MMD SOURCE + SVG RENDER LOCK</text>
+</g>
+<!-- ENVSQL -->
+<g id="node1" class="node">
+<title>ENVSQL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M438,-3320C438,-3320 352,-3320 352,-3320 346,-3320 340,-3314 340,-3308 340,-3308 340,-3296 340,-3296 340,-3290 346,-3284 352,-3284 352,-3284 438,-3284 438,-3284 444,-3284 450,-3290 450,-3296 450,-3296 450,-3308 450,-3308 450,-3314 444,-3320 438,-3320"/>
+<text text-anchor="middle" x="395" y="-3299.5" font-family="Helvetica,sans-Serif" font-size="10.00">env/env_sqlite.sqlite</text>
+</g>
+<!-- ENVROOT -->
+<g id="node3" class="node">
+<title>ENVROOT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M673,-3320C673,-3320 560,-3320 560,-3320 554,-3320 548,-3314 548,-3308 548,-3308 548,-3296 548,-3296 548,-3290 554,-3284 560,-3284 560,-3284 673,-3284 673,-3284 679,-3284 685,-3290 685,-3296 685,-3296 685,-3308 685,-3308 685,-3314 679,-3320 673,-3320"/>
+<text text-anchor="middle" x="616.5" y="-3299.5" font-family="Helvetica,sans-Serif" font-size="10.00">env_governance_root_v15</text>
+</g>
+<!-- ENVSQL&#45;&gt;ENVROOT -->
+<g id="edge6" class="edge">
+<title>ENVSQL&#45;&gt;ENVROOT</title>
+<path fill="none" stroke="#555555" d="M450.26,-3302C477.99,-3302 512.13,-3302 542.16,-3302"/>
+<polygon fill="#555555" stroke="#555555" points="542.22,-3303.93 547.72,-3302 542.22,-3300.08 542.22,-3303.93"/>
+</g>
+<!-- DOTENV -->
+<g id="node2" class="node">
+<title>DOTENV</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M191,-3320C191,-3320 99,-3320 99,-3320 93,-3320 87,-3314 87,-3308 87,-3308 87,-3296 87,-3296 87,-3290 93,-3284 99,-3284 99,-3284 191,-3284 191,-3284 197,-3284 203,-3290 203,-3296 203,-3296 203,-3308 203,-3308 203,-3314 197,-3320 191,-3320"/>
+<text text-anchor="middle" x="145" y="-3299.5" font-family="Helvetica,sans-Serif" font-size="10.00">.uepc_env / env HEAD</text>
+</g>
+<!-- DOTENV&#45;&gt;ENVSQL -->
+<g id="edge5" class="edge">
+<title>DOTENV&#45;&gt;ENVSQL</title>
+<path fill="none" stroke="#555555" d="M203.21,-3302C242.34,-3302 294.12,-3302 333.86,-3302"/>
+<polygon fill="#555555" stroke="#555555" points="334.13,-3303.93 339.63,-3302 334.13,-3300.08 334.13,-3303.93"/>
+</g>
+<!-- CHATBLOCK -->
+<g id="node131" class="node">
+<title>CHATBLOCK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4795.5,-1154C4795.5,-1154 4545.5,-1154 4545.5,-1154 4539.5,-1154 4533.5,-1148 4533.5,-1142 4533.5,-1142 4533.5,-1130 4533.5,-1130 4533.5,-1124 4539.5,-1118 4545.5,-1118 4545.5,-1118 4795.5,-1118 4795.5,-1118 4801.5,-1118 4807.5,-1124 4807.5,-1130 4807.5,-1130 4807.5,-1142 4807.5,-1142 4807.5,-1148 4801.5,-1154 4795.5,-1154"/>
+<text text-anchor="middle" x="4670.5" y="-1133.5" font-family="Helvetica,sans-Serif" font-size="10.00">CHAT_WINDOW_LOOKUP_VIOLATION if package exists</text>
+</g>
+<!-- DOTENV&#45;&gt;CHATBLOCK -->
+<g id="edge149" class="edge">
+<title>DOTENV&#45;&gt;CHATBLOCK</title>
+<path fill="none" stroke="#555555" d="M146.15,-3283.84C147.92,-3099.4 166.99,-1563.3 317,-1135 395.23,-911.63 378.82,-694 615.5,-694 615.5,-694 615.5,-694 1287.5,-694 2367.73,-694 2637.77,-685 3718,-685 3718,-685 3718,-685 4024.5,-685 4221.46,-685 4303.46,-599.25 4467,-709 4612.08,-806.36 4655.91,-1037.21 4666.55,-1112.1"/>
+<polygon fill="#555555" stroke="#555555" points="4664.66,-1112.44 4667.32,-1117.63 4668.47,-1111.92 4664.66,-1112.44"/>
+</g>
+<!-- ENVCONT -->
+<g id="node132" class="node">
+<title>ENVCONT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4791.5,-1215C4791.5,-1215 4549.5,-1215 4549.5,-1215 4543.5,-1215 4537.5,-1209 4537.5,-1203 4537.5,-1203 4537.5,-1191 4537.5,-1191 4537.5,-1185 4543.5,-1179 4549.5,-1179 4549.5,-1179 4791.5,-1179 4791.5,-1179 4797.5,-1179 4803.5,-1185 4803.5,-1191 4803.5,-1191 4803.5,-1203 4803.5,-1203 4803.5,-1209 4797.5,-1215 4791.5,-1215"/>
+<text text-anchor="middle" x="4670.5" y="-1194.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENV_CONTINUITY_DROP_DETECTED if any law drops</text>
+</g>
+<!-- DOTENV&#45;&gt;ENVCONT -->
+<g id="edge150" class="edge">
+<title>DOTENV&#45;&gt;ENVCONT</title>
+<path fill="none" stroke="#555555" d="M145.99,-3283.8C146.39,-3078.06 162.44,-1197 615.5,-1197 615.5,-1197 615.5,-1197 4024.5,-1197 4199.39,-1197 4400.95,-1197 4531.55,-1197"/>
+<polygon fill="#555555" stroke="#555555" points="4531.82,-1198.93 4537.32,-1197 4531.82,-1195.08 4531.82,-1198.93"/>
+</g>
+<!-- LOCK -->
+<g id="node4" class="node">
+<title>LOCK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1008,-3320C1008,-3320 830,-3320 830,-3320 824,-3320 818,-3314 818,-3308 818,-3308 818,-3296 818,-3296 818,-3290 824,-3284 830,-3284 830,-3284 1008,-3284 1008,-3284 1014,-3284 1020,-3290 1020,-3296 1020,-3296 1020,-3308 1020,-3308 1020,-3314 1014,-3320 1008,-3320"/>
+<text text-anchor="middle" x="919" y="-3299.5" font-family="Helvetica,sans-Serif" font-size="10.00">env_write_lock_policy / env core locked</text>
+</g>
+<!-- ENVROOT&#45;&gt;LOCK -->
+<g id="edge7" class="edge">
+<title>ENVROOT&#45;&gt;LOCK</title>
+<path fill="none" stroke="#555555" d="M685.31,-3302C722.75,-3302 770.09,-3302 812.27,-3302"/>
+<polygon fill="#555555" stroke="#555555" points="812.42,-3303.93 817.92,-3302 812.42,-3300.08 812.42,-3303.93"/>
+</g>
+<!-- ENVTRUST -->
+<g id="node8" class="node">
+<title>ENVTRUST</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M961,-3381C961,-3381 877,-3381 877,-3381 871,-3381 865,-3375 865,-3369 865,-3369 865,-3357 865,-3357 865,-3351 871,-3345 877,-3345 877,-3345 961,-3345 961,-3345 967,-3345 973,-3351 973,-3357 973,-3357 973,-3369 973,-3369 973,-3375 967,-3381 961,-3381"/>
+<text text-anchor="middle" x="919" y="-3360.5" font-family="Helvetica,sans-Serif" font-size="10.00">env_trust_state_v11</text>
+</g>
+<!-- ENVROOT&#45;&gt;ENVTRUST -->
+<g id="edge11" class="edge">
+<title>ENVROOT&#45;&gt;ENVTRUST</title>
+<path fill="none" stroke="#555555" d="M685.2,-3317.11C708.83,-3322.29 735.56,-3328.02 760,-3333 792.84,-3339.69 829.62,-3346.7 859.42,-3352.26"/>
+<polygon fill="#555555" stroke="#555555" points="859.14,-3354.17 864.9,-3353.28 859.85,-3350.38 859.14,-3354.17"/>
+</g>
+<!-- NOCI -->
+<g id="node12" class="node">
+<title>NOCI</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1030,-3442C1030,-3442 808,-3442 808,-3442 802,-3442 796,-3436 796,-3430 796,-3430 796,-3418 796,-3418 796,-3412 802,-3406 808,-3406 808,-3406 1030,-3406 1030,-3406 1036,-3406 1042,-3412 1042,-3418 1042,-3418 1042,-3430 1042,-3430 1042,-3436 1036,-3442 1030,-3442"/>
+<text text-anchor="middle" x="919" y="-3421.5" font-family="Helvetica,sans-Serif" font-size="10.00">no_autonomous_cicd_gate / human route control</text>
+</g>
+<!-- ENVROOT&#45;&gt;NOCI -->
+<g id="edge15" class="edge">
+<title>ENVROOT&#45;&gt;NOCI</title>
+<path fill="none" stroke="#555555" d="M639.68,-3320.25C666.49,-3341.34 713.79,-3375.52 760,-3394 769.93,-3397.97 780.43,-3401.43 791.11,-3404.43"/>
+<polygon fill="#555555" stroke="#555555" points="790.89,-3406.37 796.7,-3405.96 791.91,-3402.66 790.89,-3406.37"/>
+</g>
+<!-- SAFE -->
+<g id="node13" class="node">
+<title>SAFE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1066,-3503C1066,-3503 772,-3503 772,-3503 766,-3503 760,-3497 760,-3491 760,-3491 760,-3479 760,-3479 760,-3473 766,-3467 772,-3467 772,-3467 1066,-3467 1066,-3467 1072,-3467 1078,-3473 1078,-3479 1078,-3479 1078,-3491 1078,-3491 1078,-3497 1072,-3503 1066,-3503"/>
+<text text-anchor="middle" x="919" y="-3482.5" font-family="Helvetica,sans-Serif" font-size="10.00">safe tamper response / read&#45;only quarantine + recovery export</text>
+</g>
+<!-- ENVROOT&#45;&gt;SAFE -->
+<g id="edge16" class="edge">
+<title>ENVROOT&#45;&gt;SAFE</title>
+<path fill="none" stroke="#555555" d="M628.66,-3320.1C649.85,-3352.82 699.3,-3421.5 760,-3455 766.85,-3458.78 774.1,-3462.09 781.57,-3465"/>
+<polygon fill="#555555" stroke="#555555" points="780.95,-3466.82 786.78,-3466.94 782.3,-3463.21 780.95,-3466.82"/>
+</g>
+<!-- PRECEDENCE -->
+<g id="node31" class="node">
+<title>PRECEDENCE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M988.5,-2880C988.5,-2880 849.5,-2880 849.5,-2880 843.5,-2880 837.5,-2874 837.5,-2868 837.5,-2868 837.5,-2856 837.5,-2856 837.5,-2850 843.5,-2844 849.5,-2844 849.5,-2844 988.5,-2844 988.5,-2844 994.5,-2844 1000.5,-2850 1000.5,-2856 1000.5,-2856 1000.5,-2868 1000.5,-2868 1000.5,-2874 994.5,-2880 988.5,-2880"/>
+<text text-anchor="middle" x="919" y="-2859.5" font-family="Helvetica,sans-Serif" font-size="10.00">source_precedence_matrix_v15</text>
+</g>
+<!-- ENVROOT&#45;&gt;PRECEDENCE -->
+<g id="edge38" class="edge">
+<title>ENVROOT&#45;&gt;PRECEDENCE</title>
+<path fill="none" stroke="#555555" d="M618.38,-3283.88C622.41,-3221.48 644.36,-3013.4 760,-2906 779.58,-2887.82 806.03,-2877.05 831.68,-2870.71"/>
+<polygon fill="#555555" stroke="#555555" points="832.23,-2872.56 837.14,-2869.42 831.35,-2868.81 832.23,-2872.56"/>
+</g>
+<!-- MODENS -->
+<g id="node39" class="node">
+<title>MODENS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M977.5,-2371C977.5,-2371 860.5,-2371 860.5,-2371 854.5,-2371 848.5,-2365 848.5,-2359 848.5,-2359 848.5,-2347 848.5,-2347 848.5,-2341 854.5,-2335 860.5,-2335 860.5,-2335 977.5,-2335 977.5,-2335 983.5,-2335 989.5,-2341 989.5,-2347 989.5,-2347 989.5,-2359 989.5,-2359 989.5,-2365 983.5,-2371 977.5,-2371"/>
+<text text-anchor="middle" x="919" y="-2350.5" font-family="Helvetica,sans-Serif" font-size="10.00">mode_namespace_registry</text>
+</g>
+<!-- ENVROOT&#45;&gt;MODENS -->
+<g id="edge46" class="edge">
+<title>ENVROOT&#45;&gt;MODENS</title>
+<path fill="none" stroke="#555555" d="M621.64,-3283.86C637.36,-3215.64 695.73,-2968.18 760,-2769 809.05,-2616.98 881.93,-2439.16 908.16,-2376.38"/>
+<polygon fill="#555555" stroke="#555555" points="910.05,-2376.83 910.4,-2371.01 906.5,-2375.34 910.05,-2376.83"/>
+</g>
+<!-- COMBO -->
+<g id="node40" class="node">
+<title>COMBO</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M994.5,-2310C994.5,-2310 843.5,-2310 843.5,-2310 837.5,-2310 831.5,-2304 831.5,-2298 831.5,-2298 831.5,-2286 831.5,-2286 831.5,-2280 837.5,-2274 843.5,-2274 843.5,-2274 994.5,-2274 994.5,-2274 1000.5,-2274 1006.5,-2280 1006.5,-2286 1006.5,-2286 1006.5,-2298 1006.5,-2298 1006.5,-2304 1000.5,-2310 994.5,-2310"/>
+<text text-anchor="middle" x="919" y="-2289.5" font-family="Helvetica,sans-Serif" font-size="10.00">combined_mode_namespace_rule</text>
+</g>
+<!-- ENVROOT&#45;&gt;COMBO -->
+<g id="edge47" class="edge">
+<title>ENVROOT&#45;&gt;COMBO</title>
+<path fill="none" stroke="#555555" d="M617.4,-3283.62C617.15,-3161.52 621.89,-2468.08 760,-2323 777.11,-2305.02 801.36,-2295.79 825.73,-2291.39"/>
+<polygon fill="#555555" stroke="#555555" points="826.15,-2293.27 831.26,-2290.48 825.52,-2289.48 826.15,-2293.27"/>
+</g>
+<!-- HINDEX -->
+<g id="node41" class="node">
+<title>HINDEX</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M977.5,-2249C977.5,-2249 860.5,-2249 860.5,-2249 854.5,-2249 848.5,-2243 848.5,-2237 848.5,-2237 848.5,-2225 848.5,-2225 848.5,-2219 854.5,-2213 860.5,-2213 860.5,-2213 977.5,-2213 977.5,-2213 983.5,-2213 989.5,-2219 989.5,-2225 989.5,-2225 989.5,-2237 989.5,-2237 989.5,-2243 983.5,-2249 977.5,-2249"/>
+<text text-anchor="middle" x="919" y="-2228.5" font-family="Helvetica,sans-Serif" font-size="10.00">hierarchical_index_registry</text>
+</g>
+<!-- ENVROOT&#45;&gt;HINDEX -->
+<g id="edge48" class="edge">
+<title>ENVROOT&#45;&gt;HINDEX</title>
+<path fill="none" stroke="#555555" d="M617.23,-3283.71C615.78,-3157.58 613.63,-2417.05 760,-2262 781.05,-2239.71 813.06,-2230.83 842.78,-2227.96"/>
+<polygon fill="#555555" stroke="#555555" points="842.98,-2229.87 848.3,-2227.49 842.65,-2226.03 842.98,-2229.87"/>
+</g>
+<!-- PCM -->
+<g id="node63" class="node">
+<title>PCM</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M958.5,-1648C958.5,-1648 879.5,-1648 879.5,-1648 873.5,-1648 867.5,-1642 867.5,-1636 867.5,-1636 867.5,-1624 867.5,-1624 867.5,-1618 873.5,-1612 879.5,-1612 879.5,-1612 958.5,-1612 958.5,-1612 964.5,-1612 970.5,-1618 970.5,-1624 970.5,-1624 970.5,-1636 970.5,-1636 970.5,-1642 964.5,-1648 958.5,-1648"/>
+<text text-anchor="middle" x="919" y="-1627.5" font-family="Helvetica,sans-Serif" font-size="10.00">pcm_mba_operator</text>
+</g>
+<!-- ENVROOT&#45;&gt;PCM -->
+<g id="edge70" class="edge">
+<title>ENVROOT&#45;&gt;PCM</title>
+<path fill="none" stroke="#555555" d="M617.4,-3283.62C616.79,-3129.77 617.72,-2055.05 760,-1772 787.03,-1718.23 843.79,-1675.32 881.4,-1651.26"/>
+<polygon fill="#555555" stroke="#555555" points="882.73,-1652.7 886.35,-1648.14 880.67,-1649.45 882.73,-1652.7"/>
+</g>
+<!-- MODE_ROUTER -->
+<g id="node110" class="node">
+<title>MODE_ROUTER</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M949,-1024C949,-1024 889,-1024 889,-1024 883,-1024 877,-1018 877,-1012 877,-1012 877,-1000 877,-1000 877,-994 883,-988 889,-988 889,-988 949,-988 949,-988 955,-988 961,-994 961,-1000 961,-1000 961,-1012 961,-1012 961,-1018 955,-1024 949,-1024"/>
+<text text-anchor="middle" x="919" y="-1003.5" font-family="Helvetica,sans-Serif" font-size="10.00">MODE_ROUTER</text>
+</g>
+<!-- ENVROOT&#45;&gt;MODE_ROUTER -->
+<g id="edge136" class="edge">
+<title>ENVROOT&#45;&gt;MODE_ROUTER</title>
+<path fill="none" stroke="#555555" d="M617.38,-3283.85C616.2,-3080.36 609.62,-1231.3 760,-1048 786.49,-1015.71 834.72,-1006.67 870.95,-1004.81"/>
+<polygon fill="#555555" stroke="#555555" points="871.24,-1006.72 876.66,-1004.57 871.08,-1002.88 871.24,-1006.72"/>
+</g>
+<!-- ENVMMDLOCK -->
+<g id="node118" class="node">
+<title>ENVMMDLOCK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4455,-1732C4455,-1732 4182,-1732 4182,-1732 4176,-1732 4170,-1726 4170,-1720 4170,-1720 4170,-1708 4170,-1708 4170,-1702 4176,-1696 4182,-1696 4182,-1696 4455,-1696 4455,-1696 4461,-1696 4467,-1702 4467,-1708 4467,-1708 4467,-1720 4467,-1720 4467,-1726 4461,-1732 4455,-1732"/>
+<text text-anchor="middle" x="4318.5" y="-1711.5" font-family="Helvetica,sans-Serif" font-size="10.00">env_mmd_lock_state / env MMD changes only in flash_env</text>
+</g>
+<!-- ENVROOT&#45;&gt;ENVMMDLOCK -->
+<g id="edge125" class="edge">
+<title>ENVROOT&#45;&gt;ENVMMDLOCK</title>
+<path fill="none" stroke="#555555" d="M617.44,-3283.89C617.03,-3100.31 617.96,-1580.28 760,-1448 818.71,-1393.33 1040.78,-1446.22 1121,-1446 1268.11,-1445.59 1309.08,-1411.12 1452,-1446 1720.04,-1511.42 1735.88,-1662.91 2003,-1732 2270.09,-1801.08 2347.62,-1749 2623.5,-1749 2623.5,-1749 2623.5,-1749 3720,-1749 3871.13,-1749 4043.39,-1737.7 4164,-1727.95"/>
+<polygon fill="#555555" stroke="#555555" points="4164.37,-1729.85 4169.7,-1727.48 4164.06,-1726.01 4164.37,-1729.85"/>
+</g>
+<!-- SOURCE_INTAKE -->
+<g id="node176" class="node">
+<title>SOURCE_INTAKE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M952,-1393C952,-1393 886,-1393 886,-1393 880,-1393 874,-1387 874,-1381 874,-1381 874,-1369 874,-1369 874,-1363 880,-1357 886,-1357 886,-1357 952,-1357 952,-1357 958,-1357 964,-1363 964,-1369 964,-1369 964,-1381 964,-1381 964,-1387 958,-1393 952,-1393"/>
+<text text-anchor="middle" x="919" y="-1372.5" font-family="Helvetica,sans-Serif" font-size="10.00">SOURCE_INTAKE</text>
+</g>
+<!-- ENVROOT&#45;&gt;SOURCE_INTAKE -->
+<g id="edge134" class="edge">
+<title>ENVROOT&#45;&gt;SOURCE_INTAKE</title>
+<path fill="none" stroke="#555555" d="M617.59,-3283.99C618.64,-3099.86 631.27,-1562.37 760,-1412 786.17,-1381.43 832.34,-1373.45 868.03,-1372.38"/>
+<polygon fill="#555555" stroke="#555555" points="868.21,-1374.3 873.66,-1372.26 868.13,-1370.45 868.21,-1374.3"/>
+</g>
+<!-- AUTHORITY -->
+<g id="node177" class="node">
+<title>AUTHORITY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M940,-1332C940,-1332 898,-1332 898,-1332 892,-1332 886,-1326 886,-1320 886,-1320 886,-1308 886,-1308 886,-1302 892,-1296 898,-1296 898,-1296 940,-1296 940,-1296 946,-1296 952,-1302 952,-1308 952,-1308 952,-1320 952,-1320 952,-1326 946,-1332 940,-1332"/>
+<text text-anchor="middle" x="919" y="-1311.5" font-family="Helvetica,sans-Serif" font-size="10.00">AUTHORITY</text>
+</g>
+<!-- ENVROOT&#45;&gt;AUTHORITY -->
+<g id="edge135" class="edge">
+<title>ENVROOT&#45;&gt;AUTHORITY</title>
+<path fill="none" stroke="#555555" d="M617.51,-3283.92C617.77,-3095.73 623.98,-1498.56 760,-1345 789.56,-1311.63 843.6,-1307.81 880.15,-1309.67"/>
+<polygon fill="#555555" stroke="#555555" points="880.26,-1311.6 885.86,-1310.01 880.49,-1307.76 880.26,-1311.6"/>
+</g>
+<!-- PCM_MBA -->
+<g id="node178" class="node">
+<title>PCM_MBA</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M936,-1271C936,-1271 902,-1271 902,-1271 896,-1271 890,-1265 890,-1259 890,-1259 890,-1247 890,-1247 890,-1241 896,-1235 902,-1235 902,-1235 936,-1235 936,-1235 942,-1235 948,-1241 948,-1247 948,-1247 948,-1259 948,-1259 948,-1265 942,-1271 936,-1271"/>
+<text text-anchor="middle" x="919" y="-1250.5" font-family="Helvetica,sans-Serif" font-size="10.00">PCM_MBA</text>
+</g>
+<!-- ENVROOT&#45;&gt;PCM_MBA -->
+<g id="edge137" class="edge">
+<title>ENVROOT&#45;&gt;PCM_MBA</title>
+<path fill="none" stroke="#555555" d="M617.47,-3283.96C617.29,-3092.74 619.8,-1442.64 760,-1284 790.66,-1249.31 847.79,-1246.53 884.3,-1248.89"/>
+<polygon fill="#555555" stroke="#555555" points="884.35,-1250.83 889.98,-1249.31 884.63,-1246.99 884.35,-1250.83"/>
+</g>
+<!-- UOP_SECTOR -->
+<g id="node179" class="node">
+<title>UOP_SECTOR</title>
+<path fill="#eaffea" stroke="#7b68ee" d="M944,-963C944,-963 894,-963 894,-963 888,-963 882,-957 882,-951 882,-951 882,-939 882,-939 882,-933 888,-927 894,-927 894,-927 944,-927 944,-927 950,-927 956,-933 956,-939 956,-939 956,-951 956,-951 956,-957 950,-963 944,-963"/>
+<text text-anchor="middle" x="919" y="-942.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP_SECTOR</text>
+</g>
+<!-- ENVROOT&#45;&gt;UOP_SECTOR -->
+<g id="edge138" class="edge">
+<title>ENVROOT&#45;&gt;UOP_SECTOR</title>
+<path fill="none" stroke="#555555" d="M617.98,-3283.7C623.6,-3070.56 678.63,-1065.81 760,-974 788.45,-941.91 839.73,-937.9 876.15,-939.83"/>
+<polygon fill="#555555" stroke="#555555" points="876.25,-941.76 881.86,-940.18 876.49,-937.92 876.25,-941.76"/>
+</g>
+<!-- PROJECT_TEMPLATE -->
+<g id="node180" class="node">
+<title>PROJECT_TEMPLATE</title>
+<path fill="#fff4e6" stroke="#7b68ee" d="M960.5,-902C960.5,-902 877.5,-902 877.5,-902 871.5,-902 865.5,-896 865.5,-890 865.5,-890 865.5,-878 865.5,-878 865.5,-872 871.5,-866 877.5,-866 877.5,-866 960.5,-866 960.5,-866 966.5,-866 972.5,-872 972.5,-878 972.5,-878 972.5,-890 972.5,-890 972.5,-896 966.5,-902 960.5,-902"/>
+<text text-anchor="middle" x="919" y="-881.5" font-family="Helvetica,sans-Serif" font-size="10.00">PROJECT_TEMPLATE</text>
+</g>
+<!-- ENVROOT&#45;&gt;PROJECT_TEMPLATE -->
+<g id="edge139" class="edge">
+<title>ENVROOT&#45;&gt;PROJECT_TEMPLATE</title>
+<path fill="none" stroke="#555555" d="M617.95,-3283.91C623.34,-3069 677.14,-1009.79 760,-915 784.17,-887.35 825.16,-879.91 859.33,-879.23"/>
+<polygon fill="#555555" stroke="#555555" points="859.7,-881.15 865.18,-879.18 859.67,-877.3 859.7,-881.15"/>
+</g>
+<!-- ENV15_BREAKER -->
+<g id="node184" class="node">
+<title>ENV15_BREAKER</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M953,-3259C953,-3259 885,-3259 885,-3259 879,-3259 873,-3253 873,-3247 873,-3247 873,-3235 873,-3235 873,-3229 879,-3223 885,-3223 885,-3223 953,-3223 953,-3223 959,-3223 965,-3229 965,-3235 965,-3235 965,-3247 965,-3247 965,-3253 959,-3259 953,-3259"/>
+<text text-anchor="middle" x="919" y="-3238.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENV15_BREAKER</text>
+</g>
+<!-- ENVROOT&#45;&gt;ENV15_BREAKER -->
+<g id="edge152" class="edge">
+<title>ENVROOT&#45;&gt;ENV15_BREAKER</title>
+<path fill="none" stroke="#555555" d="M685.16,-3286.23C708.79,-3280.88 735.53,-3274.99 760,-3270 795.76,-3262.71 836.24,-3255.29 867.28,-3249.79"/>
+<polygon fill="#555555" stroke="#555555" points="867.88,-3251.63 872.96,-3248.78 867.21,-3247.84 867.88,-3251.63"/>
+</g>
+<!-- ENV15_AUTHORITY -->
+<g id="node185" class="node">
+<title>ENV15_AUTHORITY</title>
+<path fill="#e8f0ff" stroke="#7b68ee" d="M958.5,-3198C958.5,-3198 879.5,-3198 879.5,-3198 873.5,-3198 867.5,-3192 867.5,-3186 867.5,-3186 867.5,-3174 867.5,-3174 867.5,-3168 873.5,-3162 879.5,-3162 879.5,-3162 958.5,-3162 958.5,-3162 964.5,-3162 970.5,-3168 970.5,-3174 970.5,-3174 970.5,-3186 970.5,-3186 970.5,-3192 964.5,-3198 958.5,-3198"/>
+<text text-anchor="middle" x="919" y="-3177.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENV15_AUTHORITY</text>
+</g>
+<!-- ENVROOT&#45;&gt;ENV15_AUTHORITY -->
+<g id="edge190" class="edge">
+<title>ENVROOT&#45;&gt;ENV15_AUTHORITY</title>
+<path fill="none" stroke="#555555" d="M640.21,-3283.63C667.16,-3262.8 714.22,-3229.34 760,-3211 792.37,-3198.03 830.7,-3190.34 861.51,-3185.87"/>
+<polygon fill="#555555" stroke="#555555" points="861.99,-3187.74 867.17,-3185.07 861.45,-3183.93 861.99,-3187.74"/>
+</g>
+<!-- ENV15_DEEPRESEARCH -->
+<g id="node186" class="node">
+<title>ENV15_DEEPRESEARCH</title>
+<path fill="#e8f0ff" stroke="#7b68ee" d="M969,-3137C969,-3137 869,-3137 869,-3137 863,-3137 857,-3131 857,-3125 857,-3125 857,-3113 857,-3113 857,-3107 863,-3101 869,-3101 869,-3101 969,-3101 969,-3101 975,-3101 981,-3107 981,-3113 981,-3113 981,-3125 981,-3125 981,-3131 975,-3137 969,-3137"/>
+<text text-anchor="middle" x="919" y="-3116.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENV15_DEEPRESEARCH</text>
+</g>
+<!-- ENVROOT&#45;&gt;ENV15_DEEPRESEARCH -->
+<g id="edge191" class="edge">
+<title>ENVROOT&#45;&gt;ENV15_DEEPRESEARCH</title>
+<path fill="none" stroke="#555555" d="M628.87,-3283.8C650.24,-3251.25 699.72,-3183.38 760,-3150 787.63,-3134.7 821.64,-3126.87 851.02,-3122.89"/>
+<polygon fill="#555555" stroke="#555555" points="851.62,-3124.76 856.83,-3122.15 851.13,-3120.94 851.62,-3124.76"/>
+</g>
+<!-- ENV15_MMD_SVG -->
+<g id="node187" class="node">
+<title>ENV15_MMD_SVG</title>
+<path fill="#e8f0ff" stroke="#7b68ee" d="M955.5,-3076C955.5,-3076 882.5,-3076 882.5,-3076 876.5,-3076 870.5,-3070 870.5,-3064 870.5,-3064 870.5,-3052 870.5,-3052 870.5,-3046 876.5,-3040 882.5,-3040 882.5,-3040 955.5,-3040 955.5,-3040 961.5,-3040 967.5,-3046 967.5,-3052 967.5,-3052 967.5,-3064 967.5,-3064 967.5,-3070 961.5,-3076 955.5,-3076"/>
+<text text-anchor="middle" x="919" y="-3055.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENV15_MMD_SVG</text>
+</g>
+<!-- ENVROOT&#45;&gt;ENV15_MMD_SVG -->
+<g id="edge192" class="edge">
+<title>ENVROOT&#45;&gt;ENV15_MMD_SVG</title>
+<path fill="none" stroke="#555555" d="M623.98,-3283.91C639.94,-3242.12 685.38,-3138.69 760,-3089 790.9,-3068.42 832.27,-3060.85 864.92,-3058.33"/>
+<polygon fill="#555555" stroke="#555555" points="865.15,-3060.25 870.5,-3057.94 864.88,-3056.41 865.15,-3060.25"/>
+</g>
+<!-- ENV15_PROJECT_EXPANSION -->
+<g id="node188" class="node">
+<title>ENV15_PROJECT_EXPANSION</title>
+<path fill="#e8f0ff" stroke="#7b68ee" d="M982,-3015C982,-3015 856,-3015 856,-3015 850,-3015 844,-3009 844,-3003 844,-3003 844,-2991 844,-2991 844,-2985 850,-2979 856,-2979 856,-2979 982,-2979 982,-2979 988,-2979 994,-2985 994,-2991 994,-2991 994,-3003 994,-3003 994,-3009 988,-3015 982,-3015"/>
+<text text-anchor="middle" x="919" y="-2994.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENV15_PROJECT_EXPANSION</text>
+</g>
+<!-- ENVROOT&#45;&gt;ENV15_PROJECT_EXPANSION -->
+<g id="edge193" class="edge">
+<title>ENVROOT&#45;&gt;ENV15_PROJECT_EXPANSION</title>
+<path fill="none" stroke="#555555" d="M621.23,-3283.76C632.44,-3233.94 670.71,-3094.82 760,-3028 782.25,-3011.35 811.05,-3002.95 837.96,-2998.92"/>
+<polygon fill="#555555" stroke="#555555" points="838.49,-3000.79 843.67,-2998.12 837.96,-2996.97 838.49,-3000.79"/>
+</g>
+<!-- ENV15_CLEAN_PACKAGE -->
+<g id="node189" class="node">
+<title>ENV15_CLEAN_PACKAGE</title>
+<path fill="#e8f0ff" stroke="#7b68ee" d="M971.5,-2954C971.5,-2954 866.5,-2954 866.5,-2954 860.5,-2954 854.5,-2948 854.5,-2942 854.5,-2942 854.5,-2930 854.5,-2930 854.5,-2924 860.5,-2918 866.5,-2918 866.5,-2918 971.5,-2918 971.5,-2918 977.5,-2918 983.5,-2924 983.5,-2930 983.5,-2930 983.5,-2942 983.5,-2942 983.5,-2948 977.5,-2954 971.5,-2954"/>
+<text text-anchor="middle" x="919" y="-2933.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENV15_CLEAN_PACKAGE</text>
+</g>
+<!-- ENVROOT&#45;&gt;ENV15_CLEAN_PACKAGE -->
+<g id="edge194" class="edge">
+<title>ENVROOT&#45;&gt;ENV15_CLEAN_PACKAGE</title>
+<path fill="none" stroke="#555555" d="M619.36,-3284C626.22,-3227.39 655.42,-3051.77 760,-2967 784.74,-2946.95 818.74,-2938.6 848.87,-2935.52"/>
+<polygon fill="#555555" stroke="#555555" points="849.15,-2937.43 854.45,-2935 848.79,-2933.59 849.15,-2937.43"/>
+</g>
+<!-- FLASHQ -->
+<g id="node5" class="node">
+<title>FLASHQ</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1330,-3320C1330,-3320 1243,-3320 1243,-3320 1237,-3320 1231,-3314 1231,-3308 1231,-3308 1231,-3296 1231,-3296 1231,-3290 1237,-3284 1243,-3284 1243,-3284 1330,-3284 1330,-3284 1336,-3284 1342,-3290 1342,-3296 1342,-3296 1342,-3308 1342,-3308 1342,-3314 1336,-3320 1330,-3320"/>
+<text text-anchor="middle" x="1286.5" y="-3299.5" font-family="Helvetica,sans-Serif" font-size="10.00">mode == flash_env?</text>
+</g>
+<!-- LOCK&#45;&gt;FLASHQ -->
+<g id="edge8" class="edge">
+<title>LOCK&#45;&gt;FLASHQ</title>
+<path fill="none" stroke="#555555" d="M1020.36,-3302C1086.05,-3302 1169.7,-3302 1225.29,-3302"/>
+<polygon fill="#555555" stroke="#555555" points="1225.42,-3303.93 1230.92,-3302 1225.42,-3300.08 1225.42,-3303.93"/>
+</g>
+<!-- ENV_MUTATE -->
+<g id="node6" class="node">
+<title>ENV_MUTATE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1878.5,-3381C1878.5,-3381 1576.5,-3381 1576.5,-3381 1570.5,-3381 1564.5,-3375 1564.5,-3369 1564.5,-3369 1564.5,-3357 1564.5,-3357 1564.5,-3351 1570.5,-3345 1576.5,-3345 1576.5,-3345 1878.5,-3345 1878.5,-3345 1884.5,-3345 1890.5,-3351 1890.5,-3357 1890.5,-3357 1890.5,-3369 1890.5,-3369 1890.5,-3375 1884.5,-3381 1878.5,-3381"/>
+<text text-anchor="middle" x="1727.5" y="-3360.5" font-family="Helvetica,sans-Serif" font-size="10.00">env_flash_approval_log_v11 / env mutation allowed only this run</text>
+</g>
+<!-- FLASHQ&#45;&gt;ENV_MUTATE -->
+<g id="edge9" class="edge">
+<title>FLASHQ&#45;&gt;ENV_MUTATE</title>
+<path fill="none" stroke="#555555" d="M1342.07,-3310.45C1383.89,-3316.85 1443.05,-3325.75 1495,-3333 1522,-3336.77 1550.79,-3340.62 1578.57,-3344.27"/>
+<polygon fill="#555555" stroke="#555555" points="1578.41,-3346.19 1584.12,-3344.99 1578.91,-3342.37 1578.41,-3346.19"/>
+</g>
+<!-- ENV_RO -->
+<g id="node7" class="node">
+<title>ENV_RO</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1803,-3320C1803,-3320 1652,-3320 1652,-3320 1646,-3320 1640,-3314 1640,-3308 1640,-3308 1640,-3296 1640,-3296 1640,-3290 1646,-3284 1652,-3284 1652,-3284 1803,-3284 1803,-3284 1809,-3284 1815,-3290 1815,-3296 1815,-3296 1815,-3308 1815,-3308 1815,-3314 1809,-3320 1803,-3320"/>
+<text text-anchor="middle" x="1727.5" y="-3299.5" font-family="Helvetica,sans-Serif" font-size="10.00">READ ONLY env law/schema/MMD</text>
+</g>
+<!-- FLASHQ&#45;&gt;ENV_RO -->
+<g id="edge10" class="edge">
+<title>FLASHQ&#45;&gt;ENV_RO</title>
+<path fill="none" stroke="#555555" d="M1342.21,-3302C1415.19,-3302 1545.46,-3302 1633.88,-3302"/>
+<polygon fill="#555555" stroke="#555555" points="1634.14,-3303.93 1639.64,-3302 1634.14,-3300.08 1634.14,-3303.93"/>
+</g>
+<!-- ROOTKEY -->
+<g id="node9" class="node">
+<title>ROOTKEY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1440,-3411C1440,-3411 1133,-3411 1133,-3411 1127,-3411 1121,-3405 1121,-3399 1121,-3399 1121,-3387 1121,-3387 1121,-3381 1127,-3375 1133,-3375 1133,-3375 1440,-3375 1440,-3375 1446,-3375 1452,-3381 1452,-3387 1452,-3387 1452,-3399 1452,-3399 1452,-3405 1446,-3411 1440,-3411"/>
+<text text-anchor="middle" x="1286.5" y="-3390.5" font-family="Helvetica,sans-Serif" font-size="10.00">root_key_policy_v11 / public verification, private root key external</text>
+</g>
+<!-- ENVTRUST&#45;&gt;ROOTKEY -->
+<g id="edge12" class="edge">
+<title>ENVTRUST&#45;&gt;ROOTKEY</title>
+<path fill="none" stroke="#555555" d="M973.15,-3367.36C1010.88,-3370.46 1063.79,-3374.8 1115.35,-3379.03"/>
+<polygon fill="#555555" stroke="#555555" points="1115.35,-3380.97 1120.98,-3379.5 1115.66,-3377.13 1115.35,-3380.97"/>
+</g>
+<!-- SIG -->
+<g id="node10" class="node">
+<title>SIG</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1823,-3442C1823,-3442 1632,-3442 1632,-3442 1626,-3442 1620,-3436 1620,-3430 1620,-3430 1620,-3418 1620,-3418 1620,-3412 1626,-3406 1632,-3406 1632,-3406 1823,-3406 1823,-3406 1829,-3406 1835,-3412 1835,-3418 1835,-3418 1835,-3430 1835,-3430 1835,-3436 1829,-3442 1823,-3442"/>
+<text text-anchor="middle" x="1727.5" y="-3421.5" font-family="Helvetica,sans-Serif" font-size="10.00">env_signature_manifest_v11 / official seal</text>
+</g>
+<!-- ROOTKEY&#45;&gt;SIG -->
+<g id="edge13" class="edge">
+<title>ROOTKEY&#45;&gt;SIG</title>
+<path fill="none" stroke="#555555" d="M1452.22,-3404.63C1506.22,-3408.44 1564.94,-3412.59 1614.15,-3416.07"/>
+<polygon fill="#555555" stroke="#555555" points="1614.17,-3418 1619.79,-3416.46 1614.44,-3414.16 1614.17,-3418"/>
+</g>
+<!-- TRUSTFAIL -->
+<g id="node11" class="node">
+<title>TRUSTFAIL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2405.5,-3442C2405.5,-3442 2027.5,-3442 2027.5,-3442 2021.5,-3442 2015.5,-3436 2015.5,-3430 2015.5,-3430 2015.5,-3418 2015.5,-3418 2015.5,-3412 2021.5,-3406 2027.5,-3406 2027.5,-3406 2405.5,-3406 2405.5,-3406 2411.5,-3406 2417.5,-3412 2417.5,-3418 2417.5,-3418 2417.5,-3430 2417.5,-3430 2417.5,-3436 2411.5,-3442 2405.5,-3442"/>
+<text text-anchor="middle" x="2216.5" y="-3421.5" font-family="Helvetica,sans-Serif" font-size="10.00">OFFICIAL_SIGNATURE_FAILED / UNTRUSTED_FORK_MODE / PROJECT_DATA_SAFE</text>
+</g>
+<!-- SIG&#45;&gt;TRUSTFAIL -->
+<g id="edge14" class="edge">
+<title>SIG&#45;&gt;TRUSTFAIL</title>
+<path fill="none" stroke="#555555" d="M1835.07,-3424C1886.33,-3424 1949.57,-3424 2009.68,-3424"/>
+<polygon fill="#555555" stroke="#555555" points="2009.99,-3425.93 2015.49,-3424 2009.99,-3422.08 2009.99,-3425.93"/>
+</g>
+<!-- UPLOADS -->
+<g id="node14" class="node">
+<title>UPLOADS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M262,-3737C262,-3737 28,-3737 28,-3737 22,-3737 16,-3731 16,-3725 16,-3725 16,-3713 16,-3713 16,-3707 22,-3701 28,-3701 28,-3701 262,-3701 262,-3701 268,-3701 274,-3707 274,-3713 274,-3713 274,-3725 274,-3725 274,-3731 268,-3737 262,-3737"/>
+<text text-anchor="middle" x="145" y="-3716.5" font-family="Helvetica,sans-Serif" font-size="10.00">Uploaded source files / zips / brains / docs / images</text>
+</g>
+<!-- CLASS -->
+<g id="node15" class="node">
+<title>CLASS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M461,-3737C461,-3737 329,-3737 329,-3737 323,-3737 317,-3731 317,-3725 317,-3725 317,-3713 317,-3713 317,-3707 323,-3701 329,-3701 329,-3701 461,-3701 461,-3701 467,-3701 473,-3707 473,-3713 473,-3713 473,-3725 473,-3725 473,-3731 467,-3737 461,-3737"/>
+<text text-anchor="middle" x="395" y="-3716.5" font-family="Helvetica,sans-Serif" font-size="10.00">source_classifier_registry_v15</text>
+</g>
+<!-- UPLOADS&#45;&gt;CLASS -->
+<g id="edge17" class="edge">
+<title>UPLOADS&#45;&gt;CLASS</title>
+<path fill="none" stroke="#555555" d="M274.36,-3719C286.85,-3719 299.29,-3719 311.15,-3719"/>
+<polygon fill="#555555" stroke="#555555" points="311.43,-3720.93 316.93,-3719 311.43,-3717.08 311.43,-3720.93"/>
+</g>
+<!-- TYPEQ -->
+<g id="node16" class="node">
+<title>TYPEQ</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M640,-3737C640,-3737 593,-3737 593,-3737 587,-3737 581,-3731 581,-3725 581,-3725 581,-3713 581,-3713 581,-3707 587,-3701 593,-3701 593,-3701 640,-3701 640,-3701 646,-3701 652,-3707 652,-3713 652,-3713 652,-3725 652,-3725 652,-3731 646,-3737 640,-3737"/>
+<text text-anchor="middle" x="616.5" y="-3716.5" font-family="Helvetica,sans-Serif" font-size="10.00">source type?</text>
+</g>
+<!-- CLASS&#45;&gt;TYPEQ -->
+<g id="edge18" class="edge">
+<title>CLASS&#45;&gt;TYPEQ</title>
+<path fill="none" stroke="#555555" d="M473.08,-3719C507.59,-3719 546.84,-3719 575.39,-3719"/>
+<polygon fill="#555555" stroke="#555555" points="575.45,-3720.93 580.95,-3719 575.45,-3717.08 575.45,-3720.93"/>
+</g>
+<!-- DOCS -->
+<g id="node17" class="node">
+<title>DOCS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1014.5,-3585C1014.5,-3585 823.5,-3585 823.5,-3585 817.5,-3585 811.5,-3579 811.5,-3573 811.5,-3573 811.5,-3561 811.5,-3561 811.5,-3555 817.5,-3549 823.5,-3549 823.5,-3549 1014.5,-3549 1014.5,-3549 1020.5,-3549 1026.5,-3555 1026.5,-3561 1026.5,-3561 1026.5,-3573 1026.5,-3573 1026.5,-3579 1020.5,-3585 1014.5,-3585"/>
+<text text-anchor="middle" x="919" y="-3564.5" font-family="Helvetica,sans-Serif" font-size="10.00">DOCX/PDF/MD/TXT/HTML/JSON parse once</text>
+</g>
+<!-- TYPEQ&#45;&gt;DOCS -->
+<g id="edge19" class="edge">
+<title>TYPEQ&#45;&gt;DOCS</title>
+<path fill="none" stroke="#555555" d="M633,-3700.94C657.21,-3673.98 706.78,-3623.63 760,-3598 774.37,-3591.08 790.18,-3585.7 806.08,-3581.53"/>
+<polygon fill="#555555" stroke="#555555" points="806.61,-3583.38 811.47,-3580.16 805.66,-3579.65 806.61,-3583.38"/>
+</g>
+<!-- SHEETS -->
+<g id="node18" class="node">
+<title>SHEETS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1003,-3646C1003,-3646 835,-3646 835,-3646 829,-3646 823,-3640 823,-3634 823,-3634 823,-3622 823,-3622 823,-3616 829,-3610 835,-3610 835,-3610 1003,-3610 1003,-3610 1009,-3610 1015,-3616 1015,-3622 1015,-3622 1015,-3634 1015,-3634 1015,-3640 1009,-3646 1003,-3646"/>
+<text text-anchor="middle" x="919" y="-3625.5" font-family="Helvetica,sans-Serif" font-size="10.00">CSV/XLSX sheet/table/formula chunks</text>
+</g>
+<!-- TYPEQ&#45;&gt;SHEETS -->
+<g id="edge20" class="edge">
+<title>TYPEQ&#45;&gt;SHEETS</title>
+<path fill="none" stroke="#555555" d="M652.19,-3702.03C680.59,-3688.71 722.13,-3670.55 760,-3659 778.33,-3653.41 798.17,-3648.59 817.4,-3644.53"/>
+<polygon fill="#555555" stroke="#555555" points="817.82,-3646.41 822.81,-3643.4 817.03,-3642.64 817.82,-3646.41"/>
+</g>
+<!-- CODE -->
+<g id="node19" class="node">
+<title>CODE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1028,-3707C1028,-3707 810,-3707 810,-3707 804,-3707 798,-3701 798,-3695 798,-3695 798,-3683 798,-3683 798,-3677 804,-3671 810,-3671 810,-3671 1028,-3671 1028,-3671 1034,-3671 1040,-3677 1040,-3683 1040,-3683 1040,-3695 1040,-3695 1040,-3701 1034,-3707 1028,-3707"/>
+<text text-anchor="middle" x="919" y="-3686.5" font-family="Helvetica,sans-Serif" font-size="10.00">Raw code repo / .git / symbol/import/API chunks</text>
+</g>
+<!-- TYPEQ&#45;&gt;CODE -->
+<g id="edge21" class="edge">
+<title>TYPEQ&#45;&gt;CODE</title>
+<path fill="none" stroke="#555555" d="M652.26,-3715.53C686.7,-3712.09 741.51,-3706.62 792.43,-3701.54"/>
+<polygon fill="#555555" stroke="#555555" points="792.7,-3703.44 797.98,-3700.98 792.32,-3699.61 792.7,-3703.44"/>
+</g>
+<!-- SQLBRAIN -->
+<g id="node20" class="node">
+<title>SQLBRAIN</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1011,-3768C1011,-3768 827,-3768 827,-3768 821,-3768 815,-3762 815,-3756 815,-3756 815,-3744 815,-3744 815,-3738 821,-3732 827,-3732 827,-3732 1011,-3732 1011,-3732 1017,-3732 1023,-3738 1023,-3744 1023,-3744 1023,-3756 1023,-3756 1023,-3762 1017,-3768 1011,-3768"/>
+<text text-anchor="middle" x="919" y="-3747.5" font-family="Helvetica,sans-Serif" font-size="10.00">SQLite brain ZIP / schema + table import</text>
+</g>
+<!-- TYPEQ&#45;&gt;SQLBRAIN -->
+<g id="edge22" class="edge">
+<title>TYPEQ&#45;&gt;SQLBRAIN</title>
+<path fill="none" stroke="#555555" d="M652.26,-3722.59C690.5,-3726.53 753.87,-3733.07 809.13,-3738.77"/>
+<polygon fill="#555555" stroke="#555555" points="809.13,-3740.7 814.8,-3739.35 809.52,-3736.87 809.13,-3740.7"/>
+</g>
+<!-- IMAGE -->
+<g id="node21" class="node">
+<title>IMAGE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1016.5,-3829C1016.5,-3829 821.5,-3829 821.5,-3829 815.5,-3829 809.5,-3823 809.5,-3817 809.5,-3817 809.5,-3805 809.5,-3805 809.5,-3799 815.5,-3793 821.5,-3793 821.5,-3793 1016.5,-3793 1016.5,-3793 1022.5,-3793 1028.5,-3799 1028.5,-3805 1028.5,-3805 1028.5,-3817 1028.5,-3817 1028.5,-3823 1022.5,-3829 1016.5,-3829"/>
+<text text-anchor="middle" x="919" y="-3808.5" font-family="Helvetica,sans-Serif" font-size="10.00">Image/video metadata, OCR only if needed</text>
+</g>
+<!-- TYPEQ&#45;&gt;IMAGE -->
+<g id="edge23" class="edge">
+<title>TYPEQ&#45;&gt;IMAGE</title>
+<path fill="none" stroke="#555555" d="M652.1,-3736.65C680.46,-3750.48 721.97,-3769.28 760,-3781 774.02,-3785.32 788.94,-3789.13 803.8,-3792.46"/>
+<polygon fill="#555555" stroke="#555555" points="803.49,-3794.36 809.28,-3793.67 804.32,-3790.6 803.49,-3794.36"/>
+</g>
+<!-- ZIPROUTE -->
+<g id="node22" class="node">
+<title>ZIPROUTE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1010,-3890C1010,-3890 828,-3890 828,-3890 822,-3890 816,-3884 816,-3878 816,-3878 816,-3866 816,-3866 816,-3860 822,-3854 828,-3854 828,-3854 1010,-3854 1010,-3854 1016,-3854 1022,-3860 1022,-3866 1022,-3866 1022,-3878 1022,-3878 1022,-3884 1016,-3890 1010,-3890"/>
+<text text-anchor="middle" x="919" y="-3869.5" font-family="Helvetica,sans-Serif" font-size="10.00">ZIP vertical route / nested package audit</text>
+</g>
+<!-- TYPEQ&#45;&gt;ZIPROUTE -->
+<g id="edge24" class="edge">
+<title>TYPEQ&#45;&gt;ZIPROUTE</title>
+<path fill="none" stroke="#555555" d="M632.91,-3737.41C657.01,-3764.88 706.44,-3816.14 760,-3842 775.61,-3849.54 792.94,-3855.18 810.24,-3859.41"/>
+<polygon fill="#555555" stroke="#555555" points="809.81,-3861.29 815.6,-3860.68 810.69,-3857.54 809.81,-3861.29"/>
+</g>
+<!-- RAWREG -->
+<g id="node23" class="node">
+<title>RAWREG</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1329.5,-3737C1329.5,-3737 1243.5,-3737 1243.5,-3737 1237.5,-3737 1231.5,-3731 1231.5,-3725 1231.5,-3725 1231.5,-3713 1231.5,-3713 1231.5,-3707 1237.5,-3701 1243.5,-3701 1243.5,-3701 1329.5,-3701 1329.5,-3701 1335.5,-3701 1341.5,-3707 1341.5,-3713 1341.5,-3713 1341.5,-3725 1341.5,-3725 1341.5,-3731 1335.5,-3737 1329.5,-3737"/>
+<text text-anchor="middle" x="1286.5" y="-3716.5" font-family="Helvetica,sans-Serif" font-size="10.00">artifact_raw_registry</text>
+</g>
+<!-- DOCS&#45;&gt;RAWREG -->
+<g id="edge25" class="edge">
+<title>DOCS&#45;&gt;RAWREG</title>
+<path fill="none" stroke="#555555" d="M1026.75,-3582.88C1044.16,-3586.91 1061.78,-3591.88 1078,-3598 1145.86,-3623.61 1217.29,-3670.27 1256.12,-3697.56"/>
+<polygon fill="#555555" stroke="#555555" points="1255.09,-3699.19 1260.69,-3700.79 1257.31,-3696.04 1255.09,-3699.19"/>
+</g>
+<!-- SHEETS&#45;&gt;RAWREG -->
+<g id="edge26" class="edge">
+<title>SHEETS&#45;&gt;RAWREG</title>
+<path fill="none" stroke="#555555" d="M1015.12,-3645.26C1035.92,-3649.42 1057.76,-3654.1 1078,-3659 1128.23,-3671.16 1184.51,-3687.62 1225.77,-3700.22"/>
+<polygon fill="#555555" stroke="#555555" points="1225.42,-3702.12 1231.24,-3701.89 1226.54,-3698.44 1225.42,-3702.12"/>
+</g>
+<!-- CODE&#45;&gt;RAWREG -->
+<g id="edge27" class="edge">
+<title>CODE&#45;&gt;RAWREG</title>
+<path fill="none" stroke="#555555" d="M1040.18,-3698.86C1102.29,-3703.96 1175.36,-3709.96 1225.5,-3714.08"/>
+<polygon fill="#555555" stroke="#555555" points="1225.56,-3716.01 1231.2,-3714.54 1225.87,-3712.17 1225.56,-3716.01"/>
+</g>
+<!-- SQLBRAIN&#45;&gt;RAWREG -->
+<g id="edge28" class="edge">
+<title>SQLBRAIN&#45;&gt;RAWREG</title>
+<path fill="none" stroke="#555555" d="M1023.27,-3741.24C1088.68,-3735.69 1170.96,-3728.71 1225.74,-3724.07"/>
+<polygon fill="#555555" stroke="#555555" points="1225.97,-3725.98 1231.28,-3723.6 1225.64,-3722.15 1225.97,-3725.98"/>
+</g>
+<!-- IMAGE&#45;&gt;RAWREG -->
+<g id="edge29" class="edge">
+<title>IMAGE&#45;&gt;RAWREG</title>
+<path fill="none" stroke="#555555" d="M1023.17,-3792.99C1041.5,-3789.34 1060.37,-3785.3 1078,-3781 1128.34,-3768.73 1184.62,-3751.71 1225.85,-3738.6"/>
+<polygon fill="#555555" stroke="#555555" points="1226.65,-3740.36 1231.31,-3736.86 1225.48,-3736.69 1226.65,-3740.36"/>
+</g>
+<!-- ZIPROUTE&#45;&gt;RAWREG -->
+<g id="edge30" class="edge">
+<title>ZIPROUTE&#45;&gt;RAWREG</title>
+<path fill="none" stroke="#555555" d="M1022.16,-3858C1041.05,-3853.9 1060.37,-3848.66 1078,-3842 1146.51,-3816.11 1218.26,-3768.19 1256.84,-3740.42"/>
+<polygon fill="#555555" stroke="#555555" points="1258.05,-3741.92 1261.38,-3737.14 1255.8,-3738.8 1258.05,-3741.92"/>
+</g>
+<!-- BYTE -->
+<g id="node24" class="node">
+<title>BYTE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1783.5,-3737C1783.5,-3737 1671.5,-3737 1671.5,-3737 1665.5,-3737 1659.5,-3731 1659.5,-3725 1659.5,-3725 1659.5,-3713 1659.5,-3713 1659.5,-3707 1665.5,-3701 1671.5,-3701 1671.5,-3701 1783.5,-3701 1783.5,-3701 1789.5,-3701 1795.5,-3707 1795.5,-3713 1795.5,-3713 1795.5,-3725 1795.5,-3725 1795.5,-3731 1789.5,-3737 1783.5,-3737"/>
+<text text-anchor="middle" x="1727.5" y="-3716.5" font-family="Helvetica,sans-Serif" font-size="10.00">artifact_byte_range_index</text>
+</g>
+<!-- RAWREG&#45;&gt;BYTE -->
+<g id="edge31" class="edge">
+<title>RAWREG&#45;&gt;BYTE</title>
+<path fill="none" stroke="#555555" d="M1341.77,-3719C1420.34,-3719 1565.94,-3719 1653.74,-3719"/>
+<polygon fill="#555555" stroke="#555555" points="1653.94,-3720.93 1659.44,-3719 1653.94,-3717.08 1653.94,-3720.93"/>
+</g>
+<!-- PARSE -->
+<g id="node25" class="node">
+<title>PARSE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1770,-3798C1770,-3798 1685,-3798 1685,-3798 1679,-3798 1673,-3792 1673,-3786 1673,-3786 1673,-3774 1673,-3774 1673,-3768 1679,-3762 1685,-3762 1685,-3762 1770,-3762 1770,-3762 1776,-3762 1782,-3768 1782,-3774 1782,-3774 1782,-3786 1782,-3786 1782,-3792 1776,-3798 1770,-3798"/>
+<text text-anchor="middle" x="1727.5" y="-3777.5" font-family="Helvetica,sans-Serif" font-size="10.00">artifact_parse_event</text>
+</g>
+<!-- RAWREG&#45;&gt;PARSE -->
+<g id="edge32" class="edge">
+<title>RAWREG&#45;&gt;PARSE</title>
+<path fill="none" stroke="#555555" d="M1341.63,-3727.38C1383.48,-3733.79 1442.87,-3742.73 1495,-3750 1553.43,-3758.15 1620.27,-3766.73 1667.06,-3772.62"/>
+<polygon fill="#555555" stroke="#555555" points="1666.97,-3774.55 1672.67,-3773.32 1667.45,-3770.73 1666.97,-3774.55"/>
+</g>
+<!-- COVER -->
+<g id="node29" class="node">
+<title>COVER</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1777.5,-3676C1777.5,-3676 1677.5,-3676 1677.5,-3676 1671.5,-3676 1665.5,-3670 1665.5,-3664 1665.5,-3664 1665.5,-3652 1665.5,-3652 1665.5,-3646 1671.5,-3640 1677.5,-3640 1677.5,-3640 1777.5,-3640 1777.5,-3640 1783.5,-3640 1789.5,-3646 1789.5,-3652 1789.5,-3652 1789.5,-3664 1789.5,-3664 1789.5,-3670 1783.5,-3676 1777.5,-3676"/>
+<text text-anchor="middle" x="1727.5" y="-3655.5" font-family="Helvetica,sans-Serif" font-size="10.00">artifact_coverage_audit</text>
+</g>
+<!-- RAWREG&#45;&gt;COVER -->
+<g id="edge36" class="edge">
+<title>RAWREG&#45;&gt;COVER</title>
+<path fill="none" stroke="#555555" d="M1341.65,-3711.01C1383.51,-3704.88 1442.91,-3696.25 1495,-3689 1550.38,-3681.29 1613.27,-3672.89 1659.51,-3666.78"/>
+<polygon fill="#555555" stroke="#555555" points="1659.86,-3668.68 1665.06,-3666.05 1659.36,-3664.86 1659.86,-3668.68"/>
+</g>
+<!-- CHUNK -->
+<g id="node26" class="node">
+<title>CHUNK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2260,-3798C2260,-3798 2173,-3798 2173,-3798 2167,-3798 2161,-3792 2161,-3786 2161,-3786 2161,-3774 2161,-3774 2161,-3768 2167,-3762 2173,-3762 2173,-3762 2260,-3762 2260,-3762 2266,-3762 2272,-3768 2272,-3774 2272,-3774 2272,-3786 2272,-3786 2272,-3792 2266,-3798 2260,-3798"/>
+<text text-anchor="middle" x="2216.5" y="-3777.5" font-family="Helvetica,sans-Serif" font-size="10.00">artifact_chunk_index</text>
+</g>
+<!-- PARSE&#45;&gt;CHUNK -->
+<g id="edge33" class="edge">
+<title>PARSE&#45;&gt;CHUNK</title>
+<path fill="none" stroke="#555555" d="M1782.01,-3780C1873.46,-3780 2059.23,-3780 2155.16,-3780"/>
+<polygon fill="#555555" stroke="#555555" points="2155.28,-3781.93 2160.78,-3780 2155.28,-3778.08 2155.28,-3781.93"/>
+</g>
+<!-- UINDEX -->
+<g id="node27" class="node">
+<title>UINDEX</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2677,-3828C2677,-3828 2572,-3828 2572,-3828 2566,-3828 2560,-3822 2560,-3816 2560,-3816 2560,-3804 2560,-3804 2560,-3798 2566,-3792 2572,-3792 2572,-3792 2677,-3792 2677,-3792 2683,-3792 2689,-3798 2689,-3804 2689,-3804 2689,-3816 2689,-3816 2689,-3822 2683,-3828 2677,-3828"/>
+<text text-anchor="middle" x="2624.5" y="-3807.5" font-family="Helvetica,sans-Serif" font-size="10.00">universal_index_registry</text>
+</g>
+<!-- CHUNK&#45;&gt;UINDEX -->
+<g id="edge34" class="edge">
+<title>CHUNK&#45;&gt;UINDEX</title>
+<path fill="none" stroke="#555555" d="M2272.25,-3784.05C2345.28,-3789.44 2474.6,-3799 2554.3,-3804.89"/>
+<polygon fill="#555555" stroke="#555555" points="2554.32,-3806.82 2559.95,-3805.3 2554.61,-3802.98 2554.32,-3806.82"/>
+</g>
+<!-- FTS -->
+<g id="node28" class="node">
+<title>FTS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2707,-3767C2707,-3767 2542,-3767 2542,-3767 2536,-3767 2530,-3761 2530,-3755 2530,-3755 2530,-3743 2530,-3743 2530,-3737 2536,-3731 2542,-3731 2542,-3731 2707,-3731 2707,-3731 2713,-3731 2719,-3737 2719,-3743 2719,-3743 2719,-3755 2719,-3755 2719,-3761 2713,-3767 2707,-3767"/>
+<text text-anchor="middle" x="2624.5" y="-3746.5" font-family="Helvetica,sans-Serif" font-size="10.00">source_chunk_fts / artifact_chunk_fts</text>
+</g>
+<!-- CHUNK&#45;&gt;FTS -->
+<g id="edge35" class="edge">
+<title>CHUNK&#45;&gt;FTS</title>
+<path fill="none" stroke="#555555" d="M2272.25,-3775.82C2336.62,-3770.9 2444.7,-3762.65 2524,-3756.6"/>
+<polygon fill="#555555" stroke="#555555" points="2524.33,-3758.5 2529.66,-3756.16 2524.03,-3754.66 2524.33,-3758.5"/>
+</g>
+<!-- STATUS -->
+<g id="node30" class="node">
+<title>STATUS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2418,-3676C2418,-3676 2015,-3676 2015,-3676 2009,-3676 2003,-3670 2003,-3664 2003,-3664 2003,-3652 2003,-3652 2003,-3646 2009,-3640 2015,-3640 2015,-3640 2418,-3640 2418,-3640 2424,-3640 2430,-3646 2430,-3652 2430,-3652 2430,-3664 2430,-3664 2430,-3670 2424,-3676 2418,-3676"/>
+<text text-anchor="middle" x="2216.5" y="-3655.5" font-family="Helvetica,sans-Serif" font-size="10.00">REGISTERED / PARSED / CHUNKED / METADATA_ONLY / BLOCKED / REVIEW_REQUIRED</text>
+</g>
+<!-- COVER&#45;&gt;STATUS -->
+<g id="edge37" class="edge">
+<title>COVER&#45;&gt;STATUS</title>
+<path fill="none" stroke="#555555" d="M1789.69,-3658C1842.22,-3658 1921.25,-3658 1997.01,-3658"/>
+<polygon fill="#555555" stroke="#555555" points="1997.42,-3659.93 2002.92,-3658 1997.42,-3656.08 1997.42,-3659.93"/>
+</g>
+<!-- AUTHSTACK -->
+<g id="node32" class="node">
+<title>AUTHSTACK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1398.5,-2880C1398.5,-2880 1174.5,-2880 1174.5,-2880 1168.5,-2880 1162.5,-2874 1162.5,-2868 1162.5,-2868 1162.5,-2856 1162.5,-2856 1162.5,-2850 1168.5,-2844 1174.5,-2844 1174.5,-2844 1398.5,-2844 1398.5,-2844 1404.5,-2844 1410.5,-2850 1410.5,-2856 1410.5,-2856 1410.5,-2868 1410.5,-2868 1410.5,-2874 1404.5,-2880 1398.5,-2880"/>
+<text text-anchor="middle" x="1286.5" y="-2859.5" font-family="Helvetica,sans-Serif" font-size="10.00">sparse_active_source_stack / top source IDs only</text>
+</g>
+<!-- PRECEDENCE&#45;&gt;AUTHSTACK -->
+<g id="edge39" class="edge">
+<title>PRECEDENCE&#45;&gt;AUTHSTACK</title>
+<path fill="none" stroke="#555555" d="M1000.66,-2862C1046.4,-2862 1104.7,-2862 1156.63,-2862"/>
+<polygon fill="#555555" stroke="#555555" points="1156.78,-2863.93 1162.28,-2862 1156.78,-2860.08 1156.78,-2863.93"/>
+</g>
+<!-- QUAR -->
+<g id="node34" class="node">
+<title>QUAR</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1364,-2819C1364,-2819 1209,-2819 1209,-2819 1203,-2819 1197,-2813 1197,-2807 1197,-2807 1197,-2795 1197,-2795 1197,-2789 1203,-2783 1209,-2783 1209,-2783 1364,-2783 1364,-2783 1370,-2783 1376,-2789 1376,-2795 1376,-2795 1376,-2807 1376,-2807 1376,-2813 1370,-2819 1364,-2819"/>
+<text text-anchor="middle" x="1286.5" y="-2798.5" font-family="Helvetica,sans-Serif" font-size="10.00">source_instruction_quarantine_v15</text>
+</g>
+<!-- PRECEDENCE&#45;&gt;QUAR -->
+<g id="edge41" class="edge">
+<title>PRECEDENCE&#45;&gt;QUAR</title>
+<path fill="none" stroke="#555555" d="M1000.66,-2848.54C1056.87,-2839.16 1132.05,-2826.61 1191.06,-2816.76"/>
+<polygon fill="#555555" stroke="#555555" points="1191.61,-2818.62 1196.72,-2815.82 1190.98,-2814.82 1191.61,-2818.62"/>
+</g>
+<!-- ACTIVE -->
+<g id="node33" class="node">
+<title>ACTIVE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1838.5,-2880C1838.5,-2880 1616.5,-2880 1616.5,-2880 1610.5,-2880 1604.5,-2874 1604.5,-2868 1604.5,-2868 1604.5,-2856 1604.5,-2856 1604.5,-2850 1610.5,-2844 1616.5,-2844 1616.5,-2844 1838.5,-2844 1838.5,-2844 1844.5,-2844 1850.5,-2850 1850.5,-2856 1850.5,-2856 1850.5,-2868 1850.5,-2868 1850.5,-2874 1844.5,-2880 1838.5,-2880"/>
+<text text-anchor="middle" x="1727.5" y="-2859.5" font-family="Helvetica,sans-Serif" font-size="10.00">active_source_stack / lane&#45;specific evidence pull</text>
+</g>
+<!-- AUTHSTACK&#45;&gt;ACTIVE -->
+<g id="edge40" class="edge">
+<title>AUTHSTACK&#45;&gt;ACTIVE</title>
+<path fill="none" stroke="#555555" d="M1410.66,-2862C1469.26,-2862 1539.29,-2862 1598.5,-2862"/>
+<polygon fill="#555555" stroke="#555555" points="1598.7,-2863.93 1604.2,-2862 1598.7,-2860.08 1598.7,-2863.93"/>
+</g>
+<!-- PROMO -->
+<g id="node35" class="node">
+<title>PROMO</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1797,-2819C1797,-2819 1658,-2819 1658,-2819 1652,-2819 1646,-2813 1646,-2807 1646,-2807 1646,-2795 1646,-2795 1646,-2789 1652,-2783 1658,-2783 1658,-2783 1797,-2783 1797,-2783 1803,-2783 1809,-2789 1809,-2795 1809,-2795 1809,-2807 1809,-2807 1809,-2813 1803,-2819 1797,-2819"/>
+<text text-anchor="middle" x="1727.5" y="-2798.5" font-family="Helvetica,sans-Serif" font-size="10.00">promoted by user as route law?</text>
+</g>
+<!-- QUAR&#45;&gt;PROMO -->
+<g id="edge42" class="edge">
+<title>QUAR&#45;&gt;PROMO</title>
+<path fill="none" stroke="#555555" d="M1376.07,-2801C1452.97,-2801 1563.64,-2801 1639.93,-2801"/>
+<polygon fill="#555555" stroke="#555555" points="1640.33,-2802.93 1645.83,-2801 1640.33,-2799.08 1640.33,-2802.93"/>
+</g>
+<!-- EVIDENCE_ONLY -->
+<g id="node36" class="node">
+<title>EVIDENCE_ONLY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2284,-2819C2284,-2819 2149,-2819 2149,-2819 2143,-2819 2137,-2813 2137,-2807 2137,-2807 2137,-2795 2137,-2795 2137,-2789 2143,-2783 2149,-2783 2149,-2783 2284,-2783 2284,-2783 2290,-2783 2296,-2789 2296,-2795 2296,-2795 2296,-2807 2296,-2807 2296,-2813 2290,-2819 2284,-2819"/>
+<text text-anchor="middle" x="2216.5" y="-2798.5" font-family="Helvetica,sans-Serif" font-size="10.00">uploaded text is evidence only</text>
+</g>
+<!-- PROMO&#45;&gt;EVIDENCE_ONLY -->
+<g id="edge43" class="edge">
+<title>PROMO&#45;&gt;EVIDENCE_ONLY</title>
+<path fill="none" stroke="#555555" d="M1809.19,-2801C1898.15,-2801 2040.63,-2801 2131.06,-2801"/>
+<polygon fill="#555555" stroke="#555555" points="2131.17,-2802.93 2136.67,-2801 2131.17,-2799.08 2131.17,-2802.93"/>
+</g>
+<!-- ROUTE_LAW -->
+<g id="node37" class="node">
+<title>ROUTE_LAW</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2297.5,-2880C2297.5,-2880 2135.5,-2880 2135.5,-2880 2129.5,-2880 2123.5,-2874 2123.5,-2868 2123.5,-2868 2123.5,-2856 2123.5,-2856 2123.5,-2850 2129.5,-2844 2135.5,-2844 2135.5,-2844 2297.5,-2844 2297.5,-2844 2303.5,-2844 2309.5,-2850 2309.5,-2856 2309.5,-2856 2309.5,-2868 2309.5,-2868 2309.5,-2874 2303.5,-2880 2297.5,-2880"/>
+<text text-anchor="middle" x="2216.5" y="-2859.5" font-family="Helvetica,sans-Serif" font-size="10.00">accepted delta / route law candidate</text>
+</g>
+<!-- PROMO&#45;&gt;ROUTE_LAW -->
+<g id="edge44" class="edge">
+<title>PROMO&#45;&gt;ROUTE_LAW</title>
+<path fill="none" stroke="#555555" d="M1809.19,-2811.11C1893.92,-2821.72 2027.18,-2838.41 2117.8,-2849.76"/>
+<polygon fill="#555555" stroke="#555555" points="2117.74,-2851.69 2123.43,-2850.47 2118.22,-2847.87 2117.74,-2851.69"/>
+</g>
+<!-- DELTA -->
+<g id="node38" class="node">
+<title>DELTA</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2647,-2880C2647,-2880 2602,-2880 2602,-2880 2596,-2880 2590,-2874 2590,-2868 2590,-2868 2590,-2856 2590,-2856 2590,-2850 2596,-2844 2602,-2844 2602,-2844 2647,-2844 2647,-2844 2653,-2844 2659,-2850 2659,-2856 2659,-2856 2659,-2868 2659,-2868 2659,-2874 2653,-2880 2647,-2880"/>
+<text text-anchor="middle" x="2624.5" y="-2859.5" font-family="Helvetica,sans-Serif" font-size="10.00">delta_ledger</text>
+</g>
+<!-- ROUTE_LAW&#45;&gt;DELTA -->
+<g id="edge45" class="edge">
+<title>ROUTE_LAW&#45;&gt;DELTA</title>
+<path fill="none" stroke="#555555" d="M2309.63,-2862C2396.15,-2862 2521.45,-2862 2584.36,-2862"/>
+<polygon fill="#555555" stroke="#555555" points="2584.38,-2863.93 2589.88,-2862 2584.38,-2860.08 2584.38,-2863.93"/>
+</g>
+<!-- D -->
+<g id="node42" class="node">
+<title>D</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1309.5,-2371C1309.5,-2371 1263.5,-2371 1263.5,-2371 1257.5,-2371 1251.5,-2365 1251.5,-2359 1251.5,-2359 1251.5,-2347 1251.5,-2347 1251.5,-2341 1257.5,-2335 1263.5,-2335 1263.5,-2335 1309.5,-2335 1309.5,-2335 1315.5,-2335 1321.5,-2341 1321.5,-2347 1321.5,-2347 1321.5,-2359 1321.5,-2359 1321.5,-2365 1315.5,-2371 1309.5,-2371"/>
+<text text-anchor="middle" x="1286.5" y="-2350.5" font-family="Helvetica,sans-Serif" font-size="10.00">D discussion</text>
+</g>
+<!-- MODENS&#45;&gt;D -->
+<g id="edge49" class="edge">
+<title>MODENS&#45;&gt;D</title>
+<path fill="none" stroke="#555555" d="M989.61,-2353C1065.45,-2353 1184.16,-2353 1245.63,-2353"/>
+<polygon fill="#555555" stroke="#555555" points="1245.89,-2354.93 1251.39,-2353 1245.89,-2351.08 1245.89,-2354.93"/>
+</g>
+<!-- AL -->
+<g id="node43" class="node">
+<title>AL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1306.5,-2432C1306.5,-2432 1266.5,-2432 1266.5,-2432 1260.5,-2432 1254.5,-2426 1254.5,-2420 1254.5,-2420 1254.5,-2408 1254.5,-2408 1254.5,-2402 1260.5,-2396 1266.5,-2396 1266.5,-2396 1306.5,-2396 1306.5,-2396 1312.5,-2396 1318.5,-2402 1318.5,-2408 1318.5,-2408 1318.5,-2420 1318.5,-2420 1318.5,-2426 1312.5,-2432 1306.5,-2432"/>
+<text text-anchor="middle" x="1286.5" y="-2411.5" font-family="Helvetica,sans-Serif" font-size="10.00">AL analysis</text>
+</g>
+<!-- MODENS&#45;&gt;AL -->
+<g id="edge50" class="edge">
+<title>MODENS&#45;&gt;AL</title>
+<path fill="none" stroke="#555555" d="M989.61,-2364.62C1066.66,-2377.48 1187.94,-2397.72 1248.51,-2407.83"/>
+<polygon fill="#555555" stroke="#555555" points="1248.44,-2409.77 1254.18,-2408.77 1249.07,-2405.97 1248.44,-2409.77"/>
+</g>
+<!-- PL -->
+<g id="node44" class="node">
+<title>PL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1307,-2493C1307,-2493 1266,-2493 1266,-2493 1260,-2493 1254,-2487 1254,-2481 1254,-2481 1254,-2469 1254,-2469 1254,-2463 1260,-2457 1266,-2457 1266,-2457 1307,-2457 1307,-2457 1313,-2457 1319,-2463 1319,-2469 1319,-2469 1319,-2481 1319,-2481 1319,-2487 1313,-2493 1307,-2493"/>
+<text text-anchor="middle" x="1286.5" y="-2472.5" font-family="Helvetica,sans-Serif" font-size="10.00">PL planning</text>
+</g>
+<!-- MODENS&#45;&gt;PL -->
+<g id="edge51" class="edge">
+<title>MODENS&#45;&gt;PL</title>
+<path fill="none" stroke="#555555" d="M952.77,-2371.09C991.75,-2391.88 1059.31,-2425.59 1121,-2445 1163.54,-2458.38 1214.26,-2466.51 1248.02,-2470.86"/>
+<polygon fill="#555555" stroke="#555555" points="1248.01,-2472.8 1253.71,-2471.58 1248.49,-2468.98 1248.01,-2472.8"/>
+</g>
+<!-- CD -->
+<g id="node45" class="node">
+<title>CD</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1301.5,-2554C1301.5,-2554 1271.5,-2554 1271.5,-2554 1265.5,-2554 1259.5,-2548 1259.5,-2542 1259.5,-2542 1259.5,-2530 1259.5,-2530 1259.5,-2524 1265.5,-2518 1271.5,-2518 1271.5,-2518 1301.5,-2518 1301.5,-2518 1307.5,-2518 1313.5,-2524 1313.5,-2530 1313.5,-2530 1313.5,-2542 1313.5,-2542 1313.5,-2548 1307.5,-2554 1301.5,-2554"/>
+<text text-anchor="middle" x="1286.5" y="-2533.5" font-family="Helvetica,sans-Serif" font-size="10.00">CD code</text>
+</g>
+<!-- MODENS&#45;&gt;CD -->
+<g id="edge52" class="edge">
+<title>MODENS&#45;&gt;CD</title>
+<path fill="none" stroke="#555555" d="M937.47,-2371.04C970.2,-2403.66 1044.36,-2472.19 1121,-2506 1164.44,-2525.16 1219.51,-2532.09 1253.62,-2534.59"/>
+<polygon fill="#555555" stroke="#555555" points="1253.71,-2536.52 1259.33,-2534.98 1253.97,-2532.68 1253.71,-2536.52"/>
+</g>
+<!-- OP -->
+<g id="node46" class="node">
+<title>OP</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1303,-2615C1303,-2615 1270,-2615 1270,-2615 1264,-2615 1258,-2609 1258,-2603 1258,-2603 1258,-2591 1258,-2591 1258,-2585 1264,-2579 1270,-2579 1270,-2579 1303,-2579 1303,-2579 1309,-2579 1315,-2585 1315,-2591 1315,-2591 1315,-2603 1315,-2603 1315,-2609 1309,-2615 1303,-2615"/>
+<text text-anchor="middle" x="1286.5" y="-2594.5" font-family="Helvetica,sans-Serif" font-size="10.00">OP output</text>
+</g>
+<!-- MODENS&#45;&gt;OP -->
+<g id="edge53" class="edge">
+<title>MODENS&#45;&gt;OP</title>
+<path fill="none" stroke="#555555" d="M931.19,-2371.29C958.06,-2413.51 1030.8,-2517.89 1121,-2567 1162.34,-2589.5 1217.29,-2595.54 1252.04,-2596.93"/>
+<polygon fill="#555555" stroke="#555555" points="1252.29,-2598.87 1257.86,-2597.13 1252.43,-2595.02 1252.29,-2598.87"/>
+</g>
+<!-- VAL -->
+<g id="node47" class="node">
+<title>VAL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1313.5,-2676C1313.5,-2676 1259.5,-2676 1259.5,-2676 1253.5,-2676 1247.5,-2670 1247.5,-2664 1247.5,-2664 1247.5,-2652 1247.5,-2652 1247.5,-2646 1253.5,-2640 1259.5,-2640 1259.5,-2640 1313.5,-2640 1313.5,-2640 1319.5,-2640 1325.5,-2646 1325.5,-2652 1325.5,-2652 1325.5,-2664 1325.5,-2664 1325.5,-2670 1319.5,-2676 1313.5,-2676"/>
+<text text-anchor="middle" x="1286.5" y="-2655.5" font-family="Helvetica,sans-Serif" font-size="10.00">VAL validation</text>
+</g>
+<!-- MODENS&#45;&gt;VAL -->
+<g id="edge54" class="edge">
+<title>MODENS&#45;&gt;VAL</title>
+<path fill="none" stroke="#555555" d="M927.4,-2371.12C948.9,-2421.28 1016.53,-2562.5 1121,-2628 1157.42,-2650.83 1206.75,-2657.29 1241.86,-2658.67"/>
+<polygon fill="#555555" stroke="#555555" points="1241.81,-2660.6 1247.37,-2658.86 1241.94,-2656.75 1241.81,-2660.6"/>
+</g>
+<!-- RS -->
+<g id="node48" class="node">
+<title>RS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1307.5,-2737C1307.5,-2737 1265.5,-2737 1265.5,-2737 1259.5,-2737 1253.5,-2731 1253.5,-2725 1253.5,-2725 1253.5,-2713 1253.5,-2713 1253.5,-2707 1259.5,-2701 1265.5,-2701 1265.5,-2701 1307.5,-2701 1307.5,-2701 1313.5,-2701 1319.5,-2707 1319.5,-2713 1319.5,-2713 1319.5,-2725 1319.5,-2725 1319.5,-2731 1313.5,-2737 1307.5,-2737"/>
+<text text-anchor="middle" x="1286.5" y="-2716.5" font-family="Helvetica,sans-Serif" font-size="10.00">RS research</text>
+</g>
+<!-- MODENS&#45;&gt;RS -->
+<g id="edge55" class="edge">
+<title>MODENS&#45;&gt;RS</title>
+<path fill="none" stroke="#555555" d="M925.04,-2371.27C941.88,-2428.69 1002,-2606.53 1121,-2689 1158.6,-2715.06 1212.23,-2720.4 1247.92,-2720.66"/>
+<polygon fill="#555555" stroke="#555555" points="1247.99,-2722.59 1253.49,-2720.66 1247.99,-2718.74 1247.99,-2722.59"/>
+</g>
+<!-- JD -->
+<g id="node49" class="node">
+<title>JD</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1301.5,-1822C1301.5,-1822 1271.5,-1822 1271.5,-1822 1265.5,-1822 1259.5,-1816 1259.5,-1810 1259.5,-1810 1259.5,-1798 1259.5,-1798 1259.5,-1792 1265.5,-1786 1271.5,-1786 1271.5,-1786 1301.5,-1786 1301.5,-1786 1307.5,-1786 1313.5,-1792 1313.5,-1798 1313.5,-1798 1313.5,-1810 1313.5,-1810 1313.5,-1816 1307.5,-1822 1301.5,-1822"/>
+<text text-anchor="middle" x="1286.5" y="-1801.5" font-family="Helvetica,sans-Serif" font-size="10.00">JD job/JD</text>
+</g>
+<!-- MODENS&#45;&gt;JD -->
+<g id="edge56" class="edge">
+<title>MODENS&#45;&gt;JD</title>
+<path fill="none" stroke="#555555" d="M989.77,-2357.49C1021.19,-2355.57 1056.08,-2347.22 1078,-2323 1151.05,-2242.28 1047.9,-1915.67 1121,-1835 1154.16,-1798.41 1215.77,-1796.73 1253.45,-1799.75"/>
+<polygon fill="#555555" stroke="#555555" points="1253.64,-1801.69 1259.29,-1800.26 1253.98,-1797.86 1253.64,-1801.69"/>
+</g>
+<!-- XL -->
+<g id="node50" class="node">
+<title>XL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1301.5,-1883C1301.5,-1883 1271.5,-1883 1271.5,-1883 1265.5,-1883 1259.5,-1877 1259.5,-1871 1259.5,-1871 1259.5,-1859 1259.5,-1859 1259.5,-1853 1265.5,-1847 1271.5,-1847 1271.5,-1847 1301.5,-1847 1301.5,-1847 1307.5,-1847 1313.5,-1853 1313.5,-1859 1313.5,-1859 1313.5,-1871 1313.5,-1871 1313.5,-1877 1307.5,-1883 1301.5,-1883"/>
+<text text-anchor="middle" x="1286.5" y="-1862.5" font-family="Helvetica,sans-Serif" font-size="10.00">XL Excel</text>
+</g>
+<!-- MODENS&#45;&gt;XL -->
+<g id="edge57" class="edge">
+<title>MODENS&#45;&gt;XL</title>
+<path fill="none" stroke="#555555" d="M989.64,-2357.37C1021.03,-2355.42 1055.93,-2347.08 1078,-2323 1142.43,-2252.69 1056.52,-1966.27 1121,-1896 1154.38,-1859.62 1215.92,-1857.87 1253.53,-1860.82"/>
+<polygon fill="#555555" stroke="#555555" points="1253.71,-1862.76 1259.35,-1861.32 1254.04,-1858.93 1253.71,-1862.76"/>
+</g>
+<!-- PPT -->
+<g id="node51" class="node">
+<title>PPT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1320,-1944C1320,-1944 1253,-1944 1253,-1944 1247,-1944 1241,-1938 1241,-1932 1241,-1932 1241,-1920 1241,-1920 1241,-1914 1247,-1908 1253,-1908 1253,-1908 1320,-1908 1320,-1908 1326,-1908 1332,-1914 1332,-1920 1332,-1920 1332,-1932 1332,-1932 1332,-1938 1326,-1944 1320,-1944"/>
+<text text-anchor="middle" x="1286.5" y="-1923.5" font-family="Helvetica,sans-Serif" font-size="10.00">PPT presentation</text>
+</g>
+<!-- MODENS&#45;&gt;PPT -->
+<g id="edge58" class="edge">
+<title>MODENS&#45;&gt;PPT</title>
+<path fill="none" stroke="#555555" d="M989.87,-2357.18C1021.11,-2355.15 1055.83,-2346.8 1078,-2323 1189.65,-2203.17 1009.27,-2076.76 1121,-1957 1149.51,-1926.44 1197.9,-1920.43 1234.84,-1921.04"/>
+<polygon fill="#555555" stroke="#555555" points="1235.11,-1922.97 1240.66,-1921.19 1235.21,-1919.12 1235.11,-1922.97"/>
+</g>
+<!-- DOC -->
+<g id="node52" class="node">
+<title>DOC</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1315.5,-2005C1315.5,-2005 1257.5,-2005 1257.5,-2005 1251.5,-2005 1245.5,-1999 1245.5,-1993 1245.5,-1993 1245.5,-1981 1245.5,-1981 1245.5,-1975 1251.5,-1969 1257.5,-1969 1257.5,-1969 1315.5,-1969 1315.5,-1969 1321.5,-1969 1327.5,-1975 1327.5,-1981 1327.5,-1981 1327.5,-1993 1327.5,-1993 1327.5,-1999 1321.5,-2005 1315.5,-2005"/>
+<text text-anchor="middle" x="1286.5" y="-1984.5" font-family="Helvetica,sans-Serif" font-size="10.00">DOC document</text>
+</g>
+<!-- MODENS&#45;&gt;DOC -->
+<g id="edge59" class="edge">
+<title>MODENS&#45;&gt;DOC</title>
+<path fill="none" stroke="#555555" d="M989.62,-2356.95C1020.82,-2354.87 1055.55,-2346.54 1078,-2323 1172.47,-2223.92 1026.46,-2117.01 1121,-2018 1151,-1986.58 1202.07,-1981.28 1239.36,-1982.32"/>
+<polygon fill="#555555" stroke="#555555" points="1239.65,-1984.25 1245.22,-1982.53 1239.79,-1980.41 1239.65,-1984.25"/>
+</g>
+<!-- PB -->
+<g id="node53" class="node">
+<title>PB</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1336,-2066C1336,-2066 1237,-2066 1237,-2066 1231,-2066 1225,-2060 1225,-2054 1225,-2054 1225,-2042 1225,-2042 1225,-2036 1231,-2030 1237,-2030 1237,-2030 1336,-2030 1336,-2030 1342,-2030 1348,-2036 1348,-2042 1348,-2042 1348,-2054 1348,-2054 1348,-2060 1342,-2066 1336,-2066"/>
+<text text-anchor="middle" x="1286.5" y="-2045.5" font-family="Helvetica,sans-Serif" font-size="10.00">PB project brain builder</text>
+</g>
+<!-- MODENS&#45;&gt;PB -->
+<g id="edge60" class="edge">
+<title>MODENS&#45;&gt;PB</title>
+<path fill="none" stroke="#555555" d="M989.67,-2356.58C1020.68,-2354.37 1055.25,-2346.05 1078,-2323 1155.35,-2244.62 1043.6,-2157.32 1121,-2079 1146.2,-2053.5 1185.31,-2045.38 1219.08,-2043.81"/>
+<polygon fill="#555555" stroke="#555555" points="1219.45,-2045.72 1224.88,-2043.6 1219.31,-2041.87 1219.45,-2045.72"/>
+</g>
+<!-- ENG -->
+<g id="node54" class="node">
+<title>ENG</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1324.5,-2127C1324.5,-2127 1248.5,-2127 1248.5,-2127 1242.5,-2127 1236.5,-2121 1236.5,-2115 1236.5,-2115 1236.5,-2103 1236.5,-2103 1236.5,-2097 1242.5,-2091 1248.5,-2091 1248.5,-2091 1324.5,-2091 1324.5,-2091 1330.5,-2091 1336.5,-2097 1336.5,-2103 1336.5,-2103 1336.5,-2115 1336.5,-2115 1336.5,-2121 1330.5,-2127 1324.5,-2127"/>
+<text text-anchor="middle" x="1286.5" y="-2106.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENG project engulf</text>
+</g>
+<!-- MODENS&#45;&gt;ENG -->
+<g id="edge61" class="edge">
+<title>MODENS&#45;&gt;ENG</title>
+<path fill="none" stroke="#555555" d="M989.89,-2355.93C1020.57,-2353.52 1054.81,-2345.21 1078,-2323 1138.34,-2265.21 1060.62,-2197.75 1121,-2140 1149.81,-2112.45 1194.97,-2105.52 1230.69,-2105.03"/>
+<polygon fill="#555555" stroke="#555555" points="1230.85,-2106.95 1236.34,-2105 1230.83,-2103.1 1230.85,-2106.95"/>
+</g>
+<!-- CE -->
+<g id="node55" class="node">
+<title>CE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1310.5,-2188C1310.5,-2188 1262.5,-2188 1262.5,-2188 1256.5,-2188 1250.5,-2182 1250.5,-2176 1250.5,-2176 1250.5,-2164 1250.5,-2164 1250.5,-2158 1256.5,-2152 1262.5,-2152 1262.5,-2152 1310.5,-2152 1310.5,-2152 1316.5,-2152 1322.5,-2158 1322.5,-2164 1322.5,-2164 1322.5,-2176 1322.5,-2176 1322.5,-2182 1316.5,-2188 1310.5,-2188"/>
+<text text-anchor="middle" x="1286.5" y="-2167.5" font-family="Helvetica,sans-Serif" font-size="10.00">CE clean exit</text>
+</g>
+<!-- MODENS&#45;&gt;CE -->
+<g id="edge62" class="edge">
+<title>MODENS&#45;&gt;CE</title>
+<path fill="none" stroke="#555555" d="M989.62,-2354.69C1019.88,-2351.96 1053.86,-2343.74 1078,-2323 1121.61,-2285.53 1077.37,-2238.44 1121,-2201 1155.13,-2171.72 1208.09,-2166.51 1244.66,-2166.97"/>
+<polygon fill="#555555" stroke="#555555" points="1244.84,-2168.9 1250.38,-2167.09 1244.92,-2165.05 1244.84,-2168.9"/>
+</g>
+<!-- RCV -->
+<g id="node56" class="node">
+<title>RCV</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1312,-2249C1312,-2249 1261,-2249 1261,-2249 1255,-2249 1249,-2243 1249,-2237 1249,-2237 1249,-2225 1249,-2225 1249,-2219 1255,-2213 1261,-2213 1261,-2213 1312,-2213 1312,-2213 1318,-2213 1324,-2219 1324,-2225 1324,-2225 1324,-2237 1324,-2237 1324,-2243 1318,-2249 1312,-2249"/>
+<text text-anchor="middle" x="1286.5" y="-2228.5" font-family="Helvetica,sans-Serif" font-size="10.00">RCV recovery</text>
+</g>
+<!-- MODENS&#45;&gt;RCV -->
+<g id="edge63" class="edge">
+<title>MODENS&#45;&gt;RCV</title>
+<path fill="none" stroke="#555555" d="M989.57,-2351.18C1018.78,-2347.65 1051.94,-2339.78 1078,-2323 1105.89,-2305.04 1093.1,-2279.94 1121,-2262 1157.78,-2238.35 1208.14,-2231.79 1243.42,-2230.4"/>
+<polygon fill="#555555" stroke="#555555" points="1243.52,-2232.33 1248.95,-2230.22 1243.39,-2228.48 1243.52,-2232.33"/>
+</g>
+<!-- X -->
+<g id="node57" class="node">
+<title>X</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1349,-2310C1349,-2310 1224,-2310 1224,-2310 1218,-2310 1212,-2304 1212,-2298 1212,-2298 1212,-2286 1212,-2286 1212,-2280 1218,-2274 1224,-2274 1224,-2274 1349,-2274 1349,-2274 1355,-2274 1361,-2280 1361,-2286 1361,-2286 1361,-2298 1361,-2298 1361,-2304 1355,-2310 1349,-2310"/>
+<text text-anchor="middle" x="1286.5" y="-2289.5" font-family="Helvetica,sans-Serif" font-size="10.00">X custom user&#45;defined mode</text>
+</g>
+<!-- MODENS&#45;&gt;X -->
+<g id="edge64" class="edge">
+<title>MODENS&#45;&gt;X</title>
+<path fill="none" stroke="#555555" d="M989.61,-2341.38C1051.33,-2331.08 1141.44,-2316.04 1205.99,-2305.27"/>
+<polygon fill="#555555" stroke="#555555" points="1206.65,-2307.11 1211.76,-2304.31 1206.02,-2303.31 1206.65,-2307.11"/>
+</g>
+<!-- CDREC -->
+<g id="node58" class="node">
+<title>CDREC</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1948,-2554C1948,-2554 1507,-2554 1507,-2554 1501,-2554 1495,-2548 1495,-2542 1495,-2542 1495,-2530 1495,-2530 1495,-2524 1501,-2518 1507,-2518 1507,-2518 1948,-2518 1948,-2518 1954,-2518 1960,-2524 1960,-2530 1960,-2530 1960,-2542 1960,-2542 1960,-2548 1954,-2554 1948,-2554"/>
+<text text-anchor="middle" x="1727.5" y="-2533.5" font-family="Helvetica,sans-Serif" font-size="10.00">lane_recursive_policy: scan discussion &#45;&gt; planning &#45;&gt; code &#45;&gt; validation &#45;&gt; error/open deltas</text>
+</g>
+<!-- CD&#45;&gt;CDREC -->
+<g id="edge65" class="edge">
+<title>CD&#45;&gt;CDREC</title>
+<path fill="none" stroke="#555555" d="M1313.65,-2536C1349.67,-2536 1418.22,-2536 1489.26,-2536"/>
+<polygon fill="#555555" stroke="#555555" points="1489.32,-2537.93 1494.82,-2536 1489.32,-2534.08 1489.32,-2537.93"/>
+</g>
+<!-- XLREC -->
+<g id="node59" class="node">
+<title>XLREC</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1811,-1883C1811,-1883 1644,-1883 1644,-1883 1638,-1883 1632,-1877 1632,-1871 1632,-1871 1632,-1859 1632,-1859 1632,-1853 1638,-1847 1644,-1847 1644,-1847 1811,-1847 1811,-1847 1817,-1847 1823,-1853 1823,-1859 1823,-1859 1823,-1871 1823,-1871 1823,-1877 1817,-1883 1811,-1883"/>
+<text text-anchor="middle" x="1727.5" y="-1862.5" font-family="Helvetica,sans-Serif" font-size="10.00">sheet/formula/pivot dependency lane</text>
+</g>
+<!-- XL&#45;&gt;XLREC -->
+<g id="edge66" class="edge">
+<title>XL&#45;&gt;XLREC</title>
+<path fill="none" stroke="#555555" d="M1313.65,-1865C1373.7,-1865 1524.14,-1865 1625.85,-1865"/>
+<polygon fill="#555555" stroke="#555555" points="1626.06,-1866.93 1631.56,-1865 1626.06,-1863.08 1626.06,-1866.93"/>
+</g>
+<!-- PPTREC -->
+<g id="node60" class="node">
+<title>PPTREC</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1789,-1944C1789,-1944 1666,-1944 1666,-1944 1660,-1944 1654,-1938 1654,-1932 1654,-1932 1654,-1920 1654,-1920 1654,-1914 1660,-1908 1666,-1908 1666,-1908 1789,-1908 1789,-1908 1795,-1908 1801,-1914 1801,-1920 1801,-1920 1801,-1932 1801,-1932 1801,-1938 1795,-1944 1789,-1944"/>
+<text text-anchor="middle" x="1727.5" y="-1923.5" font-family="Helvetica,sans-Serif" font-size="10.00">slide/story/source&#45;state lane</text>
+</g>
+<!-- PPT&#45;&gt;PPTREC -->
+<g id="edge67" class="edge">
+<title>PPT&#45;&gt;PPTREC</title>
+<path fill="none" stroke="#555555" d="M1332.01,-1926C1406.2,-1926 1556.1,-1926 1648.25,-1926"/>
+<polygon fill="#555555" stroke="#555555" points="1648.46,-1927.93 1653.96,-1926 1648.46,-1924.08 1648.46,-1927.93"/>
+</g>
+<!-- DOCREC -->
+<g id="node61" class="node">
+<title>DOCREC</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1775.5,-2005C1775.5,-2005 1679.5,-2005 1679.5,-2005 1673.5,-2005 1667.5,-1999 1667.5,-1993 1667.5,-1993 1667.5,-1981 1667.5,-1981 1667.5,-1975 1673.5,-1969 1679.5,-1969 1679.5,-1969 1775.5,-1969 1775.5,-1969 1781.5,-1969 1787.5,-1975 1787.5,-1981 1787.5,-1981 1787.5,-1993 1787.5,-1993 1787.5,-1999 1781.5,-2005 1775.5,-2005"/>
+<text text-anchor="middle" x="1727.5" y="-1984.5" font-family="Helvetica,sans-Serif" font-size="10.00">section/render&#45;QA lane</text>
+</g>
+<!-- DOC&#45;&gt;DOCREC -->
+<g id="edge68" class="edge">
+<title>DOC&#45;&gt;DOCREC</title>
+<path fill="none" stroke="#555555" d="M1327.62,-1987C1403.71,-1987 1569.58,-1987 1661.65,-1987"/>
+<polygon fill="#555555" stroke="#555555" points="1661.84,-1988.93 1667.34,-1987 1661.84,-1985.08 1661.84,-1988.93"/>
+</g>
+<!-- PBLANE -->
+<g id="node62" class="node">
+<title>PBLANE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1796,-2066C1796,-2066 1659,-2066 1659,-2066 1653,-2066 1647,-2060 1647,-2054 1647,-2054 1647,-2042 1647,-2042 1647,-2036 1653,-2030 1659,-2030 1659,-2030 1796,-2030 1796,-2030 1802,-2030 1808,-2036 1808,-2042 1808,-2042 1808,-2054 1808,-2054 1808,-2060 1802,-2066 1796,-2066"/>
+<text text-anchor="middle" x="1727.5" y="-2045.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_brain_builder_lane_v11</text>
+</g>
+<!-- PB&#45;&gt;PBLANE -->
+<g id="edge69" class="edge">
+<title>PB&#45;&gt;PBLANE</title>
+<path fill="none" stroke="#555555" d="M1348.08,-2048C1424.15,-2048 1555.1,-2048 1641.25,-2048"/>
+<polygon fill="#555555" stroke="#555555" points="1641.36,-2049.93 1646.86,-2048 1641.36,-2046.08 1641.36,-2049.93"/>
+</g>
+<!-- PB_CODE -->
+<g id="node98" class="node">
+<title>PB_CODE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2287.5,-1974C2287.5,-1974 2145.5,-1974 2145.5,-1974 2139.5,-1974 2133.5,-1968 2133.5,-1962 2133.5,-1962 2133.5,-1950 2133.5,-1950 2133.5,-1944 2139.5,-1938 2145.5,-1938 2145.5,-1938 2287.5,-1938 2287.5,-1938 2293.5,-1938 2299.5,-1944 2299.5,-1950 2299.5,-1950 2299.5,-1962 2299.5,-1962 2299.5,-1968 2293.5,-1974 2287.5,-1974"/>
+<text text-anchor="middle" x="2216.5" y="-1953.5" font-family="Helvetica,sans-Serif" font-size="10.00">PB_CODE_REPO: raw code + .git</text>
+</g>
+<!-- PBLANE&#45;&gt;PB_CODE -->
+<g id="edge103" class="edge">
+<title>PBLANE&#45;&gt;PB_CODE</title>
+<path fill="none" stroke="#555555" d="M1808.27,-2049.71C1856.44,-2047.95 1917.98,-2040.62 1968,-2018 1986.93,-2009.44 1984.15,-1995.75 2003,-1987 2041.59,-1969.07 2088.01,-1960.97 2127.61,-1957.49"/>
+<polygon fill="#555555" stroke="#555555" points="2128.08,-1959.39 2133.4,-1957.01 2127.76,-1955.55 2128.08,-1959.39"/>
+</g>
+<!-- PB_SQL -->
+<g id="node99" class="node">
+<title>PB_SQL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2304.5,-1913C2304.5,-1913 2128.5,-1913 2128.5,-1913 2122.5,-1913 2116.5,-1907 2116.5,-1901 2116.5,-1901 2116.5,-1889 2116.5,-1889 2116.5,-1883 2122.5,-1877 2128.5,-1877 2128.5,-1877 2304.5,-1877 2304.5,-1877 2310.5,-1877 2316.5,-1883 2316.5,-1889 2316.5,-1889 2316.5,-1901 2316.5,-1901 2316.5,-1907 2310.5,-1913 2304.5,-1913"/>
+<text text-anchor="middle" x="2216.5" y="-1892.5" font-family="Helvetica,sans-Serif" font-size="10.00">PB_SQLITE_IMPORT: project brain sqlite</text>
+</g>
+<!-- PBLANE&#45;&gt;PB_SQL -->
+<g id="edge104" class="edge">
+<title>PBLANE&#45;&gt;PB_SQL</title>
+<path fill="none" stroke="#555555" d="M1808.06,-2057.63C1858.87,-2059.43 1923.35,-2053.08 1968,-2018 2002.4,-1990.97 1968.87,-1953.37 2003,-1926 2033.01,-1901.93 2073.34,-1892.23 2110.81,-1889.22"/>
+<polygon fill="#555555" stroke="#555555" points="2110.97,-1891.14 2116.31,-1888.82 2110.69,-1887.3 2110.97,-1891.14"/>
+</g>
+<!-- PB_DOC -->
+<g id="node100" class="node">
+<title>PB_DOC</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2284.5,-2157C2284.5,-2157 2148.5,-2157 2148.5,-2157 2142.5,-2157 2136.5,-2151 2136.5,-2145 2136.5,-2145 2136.5,-2133 2136.5,-2133 2136.5,-2127 2142.5,-2121 2148.5,-2121 2148.5,-2121 2284.5,-2121 2284.5,-2121 2290.5,-2121 2296.5,-2127 2296.5,-2133 2296.5,-2133 2296.5,-2145 2296.5,-2145 2296.5,-2151 2290.5,-2157 2284.5,-2157"/>
+<text text-anchor="middle" x="2216.5" y="-2136.5" font-family="Helvetica,sans-Serif" font-size="10.00">PB_DOC_CORPUS: reports/docs</text>
+</g>
+<!-- PBLANE&#45;&gt;PB_DOC -->
+<g id="edge105" class="edge">
+<title>PBLANE&#45;&gt;PB_DOC</title>
+<path fill="none" stroke="#555555" d="M1802.16,-2066.02C1857.25,-2079.09 1934.55,-2096.58 2003,-2109 2044.84,-2116.59 2091.61,-2123.38 2130.6,-2128.57"/>
+<polygon fill="#555555" stroke="#555555" points="2130.59,-2130.51 2136.3,-2129.32 2131.1,-2126.69 2130.59,-2130.51"/>
+</g>
+<!-- PB_CSV -->
+<g id="node101" class="node">
+<title>PB_CSV</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2284,-2096C2284,-2096 2149,-2096 2149,-2096 2143,-2096 2137,-2090 2137,-2084 2137,-2084 2137,-2072 2137,-2072 2137,-2066 2143,-2060 2149,-2060 2149,-2060 2284,-2060 2284,-2060 2290,-2060 2296,-2066 2296,-2072 2296,-2072 2296,-2084 2296,-2084 2296,-2090 2290,-2096 2284,-2096"/>
+<text text-anchor="middle" x="2216.5" y="-2075.5" font-family="Helvetica,sans-Serif" font-size="10.00">PB_CSV_FACT: master fact CSV</text>
+</g>
+<!-- PBLANE&#45;&gt;PB_CSV -->
+<g id="edge106" class="edge">
+<title>PBLANE&#45;&gt;PB_CSV</title>
+<path fill="none" stroke="#555555" d="M1808.1,-2052.9C1896.99,-2058.38 2040.26,-2067.21 2131.07,-2072.8"/>
+<polygon fill="#555555" stroke="#555555" points="2131.09,-2074.73 2136.7,-2073.15 2131.33,-2070.89 2131.09,-2074.73"/>
+</g>
+<!-- PB_MIXED -->
+<g id="node102" class="node">
+<title>PB_MIXED</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2268,-2035C2268,-2035 2165,-2035 2165,-2035 2159,-2035 2153,-2029 2153,-2023 2153,-2023 2153,-2011 2153,-2011 2153,-2005 2159,-1999 2165,-1999 2165,-1999 2268,-1999 2268,-1999 2274,-1999 2280,-2005 2280,-2011 2280,-2011 2280,-2023 2280,-2023 2280,-2029 2274,-2035 2268,-2035"/>
+<text text-anchor="middle" x="2216.5" y="-2014.5" font-family="Helvetica,sans-Serif" font-size="10.00">PB_MIXED_PROJECT_ZIP</text>
+</g>
+<!-- PBLANE&#45;&gt;PB_MIXED -->
+<g id="edge107" class="edge">
+<title>PBLANE&#45;&gt;PB_MIXED</title>
+<path fill="none" stroke="#555555" d="M1808.1,-2042.93C1902.54,-2036.92 2058.36,-2027 2147.43,-2021.33"/>
+<polygon fill="#555555" stroke="#555555" points="2147.57,-2023.25 2152.94,-2020.98 2147.32,-2019.41 2147.57,-2023.25"/>
+</g>
+<!-- MATH -->
+<g id="node64" class="node">
+<title>MATH</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1414,-1557C1414,-1557 1159,-1557 1159,-1557 1153,-1557 1147,-1551 1147,-1545 1147,-1545 1147,-1533 1147,-1533 1147,-1527 1153,-1521 1159,-1521 1159,-1521 1414,-1521 1414,-1521 1420,-1521 1426,-1527 1426,-1533 1426,-1533 1426,-1545 1426,-1545 1426,-1551 1420,-1557 1414,-1557"/>
+<text text-anchor="middle" x="1286.5" y="-1536.5" font-family="Helvetica,sans-Serif" font-size="10.00">Math: sets, relations, matrices, graph, indexing, hashes</text>
+</g>
+<!-- PCM&#45;&gt;MATH -->
+<g id="edge71" class="edge">
+<title>PCM&#45;&gt;MATH</title>
+<path fill="none" stroke="#555555" d="M970.82,-1613.23C1011.22,-1600.3 1069.33,-1582.54 1121,-1570 1138.4,-1565.77 1156.96,-1561.79 1175.11,-1558.17"/>
+<polygon fill="#555555" stroke="#555555" points="1175.7,-1560.01 1180.72,-1557.06 1174.96,-1556.24 1175.7,-1560.01"/>
+</g>
+<!-- PHYS -->
+<g id="node65" class="node">
+<title>PHYS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1394,-1618C1394,-1618 1179,-1618 1179,-1618 1173,-1618 1167,-1612 1167,-1606 1167,-1606 1167,-1594 1167,-1594 1167,-1588 1173,-1582 1179,-1582 1179,-1582 1394,-1582 1394,-1582 1400,-1582 1406,-1588 1406,-1594 1406,-1594 1406,-1606 1406,-1606 1406,-1612 1400,-1618 1394,-1618"/>
+<text text-anchor="middle" x="1286.5" y="-1597.5" font-family="Helvetica,sans-Serif" font-size="10.00">Physics: state, entropy, continuity, signal/noise</text>
+</g>
+<!-- PCM&#45;&gt;PHYS -->
+<g id="edge72" class="edge">
+<title>PCM&#45;&gt;PHYS</title>
+<path fill="none" stroke="#555555" d="M970.82,-1625.83C1019.85,-1621.8 1096.01,-1615.55 1161.12,-1610.21"/>
+<polygon fill="#555555" stroke="#555555" points="1161.66,-1612.1 1166.98,-1609.73 1161.34,-1608.26 1161.66,-1612.1"/>
+</g>
+<!-- CHEM -->
+<g id="node66" class="node">
+<title>CHEM</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1407.5,-1679C1407.5,-1679 1165.5,-1679 1165.5,-1679 1159.5,-1679 1153.5,-1673 1153.5,-1667 1153.5,-1667 1153.5,-1655 1153.5,-1655 1153.5,-1649 1159.5,-1643 1165.5,-1643 1165.5,-1643 1407.5,-1643 1407.5,-1643 1413.5,-1643 1419.5,-1649 1419.5,-1655 1419.5,-1655 1419.5,-1667 1419.5,-1667 1419.5,-1673 1413.5,-1679 1407.5,-1679"/>
+<text text-anchor="middle" x="1286.5" y="-1658.5" font-family="Helvetica,sans-Serif" font-size="10.00">Chemistry: redox, quarantine, irreversible fusion risk</text>
+</g>
+<!-- PCM&#45;&gt;CHEM -->
+<g id="edge73" class="edge">
+<title>PCM&#45;&gt;CHEM</title>
+<path fill="none" stroke="#555555" d="M970.82,-1634.31C1016.52,-1638.19 1085.78,-1644.06 1147.7,-1649.31"/>
+<polygon fill="#555555" stroke="#555555" points="1147.64,-1651.24 1153.29,-1649.79 1147.97,-1647.4 1147.64,-1651.24"/>
+</g>
+<!-- MBA -->
+<g id="node67" class="node">
+<title>MBA</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1423,-1740C1423,-1740 1150,-1740 1150,-1740 1144,-1740 1138,-1734 1138,-1728 1138,-1728 1138,-1716 1138,-1716 1138,-1710 1144,-1704 1150,-1704 1150,-1704 1423,-1704 1423,-1704 1429,-1704 1435,-1710 1435,-1716 1435,-1716 1435,-1728 1435,-1728 1435,-1734 1429,-1740 1423,-1740"/>
+<text text-anchor="middle" x="1286.5" y="-1719.5" font-family="Helvetica,sans-Serif" font-size="10.00">MBA/Ops: audit, risk, supply chain, rollback, human control</text>
+</g>
+<!-- PCM&#45;&gt;MBA -->
+<g id="edge74" class="edge">
+<title>PCM&#45;&gt;MBA</title>
+<path fill="none" stroke="#555555" d="M970.75,-1647.49C1011.12,-1660.95 1069.21,-1679.34 1121,-1692 1136.96,-1695.9 1153.91,-1699.55 1170.62,-1702.85"/>
+<polygon fill="#555555" stroke="#555555" points="1170.51,-1704.79 1176.28,-1703.96 1171.25,-1701.02 1170.51,-1704.79"/>
+</g>
+<!-- FORMULA -->
+<g id="node68" class="node">
+<title>FORMULA</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1382,-1496C1382,-1496 1191,-1496 1191,-1496 1185,-1496 1179,-1490 1179,-1484 1179,-1484 1179,-1472 1179,-1472 1179,-1466 1185,-1460 1191,-1460 1191,-1460 1382,-1460 1382,-1460 1388,-1460 1394,-1466 1394,-1472 1394,-1472 1394,-1484 1394,-1484 1394,-1490 1388,-1496 1382,-1496"/>
+<text text-anchor="middle" x="1286.5" y="-1475.5" font-family="Helvetica,sans-Serif" font-size="10.00">formula_component / task formula receipt</text>
+</g>
+<!-- PCM&#45;&gt;FORMULA -->
+<g id="edge75" class="edge">
+<title>PCM&#45;&gt;FORMULA</title>
+<path fill="none" stroke="#555555" d="M943.61,-1611.91C979.76,-1585.14 1051.92,-1535.32 1121,-1509 1137.49,-1502.72 1155.41,-1497.67 1173.16,-1493.63"/>
+<polygon fill="#555555" stroke="#555555" points="1173.71,-1495.48 1178.66,-1492.4 1172.87,-1491.72 1173.71,-1495.48"/>
+</g>
+<!-- UOPROOT -->
+<g id="node69" class="node">
+<title>UOPROOT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2273,-883C2273,-883 2160,-883 2160,-883 2154,-883 2148,-877 2148,-871 2148,-871 2148,-859 2148,-859 2148,-853 2154,-847 2160,-847 2160,-847 2273,-847 2273,-847 2279,-847 2285,-853 2285,-859 2285,-859 2285,-871 2285,-871 2285,-877 2279,-883 2273,-883"/>
+<text text-anchor="middle" x="2216.5" y="-862.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop_governance_root_v15</text>
+</g>
+<!-- UOPSLOT -->
+<g id="node71" class="node">
+<title>UOPSLOT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2764,-883C2764,-883 2485,-883 2485,-883 2479,-883 2473,-877 2473,-871 2473,-871 2473,-859 2473,-859 2473,-853 2479,-847 2485,-847 2485,-847 2764,-847 2764,-847 2770,-847 2776,-853 2776,-859 2776,-859 2776,-871 2776,-871 2776,-877 2770,-883 2764,-883"/>
+<text text-anchor="middle" x="2624.5" y="-862.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP slot exists in clean env / no private payload in env core</text>
+</g>
+<!-- UOPROOT&#45;&gt;UOPSLOT -->
+<g id="edge77" class="edge">
+<title>UOPROOT&#45;&gt;UOPSLOT</title>
+<path fill="none" stroke="#555555" d="M2285.46,-865C2334.98,-865 2404.12,-865 2466.98,-865"/>
+<polygon fill="#555555" stroke="#555555" points="2467.16,-866.93 2472.66,-865 2467.16,-863.08 2467.16,-866.93"/>
+</g>
+<!-- FLASHUOP -->
+<g id="node80" class="node">
+<title>FLASHUOP</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2668,-822C2668,-822 2581,-822 2581,-822 2575,-822 2569,-816 2569,-810 2569,-810 2569,-798 2569,-798 2569,-792 2575,-786 2581,-786 2581,-786 2668,-786 2668,-786 2674,-786 2680,-792 2680,-798 2680,-798 2680,-810 2680,-810 2680,-816 2674,-822 2668,-822"/>
+<text text-anchor="middle" x="2624.5" y="-801.5" font-family="Helvetica,sans-Serif" font-size="10.00">mode == flash_uop?</text>
+</g>
+<!-- UOPROOT&#45;&gt;FLASHUOP -->
+<g id="edge86" class="edge">
+<title>UOPROOT&#45;&gt;FLASHUOP</title>
+<path fill="none" stroke="#555555" d="M2285.46,-854.79C2363.01,-843.14 2488.69,-824.26 2562.99,-813.09"/>
+<polygon fill="#555555" stroke="#555555" points="2563.54,-814.96 2568.69,-812.24 2562.96,-811.15 2563.54,-814.96"/>
+</g>
+<!-- DOTUOP -->
+<g id="node70" class="node">
+<title>DOTUOP</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1803,-913C1803,-913 1652,-913 1652,-913 1646,-913 1640,-907 1640,-901 1640,-901 1640,-889 1640,-889 1640,-883 1646,-877 1652,-877 1652,-877 1803,-877 1803,-877 1809,-877 1815,-883 1815,-889 1815,-889 1815,-901 1815,-901 1815,-907 1809,-913 1803,-913"/>
+<text text-anchor="middle" x="1727.5" y="-892.5" font-family="Helvetica,sans-Serif" font-size="10.00">.uepc_profile / UOP PROFILE HEAD</text>
+</g>
+<!-- DOTUOP&#45;&gt;UOPROOT -->
+<g id="edge76" class="edge">
+<title>DOTUOP&#45;&gt;UOPROOT</title>
+<path fill="none" stroke="#555555" d="M1815,-889.67C1908.08,-883.94 2054.5,-874.92 2142.14,-869.52"/>
+<polygon fill="#555555" stroke="#555555" points="2142.46,-871.43 2147.83,-869.17 2142.22,-867.59 2142.46,-871.43"/>
+</g>
+<!-- UOPPKG -->
+<g id="node72" class="node">
+<title>UOPPKG</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3111.5,-883C3111.5,-883 2897.5,-883 2897.5,-883 2891.5,-883 2885.5,-877 2885.5,-871 2885.5,-871 2885.5,-859 2885.5,-859 2885.5,-853 2891.5,-847 2897.5,-847 2897.5,-847 3111.5,-847 3111.5,-847 3117.5,-847 3123.5,-853 3123.5,-859 3123.5,-859 3123.5,-871 3123.5,-871 3123.5,-877 3117.5,-883 3111.5,-883"/>
+<text text-anchor="middle" x="3004.5" y="-862.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop/uop_sqlite.sqlite / clean governance sector</text>
+</g>
+<!-- UOPSLOT&#45;&gt;UOPPKG -->
+<g id="edge78" class="edge">
+<title>UOPSLOT&#45;&gt;UOPPKG</title>
+<path fill="none" stroke="#555555" d="M2776.25,-865C2810.58,-865 2846.67,-865 2879.73,-865"/>
+<polygon fill="#555555" stroke="#555555" points="2879.93,-866.93 2885.43,-865 2879.93,-863.08 2879.93,-866.93"/>
+</g>
+<!-- UOPSQL -->
+<g id="node73" class="node">
+<title>UOPSQL</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3418.5,-881C3418.5,-881 3332.5,-881 3332.5,-881 3326.5,-881 3320.5,-875 3320.5,-869 3320.5,-869 3320.5,-857 3320.5,-857 3320.5,-851 3326.5,-845 3332.5,-845 3332.5,-845 3418.5,-845 3418.5,-845 3424.5,-845 3430.5,-851 3430.5,-857 3430.5,-857 3430.5,-869 3430.5,-869 3430.5,-875 3424.5,-881 3418.5,-881"/>
+<text text-anchor="middle" x="3375.5" y="-860.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop/uop_sqlite.sqlite</text>
+</g>
+<!-- UOPPKG&#45;&gt;UOPSQL -->
+<g id="edge79" class="edge">
+<title>UOPPKG&#45;&gt;UOPSQL</title>
+<path fill="none" stroke="#555555" d="M3123.52,-864.36C3187.2,-864.02 3263.08,-863.6 3314.61,-863.32"/>
+<polygon fill="#555555" stroke="#555555" points="3314.65,-865.25 3320.14,-863.29 3314.63,-861.4 3314.65,-865.25"/>
+</g>
+<!-- UOPSRC -->
+<g id="node74" class="node">
+<title>UOPSRC</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3831.5,-820C3831.5,-820 3606.5,-820 3606.5,-820 3600.5,-820 3594.5,-814 3594.5,-808 3594.5,-808 3594.5,-796 3594.5,-796 3594.5,-790 3600.5,-784 3606.5,-784 3606.5,-784 3831.5,-784 3831.5,-784 3837.5,-784 3843.5,-790 3843.5,-796 3843.5,-796 3843.5,-808 3843.5,-808 3843.5,-814 3837.5,-820 3831.5,-820"/>
+<text text-anchor="middle" x="3719" y="-799.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop_source_registry / governance extraction only</text>
+</g>
+<!-- UOPSQL&#45;&gt;UOPSRC -->
+<g id="edge80" class="edge">
+<title>UOPSQL&#45;&gt;UOPSRC</title>
+<path fill="none" stroke="#555555" d="M3430.61,-853.33C3478.98,-844.69 3551.28,-831.78 3611.26,-821.07"/>
+<polygon fill="#555555" stroke="#555555" points="3611.95,-822.9 3617.02,-820.04 3611.27,-819.11 3611.95,-822.9"/>
+</g>
+<!-- UOPCHUNK -->
+<g id="node75" class="node">
+<title>UOPCHUNK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3865,-881C3865,-881 3573,-881 3573,-881 3567,-881 3561,-875 3561,-869 3561,-869 3561,-857 3561,-857 3561,-851 3567,-845 3573,-845 3573,-845 3865,-845 3865,-845 3871,-845 3877,-851 3877,-857 3877,-857 3877,-869 3877,-869 3877,-875 3871,-881 3865,-881"/>
+<text text-anchor="middle" x="3719" y="-860.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop_spatial_operator + uop_knowledge_compression_operator</text>
+</g>
+<!-- UOPSQL&#45;&gt;UOPCHUNK -->
+<g id="edge81" class="edge">
+<title>UOPSQL&#45;&gt;UOPCHUNK</title>
+<path fill="none" stroke="#555555" d="M3430.61,-863C3464.52,-863 3510.18,-863 3555.12,-863"/>
+<polygon fill="#555555" stroke="#555555" points="3555.38,-864.93 3560.88,-863 3555.38,-861.08 3555.38,-864.93"/>
+</g>
+<!-- UOPPRIV -->
+<g id="node76" class="node">
+<title>UOPPRIV</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3766.5,-942C3766.5,-942 3671.5,-942 3671.5,-942 3665.5,-942 3659.5,-936 3659.5,-930 3659.5,-930 3659.5,-918 3659.5,-918 3659.5,-912 3665.5,-906 3671.5,-906 3671.5,-906 3766.5,-906 3766.5,-906 3772.5,-906 3778.5,-912 3778.5,-918 3778.5,-918 3778.5,-930 3778.5,-930 3778.5,-936 3772.5,-942 3766.5,-942"/>
+<text text-anchor="middle" x="3719" y="-921.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop_privacy_boundary</text>
+</g>
+<!-- UOPSQL&#45;&gt;UOPPRIV -->
+<g id="edge82" class="edge">
+<title>UOPSQL&#45;&gt;UOPPRIV</title>
+<path fill="none" stroke="#555555" d="M3430.61,-872.67C3491.13,-883.48 3589.1,-900.98 3653.54,-912.49"/>
+<polygon fill="#555555" stroke="#555555" points="3653.52,-914.44 3659.28,-913.51 3654.2,-910.65 3653.52,-914.44"/>
+</g>
+<!-- UOPMMD -->
+<g id="node79" class="node">
+<title>UOPMMD</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3803.5,-759C3803.5,-759 3634.5,-759 3634.5,-759 3628.5,-759 3622.5,-753 3622.5,-747 3622.5,-747 3622.5,-735 3622.5,-735 3622.5,-729 3628.5,-723 3634.5,-723 3634.5,-723 3803.5,-723 3803.5,-723 3809.5,-723 3815.5,-729 3815.5,-735 3815.5,-735 3815.5,-747 3815.5,-747 3815.5,-753 3809.5,-759 3803.5,-759"/>
+<text text-anchor="middle" x="3719" y="-738.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP governance MMD / own topology</text>
+</g>
+<!-- UOPSQL&#45;&gt;UOPMMD -->
+<g id="edge85" class="edge">
+<title>UOPSQL&#45;&gt;UOPMMD</title>
+<path fill="none" stroke="#555555" d="M3406.77,-844.96C3442.47,-824.42 3504.17,-791.25 3561,-772 3578.65,-766.02 3597.82,-761.05 3616.51,-756.97"/>
+<polygon fill="#555555" stroke="#555555" points="3617.32,-758.76 3622.3,-755.73 3616.52,-755 3617.32,-758.76"/>
+</g>
+<!-- UOPRULE -->
+<g id="node77" class="node">
+<title>UOPRULE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4115,-942C4115,-942 3932,-942 3932,-942 3926,-942 3920,-936 3920,-930 3920,-930 3920,-918 3920,-918 3920,-912 3926,-906 3932,-906 3932,-906 4115,-906 4115,-906 4121,-906 4127,-912 4127,-918 4127,-918 4127,-930 4127,-930 4127,-936 4121,-942 4115,-942"/>
+<text text-anchor="middle" x="4023.5" y="-921.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP guides profile/operator context only</text>
+</g>
+<!-- UOPPRIV&#45;&gt;UOPRULE -->
+<g id="edge83" class="edge">
+<title>UOPPRIV&#45;&gt;UOPRULE</title>
+<path fill="none" stroke="#555555" d="M3778.68,-924C3817.15,-924 3868.6,-924 3914.32,-924"/>
+<polygon fill="#555555" stroke="#555555" points="3914.37,-925.93 3919.87,-924 3914.37,-922.08 3914.37,-925.93"/>
+</g>
+<!-- NOOVERRIDE -->
+<g id="node78" class="node">
+<title>NOOVERRIDE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4419.5,-942C4419.5,-942 4217.5,-942 4217.5,-942 4211.5,-942 4205.5,-936 4205.5,-930 4205.5,-930 4205.5,-918 4205.5,-918 4205.5,-912 4211.5,-906 4217.5,-906 4217.5,-906 4419.5,-906 4419.5,-906 4425.5,-906 4431.5,-912 4431.5,-918 4431.5,-918 4431.5,-930 4431.5,-930 4431.5,-936 4425.5,-942 4419.5,-942"/>
+<text text-anchor="middle" x="4318.5" y="-921.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP cannot override env law or project truth</text>
+</g>
+<!-- UOPRULE&#45;&gt;NOOVERRIDE -->
+<g id="edge84" class="edge">
+<title>UOPRULE&#45;&gt;NOOVERRIDE</title>
+<path fill="none" stroke="#555555" d="M4127.39,-924C4150.74,-924 4175.73,-924 4199.65,-924"/>
+<polygon fill="#555555" stroke="#555555" points="4199.88,-925.93 4205.38,-924 4199.88,-922.08 4199.88,-925.93"/>
+</g>
+<!-- UOPUPDATE -->
+<g id="node81" class="node">
+<title>UOPUPDATE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3065,-761C3065,-761 2944,-761 2944,-761 2938,-761 2932,-755 2932,-749 2932,-749 2932,-737 2932,-737 2932,-731 2938,-725 2944,-725 2944,-725 3065,-725 3065,-725 3071,-725 3077,-731 3077,-737 3077,-737 3077,-749 3077,-749 3077,-755 3071,-761 3065,-761"/>
+<text text-anchor="middle" x="3004.5" y="-740.5" font-family="Helvetica,sans-Serif" font-size="10.00">scoped UOP update allowed</text>
+</g>
+<!-- FLASHUOP&#45;&gt;UOPUPDATE -->
+<g id="edge87" class="edge">
+<title>FLASHUOP&#45;&gt;UOPUPDATE</title>
+<path fill="none" stroke="#555555" d="M2680.06,-795.2C2744.72,-784.76 2852.91,-767.3 2926.18,-755.48"/>
+<polygon fill="#555555" stroke="#555555" points="2926.71,-757.34 2931.83,-754.57 2926.1,-753.54 2926.71,-757.34"/>
+</g>
+<!-- UOPLOCK -->
+<g id="node82" class="node">
+<title>UOPLOCK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3066,-822C3066,-822 2943,-822 2943,-822 2937,-822 2931,-816 2931,-810 2931,-810 2931,-798 2931,-798 2931,-792 2937,-786 2943,-786 2943,-786 3066,-786 3066,-786 3072,-786 3078,-792 3078,-798 3078,-798 3078,-810 3078,-810 3078,-816 3072,-822 3066,-822"/>
+<text text-anchor="middle" x="3004.5" y="-801.5" font-family="Helvetica,sans-Serif" font-size="10.00">UOP sector locked/read&#45;only</text>
+</g>
+<!-- FLASHUOP&#45;&gt;UOPLOCK -->
+<g id="edge88" class="edge">
+<title>FLASHUOP&#45;&gt;UOPLOCK</title>
+<path fill="none" stroke="#555555" d="M2680.06,-804C2744.42,-804 2851.91,-804 2925.16,-804"/>
+<polygon fill="#555555" stroke="#555555" points="2925.31,-805.93 2930.81,-804 2925.31,-802.08 2925.31,-805.93"/>
+</g>
+<!-- PROOT -->
+<g id="node83" class="node">
+<title>PROOT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2677,-1454C2677,-1454 2572,-1454 2572,-1454 2566,-1454 2560,-1448 2560,-1442 2560,-1442 2560,-1430 2560,-1430 2560,-1424 2566,-1418 2572,-1418 2572,-1418 2677,-1418 2677,-1418 2683,-1418 2689,-1424 2689,-1430 2689,-1430 2689,-1442 2689,-1442 2689,-1448 2683,-1454 2677,-1454"/>
+<text text-anchor="middle" x="2624.5" y="-1433.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_growth_root_v15</text>
+</g>
+<!-- PSECTION -->
+<g id="node85" class="node">
+<title>PSECTION</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3107.5,-1515C3107.5,-1515 2901.5,-1515 2901.5,-1515 2895.5,-1515 2889.5,-1509 2889.5,-1503 2889.5,-1503 2889.5,-1491 2889.5,-1491 2889.5,-1485 2895.5,-1479 2901.5,-1479 2901.5,-1479 3107.5,-1479 3107.5,-1479 3113.5,-1479 3119.5,-1485 3119.5,-1491 3119.5,-1491 3119.5,-1503 3119.5,-1503 3119.5,-1509 3113.5,-1515 3107.5,-1515"/>
+<text text-anchor="middle" x="3004.5" y="-1494.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_section template / no project payload</text>
+</g>
+<!-- PROOT&#45;&gt;PSECTION -->
+<g id="edge90" class="edge">
+<title>PROOT&#45;&gt;PSECTION</title>
+<path fill="none" stroke="#555555" d="M2689.2,-1446.28C2742.92,-1454.95 2821.22,-1467.58 2886.23,-1478.08"/>
+<polygon fill="#555555" stroke="#555555" points="2885.94,-1479.98 2891.68,-1478.95 2886.56,-1476.18 2885.94,-1479.98"/>
+</g>
+<!-- PPACKET -->
+<g id="node86" class="node">
+<title>PPACKET</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3076.5,-1576C3076.5,-1576 2932.5,-1576 2932.5,-1576 2926.5,-1576 2920.5,-1570 2920.5,-1564 2920.5,-1564 2920.5,-1552 2920.5,-1552 2920.5,-1546 2926.5,-1540 2932.5,-1540 2932.5,-1540 3076.5,-1540 3076.5,-1540 3082.5,-1540 3088.5,-1546 3088.5,-1552 3088.5,-1552 3088.5,-1564 3088.5,-1564 3088.5,-1570 3082.5,-1576 3076.5,-1576"/>
+<text text-anchor="middle" x="3004.5" y="-1555.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_packet_section template</text>
+</g>
+<!-- PROOT&#45;&gt;PPACKET -->
+<g id="edge91" class="edge">
+<title>PROOT&#45;&gt;PPACKET</title>
+<path fill="none" stroke="#555555" d="M2656.56,-1454.17C2693.88,-1475.18 2758.99,-1509.27 2819,-1528 2849.48,-1537.51 2883.77,-1544.14 2914.46,-1548.7"/>
+<polygon fill="#555555" stroke="#555555" points="2914.42,-1550.64 2920.14,-1549.53 2914.98,-1546.83 2914.42,-1550.64"/>
+</g>
+<!-- PTURN -->
+<g id="node87" class="node">
+<title>PTURN</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3068.5,-1637C3068.5,-1637 2940.5,-1637 2940.5,-1637 2934.5,-1637 2928.5,-1631 2928.5,-1625 2928.5,-1625 2928.5,-1613 2928.5,-1613 2928.5,-1607 2934.5,-1601 2940.5,-1601 2940.5,-1601 3068.5,-1601 3068.5,-1601 3074.5,-1601 3080.5,-1607 3080.5,-1613 3080.5,-1613 3080.5,-1625 3080.5,-1625 3080.5,-1631 3074.5,-1637 3068.5,-1637"/>
+<text text-anchor="middle" x="3004.5" y="-1616.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_turn_packet template</text>
+</g>
+<!-- PROOT&#45;&gt;PTURN -->
+<g id="edge92" class="edge">
+<title>PROOT&#45;&gt;PTURN</title>
+<path fill="none" stroke="#555555" d="M2642.11,-1454.2C2673.28,-1487.08 2744.15,-1556.01 2819,-1589 2851.28,-1603.23 2889.42,-1610.78 2922.61,-1614.76"/>
+<polygon fill="#555555" stroke="#555555" points="2922.64,-1616.7 2928.32,-1615.42 2923.08,-1612.88 2922.64,-1616.7"/>
+</g>
+<!-- PSRC -->
+<g id="node88" class="node">
+<title>PSRC</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3081.5,-1271C3081.5,-1271 2927.5,-1271 2927.5,-1271 2921.5,-1271 2915.5,-1265 2915.5,-1259 2915.5,-1259 2915.5,-1247 2915.5,-1247 2915.5,-1241 2921.5,-1235 2927.5,-1235 2927.5,-1235 3081.5,-1235 3081.5,-1235 3087.5,-1235 3093.5,-1241 3093.5,-1247 3093.5,-1247 3093.5,-1259 3093.5,-1259 3093.5,-1265 3087.5,-1271 3081.5,-1271"/>
+<text text-anchor="middle" x="3004.5" y="-1250.5" font-family="Helvetica,sans-Serif" font-size="10.00">project source registry placeholder</text>
+</g>
+<!-- PROOT&#45;&gt;PSRC -->
+<g id="edge93" class="edge">
+<title>PROOT&#45;&gt;PSRC</title>
+<path fill="none" stroke="#555555" d="M2642.16,-1417.96C2673.39,-1385.36 2744.37,-1316.98 2819,-1284 2847.25,-1271.52 2879.96,-1264.03 2909.93,-1259.55"/>
+<polygon fill="#555555" stroke="#555555" points="2910.32,-1261.44 2915.49,-1258.75 2909.77,-1257.63 2910.32,-1261.44"/>
+</g>
+<!-- PCHUNK -->
+<g id="node89" class="node">
+<title>PCHUNK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3178,-1332C3178,-1332 2831,-1332 2831,-1332 2825,-1332 2819,-1326 2819,-1320 2819,-1320 2819,-1308 2819,-1308 2819,-1302 2825,-1296 2831,-1296 2831,-1296 3178,-1296 3178,-1296 3184,-1296 3190,-1302 3190,-1308 3190,-1308 3190,-1320 3190,-1320 3190,-1326 3184,-1332 3178,-1332"/>
+<text text-anchor="middle" x="3004.5" y="-1311.5" font-family="Helvetica,sans-Serif" font-size="10.00">prompt_chunk / source_chunk / visible_reasoning_chunk / response_chunk</text>
+</g>
+<!-- PROOT&#45;&gt;PCHUNK -->
+<g id="edge94" class="edge">
+<title>PROOT&#45;&gt;PCHUNK</title>
+<path fill="none" stroke="#555555" d="M2656.94,-1417.92C2694.36,-1397.18 2759.3,-1363.67 2819,-1345 2833.36,-1340.51 2848.56,-1336.63 2863.83,-1333.29"/>
+<polygon fill="#555555" stroke="#555555" points="2864.48,-1335.12 2869.45,-1332.08 2863.67,-1331.35 2864.48,-1335.12"/>
+</g>
+<!-- PART -->
+<g id="node90" class="node">
+<title>PART</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3087,-1393C3087,-1393 2922,-1393 2922,-1393 2916,-1393 2910,-1387 2910,-1381 2910,-1381 2910,-1369 2910,-1369 2910,-1363 2916,-1357 2922,-1357 2922,-1357 3087,-1357 3087,-1357 3093,-1357 3099,-1363 3099,-1369 3099,-1369 3099,-1381 3099,-1381 3099,-1387 3093,-1393 3087,-1393"/>
+<text text-anchor="middle" x="3004.5" y="-1372.5" font-family="Helvetica,sans-Serif" font-size="10.00">artifact_registry + artifact_link_state</text>
+</g>
+<!-- PROOT&#45;&gt;PART -->
+<g id="edge95" class="edge">
+<title>PROOT&#45;&gt;PART</title>
+<path fill="none" stroke="#555555" d="M2689.2,-1425.72C2747.93,-1416.24 2836.05,-1402.02 2904.05,-1391.05"/>
+<polygon fill="#555555" stroke="#555555" points="2904.62,-1392.91 2909.74,-1390.13 2904,-1389.11 2904.62,-1392.91"/>
+</g>
+<!-- PCONSIST -->
+<g id="node91" class="node">
+<title>PCONSIST</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3093.5,-1454C3093.5,-1454 2915.5,-1454 2915.5,-1454 2909.5,-1454 2903.5,-1448 2903.5,-1442 2903.5,-1442 2903.5,-1430 2903.5,-1430 2903.5,-1424 2909.5,-1418 2915.5,-1418 2915.5,-1418 3093.5,-1418 3093.5,-1418 3099.5,-1418 3105.5,-1424 3105.5,-1430 3105.5,-1430 3105.5,-1442 3105.5,-1442 3105.5,-1448 3099.5,-1454 3093.5,-1454"/>
+<text text-anchor="middle" x="3004.5" y="-1433.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_pointer_consistency_check_v15</text>
+</g>
+<!-- PROOT&#45;&gt;PCONSIST -->
+<g id="edge96" class="edge">
+<title>PROOT&#45;&gt;PCONSIST</title>
+<path fill="none" stroke="#555555" d="M2689.2,-1436C2746.09,-1436 2830.55,-1436 2897.6,-1436"/>
+<polygon fill="#555555" stroke="#555555" points="2897.71,-1437.93 2903.21,-1436 2897.71,-1434.08 2897.71,-1437.93"/>
+</g>
+<!-- PMMD -->
+<g id="node95" class="node">
+<title>PMMD</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3086,-1698C3086,-1698 2923,-1698 2923,-1698 2917,-1698 2911,-1692 2911,-1686 2911,-1686 2911,-1674 2911,-1674 2911,-1668 2917,-1662 2923,-1662 2923,-1662 3086,-1662 3086,-1662 3092,-1662 3098,-1668 3098,-1674 3098,-1674 3098,-1686 3098,-1686 3098,-1692 3092,-1698 3086,-1698"/>
+<text text-anchor="middle" x="3004.5" y="-1677.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_mmd_generation_event_v15</text>
+</g>
+<!-- PROOT&#45;&gt;PMMD -->
+<g id="edge100" class="edge">
+<title>PROOT&#45;&gt;PMMD</title>
+<path fill="none" stroke="#555555" d="M2635.83,-1454.09C2661.03,-1496.35 2730.13,-1601.63 2819,-1650 2845.05,-1664.18 2876.02,-1672.06 2905.08,-1676.33"/>
+<polygon fill="#555555" stroke="#555555" points="2905.15,-1678.28 2910.86,-1677.13 2905.68,-1674.47 2905.15,-1678.28"/>
+</g>
+<!-- DOTPROJECT -->
+<g id="node84" class="node">
+<title>DOTPROJECT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2302,-1438C2302,-1438 2131,-1438 2131,-1438 2125,-1438 2119,-1432 2119,-1426 2119,-1426 2119,-1414 2119,-1414 2119,-1408 2125,-1402 2131,-1402 2131,-1402 2302,-1402 2302,-1402 2308,-1402 2314,-1408 2314,-1414 2314,-1414 2314,-1426 2314,-1426 2314,-1432 2308,-1438 2302,-1438"/>
+<text text-anchor="middle" x="2216.5" y="-1417.5" font-family="Helvetica,sans-Serif" font-size="10.00">.uepc_project / project HEAD template</text>
+</g>
+<!-- DOTPROJECT&#45;&gt;PROOT -->
+<g id="edge89" class="edge">
+<title>DOTPROJECT&#45;&gt;PROOT</title>
+<path fill="none" stroke="#555555" d="M2314.23,-1423.81C2388,-1426.72 2487.84,-1430.65 2553.88,-1433.26"/>
+<polygon fill="#555555" stroke="#555555" points="2554.19,-1435.2 2559.77,-1433.49 2554.35,-1431.35 2554.19,-1435.2"/>
+</g>
+<!-- PASSQ -->
+<g id="node92" class="node">
+<title>PASSQ</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3506,-1454C3506,-1454 3245,-1454 3245,-1454 3239,-1454 3233,-1448 3233,-1442 3233,-1442 3233,-1430 3233,-1430 3233,-1424 3239,-1418 3245,-1418 3245,-1418 3506,-1418 3506,-1418 3512,-1418 3518,-1424 3518,-1430 3518,-1430 3518,-1442 3518,-1442 3518,-1448 3512,-1454 3506,-1454"/>
+<text text-anchor="middle" x="3375.5" y="-1433.5" font-family="Helvetica,sans-Serif" font-size="10.00">.uepc_project + project_section + packet + MMD agree?</text>
+</g>
+<!-- PCONSIST&#45;&gt;PASSQ -->
+<g id="edge97" class="edge">
+<title>PCONSIST&#45;&gt;PASSQ</title>
+<path fill="none" stroke="#555555" d="M3105.84,-1436C3143.17,-1436 3186.34,-1436 3227.02,-1436"/>
+<polygon fill="#555555" stroke="#555555" points="3227.5,-1437.93 3233,-1436 3227.5,-1434.08 3227.5,-1437.93"/>
+</g>
+<!-- PREADY -->
+<g id="node93" class="node">
+<title>PREADY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3767,-1485C3767,-1485 3671,-1485 3671,-1485 3665,-1485 3659,-1479 3659,-1473 3659,-1473 3659,-1461 3659,-1461 3659,-1455 3665,-1449 3671,-1449 3671,-1449 3767,-1449 3767,-1449 3773,-1449 3779,-1455 3779,-1461 3779,-1461 3779,-1473 3779,-1473 3779,-1479 3773,-1485 3767,-1485"/>
+<text text-anchor="middle" x="3719" y="-1464.5" font-family="Helvetica,sans-Serif" font-size="10.00">project template ready</text>
+</g>
+<!-- PASSQ&#45;&gt;PREADY -->
+<g id="edge98" class="edge">
+<title>PASSQ&#45;&gt;PREADY</title>
+<path fill="none" stroke="#555555" d="M3518.36,-1448.88C3565.17,-1453.13 3614.96,-1457.65 3653.11,-1461.11"/>
+<polygon fill="#555555" stroke="#555555" points="3653,-1463.03 3658.66,-1461.61 3653.35,-1459.2 3653,-1463.03"/>
+</g>
+<!-- PBLOCK -->
+<g id="node94" class="node">
+<title>PBLOCK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3787.5,-1424C3787.5,-1424 3650.5,-1424 3650.5,-1424 3644.5,-1424 3638.5,-1418 3638.5,-1412 3638.5,-1412 3638.5,-1400 3638.5,-1400 3638.5,-1394 3644.5,-1388 3650.5,-1388 3650.5,-1388 3787.5,-1388 3787.5,-1388 3793.5,-1388 3799.5,-1394 3799.5,-1400 3799.5,-1400 3799.5,-1412 3799.5,-1412 3799.5,-1418 3793.5,-1424 3787.5,-1424"/>
+<text text-anchor="middle" x="3719" y="-1403.5" font-family="Helvetica,sans-Serif" font-size="10.00">BLOCKED_POINTER_MISMATCH</text>
+</g>
+<!-- PASSQ&#45;&gt;PBLOCK -->
+<g id="edge99" class="edge">
+<title>PASSQ&#45;&gt;PBLOCK</title>
+<path fill="none" stroke="#555555" d="M3518.36,-1423.54C3557.15,-1420.13 3597.99,-1416.54 3632.55,-1413.51"/>
+<polygon fill="#555555" stroke="#555555" points="3632.74,-1415.42 3638.05,-1413.02 3632.4,-1411.59 3632.74,-1415.42"/>
+</g>
+<!-- PMMDT -->
+<g id="node96" class="node">
+<title>PMMDT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3488.5,-1698C3488.5,-1698 3262.5,-1698 3262.5,-1698 3256.5,-1698 3250.5,-1692 3250.5,-1686 3250.5,-1686 3250.5,-1674 3250.5,-1674 3250.5,-1668 3256.5,-1662 3262.5,-1662 3262.5,-1662 3488.5,-1662 3488.5,-1662 3494.5,-1662 3500.5,-1668 3500.5,-1674 3500.5,-1674 3500.5,-1686 3500.5,-1686 3500.5,-1692 3494.5,-1698 3488.5,-1698"/>
+<text text-anchor="middle" x="3375.5" y="-1677.5" font-family="Helvetica,sans-Serif" font-size="10.00">project topology MMD grows from project section</text>
+</g>
+<!-- PMMD&#45;&gt;PMMDT -->
+<g id="edge101" class="edge">
+<title>PMMD&#45;&gt;PMMDT</title>
+<path fill="none" stroke="#555555" d="M3098.14,-1680C3142.54,-1680 3196.47,-1680 3244.86,-1680"/>
+<polygon fill="#555555" stroke="#555555" points="3244.93,-1681.93 3250.43,-1680 3244.93,-1678.08 3244.93,-1681.93"/>
+</g>
+<!-- PNGOPT -->
+<g id="node97" class="node">
+<title>PNGOPT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3816.5,-1698C3816.5,-1698 3621.5,-1698 3621.5,-1698 3615.5,-1698 3609.5,-1692 3609.5,-1686 3609.5,-1686 3609.5,-1674 3609.5,-1674 3609.5,-1668 3615.5,-1662 3621.5,-1662 3621.5,-1662 3816.5,-1662 3816.5,-1662 3822.5,-1662 3828.5,-1668 3828.5,-1674 3828.5,-1674 3828.5,-1686 3828.5,-1686 3828.5,-1692 3822.5,-1698 3816.5,-1698"/>
+<text text-anchor="middle" x="3719" y="-1677.5" font-family="Helvetica,sans-Serif" font-size="10.00">project PNG/SVG optional unless requested</text>
+</g>
+<!-- PMMDT&#45;&gt;PNGOPT -->
+<g id="edge102" class="edge">
+<title>PMMDT&#45;&gt;PNGOPT</title>
+<path fill="none" stroke="#555555" d="M3500.76,-1680C3534.38,-1680 3570.6,-1680 3603.65,-1680"/>
+<polygon fill="#555555" stroke="#555555" points="3603.86,-1681.93 3609.36,-1680 3603.86,-1678.08 3603.86,-1681.93"/>
+</g>
+<!-- FUTUREPROJECT -->
+<g id="node103" class="node">
+<title>FUTUREPROJECT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2696.5,-2004C2696.5,-2004 2552.5,-2004 2552.5,-2004 2546.5,-2004 2540.5,-1998 2540.5,-1992 2540.5,-1992 2540.5,-1980 2540.5,-1980 2540.5,-1974 2546.5,-1968 2552.5,-1968 2552.5,-1968 2696.5,-1968 2696.5,-1968 2702.5,-1968 2708.5,-1974 2708.5,-1980 2708.5,-1980 2708.5,-1992 2708.5,-1992 2708.5,-1998 2702.5,-2004 2696.5,-2004"/>
+<text text-anchor="middle" x="2624.5" y="-1983.5" font-family="Helvetica,sans-Serif" font-size="10.00">future project section population</text>
+</g>
+<!-- PB_CODE&#45;&gt;FUTUREPROJECT -->
+<g id="edge108" class="edge">
+<title>PB_CODE&#45;&gt;FUTUREPROJECT</title>
+<path fill="none" stroke="#555555" d="M2299.66,-1962.07C2367.84,-1967.11 2464.6,-1974.26 2534.58,-1979.43"/>
+<polygon fill="#555555" stroke="#555555" points="2534.79,-1981.38 2540.42,-1979.86 2535.07,-1977.54 2534.79,-1981.38"/>
+</g>
+<!-- PB_SQL&#45;&gt;FUTUREPROJECT -->
+<g id="edge109" class="edge">
+<title>PB_SQL&#45;&gt;FUTUREPROJECT</title>
+<path fill="none" stroke="#555555" d="M2316.75,-1906.22C2352.65,-1911.13 2393.37,-1917.7 2430,-1926 2476.92,-1936.63 2528.93,-1953.03 2567.21,-1966"/>
+<polygon fill="#555555" stroke="#555555" points="2566.93,-1967.93 2572.76,-1967.88 2568.17,-1964.29 2566.93,-1967.93"/>
+</g>
+<!-- PB_DOC&#45;&gt;FUTUREPROJECT -->
+<g id="edge110" class="edge">
+<title>PB_DOC&#45;&gt;FUTUREPROJECT</title>
+<path fill="none" stroke="#555555" d="M2296.66,-2135.83C2337.5,-2132.21 2387.53,-2124.66 2430,-2109 2495.41,-2084.88 2561.89,-2036.2 2597.36,-2007.85"/>
+<polygon fill="#555555" stroke="#555555" points="2598.87,-2009.1 2601.94,-2004.15 2596.45,-2006.1 2598.87,-2009.1"/>
+</g>
+<!-- PB_CSV&#45;&gt;FUTUREPROJECT -->
+<g id="edge111" class="edge">
+<title>PB_CSV&#45;&gt;FUTUREPROJECT</title>
+<path fill="none" stroke="#555555" d="M2296.05,-2070.14C2336.39,-2065.29 2386.15,-2058.04 2430,-2048 2477.85,-2037.04 2530.85,-2019.68 2569.27,-2006.11"/>
+<polygon fill="#555555" stroke="#555555" points="2570.29,-2007.79 2574.83,-2004.13 2569,-2004.16 2570.29,-2007.79"/>
+</g>
+<!-- PB_MIXED&#45;&gt;FUTUREPROJECT -->
+<g id="edge112" class="edge">
+<title>PB_MIXED&#45;&gt;FUTUREPROJECT</title>
+<path fill="none" stroke="#555555" d="M2280.05,-2012.22C2348.26,-2007.02 2457.96,-1998.64 2534.98,-1992.76"/>
+<polygon fill="#555555" stroke="#555555" points="2535.13,-1994.68 2540.47,-1992.34 2534.84,-1990.84 2535.13,-1994.68"/>
+</g>
+<!-- FUTUREPROJECT&#45;&gt;PMMD -->
+<g id="edge113" class="edge">
+<title>FUTUREPROJECT&#45;&gt;PMMD</title>
+<path fill="none" stroke="#555555" d="M2648.01,-1967.77C2713.8,-1914.52 2905.55,-1759.3 2976.6,-1701.78"/>
+<polygon fill="#555555" stroke="#555555" points="2978.04,-1703.09 2981.1,-1698.13 2975.62,-1700.09 2978.04,-1703.09"/>
+</g>
+<!-- PTURNLOG -->
+<g id="node104" class="node">
+<title>PTURNLOG</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1309,-1085C1309,-1085 1264,-1085 1264,-1085 1258,-1085 1252,-1079 1252,-1073 1252,-1073 1252,-1061 1252,-1061 1252,-1055 1258,-1049 1264,-1049 1264,-1049 1309,-1049 1309,-1049 1315,-1049 1321,-1055 1321,-1061 1321,-1061 1321,-1073 1321,-1073 1321,-1079 1315,-1085 1309,-1085"/>
+<text text-anchor="middle" x="1286.5" y="-1064.5" font-family="Helvetica,sans-Serif" font-size="10.00">prompt_turn</text>
+</g>
+<!-- PCHUNKS -->
+<g id="node106" class="node">
+<title>PCHUNKS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1828,-1085C1828,-1085 1627,-1085 1627,-1085 1621,-1085 1615,-1079 1615,-1073 1615,-1073 1615,-1061 1615,-1061 1615,-1055 1621,-1049 1627,-1049 1627,-1049 1828,-1049 1828,-1049 1834,-1049 1840,-1055 1840,-1061 1840,-1061 1840,-1073 1840,-1073 1840,-1079 1834,-1085 1828,-1085"/>
+<text text-anchor="middle" x="1727.5" y="-1064.5" font-family="Helvetica,sans-Serif" font-size="10.00">prompt_chunk indexed by mode namespace</text>
+</g>
+<!-- PTURNLOG&#45;&gt;PCHUNKS -->
+<g id="edge115" class="edge">
+<title>PTURNLOG&#45;&gt;PCHUNKS</title>
+<path fill="none" stroke="#555555" d="M1321.22,-1067C1381.95,-1067 1512.37,-1067 1608.95,-1067"/>
+<polygon fill="#555555" stroke="#555555" points="1609.18,-1068.93 1614.68,-1067 1609.18,-1065.08 1609.18,-1068.93"/>
+</g>
+<!-- START -->
+<g id="node105" class="node">
+<title>START</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1013.5,-1096C1013.5,-1096 824.5,-1096 824.5,-1096 818.5,-1096 812.5,-1090 812.5,-1084 812.5,-1084 812.5,-1072 812.5,-1072 812.5,-1066 818.5,-1060 824.5,-1060 824.5,-1060 1013.5,-1060 1013.5,-1060 1019.5,-1060 1025.5,-1066 1025.5,-1072 1025.5,-1072 1025.5,-1084 1025.5,-1084 1025.5,-1090 1019.5,-1096 1013.5,-1096"/>
+<text text-anchor="middle" x="919" y="-1075.5" font-family="Helvetica,sans-Serif" font-size="10.00">[User prompt enters chat display window]</text>
+</g>
+<!-- START&#45;&gt;PTURNLOG -->
+<g id="edge114" class="edge">
+<title>START&#45;&gt;PTURNLOG</title>
+<path fill="none" stroke="#555555" d="M1025.72,-1074.82C1099.56,-1072.6 1193.94,-1069.76 1246.2,-1068.18"/>
+<polygon fill="#555555" stroke="#555555" points="1246.31,-1070.11 1251.75,-1068.02 1246.19,-1066.26 1246.31,-1070.11"/>
+</g>
+<!-- ENTRY -->
+<g id="node108" class="node">
+<title>ENTRY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1374,-1146C1374,-1146 1199,-1146 1199,-1146 1193,-1146 1187,-1140 1187,-1134 1187,-1134 1187,-1122 1187,-1122 1187,-1116 1193,-1110 1199,-1110 1199,-1110 1374,-1110 1374,-1110 1380,-1110 1386,-1116 1386,-1122 1386,-1122 1386,-1134 1386,-1134 1386,-1140 1380,-1146 1374,-1146"/>
+<text text-anchor="middle" x="1286.5" y="-1125.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENTRY SLIP: read package pointers first</text>
+</g>
+<!-- START&#45;&gt;ENTRY -->
+<g id="edge1" class="edge">
+<title>START&#45;&gt;ENTRY</title>
+<path fill="none" stroke="#555555" d="M1025.72,-1092.46C1074.64,-1099.15 1132.58,-1107.08 1181.32,-1113.75"/>
+<polygon fill="#555555" stroke="#555555" points="1181.2,-1115.67 1186.91,-1114.51 1181.72,-1111.86 1181.2,-1115.67"/>
+</g>
+<!-- ERECEIPT -->
+<g id="node107" class="node">
+<title>ERECEIPT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1765.5,-1146C1765.5,-1146 1689.5,-1146 1689.5,-1146 1683.5,-1146 1677.5,-1140 1677.5,-1134 1677.5,-1134 1677.5,-1122 1677.5,-1122 1677.5,-1116 1683.5,-1110 1689.5,-1110 1689.5,-1110 1765.5,-1110 1765.5,-1110 1771.5,-1110 1777.5,-1116 1777.5,-1122 1777.5,-1122 1777.5,-1134 1777.5,-1134 1777.5,-1140 1771.5,-1146 1765.5,-1146"/>
+<text text-anchor="middle" x="1727.5" y="-1125.5" font-family="Helvetica,sans-Serif" font-size="10.00">env_receipt ENTRY</text>
+</g>
+<!-- ENTRY&#45;&gt;DOTENV -->
+<g id="edge2" class="edge">
+<title>ENTRY&#45;&gt;DOTENV</title>
+<path fill="none" stroke="#555555" d="M1186.9,-1125.9C952.78,-1121.91 378.36,-1118.38 317,-1178 158.22,-1332.28 146.87,-3055.16 146.06,-3278.25"/>
+<polygon fill="#555555" stroke="#555555" points="144.14,-3278.32 146.04,-3283.83 147.99,-3278.33 144.14,-3278.32"/>
+</g>
+<!-- ENTRY&#45;&gt;DOTUOP -->
+<g id="edge4" class="edge">
+<title>ENTRY&#45;&gt;DOTUOP</title>
+<path fill="none" stroke="#555555" d="M1386.27,-1126.9C1409.98,-1122.35 1433.71,-1113.68 1452,-1098 1496.29,-1060.04 1453.65,-1015.14 1495,-974 1532.17,-937.01 1587.35,-917.32 1634.52,-906.85"/>
+<polygon fill="#555555" stroke="#555555" points="1634.96,-908.73 1639.93,-905.68 1634.15,-904.96 1634.96,-908.73"/>
+</g>
+<!-- ENTRY&#45;&gt;DOTPROJECT -->
+<g id="edge3" class="edge">
+<title>ENTRY&#45;&gt;DOTPROJECT</title>
+<path fill="none" stroke="#555555" d="M1344.85,-1146.05C1509.33,-1197.8 1981.78,-1346.46 2152.77,-1400.26"/>
+<polygon fill="#555555" stroke="#555555" points="2152.41,-1402.17 2158.24,-1401.98 2153.57,-1398.49 2152.41,-1402.17"/>
+</g>
+<!-- ENTRY&#45;&gt;ERECEIPT -->
+<g id="edge116" class="edge">
+<title>ENTRY&#45;&gt;ERECEIPT</title>
+<path fill="none" stroke="#555555" d="M1386.02,-1128C1474.17,-1128 1600.17,-1128 1671.59,-1128"/>
+<polygon fill="#555555" stroke="#555555" points="1671.98,-1129.93 1677.48,-1128 1671.98,-1126.08 1671.98,-1129.93"/>
+</g>
+<!-- MODELOG -->
+<g id="node109" class="node">
+<title>MODELOG</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1403,-1024C1403,-1024 1170,-1024 1170,-1024 1164,-1024 1158,-1018 1158,-1012 1158,-1012 1158,-1000 1158,-1000 1158,-994 1164,-988 1170,-988 1170,-988 1403,-988 1403,-988 1409,-988 1415,-994 1415,-1000 1415,-1000 1415,-1012 1415,-1012 1415,-1018 1409,-1024 1403,-1024"/>
+<text text-anchor="middle" x="1286.5" y="-1003.5" font-family="Helvetica,sans-Serif" font-size="10.00">mode_classification_run + operator_activation_run</text>
+</g>
+<!-- GATERUN -->
+<g id="node111" class="node">
+<title>GATERUN</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1769.5,-1024C1769.5,-1024 1685.5,-1024 1685.5,-1024 1679.5,-1024 1673.5,-1018 1673.5,-1012 1673.5,-1012 1673.5,-1000 1673.5,-1000 1673.5,-994 1679.5,-988 1685.5,-988 1685.5,-988 1769.5,-988 1769.5,-988 1775.5,-988 1781.5,-994 1781.5,-1000 1781.5,-1000 1781.5,-1012 1781.5,-1012 1781.5,-1018 1775.5,-1024 1769.5,-1024"/>
+<text text-anchor="middle" x="1727.5" y="-1003.5" font-family="Helvetica,sans-Serif" font-size="10.00">gate_evaluation_run</text>
+</g>
+<!-- MODELOG&#45;&gt;GATERUN -->
+<g id="edge118" class="edge">
+<title>MODELOG&#45;&gt;GATERUN</title>
+<path fill="none" stroke="#555555" d="M1415.07,-1006C1498.37,-1006 1603.24,-1006 1667.54,-1006"/>
+<polygon fill="#555555" stroke="#555555" points="1667.75,-1007.93 1673.25,-1006 1667.75,-1004.08 1667.75,-1007.93"/>
+</g>
+<!-- MODE_ROUTER&#45;&gt;MODELOG -->
+<g id="edge117" class="edge">
+<title>MODE_ROUTER&#45;&gt;MODELOG</title>
+<path fill="none" stroke="#555555" d="M961.22,-1006C1007.43,-1006 1084.76,-1006 1152.31,-1006"/>
+<polygon fill="#555555" stroke="#555555" points="1152.49,-1007.93 1157.99,-1006 1152.49,-1004.08 1152.49,-1007.93"/>
+</g>
+<!-- TURN_WRITEBACK -->
+<g id="node182" class="node">
+<title>TURN_WRITEBACK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1324.5,-963C1324.5,-963 1248.5,-963 1248.5,-963 1242.5,-963 1236.5,-957 1236.5,-951 1236.5,-951 1236.5,-939 1236.5,-939 1236.5,-933 1242.5,-927 1248.5,-927 1248.5,-927 1324.5,-927 1324.5,-927 1330.5,-927 1336.5,-933 1336.5,-939 1336.5,-939 1336.5,-951 1336.5,-951 1336.5,-957 1330.5,-963 1324.5,-963"/>
+<text text-anchor="middle" x="1286.5" y="-942.5" font-family="Helvetica,sans-Serif" font-size="10.00">TURN_WRITEBACK</text>
+</g>
+<!-- MODE_ROUTER&#45;&gt;TURN_WRITEBACK -->
+<g id="edge142" class="edge">
+<title>MODE_ROUTER&#45;&gt;TURN_WRITEBACK</title>
+<path fill="none" stroke="#555555" d="M961.22,-999.12C1027.27,-988.1 1156.87,-966.47 1230.66,-954.15"/>
+<polygon fill="#555555" stroke="#555555" points="1231.2,-956.01 1236.31,-953.21 1230.57,-952.22 1231.2,-956.01"/>
+</g>
+<!-- VREASON -->
+<g id="node112" class="node">
+<title>VREASON</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2351,-1024C2351,-1024 2082,-1024 2082,-1024 2076,-1024 2070,-1018 2070,-1012 2070,-1012 2070,-1000 2070,-1000 2070,-994 2076,-988 2082,-988 2082,-988 2351,-988 2351,-988 2357,-988 2363,-994 2363,-1000 2363,-1000 2363,-1012 2363,-1012 2363,-1018 2357,-1024 2351,-1024"/>
+<text text-anchor="middle" x="2216.5" y="-1003.5" font-family="Helvetica,sans-Serif" font-size="10.00">visible_reasoning_chunk only / no hidden chain&#45;of&#45;thought</text>
+</g>
+<!-- GATERUN&#45;&gt;VREASON -->
+<g id="edge119" class="edge">
+<title>GATERUN&#45;&gt;VREASON</title>
+<path fill="none" stroke="#555555" d="M1781.54,-1006C1848.86,-1006 1967.8,-1006 2064.16,-1006"/>
+<polygon fill="#555555" stroke="#555555" points="2064.39,-1007.93 2069.89,-1006 2064.39,-1004.08 2064.39,-1007.93"/>
+</g>
+<!-- RESPONSE -->
+<g id="node113" class="node">
+<title>RESPONSE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2656,-1024C2656,-1024 2593,-1024 2593,-1024 2587,-1024 2581,-1018 2581,-1012 2581,-1012 2581,-1000 2581,-1000 2581,-994 2587,-988 2593,-988 2593,-988 2656,-988 2656,-988 2662,-988 2668,-994 2668,-1000 2668,-1000 2668,-1012 2668,-1012 2668,-1018 2662,-1024 2656,-1024"/>
+<text text-anchor="middle" x="2624.5" y="-1003.5" font-family="Helvetica,sans-Serif" font-size="10.00">response_chunk</text>
+</g>
+<!-- VREASON&#45;&gt;RESPONSE -->
+<g id="edge120" class="edge">
+<title>VREASON&#45;&gt;RESPONSE</title>
+<path fill="none" stroke="#555555" d="M2363.22,-1006C2437.61,-1006 2523.17,-1006 2575.28,-1006"/>
+<polygon fill="#555555" stroke="#555555" points="2575.34,-1007.93 2580.84,-1006 2575.34,-1004.08 2575.34,-1007.93"/>
+</g>
+<!-- GENART -->
+<g id="node114" class="node">
+<title>GENART</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3068.5,-1024C3068.5,-1024 2940.5,-1024 2940.5,-1024 2934.5,-1024 2928.5,-1018 2928.5,-1012 2928.5,-1012 2928.5,-1000 2928.5,-1000 2928.5,-994 2934.5,-988 2940.5,-988 2940.5,-988 3068.5,-988 3068.5,-988 3074.5,-988 3080.5,-994 3080.5,-1000 3080.5,-1000 3080.5,-1012 3080.5,-1012 3080.5,-1018 3074.5,-1024 3068.5,-1024"/>
+<text text-anchor="middle" x="3004.5" y="-1003.5" font-family="Helvetica,sans-Serif" font-size="10.00">generated_artifact_link_state</text>
+</g>
+<!-- RESPONSE&#45;&gt;GENART -->
+<g id="edge121" class="edge">
+<title>RESPONSE&#45;&gt;GENART</title>
+<path fill="none" stroke="#555555" d="M2668.13,-1006C2729.69,-1006 2844.64,-1006 2922.61,-1006"/>
+<polygon fill="#555555" stroke="#555555" points="2922.66,-1007.93 2928.16,-1006 2922.66,-1004.08 2922.66,-1007.93"/>
+</g>
+<!-- ARTREG -->
+<g id="node115" class="node">
+<title>ARTREG</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3447.5,-1024C3447.5,-1024 3303.5,-1024 3303.5,-1024 3297.5,-1024 3291.5,-1018 3291.5,-1012 3291.5,-1012 3291.5,-1000 3291.5,-1000 3291.5,-994 3297.5,-988 3303.5,-988 3303.5,-988 3447.5,-988 3447.5,-988 3453.5,-988 3459.5,-994 3459.5,-1000 3459.5,-1000 3459.5,-1012 3459.5,-1012 3459.5,-1018 3453.5,-1024 3447.5,-1024"/>
+<text text-anchor="middle" x="3375.5" y="-1003.5" font-family="Helvetica,sans-Serif" font-size="10.00">artifact_registry / output_artifact</text>
+</g>
+<!-- GENART&#45;&gt;ARTREG -->
+<g id="edge122" class="edge">
+<title>GENART&#45;&gt;ARTREG</title>
+<path fill="none" stroke="#555555" d="M3080.62,-1006C3140.04,-1006 3223.15,-1006 3285.83,-1006"/>
+<polygon fill="#555555" stroke="#555555" points="3285.95,-1007.93 3291.45,-1006 3285.95,-1004.08 3285.95,-1007.93"/>
+</g>
+<!-- WRITE -->
+<g id="node116" class="node">
+<title>WRITE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M3771,-1024C3771,-1024 3667,-1024 3667,-1024 3661,-1024 3655,-1018 3655,-1012 3655,-1012 3655,-1000 3655,-1000 3655,-994 3661,-988 3667,-988 3667,-988 3771,-988 3771,-988 3777,-988 3783,-994 3783,-1000 3783,-1000 3783,-1012 3783,-1012 3783,-1018 3777,-1024 3771,-1024"/>
+<text text-anchor="middle" x="3719" y="-1003.5" font-family="Helvetica,sans-Serif" font-size="10.00">env_sqlite_write_receipt</text>
+</g>
+<!-- ARTREG&#45;&gt;WRITE -->
+<g id="edge123" class="edge">
+<title>ARTREG&#45;&gt;WRITE</title>
+<path fill="none" stroke="#555555" d="M3459.6,-1006C3517.82,-1006 3594.69,-1006 3649.41,-1006"/>
+<polygon fill="#555555" stroke="#555555" points="3649.47,-1007.93 3654.97,-1006 3649.47,-1004.08 3649.47,-1007.93"/>
+</g>
+<!-- STATEHASH -->
+<g id="node117" class="node">
+<title>STATEHASH</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4058,-1085C4058,-1085 3989,-1085 3989,-1085 3983,-1085 3977,-1079 3977,-1073 3977,-1073 3977,-1061 3977,-1061 3977,-1055 3983,-1049 3989,-1049 3989,-1049 4058,-1049 4058,-1049 4064,-1049 4070,-1055 4070,-1061 4070,-1061 4070,-1073 4070,-1073 4070,-1079 4064,-1085 4058,-1085"/>
+<text text-anchor="middle" x="4023.5" y="-1064.5" font-family="Helvetica,sans-Serif" font-size="10.00">state_hash_chain</text>
+</g>
+<!-- WRITE&#45;&gt;STATEHASH -->
+<g id="edge124" class="edge">
+<title>WRITE&#45;&gt;STATEHASH</title>
+<path fill="none" stroke="#555555" d="M3783.05,-1018.71C3838.85,-1029.97 3919.26,-1046.18 3971.21,-1056.66"/>
+<polygon fill="#555555" stroke="#555555" points="3971,-1058.58 3976.77,-1057.78 3971.76,-1054.8 3971,-1058.58"/>
+</g>
+<!-- EXIT -->
+<g id="node121" class="node">
+<title>EXIT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4333.5,-1671C4333.5,-1671 4303.5,-1671 4303.5,-1671 4297.5,-1671 4291.5,-1665 4291.5,-1659 4291.5,-1659 4291.5,-1647 4291.5,-1647 4291.5,-1641 4297.5,-1635 4303.5,-1635 4303.5,-1635 4333.5,-1635 4333.5,-1635 4339.5,-1635 4345.5,-1641 4345.5,-1647 4345.5,-1647 4345.5,-1659 4345.5,-1659 4345.5,-1665 4339.5,-1671 4333.5,-1671"/>
+<text text-anchor="middle" x="4318.5" y="-1650.5" font-family="Helvetica,sans-Serif" font-size="10.00">EXIT SLIP</text>
+</g>
+<!-- STATEHASH&#45;&gt;EXIT -->
+<g id="edge128" class="edge">
+<title>STATEHASH&#45;&gt;EXIT</title>
+<path fill="none" stroke="#555555" d="M4033.59,-1085.18C4076.39,-1170.78 4257.77,-1533.53 4305.79,-1629.58"/>
+<polygon fill="#555555" stroke="#555555" points="4304.19,-1630.68 4308.37,-1634.74 4307.63,-1628.96 4304.19,-1630.68"/>
+</g>
+<!-- ENVMMD -->
+<g id="node119" class="node">
+<title>ENVMMD</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4801,-1732C4801,-1732 4540,-1732 4540,-1732 4534,-1732 4528,-1726 4528,-1720 4528,-1720 4528,-1708 4528,-1708 4528,-1702 4534,-1696 4540,-1696 4540,-1696 4801,-1696 4801,-1696 4807,-1696 4813,-1702 4813,-1708 4813,-1708 4813,-1720 4813,-1720 4813,-1726 4807,-1732 4801,-1732"/>
+<text text-anchor="middle" x="4670.5" y="-1711.5" font-family="Helvetica,sans-Serif" font-size="10.00">env topology MMD generated after env SQLite migration</text>
+</g>
+<!-- ENVMMDLOCK&#45;&gt;ENVMMD -->
+<g id="edge126" class="edge">
+<title>ENVMMDLOCK&#45;&gt;ENVMMD</title>
+<path fill="none" stroke="#555555" d="M4467.17,-1714C4485.36,-1714 4503.95,-1714 4522.13,-1714"/>
+<polygon fill="#555555" stroke="#555555" points="4522.26,-1715.93 4527.76,-1714 4522.26,-1712.08 4522.26,-1715.93"/>
+</g>
+<!-- MMDREPACK -->
+<g id="node133" class="node">
+<title>MMDREPACK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4751.5,-1276C4751.5,-1276 4589.5,-1276 4589.5,-1276 4583.5,-1276 4577.5,-1270 4577.5,-1264 4577.5,-1264 4577.5,-1252 4577.5,-1252 4577.5,-1246 4583.5,-1240 4589.5,-1240 4589.5,-1240 4751.5,-1240 4751.5,-1240 4757.5,-1240 4763.5,-1246 4763.5,-1252 4763.5,-1252 4763.5,-1264 4763.5,-1264 4763.5,-1270 4757.5,-1276 4751.5,-1276"/>
+<text text-anchor="middle" x="4670.5" y="-1255.5" font-family="Helvetica,sans-Serif" font-size="10.00">MMD_REPACK_NO_MUTATION_GATE</text>
+</g>
+<!-- ENVMMDLOCK&#45;&gt;MMDREPACK -->
+<g id="edge151" class="edge">
+<title>ENVMMDLOCK&#45;&gt;MMDREPACK</title>
+<path fill="none" stroke="#555555" d="M4453.26,-1695.94C4458.24,-1692.5 4462.86,-1688.54 4467,-1684 4585.98,-1553.51 4390.45,-1418.97 4510,-1289 4526,-1271.6 4548.61,-1262.28 4571.79,-1257.6"/>
+<polygon fill="#555555" stroke="#555555" points="4572.32,-1259.46 4577.38,-1256.56 4571.62,-1255.67 4572.32,-1259.46"/>
+</g>
+<!-- CHECKSUM -->
+<g id="node120" class="node">
+<title>CHECKSUM</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5137.5,-1732C5137.5,-1732 4910.5,-1732 4910.5,-1732 4904.5,-1732 4898.5,-1726 4898.5,-1720 4898.5,-1720 4898.5,-1708 4898.5,-1708 4898.5,-1702 4904.5,-1696 4910.5,-1696 4910.5,-1696 5137.5,-1696 5137.5,-1696 5143.5,-1696 5149.5,-1702 5149.5,-1708 5149.5,-1708 5149.5,-1720 5149.5,-1720 5149.5,-1726 5143.5,-1732 5137.5,-1732"/>
+<text text-anchor="middle" x="5024" y="-1711.5" font-family="Helvetica,sans-Serif" font-size="10.00">diagram_checksum_registry / MMD_STALE_WARN</text>
+</g>
+<!-- ENVMMD&#45;&gt;CHECKSUM -->
+<g id="edge127" class="edge">
+<title>ENVMMD&#45;&gt;CHECKSUM</title>
+<path fill="none" stroke="#555555" d="M4813.2,-1714C4839.54,-1714 4866.95,-1714 4892.92,-1714"/>
+<polygon fill="#555555" stroke="#555555" points="4892.94,-1715.93 4898.44,-1714 4892.94,-1712.08 4892.94,-1715.93"/>
+</g>
+<!-- MANIFEST -->
+<g id="node122" class="node">
+<title>MANIFEST</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4819,-1671C4819,-1671 4522,-1671 4522,-1671 4516,-1671 4510,-1665 4510,-1659 4510,-1659 4510,-1647 4510,-1647 4510,-1641 4516,-1635 4522,-1635 4522,-1635 4819,-1635 4819,-1635 4825,-1635 4831,-1641 4831,-1647 4831,-1647 4831,-1659 4831,-1659 4831,-1665 4825,-1671 4819,-1671"/>
+<text text-anchor="middle" x="4670.5" y="-1650.5" font-family="Helvetica,sans-Serif" font-size="10.00">external hash manifest + artifact manifest + availability ledger</text>
+</g>
+<!-- EXIT&#45;&gt;MANIFEST -->
+<g id="edge129" class="edge">
+<title>EXIT&#45;&gt;MANIFEST</title>
+<path fill="none" stroke="#555555" d="M4345.52,-1653C4379.74,-1653 4442.74,-1653 4504.15,-1653"/>
+<polygon fill="#555555" stroke="#555555" points="4504.2,-1654.93 4509.7,-1653 4504.2,-1651.08 4504.2,-1654.93"/>
+</g>
+<!-- CLEANEXIT -->
+<g id="node123" class="node">
+<title>CLEANEXIT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5075.5,-1671C5075.5,-1671 4972.5,-1671 4972.5,-1671 4966.5,-1671 4960.5,-1665 4960.5,-1659 4960.5,-1659 4960.5,-1647 4960.5,-1647 4960.5,-1641 4966.5,-1635 4972.5,-1635 4972.5,-1635 5075.5,-1635 5075.5,-1635 5081.5,-1635 5087.5,-1641 5087.5,-1647 5087.5,-1647 5087.5,-1659 5087.5,-1659 5087.5,-1665 5081.5,-1671 5075.5,-1671"/>
+<text text-anchor="middle" x="5024" y="-1650.5" font-family="Helvetica,sans-Serif" font-size="10.00">clean_exit_protocol_v15</text>
+</g>
+<!-- MANIFEST&#45;&gt;CLEANEXIT -->
+<g id="edge130" class="edge">
+<title>MANIFEST&#45;&gt;CLEANEXIT</title>
+<path fill="none" stroke="#555555" d="M4831.05,-1653C4874.47,-1653 4919.21,-1653 4954.57,-1653"/>
+<polygon fill="#555555" stroke="#555555" points="4954.66,-1654.93 4960.16,-1653 4954.66,-1651.08 4954.66,-1654.93"/>
+</g>
+<!-- PACKAGE -->
+<g id="node124" class="node">
+<title>PACKAGE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5421.5,-1671C5421.5,-1671 5274.5,-1671 5274.5,-1671 5268.5,-1671 5262.5,-1665 5262.5,-1659 5262.5,-1659 5262.5,-1647 5262.5,-1647 5262.5,-1641 5268.5,-1635 5274.5,-1635 5274.5,-1635 5421.5,-1635 5421.5,-1635 5427.5,-1635 5433.5,-1641 5433.5,-1647 5433.5,-1647 5433.5,-1659 5433.5,-1659 5433.5,-1665 5427.5,-1671 5421.5,-1671"/>
+<text text-anchor="middle" x="5348" y="-1650.5" font-family="Helvetica,sans-Serif" font-size="10.00">one&#45;upload continuation package</text>
+</g>
+<!-- CLEANEXIT&#45;&gt;PACKAGE -->
+<g id="edge131" class="edge">
+<title>CLEANEXIT&#45;&gt;PACKAGE</title>
+<path fill="none" stroke="#555555" d="M5087.85,-1653C5135.88,-1653 5202.76,-1653 5256.55,-1653"/>
+<polygon fill="#555555" stroke="#555555" points="5256.87,-1654.93 5262.37,-1653 5256.87,-1651.08 5256.87,-1654.93"/>
+</g>
+<!-- RECOVERY -->
+<g id="node126" class="node">
+<title>RECOVERY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5421.5,-1732C5421.5,-1732 5274.5,-1732 5274.5,-1732 5268.5,-1732 5262.5,-1726 5262.5,-1720 5262.5,-1720 5262.5,-1708 5262.5,-1708 5262.5,-1702 5268.5,-1696 5274.5,-1696 5274.5,-1696 5421.5,-1696 5421.5,-1696 5427.5,-1696 5433.5,-1702 5433.5,-1708 5433.5,-1708 5433.5,-1720 5433.5,-1720 5433.5,-1726 5427.5,-1732 5421.5,-1732"/>
+<text text-anchor="middle" x="5348" y="-1711.5" font-family="Helvetica,sans-Serif" font-size="10.00">recovery_command_registry_v15</text>
+</g>
+<!-- CLEANEXIT&#45;&gt;RECOVERY -->
+<g id="edge133" class="edge">
+<title>CLEANEXIT&#45;&gt;RECOVERY</title>
+<path fill="none" stroke="#555555" d="M5087.85,-1664.91C5135.98,-1674.02 5203.03,-1686.73 5256.87,-1696.93"/>
+<polygon fill="#555555" stroke="#555555" points="5256.61,-1698.84 5262.37,-1697.97 5257.33,-1695.05 5256.61,-1698.84"/>
+</g>
+<!-- NEXT -->
+<g id="node125" class="node">
+<title>NEXT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5741,-1701C5741,-1701 5591,-1701 5591,-1701 5585,-1701 5579,-1695 5579,-1689 5579,-1689 5579,-1677 5579,-1677 5579,-1671 5585,-1665 5591,-1665 5591,-1665 5741,-1665 5741,-1665 5747,-1665 5753,-1671 5753,-1677 5753,-1677 5753,-1689 5753,-1689 5753,-1695 5747,-1701 5741,-1701"/>
+<text text-anchor="middle" x="5666" y="-1680.5" font-family="Helvetica,sans-Serif" font-size="10.00">[Next prompt / next chat re&#45;entry]</text>
+</g>
+<!-- PACKAGE&#45;&gt;NEXT -->
+<g id="edge132" class="edge">
+<title>PACKAGE&#45;&gt;NEXT</title>
+<path fill="none" stroke="#555555" d="M5433.68,-1661.04C5476.81,-1665.13 5529.3,-1670.12 5573.38,-1674.3"/>
+<polygon fill="#555555" stroke="#555555" points="5573.33,-1676.23 5578.98,-1674.83 5573.69,-1672.4 5573.33,-1676.23"/>
+</g>
+<!-- PREINDEX -->
+<g id="node127" class="node">
+<title>PREINDEX</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4712,-1337C4712,-1337 4629,-1337 4629,-1337 4623,-1337 4617,-1331 4617,-1325 4617,-1325 4617,-1313 4617,-1313 4617,-1307 4623,-1301 4629,-1301 4629,-1301 4712,-1301 4712,-1301 4718,-1301 4724,-1307 4724,-1313 4724,-1313 4724,-1325 4724,-1325 4724,-1331 4718,-1337 4712,-1337"/>
+<text text-anchor="middle" x="4670.5" y="-1316.5" font-family="Helvetica,sans-Serif" font-size="10.00">Prompt indexed first</text>
+</g>
+<!-- RAWCOVER -->
+<g id="node128" class="node">
+<title>RAWCOVER</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5082.5,-1337C5082.5,-1337 4965.5,-1337 4965.5,-1337 4959.5,-1337 4953.5,-1331 4953.5,-1325 4953.5,-1325 4953.5,-1313 4953.5,-1313 4953.5,-1307 4959.5,-1301 4965.5,-1301 4965.5,-1301 5082.5,-1301 5082.5,-1301 5088.5,-1301 5094.5,-1307 5094.5,-1313 5094.5,-1313 5094.5,-1325 5094.5,-1325 5094.5,-1331 5088.5,-1337 5082.5,-1337"/>
+<text text-anchor="middle" x="5024" y="-1316.5" font-family="Helvetica,sans-Serif" font-size="10.00">Raw artifact byte coverage</text>
+</g>
+<!-- PREINDEX&#45;&gt;RAWCOVER -->
+<g id="edge146" class="edge">
+<title>PREINDEX&#45;&gt;RAWCOVER</title>
+<path fill="none" stroke="#555555" d="M4724.12,-1319C4783.45,-1319 4880.41,-1319 4947.73,-1319"/>
+<polygon fill="#555555" stroke="#555555" points="4947.84,-1320.93 4953.34,-1319 4947.84,-1317.08 4947.84,-1320.93"/>
+</g>
+<!-- INDEXGATE -->
+<g id="node129" class="node">
+<title>INDEXGATE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5417,-1337C5417,-1337 5279,-1337 5279,-1337 5273,-1337 5267,-1331 5267,-1325 5267,-1325 5267,-1313 5267,-1313 5267,-1307 5273,-1301 5279,-1301 5279,-1301 5417,-1301 5417,-1301 5423,-1301 5429,-1307 5429,-1313 5429,-1313 5429,-1325 5429,-1325 5429,-1331 5423,-1337 5417,-1337"/>
+<text text-anchor="middle" x="5348" y="-1316.5" font-family="Helvetica,sans-Serif" font-size="10.00">No reasoning before index gate</text>
+</g>
+<!-- RAWCOVER&#45;&gt;INDEXGATE -->
+<g id="edge147" class="edge">
+<title>RAWCOVER&#45;&gt;INDEXGATE</title>
+<path fill="none" stroke="#555555" d="M5094.87,-1319C5143.68,-1319 5209.15,-1319 5261.14,-1319"/>
+<polygon fill="#555555" stroke="#555555" points="5261.27,-1320.93 5266.77,-1319 5261.27,-1317.08 5261.27,-1320.93"/>
+</g>
+<!-- RELOCK1 -->
+<g id="node130" class="node">
+<title>RELOCK1</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5798,-1337C5798,-1337 5534,-1337 5534,-1337 5528,-1337 5522,-1331 5522,-1325 5522,-1325 5522,-1313 5522,-1313 5522,-1307 5528,-1301 5534,-1301 5534,-1301 5798,-1301 5798,-1301 5804,-1301 5810,-1307 5810,-1313 5810,-1313 5810,-1325 5810,-1325 5810,-1331 5804,-1337 5798,-1337"/>
+<text text-anchor="middle" x="5666" y="-1316.5" font-family="Helvetica,sans-Serif" font-size="10.00">RELOCK_GATE_FILE_NOT_INDEXED_BEFORE_REASONING</text>
+</g>
+<!-- INDEXGATE&#45;&gt;RELOCK1 -->
+<g id="edge148" class="edge">
+<title>INDEXGATE&#45;&gt;RELOCK1</title>
+<path fill="none" stroke="#555555" d="M5429.15,-1319C5455.74,-1319 5486.26,-1319 5516.33,-1319"/>
+<polygon fill="#555555" stroke="#555555" points="5516.44,-1320.93 5521.94,-1319 5516.44,-1317.08 5516.44,-1320.93"/>
+</g>
+<!-- ENV15ROOT -->
+<g id="node134" class="node">
+<title>ENV15ROOT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M451.5,-158C451.5,-158 338.5,-158 338.5,-158 332.5,-158 326.5,-152 326.5,-146 326.5,-146 326.5,-134 326.5,-134 326.5,-128 332.5,-122 338.5,-122 338.5,-122 451.5,-122 451.5,-122 457.5,-122 463.5,-128 463.5,-134 463.5,-134 463.5,-146 463.5,-146 463.5,-152 457.5,-158 451.5,-158"/>
+<text text-anchor="middle" x="395" y="-137.5" font-family="Helvetica,sans-Serif" font-size="10.00">env_governance_root_v15</text>
+</g>
+<!-- E15AUTH -->
+<g id="node135" class="node">
+<title>E15AUTH</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M676.5,-158C676.5,-158 556.5,-158 556.5,-158 550.5,-158 544.5,-152 544.5,-146 544.5,-146 544.5,-134 544.5,-134 544.5,-128 550.5,-122 556.5,-122 556.5,-122 676.5,-122 676.5,-122 682.5,-122 688.5,-128 688.5,-134 688.5,-134 688.5,-146 688.5,-146 688.5,-152 682.5,-158 676.5,-158"/>
+<text text-anchor="middle" x="616.5" y="-137.5" font-family="Helvetica,sans-Serif" font-size="10.00">ROOT_AUTHORITY_LADDER</text>
+</g>
+<!-- ENV15ROOT&#45;&gt;E15AUTH -->
+<g id="edge153" class="edge">
+<title>ENV15ROOT&#45;&gt;E15AUTH</title>
+<path fill="none" stroke="#555555" d="M463.65,-140C487.42,-140 514.3,-140 538.77,-140"/>
+<polygon fill="#555555" stroke="#555555" points="538.77,-141.93 544.27,-140 538.77,-138.08 538.77,-141.93"/>
+</g>
+<!-- E15AUTH&#45;&gt;MODE_ROUTER -->
+<g id="edge195" class="edge">
+<title>E15AUTH&#45;&gt;MODE_ROUTER</title>
+<path fill="none" stroke="#555555" d="M661.95,-158.09C682.37,-168.83 704.73,-184.6 717,-206 759.61,-280.34 703.53,-911.55 760,-976 787.07,-1006.9 835.21,-1012.19 871.27,-1011.1"/>
+<polygon fill="#555555" stroke="#555555" points="871.52,-1013.02 876.94,-1010.88 871.37,-1009.17 871.52,-1013.02"/>
+</g>
+<!-- E15PROMPTBLOCK -->
+<g id="node136" class="node">
+<title>E15PROMPTBLOCK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M996,-143C996,-143 842,-143 842,-143 836,-143 830,-137 830,-131 830,-131 830,-119 830,-119 830,-113 836,-107 842,-107 842,-107 996,-107 996,-107 1002,-107 1008,-113 1008,-119 1008,-119 1008,-131 1008,-131 1008,-137 1002,-143 996,-143"/>
+<text text-anchor="middle" x="919" y="-122.5" font-family="Helvetica,sans-Serif" font-size="10.00">PROMPT_CANNOT_OVERRIDE_ENV</text>
+</g>
+<!-- E15AUTH&#45;&gt;E15PROMPTBLOCK -->
+<g id="edge154" class="edge">
+<title>E15AUTH&#45;&gt;E15PROMPTBLOCK</title>
+<path fill="none" stroke="#555555" d="M688.71,-136.45C729.24,-134.42 780.5,-131.86 824.26,-129.68"/>
+<polygon fill="#555555" stroke="#555555" points="824.44,-131.6 829.83,-129.4 824.24,-127.75 824.44,-131.6"/>
+</g>
+<!-- E15LOCALDISPLAY -->
+<g id="node137" class="node">
+<title>E15LOCALDISPLAY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1359.5,-52C1359.5,-52 1213.5,-52 1213.5,-52 1207.5,-52 1201.5,-46 1201.5,-40 1201.5,-40 1201.5,-28 1201.5,-28 1201.5,-22 1207.5,-16 1213.5,-16 1213.5,-16 1359.5,-16 1359.5,-16 1365.5,-16 1371.5,-22 1371.5,-28 1371.5,-28 1371.5,-40 1371.5,-40 1371.5,-46 1365.5,-52 1359.5,-52"/>
+<text text-anchor="middle" x="1286.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">LOCAL_DISPLAY_ONLY_ALLOWED</text>
+</g>
+<!-- E15PROMPTBLOCK&#45;&gt;E15LOCALDISPLAY -->
+<g id="edge155" class="edge">
+<title>E15PROMPTBLOCK&#45;&gt;E15LOCALDISPLAY</title>
+<path fill="none" stroke="#555555" d="M973.71,-106.87C1013.93,-93.74 1070.49,-76.23 1121,-64 1145.13,-58.16 1171.5,-52.87 1195.92,-48.42"/>
+<polygon fill="#555555" stroke="#555555" points="1196.36,-50.3 1201.43,-47.42 1195.67,-46.51 1196.36,-50.3"/>
+</g>
+<!-- E15NOEXCUSE -->
+<g id="node140" class="node">
+<title>E15NOEXCUSE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1389,-113C1389,-113 1184,-113 1184,-113 1178,-113 1172,-107 1172,-101 1172,-101 1172,-89 1172,-89 1172,-83 1178,-77 1184,-77 1184,-77 1389,-77 1389,-77 1395,-77 1401,-83 1401,-89 1401,-89 1401,-101 1401,-101 1401,-107 1395,-113 1389,-113"/>
+<text text-anchor="middle" x="1286.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">NO_NARRATIVE_EXCUSE_FOR_GATE_FAILURE</text>
+</g>
+<!-- E15PROMPTBLOCK&#45;&gt;E15NOEXCUSE -->
+<g id="edge158" class="edge">
+<title>E15PROMPTBLOCK&#45;&gt;E15NOEXCUSE</title>
+<path fill="none" stroke="#555555" d="M1008.01,-117.78C1055.5,-113.88 1114.78,-109.01 1166.35,-104.78"/>
+<polygon fill="#555555" stroke="#555555" points="1166.63,-106.69 1171.95,-104.32 1166.31,-102.85 1166.63,-106.69"/>
+</g>
+<!-- E15DETECT -->
+<g id="node142" class="node">
+<title>E15DETECT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1381,-174C1381,-174 1192,-174 1192,-174 1186,-174 1180,-168 1180,-162 1180,-162 1180,-150 1180,-150 1180,-144 1186,-138 1192,-138 1192,-138 1381,-138 1381,-138 1387,-138 1393,-144 1393,-150 1393,-150 1393,-162 1393,-162 1393,-168 1387,-174 1381,-174"/>
+<text text-anchor="middle" x="1286.5" y="-153.5" font-family="Helvetica,sans-Serif" font-size="10.00">PROMPT_OVERRIDE_ATTEMPT_DETECTED</text>
+</g>
+<!-- E15PROMPTBLOCK&#45;&gt;E15DETECT -->
+<g id="edge160" class="edge">
+<title>E15PROMPTBLOCK&#45;&gt;E15DETECT</title>
+<path fill="none" stroke="#555555" d="M1008.01,-132.46C1057.84,-136.69 1120.66,-142.02 1173.92,-146.54"/>
+<polygon fill="#555555" stroke="#555555" points="1174.06,-148.48 1179.71,-147.03 1174.39,-144.64 1174.06,-148.48"/>
+</g>
+<!-- E15TELEMETRY -->
+<g id="node138" class="node">
+<title>E15TELEMETRY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1795.5,-52C1795.5,-52 1659.5,-52 1659.5,-52 1653.5,-52 1647.5,-46 1647.5,-40 1647.5,-40 1647.5,-28 1647.5,-28 1647.5,-22 1653.5,-16 1659.5,-16 1659.5,-16 1795.5,-16 1795.5,-16 1801.5,-16 1807.5,-22 1807.5,-28 1807.5,-28 1807.5,-40 1807.5,-40 1807.5,-46 1801.5,-52 1795.5,-52"/>
+<text text-anchor="middle" x="1727.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">VISIBLE_TELEMETRY_MINIMUM</text>
+</g>
+<!-- E15LOCALDISPLAY&#45;&gt;E15TELEMETRY -->
+<g id="edge156" class="edge">
+<title>E15LOCALDISPLAY&#45;&gt;E15TELEMETRY</title>
+<path fill="none" stroke="#555555" d="M1371.62,-34C1449.3,-34 1564.1,-34 1641.92,-34"/>
+<polygon fill="#555555" stroke="#555555" points="1641.96,-35.93 1647.46,-34 1641.96,-32.08 1641.96,-35.93"/>
+</g>
+<!-- E15RELOCK -->
+<g id="node139" class="node">
+<title>E15RELOCK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2295.5,-52C2295.5,-52 2137.5,-52 2137.5,-52 2131.5,-52 2125.5,-46 2125.5,-40 2125.5,-40 2125.5,-28 2125.5,-28 2125.5,-22 2131.5,-16 2137.5,-16 2137.5,-16 2295.5,-16 2295.5,-16 2301.5,-16 2307.5,-22 2307.5,-28 2307.5,-28 2307.5,-40 2307.5,-40 2307.5,-46 2301.5,-52 2295.5,-52"/>
+<text text-anchor="middle" x="2216.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00">RELOCK_ON_PARTIAL_COMPLIANCE</text>
+</g>
+<!-- E15TELEMETRY&#45;&gt;E15RELOCK -->
+<g id="edge157" class="edge">
+<title>E15TELEMETRY&#45;&gt;E15RELOCK</title>
+<path fill="none" stroke="#555555" d="M1807.56,-34C1892.78,-34 2028.44,-34 2119.67,-34"/>
+<polygon fill="#555555" stroke="#555555" points="2119.84,-35.93 2125.34,-34 2119.84,-32.08 2119.84,-35.93"/>
+</g>
+<!-- E15VISDROP -->
+<g id="node141" class="node">
+<title>E15VISDROP</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2302,-113C2302,-113 2131,-113 2131,-113 2125,-113 2119,-107 2119,-101 2119,-101 2119,-89 2119,-89 2119,-83 2125,-77 2131,-77 2131,-77 2302,-77 2302,-77 2308,-77 2314,-83 2314,-89 2314,-89 2314,-101 2314,-101 2314,-107 2308,-113 2302,-113"/>
+<text text-anchor="middle" x="2216.5" y="-92.5" font-family="Helvetica,sans-Serif" font-size="10.00">VISIBLE_TELEMETRY_LAYER_DROPPED</text>
+</g>
+<!-- E15TELEMETRY&#45;&gt;E15VISDROP -->
+<g id="edge159" class="edge">
+<title>E15TELEMETRY&#45;&gt;E15VISDROP</title>
+<path fill="none" stroke="#555555" d="M1807.56,-43.9C1890.8,-54.33 2022.17,-70.78 2113.25,-82.19"/>
+<polygon fill="#555555" stroke="#555555" points="2113.22,-84.13 2118.91,-82.9 2113.69,-80.31 2113.22,-84.13"/>
+</g>
+<!-- E15LEDGER -->
+<g id="node143" class="node">
+<title>E15LEDGER</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1799,-174C1799,-174 1656,-174 1656,-174 1650,-174 1644,-168 1644,-162 1644,-162 1644,-150 1644,-150 1644,-144 1650,-138 1656,-138 1656,-138 1799,-138 1799,-138 1805,-138 1811,-144 1811,-150 1811,-150 1811,-162 1811,-162 1811,-168 1805,-174 1799,-174"/>
+<text text-anchor="middle" x="1727.5" y="-153.5" font-family="Helvetica,sans-Serif" font-size="10.00">SUPERSEDE_LEDGER_REQUIRED</text>
+</g>
+<!-- E15DETECT&#45;&gt;E15LEDGER -->
+<g id="edge161" class="edge">
+<title>E15DETECT&#45;&gt;E15LEDGER</title>
+<path fill="none" stroke="#555555" d="M1393.21,-156C1467.98,-156 1567.1,-156 1637.77,-156"/>
+<polygon fill="#555555" stroke="#555555" points="1638.16,-157.93 1643.66,-156 1638.16,-154.08 1638.16,-157.93"/>
+</g>
+<!-- E15FLASHREQ -->
+<g id="node144" class="node">
+<title>E15FLASHREQ</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2312,-174C2312,-174 2121,-174 2121,-174 2115,-174 2109,-168 2109,-162 2109,-162 2109,-150 2109,-150 2109,-144 2115,-138 2121,-138 2121,-138 2312,-138 2312,-138 2318,-138 2324,-144 2324,-150 2324,-150 2324,-162 2324,-162 2324,-168 2318,-174 2312,-174"/>
+<text text-anchor="middle" x="2216.5" y="-153.5" font-family="Helvetica,sans-Serif" font-size="10.00">FLASH_MODE_REQUIRED_FOR_MUTATION</text>
+</g>
+<!-- E15LEDGER&#45;&gt;E15FLASHREQ -->
+<g id="edge162" class="edge">
+<title>E15LEDGER&#45;&gt;E15FLASHREQ</title>
+<path fill="none" stroke="#555555" d="M1811.11,-156C1891.39,-156 2013.89,-156 2103.02,-156"/>
+<polygon fill="#555555" stroke="#555555" points="2103.08,-157.93 2108.58,-156 2103.08,-154.08 2103.08,-157.93"/>
+</g>
+<!-- E15DRROOT -->
+<g id="node145" class="node">
+<title>E15DRROOT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4099,-1875C4099,-1875 3948,-1875 3948,-1875 3942,-1875 3936,-1869 3936,-1863 3936,-1863 3936,-1851 3936,-1851 3936,-1845 3942,-1839 3948,-1839 3948,-1839 4099,-1839 4099,-1839 4105,-1839 4111,-1845 4111,-1851 4111,-1851 4111,-1863 4111,-1863 4111,-1869 4105,-1875 4099,-1875"/>
+<text text-anchor="middle" x="4023.5" y="-1854.5" font-family="Helvetica,sans-Serif" font-size="10.00">deep_research_access_triage_v15</text>
+</g>
+<!-- E15READLOCK -->
+<g id="node146" class="node">
+<title>E15READLOCK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4407,-1936C4407,-1936 4230,-1936 4230,-1936 4224,-1936 4218,-1930 4218,-1924 4218,-1924 4218,-1912 4218,-1912 4218,-1906 4224,-1900 4230,-1900 4230,-1900 4407,-1900 4407,-1900 4413,-1900 4419,-1906 4419,-1912 4419,-1912 4419,-1924 4419,-1924 4419,-1930 4413,-1936 4407,-1936"/>
+<text text-anchor="middle" x="4318.5" y="-1915.5" font-family="Helvetica,sans-Serif" font-size="10.00">READ_LOCK_MUST_NOT_BLOCK_AUDIT</text>
+</g>
+<!-- E15DRROOT&#45;&gt;E15READLOCK -->
+<g id="edge163" class="edge">
+<title>E15DRROOT&#45;&gt;E15READLOCK</title>
+<path fill="none" stroke="#555555" d="M4102.58,-1875.05C4121.97,-1879.41 4142.72,-1883.97 4162,-1888 4179.44,-1891.65 4198.01,-1895.37 4216.03,-1898.9"/>
+<polygon fill="#555555" stroke="#555555" points="4215.83,-1900.82 4221.6,-1899.98 4216.57,-1897.04 4215.83,-1900.82"/>
+</g>
+<!-- E15SIDECAR -->
+<g id="node149" class="node">
+<title>E15SIDECAR</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4422.5,-1875C4422.5,-1875 4214.5,-1875 4214.5,-1875 4208.5,-1875 4202.5,-1869 4202.5,-1863 4202.5,-1863 4202.5,-1851 4202.5,-1851 4202.5,-1845 4208.5,-1839 4214.5,-1839 4214.5,-1839 4422.5,-1839 4422.5,-1839 4428.5,-1839 4434.5,-1845 4434.5,-1851 4434.5,-1851 4434.5,-1863 4434.5,-1863 4434.5,-1869 4428.5,-1875 4422.5,-1875"/>
+<text text-anchor="middle" x="4318.5" y="-1854.5" font-family="Helvetica,sans-Serif" font-size="10.00">DEEP_RESEARCH_AUDIT_SIDECAR_REQUIRED</text>
+</g>
+<!-- E15DRROOT&#45;&gt;E15SIDECAR -->
+<g id="edge166" class="edge">
+<title>E15DRROOT&#45;&gt;E15SIDECAR</title>
+<path fill="none" stroke="#555555" d="M4111.22,-1857C4138.04,-1857 4168.08,-1857 4196.76,-1857"/>
+<polygon fill="#555555" stroke="#555555" points="4196.97,-1858.93 4202.47,-1857 4196.97,-1855.08 4196.97,-1858.93"/>
+</g>
+<!-- E15TRIAGE -->
+<g id="node153" class="node">
+<title>E15TRIAGE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4426.5,-1814C4426.5,-1814 4210.5,-1814 4210.5,-1814 4204.5,-1814 4198.5,-1808 4198.5,-1802 4198.5,-1802 4198.5,-1790 4198.5,-1790 4198.5,-1784 4204.5,-1778 4210.5,-1778 4210.5,-1778 4426.5,-1778 4426.5,-1778 4432.5,-1778 4438.5,-1784 4438.5,-1790 4438.5,-1790 4438.5,-1802 4438.5,-1802 4438.5,-1808 4432.5,-1814 4426.5,-1814"/>
+<text text-anchor="middle" x="4318.5" y="-1793.5" font-family="Helvetica,sans-Serif" font-size="10.00">research/DEEP_RESEARCH_ACCESS_TRIAGE.md</text>
+</g>
+<!-- E15DRROOT&#45;&gt;E15TRIAGE -->
+<g id="edge170" class="edge">
+<title>E15DRROOT&#45;&gt;E15TRIAGE</title>
+<path fill="none" stroke="#555555" d="M4105.88,-1838.99C4124.32,-1834.98 4143.82,-1830.79 4162,-1827 4180.84,-1823.07 4200.99,-1818.97 4220.33,-1815.09"/>
+<polygon fill="#555555" stroke="#555555" points="4220.75,-1816.97 4225.76,-1814 4219.99,-1813.2 4220.75,-1816.97"/>
+</g>
+<!-- E15WRITELOCK -->
+<g id="node147" class="node">
+<title>E15WRITELOCK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4746.5,-1936C4746.5,-1936 4594.5,-1936 4594.5,-1936 4588.5,-1936 4582.5,-1930 4582.5,-1924 4582.5,-1924 4582.5,-1912 4582.5,-1912 4582.5,-1906 4588.5,-1900 4594.5,-1900 4594.5,-1900 4746.5,-1900 4746.5,-1900 4752.5,-1900 4758.5,-1906 4758.5,-1912 4758.5,-1912 4758.5,-1924 4758.5,-1924 4758.5,-1930 4752.5,-1936 4746.5,-1936"/>
+<text text-anchor="middle" x="4670.5" y="-1915.5" font-family="Helvetica,sans-Serif" font-size="10.00">WRITE_LOCK_IS_NOT_READ_LOCK</text>
+</g>
+<!-- E15READLOCK&#45;&gt;E15WRITELOCK -->
+<g id="edge164" class="edge">
+<title>E15READLOCK&#45;&gt;E15WRITELOCK</title>
+<path fill="none" stroke="#555555" d="M4419.33,-1918C4468.84,-1918 4528.27,-1918 4576.78,-1918"/>
+<polygon fill="#555555" stroke="#555555" points="4576.83,-1919.93 4582.33,-1918 4576.83,-1916.08 4576.83,-1919.93"/>
+</g>
+<!-- E15NOPASS -->
+<g id="node148" class="node">
+<title>E15NOPASS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5153.5,-1936C5153.5,-1936 4894.5,-1936 4894.5,-1936 4888.5,-1936 4882.5,-1930 4882.5,-1924 4882.5,-1924 4882.5,-1912 4882.5,-1912 4882.5,-1906 4888.5,-1900 4894.5,-1900 4894.5,-1900 5153.5,-1900 5153.5,-1900 5159.5,-1900 5165.5,-1906 5165.5,-1912 5165.5,-1912 5165.5,-1924 5165.5,-1924 5165.5,-1930 5159.5,-1936 5153.5,-1936"/>
+<text text-anchor="middle" x="5024" y="-1915.5" font-family="Helvetica,sans-Serif" font-size="10.00">PASSWORD_NEVER_REQUIRED_FOR_READ_ONLY_AUDIT</text>
+</g>
+<!-- E15WRITELOCK&#45;&gt;E15NOPASS -->
+<g id="edge165" class="edge">
+<title>E15WRITELOCK&#45;&gt;E15NOPASS</title>
+<path fill="none" stroke="#555555" d="M4758.84,-1918C4794.4,-1918 4836.49,-1918 4876.5,-1918"/>
+<polygon fill="#555555" stroke="#555555" points="4876.89,-1919.93 4882.39,-1918 4876.89,-1916.08 4876.89,-1919.93"/>
+</g>
+<!-- E15SIDECAR&#45;&gt;MANIFEST -->
+<g id="edge196" class="edge">
+<title>E15SIDECAR&#45;&gt;MANIFEST</title>
+<path fill="none" stroke="#555555" d="M4434.67,-1846.66C4446.53,-1841.93 4457.64,-1835.54 4467,-1827 4516.02,-1782.27 4460.78,-1728.52 4510,-1684 4513.99,-1680.39 4518.28,-1677.14 4522.79,-1674.23"/>
+<polygon fill="#555555" stroke="#555555" points="4524.08,-1675.7 4527.77,-1671.19 4522.07,-1672.41 4524.08,-1675.7"/>
+</g>
+<!-- E15ZIPBLOCK -->
+<g id="node150" class="node">
+<title>E15ZIPBLOCK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4756,-1875C4756,-1875 4585,-1875 4585,-1875 4579,-1875 4573,-1869 4573,-1863 4573,-1863 4573,-1851 4573,-1851 4573,-1845 4579,-1839 4585,-1839 4585,-1839 4756,-1839 4756,-1839 4762,-1839 4768,-1845 4768,-1851 4768,-1851 4768,-1863 4768,-1863 4768,-1869 4762,-1875 4756,-1875"/>
+<text text-anchor="middle" x="4670.5" y="-1854.5" font-family="Helvetica,sans-Serif" font-size="10.00">ZIP_BLOCKED_USE_HASHED_SIDECAR</text>
+</g>
+<!-- E15SIDECAR&#45;&gt;E15ZIPBLOCK -->
+<g id="edge167" class="edge">
+<title>E15SIDECAR&#45;&gt;E15ZIPBLOCK</title>
+<path fill="none" stroke="#555555" d="M4434.59,-1857C4477.4,-1857 4525.64,-1857 4567.23,-1857"/>
+<polygon fill="#555555" stroke="#555555" points="4567.29,-1858.93 4572.79,-1857 4567.29,-1855.08 4567.29,-1858.93"/>
+</g>
+<!-- E15MIRROR -->
+<g id="node151" class="node">
+<title>E15MIRROR</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5162,-1875C5162,-1875 4886,-1875 4886,-1875 4880,-1875 4874,-1869 4874,-1863 4874,-1863 4874,-1851 4874,-1851 4874,-1845 4880,-1839 4886,-1839 4886,-1839 5162,-1839 5162,-1839 5168,-1839 5174,-1845 5174,-1851 5174,-1851 5174,-1863 5174,-1863 5174,-1869 5168,-1875 5162,-1875"/>
+<text text-anchor="middle" x="5024" y="-1854.5" font-family="Helvetica,sans-Serif" font-size="10.00">research/UEPC_ENV15_DEEPRESEARCH_AUDIT_MIRROR.md</text>
+</g>
+<!-- E15ZIPBLOCK&#45;&gt;E15MIRROR -->
+<g id="edge168" class="edge">
+<title>E15ZIPBLOCK&#45;&gt;E15MIRROR</title>
+<path fill="none" stroke="#555555" d="M4768.01,-1857C4798.95,-1857 4834.02,-1857 4868.04,-1857"/>
+<polygon fill="#555555" stroke="#555555" points="4868.43,-1858.93 4873.93,-1857 4868.43,-1855.08 4868.43,-1858.93"/>
+</g>
+<!-- E15LINKAGE -->
+<g id="node152" class="node">
+<title>E15LINKAGE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5436.5,-1875C5436.5,-1875 5259.5,-1875 5259.5,-1875 5253.5,-1875 5247.5,-1869 5247.5,-1863 5247.5,-1863 5247.5,-1851 5247.5,-1851 5247.5,-1845 5253.5,-1839 5259.5,-1839 5259.5,-1839 5436.5,-1839 5436.5,-1839 5442.5,-1839 5448.5,-1845 5448.5,-1851 5448.5,-1851 5448.5,-1863 5448.5,-1863 5448.5,-1869 5442.5,-1875 5436.5,-1875"/>
+<text text-anchor="middle" x="5348" y="-1854.5" font-family="Helvetica,sans-Serif" font-size="10.00">research/SIDECAR_HASH_LINKAGE.json</text>
+</g>
+<!-- E15MIRROR&#45;&gt;E15LINKAGE -->
+<g id="edge169" class="edge">
+<title>E15MIRROR&#45;&gt;E15LINKAGE</title>
+<path fill="none" stroke="#555555" d="M5174.22,-1857C5197.02,-1857 5220.14,-1857 5241.74,-1857"/>
+<polygon fill="#555555" stroke="#555555" points="5241.99,-1858.93 5247.49,-1857 5241.99,-1855.08 5241.99,-1858.93"/>
+</g>
+<!-- E15MMDROOT -->
+<g id="node154" class="node">
+<title>E15MMDROOT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1357,-521C1357,-521 1216,-521 1216,-521 1210,-521 1204,-515 1204,-509 1204,-509 1204,-497 1204,-497 1204,-491 1210,-485 1216,-485 1216,-485 1357,-485 1357,-485 1363,-485 1369,-491 1369,-497 1369,-497 1369,-509 1369,-509 1369,-515 1363,-521 1357,-521"/>
+<text text-anchor="middle" x="1286.5" y="-500.5" font-family="Helvetica,sans-Serif" font-size="10.00">locked_mmd_hash_registry_v15</text>
+</g>
+<!-- E15ENVMMD -->
+<g id="node155" class="node">
+<title>E15ENVMMD</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1796,-582C1796,-582 1659,-582 1659,-582 1653,-582 1647,-576 1647,-570 1647,-570 1647,-558 1647,-558 1647,-552 1653,-546 1659,-546 1659,-546 1796,-546 1796,-546 1802,-546 1808,-552 1808,-558 1808,-558 1808,-570 1808,-570 1808,-576 1802,-582 1796,-582"/>
+<text text-anchor="middle" x="1727.5" y="-561.5" font-family="Helvetica,sans-Serif" font-size="10.00">env/env_mmd.mmd full source</text>
+</g>
+<!-- E15MMDROOT&#45;&gt;E15ENVMMD -->
+<g id="edge171" class="edge">
+<title>E15MMDROOT&#45;&gt;E15ENVMMD</title>
+<path fill="none" stroke="#555555" d="M1369.25,-515.59C1407.43,-521.37 1453.51,-528.21 1495,-534 1543.4,-540.75 1597.58,-547.8 1641.34,-553.37"/>
+<polygon fill="#555555" stroke="#555555" points="1641.2,-555.29 1646.9,-554.07 1641.68,-551.47 1641.2,-555.29"/>
+</g>
+<!-- E15UOPMMD -->
+<g id="node157" class="node">
+<title>E15UOPMMD</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1796,-399C1796,-399 1659,-399 1659,-399 1653,-399 1647,-393 1647,-387 1647,-387 1647,-375 1647,-375 1647,-369 1653,-363 1659,-363 1659,-363 1796,-363 1796,-363 1802,-363 1808,-369 1808,-375 1808,-375 1808,-387 1808,-387 1808,-393 1802,-399 1796,-399"/>
+<text text-anchor="middle" x="1727.5" y="-378.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop/uop_mmd.mmd full source</text>
+</g>
+<!-- E15MMDROOT&#45;&gt;E15UOPMMD -->
+<g id="edge173" class="edge">
+<title>E15MMDROOT&#45;&gt;E15UOPMMD</title>
+<path fill="none" stroke="#555555" d="M1320.18,-484.95C1360.16,-463.71 1430.49,-429.07 1495,-411 1542.44,-397.71 1597.02,-390.28 1641.26,-386.14"/>
+<polygon fill="#555555" stroke="#555555" points="1641.58,-388.04 1646.88,-385.62 1641.23,-384.21 1641.58,-388.04"/>
+</g>
+<!-- E15PROJMMD -->
+<g id="node159" class="node">
+<title>E15PROJMMD</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1845,-460C1845,-460 1610,-460 1610,-460 1604,-460 1598,-454 1598,-448 1598,-448 1598,-436 1598,-436 1598,-430 1604,-424 1610,-424 1610,-424 1845,-424 1845,-424 1851,-424 1857,-430 1857,-436 1857,-436 1857,-448 1857,-448 1857,-454 1851,-460 1845,-460"/>
+<text text-anchor="middle" x="1727.5" y="-439.5" font-family="Helvetica,sans-Serif" font-size="10.00">project/project_topology_template.mmd full source</text>
+</g>
+<!-- E15MMDROOT&#45;&gt;E15PROJMMD -->
+<g id="edge175" class="edge">
+<title>E15MMDROOT&#45;&gt;E15PROJMMD</title>
+<path fill="none" stroke="#555555" d="M1369.27,-490.98C1407.46,-485.41 1453.54,-478.77 1495,-473 1526.51,-468.61 1560.45,-464 1592.38,-459.72"/>
+<polygon fill="#555555" stroke="#555555" points="1592.7,-461.62 1597.89,-458.98 1592.19,-457.8 1592.7,-461.62"/>
+</g>
+<!-- E15NOSHRINK -->
+<g id="node161" class="node">
+<title>E15NOSHRINK</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1819,-521C1819,-521 1636,-521 1636,-521 1630,-521 1624,-515 1624,-509 1624,-509 1624,-497 1624,-497 1624,-491 1630,-485 1636,-485 1636,-485 1819,-485 1819,-485 1825,-485 1831,-491 1831,-497 1831,-497 1831,-509 1831,-509 1831,-515 1825,-521 1819,-521"/>
+<text text-anchor="middle" x="1727.5" y="-500.5" font-family="Helvetica,sans-Serif" font-size="10.00">MMD_SIZE_OR_NODE_DROP_FAIL_BUILD</text>
+</g>
+<!-- E15MMDROOT&#45;&gt;E15NOSHRINK -->
+<g id="edge177" class="edge">
+<title>E15MMDROOT&#45;&gt;E15NOSHRINK</title>
+<path fill="none" stroke="#555555" d="M1369.04,-503C1439.27,-503 1541.17,-503 1618.22,-503"/>
+<polygon fill="#555555" stroke="#555555" points="1618.23,-504.93 1623.73,-503 1618.23,-501.08 1618.23,-504.93"/>
+</g>
+<!-- ENV_MMD_EXIT -->
+<g id="node183" class="node">
+<title>ENV_MMD_EXIT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1759,-656C1759,-656 1696,-656 1696,-656 1690,-656 1684,-650 1684,-644 1684,-644 1684,-632 1684,-632 1684,-626 1690,-620 1696,-620 1696,-620 1759,-620 1759,-620 1765,-620 1771,-626 1771,-632 1771,-632 1771,-644 1771,-644 1771,-650 1765,-656 1759,-656"/>
+<text text-anchor="middle" x="1727.5" y="-635.5" font-family="Helvetica,sans-Serif" font-size="10.00">ENV_MMD_EXIT</text>
+</g>
+<!-- E15MMDROOT&#45;&gt;ENV_MMD_EXIT -->
+<g id="edge198" class="edge">
+<title>E15MMDROOT&#45;&gt;ENV_MMD_EXIT</title>
+<path fill="none" stroke="#555555" d="M1312.52,-521.04C1350.08,-547.06 1424.19,-594.35 1495,-616 1556.21,-634.72 1630.41,-638.69 1678.02,-639"/>
+<polygon fill="#555555" stroke="#555555" points="1678.18,-640.92 1683.69,-639.02 1678.2,-637.07 1678.18,-640.92"/>
+</g>
+<!-- E15ENVSVG -->
+<g id="node156" class="node">
+<title>E15ENVSVG</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2286,-582C2286,-582 2147,-582 2147,-582 2141,-582 2135,-576 2135,-570 2135,-570 2135,-558 2135,-558 2135,-552 2141,-546 2147,-546 2147,-546 2286,-546 2286,-546 2292,-546 2298,-552 2298,-558 2298,-558 2298,-570 2298,-570 2298,-576 2292,-582 2286,-582"/>
+<text text-anchor="middle" x="2216.5" y="-561.5" font-family="Helvetica,sans-Serif" font-size="10.00">env/env_mmd.svg exact render</text>
+</g>
+<!-- E15ENVMMD&#45;&gt;E15ENVSVG -->
+<g id="edge172" class="edge">
+<title>E15ENVMMD&#45;&gt;E15ENVSVG</title>
+<path fill="none" stroke="#555555" d="M1808.1,-564C1896.33,-564 2038.14,-564 2129.04,-564"/>
+<polygon fill="#555555" stroke="#555555" points="2129.18,-565.93 2134.68,-564 2129.18,-562.08 2129.18,-565.93"/>
+</g>
+<!-- E15UOPSVG -->
+<g id="node158" class="node">
+<title>E15UOPSVG</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2286,-399C2286,-399 2147,-399 2147,-399 2141,-399 2135,-393 2135,-387 2135,-387 2135,-375 2135,-375 2135,-369 2141,-363 2147,-363 2147,-363 2286,-363 2286,-363 2292,-363 2298,-369 2298,-375 2298,-375 2298,-387 2298,-387 2298,-393 2292,-399 2286,-399"/>
+<text text-anchor="middle" x="2216.5" y="-378.5" font-family="Helvetica,sans-Serif" font-size="10.00">uop/uop_mmd.svg exact render</text>
+</g>
+<!-- E15UOPMMD&#45;&gt;E15UOPSVG -->
+<g id="edge174" class="edge">
+<title>E15UOPMMD&#45;&gt;E15UOPSVG</title>
+<path fill="none" stroke="#555555" d="M1808.1,-381C1896.33,-381 2038.14,-381 2129.04,-381"/>
+<polygon fill="#555555" stroke="#555555" points="2129.18,-382.93 2134.68,-381 2129.18,-379.08 2129.18,-382.93"/>
+</g>
+<!-- E15PROJSVG -->
+<g id="node160" class="node">
+<title>E15PROJSVG</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2335,-460C2335,-460 2098,-460 2098,-460 2092,-460 2086,-454 2086,-448 2086,-448 2086,-436 2086,-436 2086,-430 2092,-424 2098,-424 2098,-424 2335,-424 2335,-424 2341,-424 2347,-430 2347,-436 2347,-436 2347,-448 2347,-448 2347,-454 2341,-460 2335,-460"/>
+<text text-anchor="middle" x="2216.5" y="-439.5" font-family="Helvetica,sans-Serif" font-size="10.00">project/project_topology_template.svg exact render</text>
+</g>
+<!-- E15PROJMMD&#45;&gt;E15PROJSVG -->
+<g id="edge176" class="edge">
+<title>E15PROJMMD&#45;&gt;E15PROJSVG</title>
+<path fill="none" stroke="#555555" d="M1857.09,-442C1925.75,-442 2010.23,-442 2079.92,-442"/>
+<polygon fill="#555555" stroke="#555555" points="2080.26,-443.93 2085.76,-442 2080.26,-440.08 2080.26,-443.93"/>
+</g>
+<!-- E15RENDERQA -->
+<g id="node162" class="node">
+<title>E15RENDERQA</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2295.5,-521C2295.5,-521 2137.5,-521 2137.5,-521 2131.5,-521 2125.5,-515 2125.5,-509 2125.5,-509 2125.5,-497 2125.5,-497 2125.5,-491 2131.5,-485 2137.5,-485 2137.5,-485 2295.5,-485 2295.5,-485 2301.5,-485 2307.5,-491 2307.5,-497 2307.5,-497 2307.5,-509 2307.5,-509 2307.5,-515 2301.5,-521 2295.5,-521"/>
+<text text-anchor="middle" x="2216.5" y="-500.5" font-family="Helvetica,sans-Serif" font-size="10.00">validation/RENDER_QA_REPORT.md</text>
+</g>
+<!-- E15NOSHRINK&#45;&gt;E15RENDERQA -->
+<g id="edge178" class="edge">
+<title>E15NOSHRINK&#45;&gt;E15RENDERQA</title>
+<path fill="none" stroke="#555555" d="M1831.19,-503C1916.21,-503 2036.14,-503 2119.32,-503"/>
+<polygon fill="#555555" stroke="#555555" points="2119.74,-504.93 2125.24,-503 2119.74,-501.08 2119.74,-504.93"/>
+</g>
+<!-- E15PROJEXP -->
+<g id="node163" class="node">
+<title>E15PROJEXP</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M705,-317C705,-317 528,-317 528,-317 522,-317 516,-311 516,-305 516,-305 516,-293 516,-293 516,-287 522,-281 528,-281 528,-281 705,-281 705,-281 711,-281 717,-287 717,-293 717,-293 717,-305 717,-305 717,-311 711,-317 705,-317"/>
+<text text-anchor="middle" x="616.5" y="-296.5" font-family="Helvetica,sans-Serif" font-size="10.00">project_template_expansion_audit_v15</text>
+</g>
+<!-- E15LEGACY -->
+<g id="node164" class="node">
+<title>E15LEGACY</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M982,-317C982,-317 856,-317 856,-317 850,-317 844,-311 844,-305 844,-305 844,-293 844,-293 844,-287 850,-281 856,-281 856,-281 982,-281 982,-281 988,-281 994,-287 994,-293 994,-293 994,-305 994,-305 994,-311 988,-317 982,-317"/>
+<text text-anchor="middle" x="919" y="-296.5" font-family="Helvetica,sans-Serif" font-size="10.00">legacy unpopulated count 14</text>
+</g>
+<!-- E15PROJEXP&#45;&gt;E15LEGACY -->
+<g id="edge179" class="edge">
+<title>E15PROJEXP&#45;&gt;E15LEGACY</title>
+<path fill="none" stroke="#555555" d="M717.14,-299C756.39,-299 800.85,-299 837.95,-299"/>
+<polygon fill="#555555" stroke="#555555" points="838.34,-300.93 843.84,-299 838.34,-297.08 838.34,-300.93"/>
+</g>
+<!-- E15CURRENT -->
+<g id="node165" class="node">
+<title>E15CURRENT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M979,-256C979,-256 859,-256 859,-256 853,-256 847,-250 847,-244 847,-244 847,-232 847,-232 847,-226 853,-220 859,-220 859,-220 979,-220 979,-220 985,-220 991,-226 991,-232 991,-232 991,-244 991,-244 991,-250 985,-256 979,-256"/>
+<text text-anchor="middle" x="919" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">current framework count 41</text>
+</g>
+<!-- E15PROJEXP&#45;&gt;E15CURRENT -->
+<g id="edge180" class="edge">
+<title>E15PROJEXP&#45;&gt;E15CURRENT</title>
+<path fill="none" stroke="#555555" d="M698.81,-280.92C718.79,-276.59 740.15,-272.04 760,-268 786.44,-262.62 815.43,-257.02 841.27,-252.14"/>
+<polygon fill="#555555" stroke="#555555" points="841.69,-254.02 846.74,-251.11 840.98,-250.24 841.69,-254.02"/>
+</g>
+<!-- E15PROJEXP&#45;&gt;PROJECT_TEMPLATE -->
+<g id="edge197" class="edge">
+<title>E15PROJEXP&#45;&gt;PROJECT_TEMPLATE</title>
+<path fill="none" stroke="#555555" d="M626.82,-317.15C670.72,-402.61 856.74,-764.74 905.99,-860.62"/>
+<polygon fill="#555555" stroke="#555555" points="904.41,-861.76 908.64,-865.77 907.84,-860 904.41,-861.76"/>
+</g>
+<!-- E15PAYLOADZERO -->
+<g id="node166" class="node">
+<title>E15PAYLOADZERO</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1349.5,-256C1349.5,-256 1223.5,-256 1223.5,-256 1217.5,-256 1211.5,-250 1211.5,-244 1211.5,-244 1211.5,-232 1211.5,-232 1211.5,-226 1217.5,-220 1223.5,-220 1223.5,-220 1349.5,-220 1349.5,-220 1355.5,-220 1361.5,-226 1361.5,-232 1361.5,-232 1361.5,-244 1361.5,-244 1361.5,-250 1355.5,-256 1349.5,-256"/>
+<text text-anchor="middle" x="1286.5" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">PROJECT_PAYLOAD_ROWS=0</text>
+</g>
+<!-- E15CURRENT&#45;&gt;E15PAYLOADZERO -->
+<g id="edge181" class="edge">
+<title>E15CURRENT&#45;&gt;E15PAYLOADZERO</title>
+<path fill="none" stroke="#555555" d="M991.34,-238C1052.85,-238 1141.58,-238 1205.49,-238"/>
+<polygon fill="#555555" stroke="#555555" points="1205.7,-239.93 1211.2,-238 1205.7,-236.08 1205.7,-239.93"/>
+</g>
+<!-- E15SUPERPASS -->
+<g id="node167" class="node">
+<title>E15SUPERPASS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1821,-256C1821,-256 1634,-256 1634,-256 1628,-256 1622,-250 1622,-244 1622,-244 1622,-232 1622,-232 1622,-226 1628,-220 1634,-220 1634,-220 1821,-220 1821,-220 1827,-220 1833,-226 1833,-232 1833,-232 1833,-244 1833,-244 1833,-250 1827,-256 1821,-256"/>
+<text text-anchor="middle" x="1727.5" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">SUPERSEDED_PASS not population failure</text>
+</g>
+<!-- E15PAYLOADZERO&#45;&gt;E15SUPERPASS -->
+<g id="edge182" class="edge">
+<title>E15PAYLOADZERO&#45;&gt;E15SUPERPASS</title>
+<path fill="none" stroke="#555555" d="M1361.97,-238C1431.73,-238 1536.86,-238 1616.32,-238"/>
+<polygon fill="#555555" stroke="#555555" points="1616.49,-239.93 1621.99,-238 1616.49,-236.08 1616.49,-239.93"/>
+</g>
+<!-- E15FOOTPRINT -->
+<g id="node168" class="node">
+<title>E15FOOTPRINT</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M2344,-256C2344,-256 2089,-256 2089,-256 2083,-256 2077,-250 2077,-244 2077,-244 2077,-232 2077,-232 2077,-226 2083,-220 2089,-220 2089,-220 2344,-220 2344,-220 2350,-220 2356,-226 2356,-232 2356,-232 2356,-244 2356,-244 2356,-250 2350,-256 2344,-256"/>
+<text text-anchor="middle" x="2216.5" y="-235.5" font-family="Helvetica,sans-Serif" font-size="10.00">manifests/PROJECT_TEMPLATE_FOOTPRINT_AUDIT.json</text>
+</g>
+<!-- E15SUPERPASS&#45;&gt;E15FOOTPRINT -->
+<g id="edge183" class="edge">
+<title>E15SUPERPASS&#45;&gt;E15FOOTPRINT</title>
+<path fill="none" stroke="#555555" d="M1833.27,-238C1902.61,-238 1994.47,-238 2070.76,-238"/>
+<polygon fill="#555555" stroke="#555555" points="2071.19,-239.93 2076.69,-238 2071.19,-236.08 2071.19,-239.93"/>
+</g>
+<!-- E15PKGCLASS -->
+<g id="node169" class="node">
+<title>E15PKGCLASS</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M4774.5,-2048C4774.5,-2048 4566.5,-2048 4566.5,-2048 4560.5,-2048 4554.5,-2042 4554.5,-2036 4554.5,-2036 4554.5,-2024 4554.5,-2024 4554.5,-2018 4560.5,-2012 4566.5,-2012 4566.5,-2012 4774.5,-2012 4774.5,-2012 4780.5,-2012 4786.5,-2018 4786.5,-2024 4786.5,-2024 4786.5,-2036 4786.5,-2036 4786.5,-2042 4780.5,-2048 4774.5,-2048"/>
+<text text-anchor="middle" x="4670.5" y="-2027.5" font-family="Helvetica,sans-Serif" font-size="10.00">PACKAGE_CLASS=CLEAN_ENV15_SUPERSEDE</text>
+</g>
+<!-- E15NOBASE -->
+<g id="node170" class="node">
+<title>E15NOBASE</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5063,-2079C5063,-2079 4985,-2079 4985,-2079 4979,-2079 4973,-2073 4973,-2067 4973,-2067 4973,-2055 4973,-2055 4973,-2049 4979,-2043 4985,-2043 4985,-2043 5063,-2043 5063,-2043 5069,-2043 5075,-2049 5075,-2055 5075,-2055 5075,-2067 5075,-2067 5075,-2073 5069,-2079 5063,-2079"/>
+<text text-anchor="middle" x="5024" y="-2058.5" font-family="Helvetica,sans-Serif" font-size="10.00">NO baseline/ folder</text>
+</g>
+<!-- E15PKGCLASS&#45;&gt;E15NOBASE -->
+<g id="edge184" class="edge">
+<title>E15PKGCLASS&#45;&gt;E15NOBASE</title>
+<path fill="none" stroke="#555555" d="M4786.59,-2040.15C4847.32,-2045.51 4919.06,-2051.83 4967.46,-2056.1"/>
+<polygon fill="#555555" stroke="#555555" points="4967.3,-2058.02 4972.95,-2056.59 4967.64,-2054.18 4967.3,-2058.02"/>
+</g>
+<!-- E15V10REF -->
+<g id="node174" class="node">
+<title>E15V10REF</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5113.5,-2018C5113.5,-2018 4934.5,-2018 4934.5,-2018 4928.5,-2018 4922.5,-2012 4922.5,-2006 4922.5,-2006 4922.5,-1994 4922.5,-1994 4922.5,-1988 4928.5,-1982 4934.5,-1982 4934.5,-1982 5113.5,-1982 5113.5,-1982 5119.5,-1982 5125.5,-1988 5125.5,-1994 5125.5,-1994 5125.5,-2006 5125.5,-2006 5125.5,-2012 5119.5,-2018 5113.5,-2018"/>
+<text text-anchor="middle" x="5024" y="-1997.5" font-family="Helvetica,sans-Serif" font-size="10.00">standalone package discipline</text>
+</g>
+<!-- E15PKGCLASS&#45;&gt;E15V10REF -->
+<g id="edge188" class="edge">
+<title>E15PKGCLASS&#45;&gt;E15V10REF</title>
+<path fill="none" stroke="#555555" d="M4786.59,-2020.18C4828.56,-2016.6 4875.78,-2012.56 4916.92,-2009.05"/>
+<polygon fill="#555555" stroke="#555555" points="4917.11,-2010.97 4922.43,-2008.58 4916.78,-2007.13 4917.11,-2010.97"/>
+</g>
+<!-- E15BASEHASH -->
+<g id="node171" class="node">
+<title>E15BASEHASH</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5446,-2079C5446,-2079 5250,-2079 5250,-2079 5244,-2079 5238,-2073 5238,-2067 5238,-2067 5238,-2055 5238,-2055 5238,-2049 5244,-2043 5250,-2043 5250,-2043 5446,-2043 5446,-2043 5452,-2043 5458,-2049 5458,-2055 5458,-2055 5458,-2067 5458,-2067 5458,-2073 5452,-2079 5446,-2079"/>
+<text text-anchor="middle" x="5348" y="-2058.5" font-family="Helvetica,sans-Serif" font-size="10.00">manifests/BASELINE_HASH_REFERENCE.txt</text>
+</g>
+<!-- E15NOBASE&#45;&gt;E15BASEHASH -->
+<g id="edge185" class="edge">
+<title>E15NOBASE&#45;&gt;E15BASEHASH</title>
+<path fill="none" stroke="#555555" d="M5075.31,-2061C5117.21,-2061 5178.49,-2061 5232.25,-2061"/>
+<polygon fill="#555555" stroke="#555555" points="5232.26,-2062.93 5237.76,-2061 5232.26,-2059.08 5232.26,-2062.93"/>
+</g>
+<!-- E15DIFF -->
+<g id="node172" class="node">
+<title>E15DIFF</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5760.5,-2079C5760.5,-2079 5571.5,-2079 5571.5,-2079 5565.5,-2079 5559.5,-2073 5559.5,-2067 5559.5,-2067 5559.5,-2055 5559.5,-2055 5559.5,-2049 5565.5,-2043 5571.5,-2043 5571.5,-2043 5760.5,-2043 5760.5,-2043 5766.5,-2043 5772.5,-2049 5772.5,-2055 5772.5,-2055 5772.5,-2067 5772.5,-2067 5772.5,-2073 5766.5,-2079 5760.5,-2079"/>
+<text text-anchor="middle" x="5666" y="-2058.5" font-family="Helvetica,sans-Serif" font-size="10.00">manifests/BASELINE_DIFF_MANIFEST.json</text>
+</g>
+<!-- E15BASEHASH&#45;&gt;E15DIFF -->
+<g id="edge186" class="edge">
+<title>E15BASEHASH&#45;&gt;E15DIFF</title>
+<path fill="none" stroke="#555555" d="M5458.19,-2061C5489.01,-2061 5522.57,-2061 5553.52,-2061"/>
+<polygon fill="#555555" stroke="#555555" points="5553.77,-2062.93 5559.27,-2061 5553.77,-2059.08 5553.77,-2062.93"/>
+</g>
+<!-- E15OBJ -->
+<g id="node173" class="node">
+<title>E15OBJ</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M6125,-2079C6125,-2079 5865,-2079 5865,-2079 5859,-2079 5853,-2073 5853,-2067 5853,-2067 5853,-2055 5853,-2055 5853,-2049 5859,-2043 5865,-2043 5865,-2043 6125,-2043 6125,-2043 6131,-2043 6137,-2049 6137,-2055 6137,-2055 6137,-2067 6137,-2067 6137,-2073 6131,-2079 6125,-2079"/>
+<text text-anchor="middle" x="5995" y="-2058.5" font-family="Helvetica,sans-Serif" font-size="10.00">manifests/BASELINE_OBJECT_COUNT_COMPARISON.json</text>
+</g>
+<!-- E15DIFF&#45;&gt;E15OBJ -->
+<g id="edge187" class="edge">
+<title>E15DIFF&#45;&gt;E15OBJ</title>
+<path fill="none" stroke="#555555" d="M5772.72,-2061C5796.48,-2061 5822.12,-2061 5847.22,-2061"/>
+<polygon fill="#555555" stroke="#555555" points="5847.41,-2062.93 5852.91,-2061 5847.41,-2059.08 5847.41,-2062.93"/>
+</g>
+<!-- E15FINALZIP -->
+<g id="node175" class="node">
+<title>E15FINALZIP</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M5467,-2018C5467,-2018 5229,-2018 5229,-2018 5223,-2018 5217,-2012 5217,-2006 5217,-2006 5217,-1994 5217,-1994 5217,-1988 5223,-1982 5229,-1982 5229,-1982 5467,-1982 5467,-1982 5473,-1982 5479,-1988 5479,-1994 5479,-1994 5479,-2006 5479,-2006 5479,-2012 5473,-2018 5467,-2018"/>
+<text text-anchor="middle" x="5348" y="-1997.5" font-family="Helvetica,sans-Serif" font-size="10.00">UEPC_ENV15_PUBLIC_LOCKED_SECTION_PACKAGE.zip</text>
+</g>
+<!-- E15V10REF&#45;&gt;E15FINALZIP -->
+<g id="edge189" class="edge">
+<title>E15V10REF&#45;&gt;E15FINALZIP</title>
+<path fill="none" stroke="#555555" d="M5125.56,-2000C5152.63,-2000 5182.37,-2000 5211.03,-2000"/>
+<polygon fill="#555555" stroke="#555555" points="5211.25,-2001.93 5216.75,-2000 5211.25,-1998.08 5211.25,-2001.93"/>
+</g>
+<!-- E15FINALZIP&#45;&gt;NEXT -->
+<g id="edge199" class="edge">
+<title>E15FINALZIP&#45;&gt;NEXT</title>
+<path fill="none" stroke="#555555" d="M5461.39,-1981.99C5467.57,-1979.12 5473.5,-1975.81 5479,-1972 5578.36,-1903.21 5636.93,-1762.36 5657.05,-1706.54"/>
+<polygon fill="#555555" stroke="#555555" points="5658.96,-1706.93 5658.99,-1701.1 5655.33,-1705.63 5658.96,-1706.93"/>
+</g>
+<!-- AUTHORITY&#45;&gt;MODE_ROUTER -->
+<g id="edge141" class="edge">
+<title>AUTHORITY&#45;&gt;MODE_ROUTER</title>
+<path fill="none" stroke="#555555" d="M885.79,-1318.5C841.9,-1322.29 766.84,-1320.75 738.5,-1271.5 715.12,-1230.86 715.12,-1101.14 738.5,-1060.5 764.25,-1015.74 826.81,-1005.45 871.03,-1004.14"/>
+<polygon fill="#555555" stroke="#555555" points="871.14,-1006.07 876.6,-1004.02 871.06,-1002.22 871.14,-1006.07"/>
+</g>
+<!-- UOP_SECTOR&#45;&gt;TURN_WRITEBACK -->
+<g id="edge144" class="edge">
+<title>UOP_SECTOR&#45;&gt;TURN_WRITEBACK</title>
+<path fill="none" stroke="#555555" d="M956.05,-945C1020.29,-945 1154.93,-945 1230.69,-945"/>
+<polygon fill="#555555" stroke="#555555" points="1230.99,-946.93 1236.49,-945 1230.99,-943.08 1230.99,-946.93"/>
+</g>
+<!-- PB_BUILDER -->
+<g id="node181" class="node">
+<title>PB_BUILDER</title>
+<path fill="#f3efff" stroke="#7b68ee" d="M1309,-902C1309,-902 1264,-902 1264,-902 1258,-902 1252,-896 1252,-890 1252,-890 1252,-878 1252,-878 1252,-872 1258,-866 1264,-866 1264,-866 1309,-866 1309,-866 1315,-866 1321,-872 1321,-878 1321,-878 1321,-890 1321,-890 1321,-896 1315,-902 1309,-902"/>
+<text text-anchor="middle" x="1286.5" y="-881.5" font-family="Helvetica,sans-Serif" font-size="10.00">PB_BUILDER</text>
+</g>
+<!-- PROJECT_TEMPLATE&#45;&gt;PB_BUILDER -->
+<g id="edge140" class="edge">
+<title>PROJECT_TEMPLATE&#45;&gt;PB_BUILDER</title>
+<path fill="none" stroke="#555555" d="M972.76,-884C1046.83,-884 1179.98,-884 1246.07,-884"/>
+<polygon fill="#555555" stroke="#555555" points="1246.37,-885.93 1251.87,-884 1246.37,-882.08 1246.37,-885.93"/>
+</g>
+<!-- PROJECT_TEMPLATE&#45;&gt;TURN_WRITEBACK -->
+<g id="edge143" class="edge">
+<title>PROJECT_TEMPLATE&#45;&gt;TURN_WRITEBACK</title>
+<path fill="none" stroke="#555555" d="M972.76,-892.8C1041.4,-904.26 1160.79,-924.19 1230.51,-935.82"/>
+<polygon fill="#555555" stroke="#555555" points="1230.53,-937.78 1236.27,-936.78 1231.16,-933.98 1230.53,-937.78"/>
+</g>
+<!-- TURN_WRITEBACK&#45;&gt;ENV_MMD_EXIT -->
+<g id="edge145" class="edge">
+<title>TURN_WRITEBACK&#45;&gt;ENV_MMD_EXIT</title>
+<path fill="none" stroke="#555555" d="M1336.84,-949.55C1373.42,-950.07 1421.96,-944.28 1452,-915 1518.97,-849.71 1431.97,-778.1 1495,-709 1542.02,-657.46 1625.36,-642.9 1678.17,-639.04"/>
+<polygon fill="#555555" stroke="#555555" points="1678.46,-640.95 1683.82,-638.66 1678.2,-637.11 1678.46,-640.95"/>
+</g>
+</g>
+
+<g transform="translate(0,3986.8)">
+<rect x="10" y="0" width="6161.8" height="890" rx="18" fill="#fffef0" stroke="#d2c46b" stroke-width="2"/>
+<text x="3090.9" y="30" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="20">ENV15 ACTIVE RUNTIME CONTROL — CONTINUATION FROM USER-PROMPT ROOT</text>
+<rect x="30.0" y="48" width="1513.95" height="822" rx="15" fill="#fffde7" stroke="#d6c34b" stroke-width="1.3"/>
+<text x="786.975" y="73" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15">Public Authority</text>
+<rect x="45.0" y="88" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="786.975" y="119.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="786.975" dy="0">User prompt</tspan>
+</text>
+<rect x="45.0" y="158" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="786.975" y="189.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="786.975" dy="0">Read Env/UOP/Project pointers</tspan>
+</text>
+<rect x="45.0" y="228" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="786.975" y="259.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="786.975" dy="0">Env + UOP + base read-only</tspan>
+</text>
+<rect x="45.0" y="298" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="786.975" y="329.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="786.975" dy="0">Chat Lineage automatic append</tspan>
+</text>
+<rect x="45.0" y="368" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="786.975" y="399.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="786.975" dy="0">Named one-turn grant</tspan>
+</text>
+<line x1="786.975" y1="148.0" x2="786.975" y2="160.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="786.975" y1="218.0" x2="786.975" y2="230.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="786.975" y1="288.0" x2="786.975" y2="300.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="786.975" y1="358.0" x2="786.975" y2="370.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<rect x="1565.95" y="48" width="1513.95" height="822" rx="15" fill="#fffde7" stroke="#d6c34b" stroke-width="1.3"/>
+<text x="2322.925" y="73" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15">Prompt-First State Travel</text>
+<rect x="1580.95" y="88" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="2322.925" y="119.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="2322.925" dy="0">PREPARE exact prompt</tspan>
+</text>
+<rect x="1580.95" y="158" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="2322.925" y="189.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="2322.925" dy="0">Commit PREPARED</tspan>
+</text>
+<rect x="1580.95" y="228" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="2322.925" y="259.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="2322.925" dy="0">Query governed SQLite evidence</tspan>
+</text>
+<rect x="1580.95" y="298" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="2322.925" y="329.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="2322.925" dy="0">Exact visible response</tspan>
+</text>
+<rect x="1580.95" y="368" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="2322.925" y="399.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="2322.925" dy="0">COMMIT links + receipts + hash</tspan>
+</text>
+<rect x="1580.95" y="438" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="2322.925" y="469.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="2322.925" dy="0">Canonical lineage head</tspan>
+</text>
+<line x1="2322.925" y1="148.0" x2="2322.925" y2="160.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="2322.925" y1="218.0" x2="2322.925" y2="230.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="2322.925" y1="288.0" x2="2322.925" y2="300.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="2322.925" y1="358.0" x2="2322.925" y2="370.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="2322.925" y1="428.0" x2="2322.925" y2="440.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<rect x="3101.9" y="48" width="1513.95" height="822" rx="15" fill="#fffde7" stroke="#d6c34b" stroke-width="1.3"/>
+<text x="3858.875" y="73" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15">Code Intelligence</text>
+<rect x="3116.9" y="88" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="3858.875" y="119.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="3858.875" dy="0">GitHub / Local Code</tspan>
+</text>
+<rect x="3116.9" y="158" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="3858.875" y="189.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="3858.875" dy="0">Current Code Snapshot</tspan>
+</text>
+<rect x="3116.9" y="228" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="3858.875" y="259.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="3858.875" dy="0">Reverse Git newest to oldest</tspan>
+</text>
+<rect x="3116.9" y="298" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="3858.875" y="329.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="3858.875" dy="0">Changed files + exact patch hunks</tspan>
+</text>
+<rect x="3116.9" y="368" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="3858.875" y="399.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="3858.875" dy="0">Route/symbol/dependency/test impact</tspan>
+</text>
+<line x1="3858.875" y1="148.0" x2="3858.875" y2="160.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="3858.875" y1="218.0" x2="3858.875" y2="230.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="3858.875" y1="288.0" x2="3858.875" y2="300.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="3858.875" y1="358.0" x2="3858.875" y2="370.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<rect x="4637.85" y="48" width="1513.95" height="822" rx="15" fill="#fffde7" stroke="#d6c34b" stroke-width="1.3"/>
+<text x="5394.825000000001" y="73" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="15">Immutable Version Control</text>
+<rect x="4652.85" y="88" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="5394.825000000001" y="119.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="5394.825000000001" dy="0">Successful build or AI mutation</tspan>
+</text>
+<rect x="4652.85" y="158" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="5394.825000000001" y="189.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="5394.825000000001" dy="0">Actor + time + reason</tspan>
+</text>
+<rect x="4652.85" y="228" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="5394.825000000001" y="259.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="5394.825000000001" dy="0">Immutable snapshot + SHA-256</tspan>
+</text>
+<rect x="4652.85" y="298" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="5394.825000000001" y="329.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="5394.825000000001" dy="0">Preserve current + history</tspan>
+</text>
+<rect x="4652.85" y="368" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="5394.825000000001" y="399.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="5394.825000000001" dy="0">System Task Status pop-card</tspan>
+</text>
+<rect x="4652.85" y="438" width="1483.95" height="62" rx="10" fill="#f7f4ff" stroke="#8f78d6" stroke-width="1.4"/>
+<text x="5394.825000000001" y="469.0" text-anchor="middle" font-family="Arial" font-size="10.5" fill="#222">
+<tspan x="5394.825000000001" dy="0">Verify + restore to new version folder</tspan>
+</text>
+<line x1="5394.825000000001" y1="148.0" x2="5394.825000000001" y2="160.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="5394.825000000001" y1="218.0" x2="5394.825000000001" y2="230.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="5394.825000000001" y1="288.0" x2="5394.825000000001" y2="300.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="5394.825000000001" y1="358.0" x2="5394.825000000001" y2="370.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+<line x1="5394.825000000001" y1="428.0" x2="5394.825000000001" y2="440.0" stroke="#555" stroke-width="1.35" marker-end="url(#arrow)"/>
+</g>
+</svg>

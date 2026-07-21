@@ -1,0 +1,104 @@
+{
+  "version": "ENV15",
+  "sector_count": 14,
+  "sectors": [
+    {
+      "sector_id": "artifacts",
+      "display_name": "Artifacts",
+      "sqlite_path": "project/sectors/artifacts/artifacts_sector_v001.sqlite",
+      "sha256": "1f566e1b6404ee9b9fc678c4e78e22ad886ae04d755be0a6b81b5b8a60a63fa1",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "brain_loader",
+      "display_name": "Brain Loader",
+      "sqlite_path": "project/sectors/brain_loader/brain_loader_sector_v001.sqlite",
+      "sha256": "ceffebb543331fa4bd5c8347d76ab49b68e7cb3ed1df3cf60463952d89943b84",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "chat_lineage",
+      "display_name": "Chat Lineage",
+      "sqlite_path": "project/sectors/chat_lineage/chat_lineage_sector_v001.sqlite",
+      "sha256": "1b9828398decd77f3cbb5e13e2c83c503163bee6ae3af0ee05fa75b86c0795c7",
+      "access": "APPEND_ONLY_READ_WRITE"
+    },
+    {
+      "sector_id": "custom",
+      "display_name": "Custom",
+      "sqlite_path": "project/sectors/custom/custom_sector_v001.sqlite",
+      "sha256": "66a30681dddfa824d1100dc62640269c1224c56f8a793a9049de1f809c6fbfef",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "data_excel",
+      "display_name": "Data / Excel / CSV",
+      "sqlite_path": "project/sectors/data_excel/data_excel_sector_v001.sqlite",
+      "sha256": "08a2f2770d48dc3d241660f15094e01def970203ebef99294c3028c77ed5b662",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "docs",
+      "display_name": "Docs",
+      "sqlite_path": "project/sectors/docs/docs_sector_v001.sqlite",
+      "sha256": "f87f712535a1c9f351c9af92c0cf82cf6094722b62d26ee5ebc5bcad5751981f",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "github_code",
+      "display_name": "GitHub Code",
+      "sqlite_path": "project/sectors/github_code/github_code_sector_v001.sqlite",
+      "sha256": "554c385d286bda57363ac1ca8329f1a49adb4dc251fea1100c3a1cad6a6f745c",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "images_ocr",
+      "display_name": "Images / OCR",
+      "sqlite_path": "project/sectors/images_ocr/images_ocr_sector_v001.sqlite",
+      "sha256": "02fc39d63929920a4d0561c0d734b17a6b477c508a502a72470760ede4abc136",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "local_code",
+      "display_name": "Local Code",
+      "sqlite_path": "project/sectors/local_code/local_code_sector_v001.sqlite",
+      "sha256": "71765d933b07dab68de3816f0b6bf0fdf61fd1c3eae6237b85fef03c59a8bbf8",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "pdf_ocr",
+      "display_name": "PDF / OCR",
+      "sqlite_path": "project/sectors/pdf_ocr/pdf_ocr_sector_v001.sqlite",
+      "sha256": "29753d3b3b93e77182b0aaddd46e18a6143193c4c7bc8bd73a0edd5d3660456e",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "ppt",
+      "display_name": "PPT / Presentation",
+      "sqlite_path": "project/sectors/ppt/ppt_sector_v001.sqlite",
+      "sha256": "27d2412142424b34148412f600b3996da154ae207bd9ecc70771cf789cd139a3",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "project_engulf",
+      "display_name": "Project Engulf",
+      "sqlite_path": "project/sectors/project_engulf/project_engulf_sector_v001.sqlite",
+      "sha256": "3ea270f51604e20330a739d5e84c5e39b9e32ac0429faef13021fcb2b2a56622",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "research",
+      "display_name": "Research",
+      "sqlite_path": "project/sectors/research/research_sector_v001.sqlite",
+      "sha256": "3c521e0bbe63f755dcadb47933b934009abf9e08291839b432fa5a0461f8c83e",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    },
+    {
+      "sector_id": "sqlite_brain",
+      "display_name": "SQLite Brain",
+      "sqlite_path": "project/sectors/sqlite_brain/sqlite_brain_sector_v001.sqlite",
+      "sha256": "97e651afcab268ac147e9ecbdf32b50c30102d337273dd64746edc380f2c0ee3",
+      "access": "READ_ONLY_UNLESS_EXPLICIT_NAMED_ONE_TURN_GRANT"
+    }
+  ]
+}

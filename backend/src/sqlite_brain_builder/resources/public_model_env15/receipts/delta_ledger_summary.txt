@@ -1,0 +1,1 @@
+ENV15_ACTIVE_SYSTEM: full prompt-rooted topology, 14 real sector DBs, Code Snapshot + reverse Git lineage, immutable snapshots, versioned rollback.

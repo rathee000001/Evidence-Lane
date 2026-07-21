@@ -128,6 +128,8 @@ This session was selected for concentration of demonstrable implementation work,
 
 The bundled public-model Env package is not the final current Env definition; it contains mixed historical/current material. Treat provider-package Env contents as a known limitation for this candidate. See [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md) for the exact boundary.
 
+When a GitHub-origin project is loaded without the governed Git lane and authorized `.git` history, the candidate does not reconstruct commit-level lineage or commit Deltas. In the observed Open WebUI packet, 584 `.svelte` records were inventoried as `UNSUPPORTED_HASH_ONLY`: their paths, sizes, and hashes were retained, but full Svelte semantic content was not. Docker packaging and Svelte source classification are separate boundaries.
+
 ## Credits and community
 
 Evidence Lane was built with Python, SQLite, React, TypeScript, Three.js, React Three Fiber, Tauri, Rust, Vite, PyInstaller, and the supporting libraries listed in [CREDITS.md](CREDITS.md).

@@ -71,6 +71,8 @@ The video may show the 3D Telemetry surface as a visual preview. Full lifecycle,
 
 The bundled public-model Env package is mixed/outdated relative to the intended final Env contract. Do not use that package to infer that the Env architecture is final. This limitation is disclosed in the repository and should be treated as a candidate defect, not hidden as a pass.
 
+A second bounded limitation applies to GitHub-origin projects loaded outside the governed Git lane. Without authorized `.git` history, commit-level lineage and commit Deltas are not reconstructed. The observed Open WebUI packet retained 584 `.svelte` file paths, sizes, and hashes but classified those records as `UNSUPPORTED_HASH_ONLY`; it did not prove full Svelte semantic content. This is independent of Docker packaging.
+
 ## 8. Build Week feedback session
 
 Primary selected session:

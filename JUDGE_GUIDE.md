@@ -21,7 +21,7 @@ Verify in PowerShell:
 Get-FileHash -Algorithm SHA256 -LiteralPath '.\downloaded-file.exe'
 ```
 
-The installer is unsigned. An unknown-publisher warning is expected; stop if the hash does not match.
+The installer and standalone executable are intentionally unsigned because this packaged release remains a HIL candidate and has not received final human acceptance. An unknown-publisher warning is expected; stop if the published SHA-256 does not match.
 
 ## 2. Install or launch
 

@@ -3,6 +3,14 @@
 </p>
 
 <p align="center">
+  <a href="https://youtu.be/gWoCWN1tjaA">
+    <img src="docs/assets/evidence-lane-demo-preview.gif" alt="Watch the Evidence Lane demo on YouTube" width="560" />
+  </a>
+</p>
+
+<p align="center"><em>10-second preview — click to watch the full demo on YouTube.</em></p>
+
+<p align="center">
   <strong>Verified project state that can travel between AI tasks while source authority and approval stay local.</strong>
 </p>
 
@@ -54,7 +62,7 @@ The evidence-backed claim is deliberately narrow. This repository does not claim
 
 4. Follow [JUDGE_GUIDE.md](JUDGE_GUIDE.md) for the bounded package and handoff walkthrough.
 
-The installer is currently unsigned, so Windows may show an unknown-publisher warning. Do not continue unless the downloaded file matches the published hash.
+The Windows installer and standalone executable are intentionally unsigned for this release because the packaged build remains a HIL candidate and has not received final human acceptance. Windows may show an unknown-publisher warning. Do not continue unless the downloaded file matches the published SHA-256.
 
 ## Build from source
 
